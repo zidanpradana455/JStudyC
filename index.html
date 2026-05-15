@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JStudyC — Platform latihan soal ujian MCQ yang elegan. Persiapkan ujianmu dengan paket soal lengkap dan statistik progres belajar.">
+  <title>JStudyC — Kuasai Ujianmu</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo.png">
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <!-- Animated Particle Canvas -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- ══ Navbar ══ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="navbar-logo">
+        <img src="assets/logo.png" alt="Logo" class="logo-img">
+        <div class="logo-text">JStudy<span>C</span></div>
+      </a>
+      <div class="navbar-links" id="navLinks">
+        <a href="#features">Fitur</a>
+        <a href="#how-it-works">Cara Kerja</a>
+        <a href="#stats">Statistik</a>
+        <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+        <button class="btn-login" id="btnOpenLogin">Masuk</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══ Hero ══ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="dot"></span>
+        Platform Belajar Ujian
+      </div>
+      <h1 class="reveal reveal-delay-1">Kuasai <em>Ujianmu</em></h1>
+      <p class="reveal reveal-delay-2">
+        Latihan soal MCQ dari berbagai paket ujian. Tingkatkan pemahamanmu 
+        dengan latihan intensif, analisis jawaban, dan lacak progresmu secara real-time.
+      </p>
+      <div class="hero-cta reveal reveal-delay-3">
+        <a href="dashboard.html" class="btn-primary">Ke Dashboard</a>
+        <a href="dashboard.html" class="btn-secondary">Dashboard</a>
+      </div>
+    </div>
+
+    <!-- Horizontal LED Marquee -->
+    <div class="hero-marquee-horizontal">
+      <div class="marquee-horizontal-track">
+        <span>WELCOME TO JSTUDYC</span><span>●</span><span>WELCOME TO JSTUDYC</span><span>●</span><span>WELCOME TO JSTUDYC</span><span>●</span><span>WELCOME TO JSTUDYC</span><span>●</span><span>WELCOME TO JSTUDYC</span><span>●</span><span>WELCOME TO JSTUDYC</span><span>●</span><span>WELCOME TO JSTUDYC</span><span>●</span><span>WELCOME TO JSTUDYC</span><span>●</span>
+      </div>
+    </div>
+
+    <div class="hero-scroll reveal reveal-delay-3">Scroll
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══ Features ══ -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Fitur Unggulan</span>
+        <h2 class="section-title reveal reveal-delay-1">Semua yang Kamu Butuhkan</h2>
+        <p class="section-desc reveal reveal-delay-2">
+          Dirancang untuk membantumu mempersiapkan ujian dengan efektif dan efisien.
+        </p>
+      </div>
+      <div class="features-grid">
+
+        <div class="feature-card reveal">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+          </div>
+          <h3>Paket Soal Ujian</h3>
+          <p>Koleksi lengkap paket soal dari berbagai ujian yang diperbarui secara berkala. Latihan dengan soal-soal yang relevan.</p>
+        </div>
+
+        <div class="feature-card reveal reveal-delay-1">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3>Latihan MCQ Interaktif</h3>
+          <p>Jawab soal-soal pilihan ganda dengan umpan balik instan. Lihat pembahasan detail untuk setiap jawaban.</p>
+        </div>
+
+        <div class="feature-card reveal reveal-delay-2">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          </div>
+          <h3>Statistik & Progres</h3>
+          <p>Pantau perkembangan belajarmu melalui statistik detail. Ketahui kekuatan dan kelemahanmu.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ How It Works ══ -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Cara Kerja</span>
+        <h2 class="section-title reveal reveal-delay-1">Mudah dan Cepat</h2>
+        <p class="section-desc reveal reveal-delay-2">
+          Tiga langkah sederhana untuk memulai persiapan ujianmu.
+        </p>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-num-wrap">
+            <div class="step-num">1</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Buat Akun</h3>
+            <p>Daftar gratis dan buat profil belajarmu. Hanya butuh beberapa detik untuk memulai.</p>
+          </div>
+        </div>
+        <div class="step reveal reveal-delay-1">
+          <div class="step-num-wrap">
+            <div class="step-num">2</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Pilih Paket Soal</h3>
+            <p>Pilih dari berbagai paket ujian yang tersedia sesuai dengan kebutuhanmu.</p>
+          </div>
+        </div>
+        <div class="step reveal reveal-delay-2">
+          <div class="step-num-wrap">
+            <div class="step-num">3</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content">
+            <h3>Mulai Latihan</h3>
+            <p>Kerjakan soal, lihat pembahasan, dan lacak progresmu. Ulangi sampai kamu siap!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ Stats ══ -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Dalam Angka</span>
+        <h2 class="section-title reveal reveal-delay-1">Bergabung Sekarang</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-number" data-target="500">0</div>
+          <div class="stat-label">Soal Tersedia</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-1">
+          <div class="stat-number" data-target="15">0</div>
+          <div class="stat-label">Paket Ujian</div>
+        </div>
+        <div class="stat-item reveal reveal-delay-2">
+          <div class="stat-number" data-target="200">0</div>
+          <div class="stat-label">Pengguna Aktif</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CTA ══ -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box reveal">
+        <h2>Siap Menghadapi Ujian?</h2>
+        <p>Mulai persiapanmu sekarang dan raih hasil terbaik.</p>
+        <button class="btn-primary" id="btnCtaStart">Daftar Sekarang — Gratis</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ Footer ══ -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 JStudyC. Dibuat untuk belajar lebih baik.</p>
+    </div>
+  </footer>
+
+  <!-- ══ Login Modal ══ -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <button class="modal-close" id="modalClose">&times;</button>
+
+      <!-- Login Form -->
+      <div id="loginForm">
+        <h2>Masuk</h2>
+        <p class="modal-subtitle">Selamat datang kembali di JStudyC</p>
+        <div class="form-group">
+          <label for="loginEmail">Email</label>
+          <input type="email" id="loginEmail" placeholder="nama@email.com">
+          <div class="form-error" id="loginEmailError"></div>
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" placeholder="Masukkan password">
+          <div class="form-error" id="loginPasswordError"></div>
+        </div>
+        <button class="btn-submit" id="btnLogin">Masuk</button>
+        <div class="modal-switch">
+          Belum punya akun? <a id="switchToRegister">Daftar</a>
+        </div>
+      </div>
+
+      <!-- Register Form -->
+      <div id="registerForm" style="display:none;">
+        <h2>Daftar</h2>
+        <p class="modal-subtitle">Buat akun baru untuk mulai belajar</p>
+        <div class="form-group">
+          <label for="regName">Nama Lengkap</label>
+          <input type="text" id="regName" placeholder="Nama lengkapmu">
+          <div class="form-error" id="regNameError"></div>
+        </div>
+        <div class="form-group">
+          <label for="regEmail">Email</label>
+          <input type="email" id="regEmail" placeholder="nama@email.com">
+          <div class="form-error" id="regEmailError"></div>
+        </div>
+        <div class="form-group">
+          <label for="regPassword">Password</label>
+          <input type="password" id="regPassword" placeholder="Min. 6 karakter">
+          <div class="form-error" id="regPasswordError"></div>
+        </div>
+        <button class="btn-submit" id="btnRegister">Daftar</button>
+        <div class="modal-switch">
+          Sudah punya akun? <a id="switchToLogin">Masuk</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

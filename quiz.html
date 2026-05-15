@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz — JStudyC</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="icon" href="assets/logo.png">
+  <script src="theme.js"></script>
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Navbar -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/logo.png" alt="Logo" class="logo-img">
+        <div class="logo-text">JStudy<span>C</span></div>
+      </a>
+      <div class="navbar-links" id="navLinks">
+        <a href="dashboard.html">Dashboard</a>
+        <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+        <button class="btn-login" id="btnLogout">Logout</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="quiz-page">
+    <div class="container">
+      <!-- Quiz Header -->
+      <div class="quiz-header" id="quizHeader">
+        <div class="quiz-header-left">
+          <h2 id="quizTitle">Loading...</h2>
+          <p id="quizSubtitle"></p>
+        </div>
+        <div class="quiz-tracker">
+          <div class="tracker-item">
+            <span class="tracker-value" id="trackerCorrect">0</span>
+            <span class="tracker-label">Benar</span>
+          </div>
+          <div class="tracker-divider"></div>
+          <div class="tracker-item">
+            <span class="tracker-value" id="trackerWrong">0</span>
+            <span class="tracker-label">Salah</span>
+          </div>
+          <div class="tracker-divider"></div>
+          <div class="tracker-item">
+            <span class="tracker-value" id="trackerRemaining">0</span>
+            <span class="tracker-label">Sisa</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz-layout">
+        <!-- Main Question Area -->
+        <div class="quiz-main">
+          <div class="question-card" id="questionCard">
+            <div class="question-num-badge" id="questionBadge">Soal 1</div>
+            <div class="question-text" id="questionText"></div>
+            <div class="options-list" id="optionsList"></div>
+            <div class="explanation-box" id="explanationBox">
+              <div class="explanation-result" id="explanationResult"></div>
+              <h4>Pembahasan</h4>
+              <p id="explanationText"></p>
+            </div>
+            <div class="question-nav">
+              <button class="nav-btn" id="btnPrev" disabled>← Sebelumnya</button>
+              <button class="nav-btn" id="btnNext">Selanjutnya →</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="quiz-sidebar">
+          <div class="sidebar-card">
+            <div class="sidebar-title">Navigasi Soal</div>
+            <div class="number-grid" id="numberGrid"></div>
+            <button class="flag-btn" id="flagBtn">🚩 Tandai Soal</button>
+          </div>
+          <div class="sidebar-card">
+            <div class="sidebar-title">Progres</div>
+            <div class="sidebar-progress">
+              <div class="sidebar-progress-bar-wrap">
+                <div class="sidebar-progress-bar" id="sidebarProgress" style="width:0%"></div>
+              </div>
+              <div class="sidebar-progress-text" id="sidebarProgressText">0/0 soal dijawab</div>
+            </div>
+            <button class="btn-finish" id="btnFinish">Selesai & Lihat Hasil</button>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <div class="result-modal-overlay" id="resultModal">
+    <div class="result-modal-content">
+      <h3>Hasil Ujian</h3>
+      <div class="result-percentage" id="resultPercentage">0%</div>
+      <p id="resultDetails"></p>
+      <div class="result-actions">
+        <button class="btn-primary" id="btnRetake">Kerjakan Ulang</button>
+        <button class="btn-secondary" id="btnDashboard">Ke Dashboard</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="data/questions.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
