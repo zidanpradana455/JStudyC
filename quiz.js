@@ -295,6 +295,49 @@
   const toast = document.getElementById('toast');
   function showToast(msg) { toast.textContent = msg; toast.classList.add('show'); setTimeout(() => toast.classList.remove('show'), 3000); }
 
+  // ── Mobile Sidebar Drawer Toggle ──
+  const sidebarToggle = document.getElementById('sidebarToggle');
+  const sidebarBackdrop = document.getElementById('sidebarBackdrop');
+  const quizSidebar = document.querySelector('.quiz-sidebar');
+
+  function openSidebar() {
+    quizSidebar.classList.add('open');
+    sidebarBackdrop.classList.add('show');
+    sidebarToggle.classList.add('active');
+  }
+
+  function closeSidebar() {
+    quizSidebar.classList.remove('open');
+    sidebarBackdrop.classList.remove('show');
+    sidebarToggle.classList.remove('active');
+  }
+
+  if (sidebarToggle) {
+    sidebarToggle.addEventListener('click', () => {
+      if (quizSidebar.classList.contains('open')) {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }
+    });
+  }
+
+  if (sidebarBackdrop) {
+    sidebarBackdrop.addEventListener('click', closeSidebar);
+  }
+
+  // Close sidebar when a number button is clicked (mobile)
+  const origRenderNumberGrid = renderNumberGrid;
+  renderNumberGrid = function() {
+    origRenderNumberGrid();
+    // Re-attach close on click for mobile
+    if (window.innerWidth <= 900) {
+      numberGrid.querySelectorAll('.num-btn').forEach(btn => {
+        btn.addEventListener('click', closeSidebar);
+      });
+    }
+  };
+
   // ── Init ──
   renderQuestion();
 })();
