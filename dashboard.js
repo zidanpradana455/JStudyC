@@ -50,7 +50,7 @@
     });
     document.getElementById('totalAnswered').textContent = total;
     document.getElementById('totalCorrect').textContent = total > 0 ? Math.round((correct/total)*100)+'%' : '0%';
-    document.getElementById('totalPakets').textContent = completed + '/3';
+    document.getElementById('totalPakets').textContent = completed + '/6';
   }
 
   // ── Exam Tabs ──

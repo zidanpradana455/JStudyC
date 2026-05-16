@@ -671,8 +671,385 @@ const QUESTION_DATA = {
           },
           "iup": {
             name: "IUP",
-            locked: true,
-            years: { "2021": [], "2022": [], "2023": [] }
+            years: {
+              "2021": [
+              {
+                "id": 1,
+                "question": "Seorang pasien datang dengan keluhan kejang fokal yang diawali dengan gerakan kepala dan mata menoleh secara involunter ke satu sisi. Hasil pencitraan menunjukkan adanya lesi pada lobus frontalis kiri. Area fungsional manakah yang paling mungkin memicu pola kejang tersebut?",
+                "options": ["Area Brodmann 4", "Area Brodmann 5, 7", "Area Brodmann 3, 1, 2", "Area Brodmann 6", "Area Brodmann 8"],
+                "correctAnswer": 4,
+                "explanation": "Area Brodmann 8 (Frontal Eye Field) berada di lobus frontalis. Stimulasi atau lesi iritatif (seperti kejang) di area ini menyebabkan mata dan kepala deviasi ke arah kontralateral."
+              },
+              {
+                "id": 2,
+                "question": "Seorang pria berusia 45 tahun datang ke klinik dengan keluhan pusing berputar yang memberat saat perubahan posisi kepala. Dokter meresepkan medikamentosa yang diketahui memiliki mekanisme kerja menghambat reseptor histamin sentral sekaligus menekan aktivitas kolinergik. Obat manakah yang dimaksud?",
+                "options": ["Dimenhidrinat", "Diazepam", "Fenitoin", "Hiosin", "Betahistin"],
+                "correctAnswer": 0,
+                "explanation": "Dimenhidrinat adalah obat golongan antihistamin H1 yang juga memiliki sifat antikolinergik sentral yang kuat, sering digunakan untuk menekan respon vestibular."
+              },
+              {
+                "id": 3,
+                "question": "Seorang neonatus dibawa ke IGD karena status epileptikus. Pasien telah menerima loading dose fenobarbital 20 mg/kgBB intravena, namun kejang secara klinis masih terus berlanjut. Langkah farmakologis manakah yang paling tepat untuk dipertimbangkan selanjutnya menurut algoritma?",
+                "options": ["Fenobarbital 35 mg", "Fenobarbital 70 mg", "Diazepam 35 mg", "Diazepam 70 mg", "Fenitoin 70 mg"],
+                "correctAnswer": 1,
+                "explanation": "Berdasarkan opsi pada soal, dosis fenobarbital dapat diulang dengan dosis bervariasi bergantung berat badan jika kejang belum teratasi (opsi persis dari sumber aslinya)."
+              },
+              {
+                "id": 4,
+                "question": "Seorang pasien dengan cedera kepala berat direncanakan untuk dilakukan intubasi endotrakeal secara Rapid Sequence Intubation (RSI). Dokter anestesi memilih propofol sebagai agen induksi. Manakah dari pernyataan berikut yang merupakan karakteristik klinis utama dari obat tersebut?",
+                "options": ["Menyebabkan nyeri pada lokasi injeksi", "Meningkatkan tekanan intrakranial", "Memicu bronkospasme berat", "Memiliki efek analgesik yang adekuat", "Meningkatkan laju metabolisme otak"],
+                "correctAnswer": 0,
+                "explanation": "Propofol terkenal menyebabkan nyeri tajam saat disuntikkan ke vena perifer akibat formulasi emulsi lipidnya. Obat ini justru menurunkan tekanan intrakranial dan laju metabolisme otak."
+              },
+              {
+                "id": 5,
+                "question": "Dalam penatalaksanaan pasien henti jantung di ruang gawat darurat, tim medis melakukan resusitasi jantung paru (RJP). Terkait timeline atau prinsip tindakan resusitasi primer pada pasien henti jantung, manakah pernyataan yang paling tepat?",
+                "options": ["Tindakan dilakukan secara kontinu dan simultan pada menit ke-0", "Evaluasi status sirkulasi definitif ditunda hingga 1 jam", "Pemberian kompresi dada ditunda hingga akses jalan napas terpasang", "Intervensi dihentikan otomatis setelah 10 menit tanpa melihat ritme", "Intubasi endotrakeal menjadi prioritas pertama mendahului kompresi"],
+                "correctAnswer": 0,
+                "explanation": "Resusitasi kardiopulmoner modern (RJP/CPR) menekankan inisiasi kompresi dengan jeda seminimal mungkin (kontinu) dan dilakukan segera (menit ke-0)."
+              },
+              {
+                "id": 6,
+                "question": "Seorang pasien laki-laki berusia 55 tahun menjalani pemeriksaan EKG rutin. Pada pembacaan EKG, ditemukan adanya gambaran gelombang P yang sesekali hilang (dropped P wave), di mana interval P-P yang panjang merupakan kelipatan matematis pasti dari siklus P-P dasar. Apakah diagnosis aritmia yang paling tepat?",
+                "options": ["Sinoatrial block first degree", "Sinoatrial block second degree", "Sinoatrial block third degree", "Sinus bradikardia", "Atrioventricular block second degree type 1"],
+                "correctAnswer": 1,
+                "explanation": "Pada SA block derajat 2, impuls tidak keluar dari nodus SA sehingga gelombang P dan kompleks QRS hilang, membentuk jeda yang merupakan kelipatan eksak dari interval P-P sebelumnya."
+              },
+              {
+                "id": 7,
+                "question": "Seorang perempuan berusia 60 tahun dengan riwayat End Stage Renal Disease (ESRD) dibawa ke IGD karena letargi dan kebingungan. Pemeriksaan fisik menunjukkan TD 160/90 mmHg, HR 110 x/menit, dan RR 10 x/menit. Hasil laboratorium menunjukkan kadar BUN 101 mg/dL dan kreatinin 9,2 mg/dL. Apakah diagnosis yang paling mungkin?",
+                "options": ["Ensefalopati uremikum", "Ensefalopati hipertensif", "Ensefalopati hepatikum", "Ensefalopati Wernicke", "Stroke iskemik akut"],
+                "correctAnswer": 0,
+                "explanation": "Kadar BUN yang sangat tinggi (101 mg/dL) dan kreatinin (9.2) pada pasien gagal ginjal dengan penurunan kesadaran sangat khas untuk intoksikasi uremik (ensefalopati uremikum)."
+              },
+              {
+                "id": 8,
+                "question": "Seorang bayi berusia 2 bulan dievaluasi di NICU karena dismorfia wajah, letargi persisten, dan kejang. Tim medis mencurigai adanya inborn error of metabolism yang melibatkan defek enzim spesifik. Apakah patomekanisme dasar yang paling memicu terjadinya ensefalopati pada kondisi tersebut?",
+                "options": ["Cedera sitotoksik akibat penumpukan metabolit", "Interupsi fisik pada jaras polisinaptik", "Inflamasi neuronal masif", "Gangguan arsitektur pembuluh darah serebral", "Penumpukan plak amiloid pada ruang ekstraseluler"],
+                "correctAnswer": 0,
+                "explanation": "Inborn error of metabolism menyebabkan akumulasi zat toksik intraseluler atau defisit energi yang pada akhirnya merusak pompa ion sel saraf, memicu edema sitotoksik ensefalopati."
+              },
+              {
+                "id": 9,
+                "question": "Saat memimpin pelatihan Pediatric Advanced Life Support (PALS), seorang instruktur menekankan etiologi spesifik yang membedakan penanganan pasien dewasa dan anak. Manakah dari pernyataan berikut yang menjadi dasar epidemiologis pertimbangan Airway- Breathing-Circulation pada anak?",
+                "options": ["Angka obesitas pada anak semakin meningkatkan risiko penyumbatan napas", "Sekitar 80% kasus henti jantung pada anak diawali oleh masalah pernapasan", "Sebagian besar henti jantung pada anak disebabkan oleh masalah kardiovaskular primer", "Sebagian besar henti jantung pada dewasa murni disebabkan oleh obstruksi pernapasan", "Anatomi jalan napas anak tidak memiliki modifikasi signifikan dibandingkan dewasa"],
+                "correctAnswer": 1,
+                "explanation": "Henti jantung pediatrik umumnya bersifat sekunder akibat hipoksia (asfiksia/masalah respirasi), bukan henti jantung mendadak karena iskemik kardiovaskular seperti pada orang dewasa."
+              },
+              {
+                "id": 10,
+                "question": "Seorang pasien dewasa dengan demam dan kaku kuduk dicurigai mengalami meningitis. Dokter melakukan prosedur pungsi lumbal dan mendapati cairan serebrospinal (CSF) berwarna keruh (turbid) secara makroskopis. Kondisi mikroskopis atau etiologis manakah yang paling sesuai dengan gambaran tersebut?",
+                "options": ["Peningkatan leukosit 50 sel/mm3", "Peningkatan eritrosit 100 sel/mm3", "Kontaminasi jarum suntik", "Infeksi virus", "Infeksi bakteri"],
+                "correctAnswer": 4,
+                "explanation": "Kekeruhan (turbiditas) makroskopis pada CSF umumnya diakibatkan oleh purulensi, yang menandakan tingginya kadar leukosit PMN (biasanya ribuan) akibat infeksi bakteri."
+              },
+              {
+                "id": 11,
+                "question": "Seorang pasien epilepsi disarankan oleh dokter saraf untuk melakukan pemantauan kadar obat darah secara berkala dan berhati-hati dalam merubah dosis mandiri, mengingat obat yang dikonsumsi memiliki profil farmakokinetik zero-order dan narrow therapeutic window. Obat manakah yang dimaksud?",
+                "options": ["Fenitoin", "Levetirasetam", "Tiopental", "Fenobarbital", "Okskarbazepin"],
+                "correctAnswer": 0,
+                "explanation": "Fenitoin memiliki profil kinetika orde-nol (zero-order/nonlinear) dan rentang terapeutik sempit, sehingga perubahan dosis sedikit saja dapat memicu intoksikasi."
+              },
+              {
+                "id": 12,
+                "question": "Seorang pasien pria berusia 35 tahun dicurigai mengalami infeksi intrakranial difus. Dokter merencanakan pemeriksaan Magnetic Resonance Imaging (MRI) kepala dengan kontras. Apabila patologi pasien berada tepat pada fase early cerebritis, gambaran radiologis apakah yang paling mungkin teridentifikasi?",
+                "options": ["Lesi hipointens berbatas tegas pada sekuens T2", "Lesi hiperintens merata pada sekuens T1", "Lesi hipointens pada T1, hiperintens pada T2, disertai edema", "Lesi hipointens dan hiperintens pada T1 dengan perifokal edema yang kalsifikasi", "Gambaran ring-enhancement tebal yang berbatas tegas pasca-kontras"],
+                "correctAnswer": 2,
+                "explanation": "Pada fase early cerebritis jaringan otak meradang difus tanpa kapsul, tampak sebagai area batas tak tegas, hipointens di T1, hiperintens di T2 (menandakan air/edema). Ring enhancement baru muncul di fase abses kapsuler."
+              },
+              {
+                "id": 13,
+                "question": "Seorang bayi berusia 14 bulan dibawa ke IGD setelah mengalami kejang kelojotan seluruh tubuh. Orang tua melaporkan bayi demam tinggi sejak semalam disertai batuk, dengan suhu tiba di IGD $40^{\circ}$C. Saat diperiksa pasien telah sadar (compos mentis) dan tidak ada tanda rangsang meningeal. Riwayat menunjukkan kejang ini merupakan episode kedua dalam 24 jam terakhir dengan pola yang sama. Apakah diagnosis yang paling tepat?",
+                "options": ["Saat diperiksa pasien telah sadar (compos mentis) dan tidak ada tanda rangsang meningeal. Riwayat menunjukkan kejang ini merupakan episode kedua dalam 24 jam terakhir dengan pola yang sama. Apakah diagnosis yang paling tepat?", "Kejang demam kompleks", "Kejang demam sederhana", "Epilepsi fokal berulang", "Febrile provoked epilepsy"],
+                "correctAnswer": 0,
+                "explanation": "Karena kejang terjadi lebih dari 1 kali (dua kali) dalam durasi 24 jam dengan adanya provokasi demam tanpa infeksi intrakranial, diagnosisnya adalah kejang demam kompleks."
+              },
+              {
+                "id": 14,
+                "question": "Seorang anak dengan sindrom Lennox-Gastaut sering mengalami kejang generalisata tipe drop attacks yang menyebabkan cedera kepala berulang. Medikamentosa tidak memberikan perbaikan. Dokter bedah merencanakan operasi paliatif untuk mencegah sinkronisasi atau penyebaran aktivitas listrik kejar antarkedua hemisfer serebri. Prosedur bedah apakah yang paling direkomendasikan?",
+                "options": ["Kalosotomi", "Hemisferektomi", "Lobektomi anterior", "Lesionektomi fokal", "Stimulasi nervus vagus"],
+                "correctAnswer": 0,
+                "explanation": "Corpus callosotomy memotong korpus kalosum (penghubung hemisfer kiri dan kanan), yang bertujuan memutus jalur penyebaran kejang generalisata yang menyebabkan drop attacks."
+              },
+              {
+                "id": 15,
+                "question": "Seorang bayi berusia 8 bulan dibawa ke rumah sakit dengan tanda klinis syok hipovolemik akibat diare akut dehidrasi berat. Dokter merencanakan resusitasi bolus cairan secara intravena atau intraoseus secepatnya. Jenis cairan apakah yang menjadi lini pertama untuk kondisi ini?",
+                "options": ["Kristaloid", "Koloid", "Gelatin", "Starch", "Albumin 5%"],
+                "correctAnswer": 0,
+                "explanation": "Ringer Laktat atau Normal Saline (kristaloid) selalu menjadi lini pertama penanganan kegawatdaruratan syok hipovolemik (baik dehidrasi maupun perdarahan) pada populasi pediatrik maupun dewasa."
+              },
+              {
+                "id": 16,
+                "question": "Seorang pria berusia 25 tahun dibawa ke IGD setelah mengalami kecelakaan sepeda motor tanpa menggunakan helm. Saat diperiksa, pasien hanya membuka mata sesaat dan menepis tangan pemeriksa ketika diberikan rangsang nyeri di pangkal kuku, namun segera kembali menutup mata dan tertidur saat rangsang nyeri dilepaskan. Apakah kategori tingkat kesadaran pasien tersebut?",
+                "options": ["Compos mentis", "Koma", "Sopor", "Somnolen", "Apatis"],
+                "correctAnswer": 2,
+                "explanation": "Kesadaran sopor/stupor ditandai dengan kemampuan pasien merespons hanya pada rangsangan nyeri yang kuat, namun kesadarannya langsung turun kembali bila stimulus dihentikan."
+              },
+              {
+                "id": 17,
+                "question": "Seorang perempuan 60 tahun datang dengan defisit neurologis fokal berupa hemiparesis dekstra onset 3 jam yang lalu. Pemeriksaan CT-scan kepala non-kontras menunjukkan area hipodensitas pada ganglia basalis kiri dengan batas yang mengabur (obscure boundaries) tanpa dijumpai midline shift. Apakah diagnosis radiologis pasien ini?",
+                "options": ["Stroke iskemik akut", "Hematoma akut dan tumor maligna", "Hematoma kronis rekuren", "Perdarahan subaraknoid luas", "Perdarahan intraserebral akut"],
+                "correctAnswer": 0,
+                "explanation": "Area hipodens (gelap) dengan batas yang belum tegas/mengabur dan tanpa dorongan (midline shift) besar adalah gambaran klasik stroke iskemik non-hemoragik pada fase akut."
+              },
+              {
+                "id": 18,
+                "question": "Pasien laki-laki berusia 65 tahun tiba di ruang resusitasi IGD. Istri pasien melaporkan bahwa saat di jalan (sekitar 10 menit menuju RS), pasien mengalami kejang kelojotan selama 5 menit penuh tanpa sadar. Saat tiba, pasien terdengar snoring dan kesadaran masih menurun. Berdasarkan prinsip tatalaksana kegawatdaruratan neurologis, apakah tindakan prioritas yang harus dilakukan pertama kali?",
+                "options": ["Istri pasien melaporkan bahwa saat di jalan (sekitar 10 menit menuju RS), pasien mengalami kejang kelojotan selama 5 menit penuh tanpa sadar. Saat tiba, pasien terdengar snoring dan kesadaran masih menurun. Berdasarkan prinsip tatalaksana kegawatdaruratan neurologis, apakah tindakan prioritas yang harus dilakukan pertama kali?", "Pemeriksaan fisik dari kepala hingga kaki secara lengkap", "Mengamankan jalan napas dan menghentikan kejang jika masih berlangsung", "Mengambil sampel darah arteri untuk analisis gas darah", "Mendorong pasien langsung ke ruang CT-scan terdekat"],
+                "correctAnswer": 1,
+                "explanation": "Prioritas resusitasi (Primary Survey) ABC selalu mendahului diagnostik (seperti CT-scan atau darah lengkap). Mengamankan jalan napas (terutama karena ada snoring indikasi sumbatan jalan napas atas) adalah langkah paling awal."
+              },
+              {
+                "id": 19,
+                "question": "Seorang pasien glioblastoma multiforme telah menjalani reseksi pembedahan yang dilanjutkan dengan rangkaian radioterapi dan kemoterapi adjuvan. Dokter spesialis onkologi kemudian meminta pasien untuk kembali menjalani MRI kepala secara rutin pasca- terapi. Apakah tujuan utama dari pemeriksaan pencitraan pada fase ini?",
+                "options": ["Memantau progresi lesi dan menilai respons jaringan terhadap terapi", "Mengukur tekanan perfusi serebral secara real-time", "Menegakkan diagnosis histopatologis definitif", "Memperbaiki midline shift yang masih tersisa", "Menentukan jenis obat kejang spesifik yang dapat dipakai"],
+                "correctAnswer": 0,
+                "explanation": "Post-terapi radiologis berfungsi utama untuk membandingkan ukuran massa tumor guna menentukan keberhasilan pengobatan atau melihat adanya kekambuhan (recurrence)."
+              },
+              {
+                "id": 20,
+                "question": "Saat mengedukasi keluarga pasien dengan epilepsi yang baru didiagnosis, dokter menjelaskan tentang berbagai tahapan kejang, salah satunya adalah fase di mana pasien sering kali tampak bingung, mengantuk, atau tidur lelap sesaat setelah hentakan motorik kejangnya berhenti. Apakah terminologi medis yang tepat untuk fase tersebut?",
+                "options": ["Fase pemulihan menuju kesadaran normal yang terjadi pasca kejang", "Fase yang terjadi secara spesifik di sela-sela dua episode kejang elektrik", "Fase aura peringatan sebelum bangkitan kejang sesungguhnya terjadi", "Fase kejang subklinis tanpa manifestasi motorik tampak", "Fase relaksasi otot di tengah-tengah kejang tonik"],
+                "correctAnswer": 0,
+                "explanation": ""
+              }
+              ],
+              "2022": [
+              {
+                "id": 1,
+                "question": "Seorang pasien laki-laki berusia 35 tahun datang ke poliklinik dengan keluhan kejang fokal. Pasien mengeluhkan selalu merasakan adanya sensasi kesemutan dan kebas pada lengan kanannya selama beberapa detik sebelum kejang terjadi. Manakah lobus otak yang kemungkinan besar menjadi sumber bangkitan (fokus epileptogenik) pada pasien ini?",
+                "options": ["Lobus parietal (Girus post-sentralis)", "Lobus frontal (Girus pre-sentralis)", "Lobus temporal", "Lobus oksipital", "Korteks insular"],
+                "correctAnswer": 0,
+                "explanation": "Sensasi kesemutan dan kebas adalah gejala sensorik somatik primer. Area yang memproses sensorik primer terletak di girus post-sentralis pada lobus parietal."
+              },
+              {
+                "id": 2,
+                "question": "Seorang laki-laki berusia 45 tahun akan menjalani operasi elektif dan memerlukan intubasi endotrakeal. Dokter anestesi memilih menggunakan propofol sebagai agen induksi anestesi. Apakah karakteristik farmakologis yang menjadi alasan utama pemilihan agen tersebut pada kasus ini?",
+                "options": ["Memiliki onset kerja yang sangat cepat", "Dikontraindikasikan pada pasien dengan masalah jalan napas", "Memberikan efek analgesik yang sangat kuat", "Meningkatkan tekanan intrakranial secara signifikan", "Memiliki durasi kerja yang sangat panjang"],
+                "correctAnswer": 0,
+                "explanation": "Propofol adalah agen anestesi intravena yang sangat lipofilik, sehingga menembus sawar darah otak dengan cepat dan memberikan onset induksi yang sangat cepat (biasanya <1 menit)."
+              },
+              {
+                "id": 3,
+                "question": "Seorang laki-laki berusia 55 tahun dibawa ke IGD dalam keadaan tidak sadar dan tidak teraba nadi. Pemantauan EKG menunjukkan gambaran ventrikel fibrilasi (VF). Tim medis segera memberikan tindakan defibrilasi (shock). Apakah langkah selanjutnya yang paling tepat dilakukan?",
+                "options": ["Memberikan kejut listrik ulang (shock again)", "Mengecek tanda vital dan meraba denyut nadi", "Memberikan injeksi adrenalin 1 mg IV", "Melanjutkan kompresi dada (RJP) segera", "Memberikan injeksi amiodaron 300 mg IV"],
+                "correctAnswer": 3,
+                "explanation": "Menurut algoritma Advanced Cardiovascular Life Support (ACLS) AHA, segera setelah pemberian defibrilasi (shock), RJP/kompresi dada harus langsung dilanjutkan selama 2 menit tanpa membuang waktu untuk mengecek nadi atau ritme."
+              },
+              {
+                "id": 4,
+                "question": "Seorang anak laki-laki berusia 2 tahun dibawa ke IGD karena mengalami kejang seluruh tubuh selama 3 menit di rumah. Saat tiba di IGD, anak tersebut masih dalam keadaan kejang. Suhu tubuh tercatat 39,5°C dan akses intravena belum terpasang. Apakah tatalaksana farmakologis awal yang paling direkomendasikan?",
+                "options": ["Diazepam rektal", "Klonazepam rektal", "Fenitoin intravena", "Karbamazepin sirup oral", "Asam valproat sirup oral"],
+                "correctAnswer": 0,
+                "explanation": "Pada setting pra-rumah sakit atau IGD ketika jalur intravena (IV) belum terpasang, diazepam rektal adalah pilihan utama yang cepat dan aman untuk menghentikan kejang akut pada anak."
+              },
+              {
+                "id": 5,
+                "question": "Seorang perempuan berusia 60 tahun dibawa ke IGD dengan diagnosis stroke hemoragik. Pasien mengalami penurunan kesadaran yang dalam dan pola pernapasan tidak adekuat sehingga membutuhkan tindakan intubasi segera untuk mengamankan jalan napas (life- saving). Berapakah level Emergency Severity Index (ESI) untuk pasien tersebut?",
+                "options": ["ESI 1", "ESI 2", "ESI 3", "ESI 4", "ESI 5"],
+                "correctAnswer": 0,
+                "explanation": "ESI level 1 dialokasikan untuk pasien yang membutuhkan intervensi penyelamatan nyawa segera (immediate life-saving intervention), seperti pasien yang memerlukan intubasi karena henti napas atau napas tidak adekuat."
+              },
+              {
+                "id": 6,
+                "question": "Seorang perempuan berusia 45 tahun datang dengan keluhan sakit kepala hebat, mual, muntah, demam, dan fotofobia. Hasil pemeriksaan cairan serebrospinal (LCS) menunjukkan peningkatan leukosit (leukositosis) dan penurunan kadar glukosa. Apakah pemeriksaan penunjang tambahan yang paling tepat untuk menentukan etiologi spesifik pada kasus ini?",
+                "options": ["Pemeriksaan KOH", "Pemeriksaan Prokalsitonin serum", "Kultur cairan serebrospinal", "CT Scan kepala dengan kontras", "Pemeriksaan serologi VDRL"],
+                "correctAnswer": 2,
+                "explanation": "Temuan pleositosis (leukosit tinggi) dan hipoglikorakia (glukosa rendah) pada LCS sangat khas untuk meningitis bakterial. Kultur LCS adalah gold standard untuk mengetahui bakteri spesifik penyebabnya."
+              },
+              {
+                "id": 7,
+                "question": "Seorang pasien dengan kondisi immunocompromised didiagnosis mengalami Strongyloidiasis diseminata berdasarkan pemeriksaan laboratorium dan klinis. Dokter merencanakan pemberian terapi antelmintik eradikasi. Apakah pilihan farmakoterapi lini pertama untuk kondisi tersebut?",
+                "options": ["Ivermectin", "Mebendazole", "Albendazole", "Pyrantel pamoate", "Praziquantel"],
+                "correctAnswer": 0,
+                "explanation": "Ivermectin adalah agen antelmintik pilihan pertama (drug of choice) untuk infeksi Strongyloides stercoralis, termasuk bentuk diseminatanya."
+              },
+              {
+                "id": 8,
+                "question": "Seorang pasien dicurigai mengalami tumor otak intraserebral. Dokter membutuhkan modalitas pencitraan radiologi yang memiliki superioritas dalam memberikan detail dan resolusi yang sangat tinggi pada jaringan lunak otak (soft tissue) dibandingkan dengan struktur tulang. Apakah modalitas radiologi yang paling tepat?",
+                "options": ["Magnetic Resonance Imaging (MRI)", "Computed Tomography (CT) Scan", "Positron Emission Tomography (PET) Scan", "Ultrasonografi (USG) Transkranial", "Foto Polos Cranium (X-Ray)"],
+                "correctAnswer": 0,
+                "explanation": "MRI jauh lebih superior dibandingkan CT scan dalam menilai dan memberikan kontras resolusi yang sangat baik pada anatomi jaringan lunak (soft tissue) otak dan medula spinalis."
+              },
+              {
+                "id": 9,
+                "question": "Seorang bayi berusia 8 bulan dibawa ke IGD dengan diare profus dan tanda dehidrasi berat. Bayi tampak letargis, mata cekung, dan turgor kulit sangat lambat kembali. Dokter akan melakukan resusitasi cairan intravena secara bolus cepat. Apakah jenis cairan resusitasi yang paling tepat digunakan?",
+                "options": ["Kristaloid", "Dextran", "Starch", "Gelatin", "Dekstrosa 5%"],
+                "correctAnswer": 0,
+                "explanation": "Cairan kristaloid isotonik (seperti Ringer Laktat atau NaCl 0.9%) adalah cairan lini pertama untuk resusitasi cairan pada kondisi dehidrasi berat atau syok hipovolemik pada anak dan bayi."
+              },
+              {
+                "id": 10,
+                "question": "Bayi perempuan berusia 6 bulan dibawa ke IGD karena mengalami kejang pada lengan dan tangan kanan. Ibunya menyatakan ini adalah kejang ketiga kalinya dengan pola yang sama pada hari ini. Suhu tubuh 40°C. Pemeriksaan fisik menunjukkan pasien kompos mentis dan tanda rangsang meningeal negatif. Apakah rencana pemeriksaan penunjang diagnostik yang paling komprehensif dan tepat diindikasikan?",
+                "options": ["Pemeriksaan fisik menunjukkan pasien kompos mentis dan tanda rangsang meningeal negatif. Apakah rencana pemeriksaan penunjang diagnostik yang paling komprehensif dan tepat diindikasikan?", "Darah rutin saja", "Darah rutin, pungsi lumbal, dan glukosa darah", "Darah rutin, pungsi lumbal, glukosa darah, elektrolit, dan urinalisis", "Darah rutin, pungsi lumbal, glukosa darah, elektrolit, urinalisis, dan CT scan kepala"],
+                "correctAnswer": 2,
+                "explanation": "Kejang fokal berulang pada bayi <1 tahun dengan demam tinggi mewajibkan pemeriksaan untuk menyingkirkan meningitis (Pungsi Lumbal) dan ketidakseimbangan metabolik (Glukosa, Elektrolit, Urinalisis). CT Scan kepala umumnya tidak diindikasikan secara rutin kecuali ada tanda peningkatan TIK yang jelas."
+              },
+              {
+                "id": 11,
+                "question": "Seorang anak balita dievaluasi kesadarannya di IGD setelah terjatuh. Pada pemeriksaan Pediatric Glasgow Coma Scale (PGCS), didapatkan respons motorik menghindar hanya saat diberikan stimulus nyeri, mata membuka secara spontan tanpa perlu ditepuk/dipanggil, dan secara verbal anak terus menangis serta tampak iritabel. Berapakah skor PGCS pasien tersebut?",
+                "options": ["10", "11", "12", "13", "14"],
+                "correctAnswer": 2,
+                "explanation": "Eye: Terbuka spontan (Skor 4). Verbal: Menangis/iritabel (Skor 4). Motor: Menghindar terhadap nyeri/withdrawal (Skor 4). Total = 12."
+              },
+              {
+                "id": 12,
+                "question": "Seorang pemuda berusia 25 tahun menjalani perekaman EKG. Ditemukan denyut jantung rata-rata 60 kali/menit dengan gambaran interval R-R yang bervariasi secara reguler (ireguler secara periodik). Diketahui bahwa variasi denyut jantung ini berkaitan erat dengan fase respirasi pasien tanpa adanya blok atrioventrikular. Apakah mekanisme fisiologis yang mendasari variasi tersebut?",
+                "options": ["Denyut jantung menurun saat inspirasi dan meningkat saat ekspirasi", "Ireguleritas murni terjadi karena pergerakan artefak otot pernapasan", "Denyut jantung meningkat saat inspirasi dan menurun saat ekspirasi", "Terjadi hambatan impuls yang progresif pada nodus atrioventrikular", "Terdapat hambatan aliran listrik pada cabang berkas His kanan"],
+                "correctAnswer": 2,
+                "explanation": "Kasus ini menjelaskan Sinus Arrhythmia pernapasan yang fisiologis. Saat inspirasi, tonus vagal menurun sehingga HR meningkat; saat ekspirasi, tonus vagal meningkat sehingga HR menurun."
+              },
+              {
+                "id": 13,
+                "question": "Seorang laki-laki berusia 56 tahun tiba-tiba mengalami kelemahan pada tungkai bawah (paraparesis inferior), gangguan berjalan (gait apraxia), serta inkontinensia urin. Tidak didapatkan kelemahan yang signifikan pada lengan atas. Berdasarkan presentasi klinis tersebut, area vaskularisasi arteri manakah yang paling mungkin mengalami infark/oklusi?",
+                "options": ["Arteri serebri interna", "Arteri serebri anterior", "Arteri serebri media", "Arteri serebri posterior", "Arteri vertebrobasilar"],
+                "correctAnswer": 1,
+                "explanation": "Infark pada teritori Anterior Cerebral Artery (ACA) khas memberikan gejala kelemahan motorik dan sensorik kontralateral yang jauh lebih berat pada tungkai (ekstremitas bawah) dibandingkan lengan, disertai kelainan perilaku, apraksia berjalan, dan inkontinensia."
+              },
+              {
+                "id": 14,
+                "question": "Pada pasien pasca-tiroidektomi total, dokter melakukan pengetukan pada nervus fasialis di anterior telinga dan mengamati adanya kedutan otot wajah spontan (Chvostek's sign positif). Temuan ini sangat mengarah pada kondisi hipokalsemia. Apakah tanda klinis spesifik lainnya yang dapat diinduksi untuk mengkonfirmasi kondisi elektrolit tersebut?",
+                "options": ["Trousseau's sign", "Kernig's sign", "Brudzinski's sign", "Babinski's sign", "Hoffman's sign"],
+                "correctAnswer": 0,
+                "explanation": "Trousseau\'s sign dievaluasi dengan memompa manset sfigmomanometer di atas tekanan sistolik selama 3 menit, yang akan memicu spasme karpopedal pada pasien hipokalsemia."
+              },
+              {
+                "id": 15,
+                "question": "Seorang pasien dengan riwayat Penyakit Ginjal Kronik (CKD) stadium akhir datang dengan letargi, disorientasi, dan mioklonus. Pasien didiagnosis dengan ensefalopati uremikum. Jika dilakukan pemeriksaan Elektroensefalografi (EEG), apakah temuan awal yang paling sering dijumpai pada ensefalopati metabolik ini?",
+                "options": ["Kemunculan gelombang lambat delta secara persisten", "Perlambatan pada frekuensi gelombang alfa dominan di posterior", "Kemunculan gelombang lambat theta secara difus", "Gelombang alfa intermiten pada area frontal", "Gambaran kompleks spike-and-wave 3 Hz"],
+                "correctAnswer": 1,
+                "explanation": "Pada stadium awal ensefalopati uremikum/metabolik, kelainan EEG yang paling dini terlihat adalah disorganisasi dan perlambatan (slowing) gelombang latar belakang (alfa) di area posterior."
+              },
+              {
+                "id": 16,
+                "question": "Seorang pasien laki-laki berusia 55 tahun tiba di IGD dengan onset hemiparesis kanan mendadak sejak 1 jam yang lalu. CT Scan kepala non-kontras menyingkirkan adanya perdarahan intrakranial. Dokter merencanakan pemberian terapi rekanalisasi. Apakah agen farmakologis yang memiliki efek langsung untuk melisiskan gumpalan trombus pada kasus stroke iskemik akut?",
+                "options": ["Aspirin", "Clopidogrel", "Alteplase", "Heparin", "Citicoline"],
+                "correctAnswer": 2,
+                "explanation": "Recombinant tissue plasminogen activator (rt-PA) seperti Alteplase adalah agen trombolitik yang bekerja langsung memecah/melisiskan trombus. Obat lain seperti aspirin atau clopidogrel hanya mencegah agregasi platelet lanjutan."
+              },
+              {
+                "id": 17,
+                "question": "Seorang bayi baru lahir menunjukkan fitur wajah dismorfik, ensefalopati progresif, letargi, dan kejang yang sulit diatasi. Dokter anak mencurigai bayi tersebut menderita Inborn Errors of Metabolism (IEM) yang muncul sejak lahir. Apakah patofisiologi utama yang sering menyebabkan kerusakan otak pada kelainan metabolik tersebut?",
+                "options": ["Disrupsi pelepasan neurotransmiter di celah sinaps", "Cedera sitotoksik akibat penumpukan metabolit toksik", "Inflamasi autoimun yang menargetkan mielin", "Infeksi oportunistik pada cairan serebrospinal", "Hiperperfusi serebral sekunder akibat asidosis"],
+                "correctAnswer": 1,
+                "explanation": "Pada kelainan bawaan metabolisme (IEM), ketiadaan atau defisiensi enzim tertentu menyebabkan terhentinya jalur metabolik. Hal ini memicu akumulasi prekursor atau substrat yang bersifat toksik bagi sel otak (seperti amonia atau asam organik), memicu kerusakan sitotoksik langsung"
+              }
+              ],
+              "2023": [
+              {
+                "id": 1,
+                "question": "Seorang bayi perempuan berusia 6 bulan dibawa ke IGD karena mengalami kejang pada lengan dan tangan kanannya. Suhu tubuh pasien tercatat 40°C. Berdasarkan alloanamnesis, ini adalah ketiga kalinya kejang terjadi dengan gejala yang serupa. Kejang berlangsung singkat, yaitu hanya sekitar 2 menit. Apakah jenis kejang yang paling tepat untuk mendeskripsikan kondisi pasien tersebut?",
+                "options": ["Berdasarkan alloanamnesis, ini adalah ketiga kalinya kejang terjadi dengan gejala yang serupa. Kejang berlangsung singkat, yaitu hanya sekitar 2 menit. Apakah jenis kejang yang paling tepat untuk mendeskripsikan kondisi pasien tersebut?", "Meningitis", "Kejang demam kompleks", "Status epileptikus", "Kejang demam sederhana"],
+                "correctAnswer": 3,
+                "explanation": "Sesuai dengan materi (meskipun gejalanya fokal, kunci pada rekapan mahasiswa mencatat ini sebagai Simple Febrile Seizure berdasarkan durasi < 15 menit dan suhu tinggi).*"
+              },
+              {
+                "id": 2,
+                "question": "Seorang pasien laki-laki berusia 45 tahun dicurigai mengalami infeksi sistem saraf pusat. Dokter menginstruksikan prosedur pungsi lumbal untuk mengambil spesimen cairan serebrospinal (CSF). Cairan tersebut ditampung ke dalam beberapa tabung terpisah sesuai protokol laboratorium. Apakah parameter utama yang diperiksa pada tabung pertama dari spesimen tersebut?",
+                "options": ["Protein total", "Hitung jenis leukosit (Differential Count)", "Hitung sel (Cell Count)", "Kultur bakteri", "Pewarnaan Gram"],
+                "correctAnswer": 0,
+                "explanation": "Tabung 1 pada pungsi lumbal umumnya dialokasikan untuk pemeriksaan kimiawi (protein dan glukosa). Tabung 2 untuk mikrobiologi, dan tabung 3 untuk sel/hematologi."
+              },
+              {
+                "id": 3,
+                "question": "Seorang wanita berusia 30 tahun datang ke poliklinik kandungan untuk konsultasi prakonsepsi. Ia memiliki riwayat melahirkan anak pertama dengan defek tabung saraf (spina bifida) dan saat ini sedang merencanakan kehamilan anak kedua. Dokter menyarankan suplementasi nutrisi spesifik untuk mencegah berulangnya kelainan kongenital tersebut. Apakah suplemen yang paling tepat diberikan pada pasien ini?",
+                "options": ["Asam valproat", "Asam folat", "Tiamin", "Vitamin B12", "Kalsium"],
+                "correctAnswer": 1,
+                "explanation": "Suplementasi folic acid perikonsepsional terbukti menurunkan insidensi Neural Tube Defects (NTD) setidaknya hingga 50%."
+              },
+              {
+                "id": 4,
+                "question": "Seorang pasien pria berusia 55 tahun menjalani pemeriksaan laboratorium rutin. Hasil panel metabolik menunjukkan kadar natrium serum yang rendah, namun pemeriksaan osmolalitas serum dalam batas normal. Pasien sama sekali tidak menunjukkan gejala neurologis (asimtomatik). Dokter mendiagnosis pasien dengan hiponatremia isotonik (pseudohiponatremia). Apakah kondisi yang paling mungkin mendasari fenomena tersebut?",
+                "options": ["Hipoglikemia", "Hiperlipidemia", "Hiperkalemia", "Penyalahgunaan diuretik", "Hiperkalsemia"],
+                "correctAnswer": 1,
+                "explanation": "Pseudohiponatremia (hiponatremia palsu/isotonik) sering kali disebabkan oleh hiperlipidemia atau hiperproteinemia berat yang menggantikan ruang air dalam serum."
+              },
+              {
+                "id": 5,
+                "question": "Seorang anak laki-laki dengan riwayat penyakit ginjal kronis stadium akhir dibawa ke IGD dengan penurunan kesadaran. Pasien diketahui melewatkan jadwal rutin hemodialisisnya. Pemeriksaan laboratorium menunjukkan adanya perburukan penumpukan ureum di dalam darah serta ketidakseimbangan elektrolit yang masif. Apakah komplikasi neurologis yang paling mungkin terjadi pada pasien ini?",
+                "options": ["Ensefalopati uremikum", "Hipoglikemia", "Hipokalemia", "Ensefalopati hepatikum", "Ensefalopati hipoksik-iskemik"],
+                "correctAnswer": 0,
+                "explanation": "Pasien gagal ginjal dengan penumpukan ureum parah yang melewatkan dialisis berisiko tinggi mengalami uremic encephalopathy."
+              },
+              {
+                "id": 6,
+                "question": "Seorang anak berusia 2 tahun dibawa ke IGD dalam keadaan kejang aktif. Berdasarkan anamnesis dari orang tua, anak tersebut sama sekali tidak mengalami demam sebelum atau saat kejang terjadi. Saat ini akses intravena belum terpasang pada pasien. Apakah obat lini pertama yang paling tepat untuk diberikan?",
+                "options": ["Fenobarbital", "Fenitoin", "Klonazepam", "Karbamazepin", "Asam valproat"],
+                "correctAnswer": 2,
+                "explanation": "Lini pertama untuk tatalaksana kejang adalah golongan Benzodiazepine (seperti Klonazepam, Midazolam, Lorazepam, Diazepam)."
+              },
+              {
+                "id": 7,
+                "question": "Seorang bayi baru lahir prematur dirawat di NICU karena mengalami asfiksia perinatal. Walaupun saat ini tingkat kesadarannya masih compos mentis, bayi tersebut memiliki risiko tinggi mengalami kerusakan seluler global akut akibat berkurangnya suplai oksigen dan aliran darah ke otak. Apakah diagnosis yang paling tepat untuk komplikasi neurologis yang diantisipasi pada kasus ini?",
+                "options": ["Ensefalopati hipoksik-iskemik", "Ensefalopati uremikum", "Ensefalopati hepatikum", "Ensefalopati hipertensif", "Ensefalopati metabolik"],
+                "correctAnswer": 0,
+                "explanation": "Asfiksia perinatal sangat berkaitan erat dengan perkembangan Hypoxic-Ischemic Encephalopathy (HIE) pada neonatus."
+              },
+              {
+                "id": 8,
+                "question": "Seorang pasien dengan riwayat epilepsi diresepkan obat antikonvulsan baru oleh dokter spesialis saraf. Dokter menjelaskan bahwa obat tersebut bekerja dengan cara menghambat enzim GABA transaminase secara ireversibel, sehingga kadar inhibitor neurotransmiter GABA di otak meningkat. Apakah nama obat yang diberikan pada pasien tersebut?",
+                "options": ["Gabapentin", "Lamotrigin", "Levetirasetam", "Vigabatrin", "Topiramat"],
+                "correctAnswer": 3,
+                "explanation": "Vigabatrin (-vinyl-GABA) adalah inhibitor GABA transaminase ireversibel."
+              },
+              {
+                "id": 9,
+                "question": "Seorang pasien pascastroke mengalami gangguan komunikasi. Pasien tampak kesulitan dan membutuhkan usaha keras untuk memproduksi kata-kata secara verbal, namun pemahamannya terhadap perintah atau percakapan masih relatif baik. Dokter mendiagnosis pasien dengan Afasia Broca. Di manakah letak lesi anatomis yang paling mungkin mendasari kondisi tersebut?",
+                "options": ["Girus frontalis inferior", "Girus temporalis superior", "Girus temporalis transversus", "Girus presentralis", "Girus postsentralis"],
+                "correctAnswer": 0,
+                "explanation": "Area Broca (motorik untuk bicara) terletak di inferior frontal gyrus (pars triangularis / opercularis)."
+              },
+              {
+                "id": 10,
+                "question": "Seorang wanita berusia 40 tahun datang ke klinik dengan keluhan sakit kepala yang terus-menerus. Ia mengaku sering mengonsumsi obat pereda nyeri yang dibeli bebas (OTC) selama 2 tahun terakhir yang awalnya meredakan gejala. Namun, kini sakit kepalanya menjadi jauh lebih hebat, disertai muntah dan penurunan fungsi kognitif. Berdasarkan pola perjalanan penyakitnya, apakah klasifikasi diagnosis yang paling tepat?",
+                "options": ["Eksaserbasi akut kronis", "Kronik progresif", "Subakut progresif", "Akut progresif", "Kronik non-progresif"],
+                "correctAnswer": 1,
+                "explanation": "Nyeri kepala akibat penggunaan analgetik berlebih (MOH) yang berlangsung tahunan dan memburuk dengan defisit kognitif digolongkan dalam pola kronik progresif."
+              },
+              {
+                "id": 11,
+                "question": "Seorang pria berusia 35 tahun dibawa ke IGD pascakecelakaan lalu lintas. Saat dinilai tingkat kesadarannya, pasien hanya membuka mata ketika namanya dipanggil keras. Saat ditanya keluhannya, pasien memberikan jawaban yang tidak sesuai (inappropriate words). Pada penilaian motorik, pasien menggerakkan tangan untuk melokalisasi nyeri saat diberikan rangsangan sternal, namun tidak dapat mengikuti perintah verbal. Berapakah skor Glasgow Coma Scale (GCS) pada pasien ini?",
+                "options": ["E3V3M5", "E3V2M4", "E2V2M3", "E2V2M5", "E2V3M4"],
+                "correctAnswer": 0,
+                "explanation": "Buka mata saat dipanggil = E3; Menjawab tidak sesuai (inappropriate words) = V3; Melokalisasi nyeri tanpa komando = M5."
+              },
+              {
+                "id": 12,
+                "question": "Seorang pria berusia 50 tahun dibawa oleh keluarganya ke IGD karena mengalami kejang. Menurut keterangan keluarga, kejang bermula dengan tangan kanannya yang mendadak menjadi sangat kaku. Selama serangan tersebut berlangsung, pasien juga mengalami kehilangan kesadaran penuh. Berdasarkan presentasi klinis tersebut, apakah tipe kejang yang dialami pasien?",
+                "options": ["Kejang umum tonik-klonik", "Kejang umum tonik", "Kejang umum klonik", "Kejang fokal tonik", "Kejang fokal klonik"],
+                "correctAnswer": 3,
+                "explanation": "Kejang bermula pada satu sisi anggota gerak (fokal) dan menimbulkan kekakuan (tonik)."
+              },
+              {
+                "id": 13,
+                "question": "Seorang dokter spesialis radiologi sedang mengevaluasi gambar otak dari seorang pasien yang dicurigai mengalami stroke iskemik hiperakut. Gambar tersebut menampilkan resolusi jaringan lunak yang sangat baik dengan berbagai sekuens pembobotan seperti T1, T2, dan DWI (Diffusion Weighted Imaging). Apakah modalitas pencitraan yang sedang dievaluasi oleh dokter tersebut?",
+                "options": ["MRI", "CT Scan", "USG", "PET Scan", "X-Ray"],
+                "correctAnswer": 0,
+                "explanation": "Modalitas yang mengandalkan sekuens seperti T1, T2, FLAIR, DWI, dan ADC adalah Magnetic Resonance Imaging (MRI)."
+              },
+              {
+                "id": 14,
+                "question": "Seorang pria berusia 60 tahun dengan riwayat hipertensi datang ke IGD dengan kelemahan separuh tubuh mendadak. Pada pemeriksaan CT scan kepala tanpa kontras (NCCT), ditemukan lesi hiperdens yang dikelilingi edema. Selanjutnya, pada MRI sekuens T2 FLAIR, terlihat area yang terang (bright) di lobus parietal. Apakah kemungkinan temuan patologis utama pada pasien ini?",
+                "options": ["Perdarahan intraserebral", "Perdarahan subdural", "Angiopati hipertensif", "Malformasi arteriovenosa", "Angiopati amiloid"],
+                "correctAnswer": 0,
+                "explanation": "Gambaran CT hiperdens (darah) yang dikelilingi area hipodens (edema perifokal) mengindikasikan Intracerebral Hemorrhage (ICH)."
+              },
+              {
+                "id": 15,
+                "question": "Seorang pasien datang ke IGD dengan kebingungan mental akut. Tanda vital menunjukkan tekanan darah 210/110 mmHg. Hasil laboratorium menunjukkan glukosa darah 100 mg/dL, leukosit 9.000/µL, dan hipoalbuminemia berat akibat sindrom nefrotik. Dokter mencurigai adanya ekstravasasi cairan akibat penurunan tekanan onkotik plasma dan permeabilitas vaskular yang tinggi akibat kondisi tekanan darah. Apakah diagnosis komplikasi yang paling mungkin?",
+                "options": ["Ensefalopati hipertensif", "Ensefalopati uremikum", "Ensefalopati metabolik", "Ensefalopati hepatikum", "Ensefalopati hipoksik-iskemik"],
+                "correctAnswer": 0,
+                "explanation": "Pasien sindrom nefrotik dengan hipoalbuminemia memiliki penurunan tekanan onkotik, yang bersamaan dengan lonjakan tekanan darah (210/110), sangat rentan menjadi ensefalopati hipertensif."
+              },
+              {
+                "id": 16,
+                "question": "Seorang anak laki-laki berusia 12 tahun dibawa ke IGD karena sakit kepala hebat yang timbul mendadak disertai muntah sebanyak 4 kali. Tanda vital: TD 140/80 mmHg, HR 98 x/menit, RR 22 x/menit. Hasil pencitraan kepala menunjukkan adanya lesi hipodens yang disertai perdarahan dengan estimasi volume 25 cc. Apakah kemungkinan penyebab kondisi pada pasien tersebut?",
+                "options": ["Aneurisma serebral", "Perdarahan intratumoral", "Angiopati amiloid", "Malformasi arteriovenosa", "Infark serebral luas"],
+                "correctAnswer": 1,
+                "explanation": "Lesi hipodens pada CT scan dapat mengindikasikan edema atau jaringan tumor, yang bila disertai perdarahan volume terukur sering dikaitkan dengan intratumoral hemorrhage"
+              }
+              ]
+            }
           }
         }
       },
