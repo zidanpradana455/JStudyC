@@ -1,13 +1,16 @@
 /* JStudyC — Quiz Engine */
-(function () {
+(async function () {
   'use strict';
 
   // ── Session check ──
-  const session = JSON.parse(localStorage.getItem('jstudyc_session'));
-  if (!session) { window.location.href = 'index.html'; return; }
+  const backend = window.JStudyCBackend;
+  const supabase = backend.supabase;
+  const user = await backend.requireCurrentUser();
+  if (!user) return;
 
   // ── Logout ──
-  document.getElementById('btnLogout').addEventListener('click', () => {
+  document.getElementById('btnLogout').addEventListener('click', async () => {
+    await supabase.auth.signOut();
     localStorage.removeItem('jstudyc_session');
     window.location.href = 'index.html';
   });
@@ -57,25 +60,42 @@
 
   // Handle randomization and state
   const progressKey = `${blockId}_${examId}_${typeId}_${year}`;
-  let questions = JSON.parse(localStorage.getItem('jstudyc_quiz_data_' + progressKey) || 'null');
 
-  if (!questions) {
-    // Deep clone to avoid mutating original data
-    questions = JSON.parse(JSON.stringify(rawQuestions));
-    
-    // Shuffle options for each question
-    questions.forEach(q => {
-      const correctText = q.options[q.correctAnswer];
-      for (let i = q.options.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [q.options[i], q.options[j]] = [q.options[j], q.options[i]];
-      }
-      q.correctAnswer = q.options.indexOf(correctText);
-    });
-    
-    // Save shuffled questions to ensure consistency across reloads
-    localStorage.setItem('jstudyc_quiz_data_' + progressKey, JSON.stringify(questions));
+  function hashString(text) {
+    let hash = 2166136261;
+    for (let i = 0; i < text.length; i++) {
+      hash ^= text.charCodeAt(i);
+      hash = Math.imul(hash, 16777619);
+    }
+    return hash >>> 0;
   }
+
+  function seededRandom(seed) {
+    return function () {
+      seed += 0x6D2B79F5;
+      let t = seed;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function shuffleWithSeed(items, seedText) {
+    const result = [...items];
+    const random = seededRandom(hashString(seedText));
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  }
+
+  const questions = JSON.parse(JSON.stringify(rawQuestions));
+  questions.forEach((q, index) => {
+    const correctText = q.options[q.correctAnswer];
+    q.options = shuffleWithSeed(q.options, `${user.id}_${progressKey}_${q.id || index}`);
+    q.correctAnswer = q.options.indexOf(correctText);
+  });
 
   // ── Quiz state ──
   let currentIndex = 0;
@@ -85,12 +105,19 @@
   let wrongCount = 0;
 
   // ── Load previous progress for this set ──
-  const savedState = JSON.parse(localStorage.getItem('jstudyc_quiz_' + progressKey) || 'null');
+  const { data: savedState, error: savedStateError } = await supabase
+    .from('quiz_progress')
+    .select('answers, flagged, correct')
+    .eq('user_id', user.id)
+    .eq('progress_key', progressKey)
+    .maybeSingle();
+  if (savedStateError) console.error(savedStateError);
+
   if (savedState) {
-    savedState.answers.forEach((a, i) => { answers[i] = a; });
-    savedState.flagged.forEach(f => flagged.add(f));
-    correctCount = savedState.correct;
-    wrongCount = savedState.wrong;
+    (savedState.answers || []).forEach((a, i) => { answers[i] = a; });
+    (savedState.flagged || []).forEach(f => flagged.add(f));
+    correctCount = savedState.correct || 0;
+    wrongCount = answers.filter(a => a !== null).length - correctCount;
   }
 
   // ── Set header ──
@@ -149,23 +176,29 @@
   }
 
   // ── Save state ──
-  function saveState() {
-    const state = {
-      answers: [...answers],
-      flagged: [...flagged],
-      correct: correctCount,
-      wrong: wrongCount
-    };
-    localStorage.setItem('jstudyc_quiz_' + progressKey, JSON.stringify(state));
+  async function saveState() {
+    const answered = answers.filter(a => a !== null).length;
+    const { error } = await supabase
+      .from('quiz_progress')
+      .upsert({
+        user_id: user.id,
+        progress_key: progressKey,
+        block_id: blockId,
+        exam_id: examId,
+        type_id: typeId,
+        quiz_year: year,
+        answered,
+        correct: correctCount,
+        total: questions.length,
+        answers: [...answers],
+        flagged: [...flagged],
+        updated_at: new Date().toISOString()
+      });
 
-    // Also update overall progress
-    const progress = JSON.parse(localStorage.getItem('jstudyc_progress') || '{}');
-    progress[progressKey] = {
-      answered: answers.filter(a => a !== null).length,
-      correct: correctCount,
-      total: questions.length
-    };
-    localStorage.setItem('jstudyc_progress', JSON.stringify(progress));
+    if (error) {
+      console.error(error);
+      showToast('Progres belum tersimpan. Cek koneksi.');
+    }
   }
 
   // ── Render question ──
@@ -274,18 +307,23 @@
     window.location.href = 'dashboard.html';
   });
 
-  btnRetake.addEventListener('click', () => {
+  btnRetake.addEventListener('click', async () => {
     // Clear specific quiz state
     localStorage.removeItem('jstudyc_quiz_' + progressKey);
     localStorage.removeItem('jstudyc_quiz_data_' + progressKey);
-    
-    // Clear from overall progress
-    const progress = JSON.parse(localStorage.getItem('jstudyc_progress') || '{}');
-    if (progress[progressKey]) {
-      delete progress[progressKey];
-      localStorage.setItem('jstudyc_progress', JSON.stringify(progress));
+
+    const { error } = await supabase
+      .from('quiz_progress')
+      .delete()
+      .eq('user_id', user.id)
+      .eq('progress_key', progressKey);
+
+    if (error) {
+      console.error(error);
+      showToast('Progres belum bisa direset. Coba lagi.');
+      return;
     }
-    
+
     // Hide modal and reload
     resultModal.classList.remove('show');
     window.location.reload();

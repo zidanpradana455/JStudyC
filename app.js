@@ -3,8 +3,11 @@
    Particles, Animations, Auth, Mobile Menu
    ═══════════════════════════════════════════ */
 
-(function () {
+(async function () {
   'use strict';
+
+  const backend = window.JStudyCBackend;
+  const supabase = backend.supabase;
 
   // ─── Particle Canvas System ───
   const canvas = document.getElementById('particle-canvas');
@@ -250,9 +253,31 @@
     el.classList.add('show');
   }
 
+  function getAuthMessage(error) {
+    if (!error) return 'Terjadi kesalahan. Coba lagi.';
+    const msg = error.message || '';
+    if (msg.toLowerCase().includes('invalid login credentials')) return 'Email atau password salah';
+    if (msg.toLowerCase().includes('already registered')) return 'Email sudah terdaftar';
+    if (msg.toLowerCase().includes('password')) return 'Password belum memenuhi syarat';
+    return msg;
+  }
+
+  function setButtonLoading(button, isLoading, text) {
+    if (!button) return;
+    if (isLoading) {
+      button.dataset.originalText = button.textContent;
+      button.textContent = text;
+      button.disabled = true;
+    } else {
+      button.textContent = button.dataset.originalText || button.textContent;
+      button.disabled = false;
+    }
+  }
+
   // Register
-  document.getElementById('btnRegister').addEventListener('click', () => {
+  document.getElementById('btnRegister').addEventListener('click', async () => {
     clearErrors();
+    const button = document.getElementById('btnRegister');
     const name = document.getElementById('regName').value.trim();
     const email = document.getElementById('regEmail').value.trim();
     const password = document.getElementById('regPassword').value;
@@ -262,23 +287,40 @@
     if (password.length < 6) { showError('regPasswordError', 'Minimal 6 karakter'); valid = false; }
     if (!valid) return;
 
-    // Save to localStorage
-    const users = JSON.parse(localStorage.getItem('jstudyc_users') || '[]');
-    if (users.find(u => u.email === email)) {
-      showError('regEmailError', 'Email sudah terdaftar');
+    setButtonLoading(button, true, 'Mendaftarkan...');
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: {
+        data: { name }
+      }
+    });
+
+    if (error) {
+      showError('regEmailError', getAuthMessage(error));
+      setButtonLoading(button, false);
       return;
     }
-    users.push({ name, email, password });
-    localStorage.setItem('jstudyc_users', JSON.stringify(users));
-    localStorage.setItem('jstudyc_session', JSON.stringify({ name, email }));
+
+    if (data.session && data.user) {
+      await backend.ensureProfile(data.user, name);
+      localStorage.removeItem('jstudyc_session');
+      localStorage.removeItem('jstudyc_users');
+      closeModal();
+      showToast('Registrasi berhasil! Mengalihkan...');
+      setTimeout(() => { window.location.href = 'dashboard.html'; }, 800);
+      return;
+    }
+
     closeModal();
-    showToast('Registrasi berhasil! Mengalihkan...');
-    setTimeout(() => { window.location.href = 'dashboard.html'; }, 800);
+    showToast('Registrasi berhasil. Cek email untuk konfirmasi akun.');
+    setButtonLoading(button, false);
   });
 
   // Login
-  document.getElementById('btnLogin').addEventListener('click', () => {
+  document.getElementById('btnLogin').addEventListener('click', async () => {
     clearErrors();
+    const button = document.getElementById('btnLogin');
     const email = document.getElementById('loginEmail').value.trim();
     const password = document.getElementById('loginPassword').value;
     let valid = true;
@@ -286,13 +328,21 @@
     if (!password) { showError('loginPasswordError', 'Password wajib diisi'); valid = false; }
     if (!valid) return;
 
-    const users = JSON.parse(localStorage.getItem('jstudyc_users') || '[]');
-    const user = users.find(u => u.email === email && u.password === password);
-    if (!user) {
-      showError('loginPasswordError', 'Email atau password salah');
+    setButtonLoading(button, true, 'Masuk...');
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password
+    });
+
+    if (error) {
+      showError('loginPasswordError', getAuthMessage(error));
+      setButtonLoading(button, false);
       return;
     }
-    localStorage.setItem('jstudyc_session', JSON.stringify({ name: user.name, email: user.email }));
+
+    await backend.ensureProfile(data.user);
+    localStorage.removeItem('jstudyc_session');
+    localStorage.removeItem('jstudyc_users');
     closeModal();
     showToast('Selamat datang kembali! Mengalihkan...');
     setTimeout(() => { window.location.href = 'dashboard.html'; }, 800);
@@ -311,9 +361,10 @@
   }
 
   // Check session on load
-  const session = JSON.parse(localStorage.getItem('jstudyc_session'));
-  if (session && session.name) {
-    updateNavForLoggedIn(session.name);
+  const user = await backend.getCurrentUser();
+  if (user) {
+    const profile = await backend.ensureProfile(user);
+    updateNavForLoggedIn(profile.name);
   }
 
   // ─── Smooth scroll for anchor links ───

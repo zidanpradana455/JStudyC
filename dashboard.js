@@ -1,14 +1,18 @@
 /* JStudyC — Dashboard Logic */
-(function () {
+(async function () {
   'use strict';
 
   // ── Session check ──
-  const session = JSON.parse(localStorage.getItem('jstudyc_session'));
-  if (!session) { window.location.href = 'index.html'; return; }
-  document.getElementById('userName').textContent = session.name;
+  const backend = window.JStudyCBackend;
+  const supabase = backend.supabase;
+  const user = await backend.requireCurrentUser();
+  if (!user) return;
+  const profile = await backend.ensureProfile(user);
+  document.getElementById('userName').textContent = profile.name;
 
   // ── Logout ──
-  document.getElementById('btnLogout').addEventListener('click', () => {
+  document.getElementById('btnLogout').addEventListener('click', async () => {
+    await supabase.auth.signOut();
     localStorage.removeItem('jstudyc_session');
     window.location.href = 'index.html';
   });
@@ -38,7 +42,30 @@
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
   // ── Progress tracking ──
-  function getProgress() { return JSON.parse(localStorage.getItem('jstudyc_progress') || '{}'); }
+  let progressCache = {};
+
+  async function loadProgress() {
+    const { data, error } = await supabase
+      .from('quiz_progress')
+      .select('progress_key, answered, correct, total')
+      .eq('user_id', user.id);
+
+    if (error) {
+      console.error(error);
+      return {};
+    }
+
+    return (data || []).reduce((acc, item) => {
+      acc[item.progress_key] = {
+        answered: item.answered,
+        correct: item.correct,
+        total: item.total
+      };
+      return acc;
+    }, {});
+  }
+
+  function getProgress() { return progressCache; }
 
   function updateOverallStats() {
     const progress = getProgress();
@@ -104,6 +131,7 @@
     });
   });
 
+  progressCache = await loadProgress();
   renderExamContent(currentExam);
   updateOverallStats();
 })();
