@@ -213,7 +213,7 @@
 .quiz-page {
   padding: 80px 0 40px;
   position: relative;
-  z-index: 1;
+  z-index: auto;
   min-height: 100vh;
 }
 .quiz-layout {
