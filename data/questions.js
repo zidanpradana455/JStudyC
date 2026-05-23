@@ -760,7 +760,7 @@ const QUESTION_DATA = {
               {
                 "id": 13,
                 "question": "Seorang bayi berusia 14 bulan dibawa ke IGD setelah mengalami kejang kelojotan seluruh tubuh. Orang tua melaporkan bayi demam tinggi sejak semalam disertai batuk, dengan suhu tiba di IGD $40^{\circ}$C. Saat diperiksa pasien telah sadar (compos mentis) dan tidak ada tanda rangsang meningeal. Riwayat menunjukkan kejang ini merupakan episode kedua dalam 24 jam terakhir dengan pola yang sama. Apakah diagnosis yang paling tepat?",
-                "options": ["Saat diperiksa pasien telah sadar (compos mentis) dan tidak ada tanda rangsang meningeal. Riwayat menunjukkan kejang ini merupakan episode kedua dalam 24 jam terakhir dengan pola yang sama. Apakah diagnosis yang paling tepat?", "Kejang demam kompleks", "Kejang demam sederhana", "Epilepsi fokal berulang", "Febrile provoked epilepsy"],
+                "options": ["Kejang demam kompleks", "Kejang demam sederhana", "Epilepsi fokal berulang", "Febrile provoked epilepsy", "Meningoensefalitis viral"],
                 "correctAnswer": 0,
                 "explanation": "Karena kejang terjadi lebih dari 1 kali (dua kali) dalam durasi 24 jam dengan adanya provokasi demam tanpa infeksi intrakranial, diagnosisnya adalah kejang demam kompleks."
               },
@@ -795,7 +795,7 @@ const QUESTION_DATA = {
               {
                 "id": 18,
                 "question": "Pasien laki-laki berusia 65 tahun tiba di ruang resusitasi IGD. Istri pasien melaporkan bahwa saat di jalan (sekitar 10 menit menuju RS), pasien mengalami kejang kelojotan selama 5 menit penuh tanpa sadar. Saat tiba, pasien terdengar snoring dan kesadaran masih menurun. Berdasarkan prinsip tatalaksana kegawatdaruratan neurologis, apakah tindakan prioritas yang harus dilakukan pertama kali?",
-                "options": ["Istri pasien melaporkan bahwa saat di jalan (sekitar 10 menit menuju RS), pasien mengalami kejang kelojotan selama 5 menit penuh tanpa sadar. Saat tiba, pasien terdengar snoring dan kesadaran masih menurun. Berdasarkan prinsip tatalaksana kegawatdaruratan neurologis, apakah tindakan prioritas yang harus dilakukan pertama kali?", "Pemeriksaan fisik dari kepala hingga kaki secara lengkap", "Mengamankan jalan napas dan menghentikan kejang jika masih berlangsung", "Mengambil sampel darah arteri untuk analisis gas darah", "Mendorong pasien langsung ke ruang CT-scan terdekat"],
+                "options": ["Pemeriksaan fisik dari kepala hingga kaki secara lengkap", "Mengamankan jalan napas dan menghentikan kejang jika masih berlangsung", "Mengambil sampel darah arteri untuk analisis gas darah", "Mendorong pasien langsung ke ruang CT-scan terdekat", "Memasang kateter vena sentral untuk pemberian akses cairan masif"],
                 "correctAnswer": 1,
                 "explanation": "Prioritas resusitasi (Primary Survey) ABC selalu mendahului diagnostik (seperti CT-scan atau darah lengkap). Mengamankan jalan napas (terutama karena ada snoring indikasi sumbatan jalan napas atas) adalah langkah paling awal."
               },
@@ -881,7 +881,7 @@ const QUESTION_DATA = {
               {
                 "id": 10,
                 "question": "Bayi perempuan berusia 6 bulan dibawa ke IGD karena mengalami kejang pada lengan dan tangan kanan. Ibunya menyatakan ini adalah kejang ketiga kalinya dengan pola yang sama pada hari ini. Suhu tubuh 40°C. Pemeriksaan fisik menunjukkan pasien kompos mentis dan tanda rangsang meningeal negatif. Apakah rencana pemeriksaan penunjang diagnostik yang paling komprehensif dan tepat diindikasikan?",
-                "options": ["Pemeriksaan fisik menunjukkan pasien kompos mentis dan tanda rangsang meningeal negatif. Apakah rencana pemeriksaan penunjang diagnostik yang paling komprehensif dan tepat diindikasikan?", "Darah rutin saja", "Darah rutin, pungsi lumbal, dan glukosa darah", "Darah rutin, pungsi lumbal, glukosa darah, elektrolit, dan urinalisis", "Darah rutin, pungsi lumbal, glukosa darah, elektrolit, urinalisis, dan CT scan kepala"],
+                "options": ["Darah rutin saja", "Darah rutin, pungsi lumbal, dan glukosa darah", "Darah rutin, pungsi lumbal, glukosa darah, elektrolit, dan urinalisis", "Darah rutin, pungsi lumbal, glukosa darah, elektrolit, urinalisis, dan CT scan kepala", "Pemeriksaan EEG dan MRI Kepala"],
                 "correctAnswer": 2,
                 "explanation": "Kejang fokal berulang pada bayi <1 tahun dengan demam tinggi mewajibkan pemeriksaan untuk menyingkirkan meningitis (Pungsi Lumbal) dan ketidakseimbangan metabolik (Glukosa, Elektrolit, Urinalisis). CT Scan kepala umumnya tidak diindikasikan secara rutin kecuali ada tanda peningkatan TIK yang jelas."
               },
@@ -939,7 +939,7 @@ const QUESTION_DATA = {
               {
                 "id": 1,
                 "question": "Seorang bayi perempuan berusia 6 bulan dibawa ke IGD karena mengalami kejang pada lengan dan tangan kanannya. Suhu tubuh pasien tercatat 40°C. Berdasarkan alloanamnesis, ini adalah ketiga kalinya kejang terjadi dengan gejala yang serupa. Kejang berlangsung singkat, yaitu hanya sekitar 2 menit. Apakah jenis kejang yang paling tepat untuk mendeskripsikan kondisi pasien tersebut?",
-                "options": ["Berdasarkan alloanamnesis, ini adalah ketiga kalinya kejang terjadi dengan gejala yang serupa. Kejang berlangsung singkat, yaitu hanya sekitar 2 menit. Apakah jenis kejang yang paling tepat untuk mendeskripsikan kondisi pasien tersebut?", "Meningitis", "Kejang demam kompleks", "Status epileptikus", "Kejang demam sederhana"],
+                "options": ["Meningitis", "Kejang demam kompleks", "Status epileptikus", "Kejang demam sederhana", "Epilepsi fokal"],
                 "correctAnswer": 3,
                 "explanation": "Sesuai dengan materi (meskipun gejalanya fokal, kunci pada rekapan mahasiswa mencatat ini sebagai Simple Febrile Seizure berdasarkan durasi < 15 menit dan suhu tinggi).*"
               },
