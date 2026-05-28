@@ -390,6 +390,7 @@
   font-size: 0.9rem;
   color: var(--text-secondary);
   line-height: 1.7;
+  white-space: pre-line;
 }
 .explanation-result {
   display: inline-flex;
@@ -408,6 +409,20 @@
 .explanation-result.wrong-result {
   background: rgba(239, 68, 68, 0.15);
   color: #ef4444;
+}
+.lecture-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: rgba(99, 102, 241, 0.12);
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #818cf8;
+  margin-bottom: 12px;
+  letter-spacing: 0.02em;
 }
 
 /* ── Question Navigation ── */

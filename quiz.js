@@ -97,6 +97,26 @@
     q.correctAnswer = q.options.indexOf(correctText);
   });
 
+  function getLectureLine(q) {
+    const parts = [];
+    if (q.lectureNumber) parts.push(`Lecture ${q.lectureNumber}`);
+    if (q.lecture) parts.push(q.lecture);
+    return parts.length ? parts.join(': ') : '';
+  }
+
+  function formatExplanation(q) {
+    const explanation = q.explanation || '';
+    const lectureLine = getLectureLine(q);
+    if (!lectureLine) return explanation;
+
+    const trimmed = explanation.trimStart();
+    if (trimmed.startsWith(lectureLine) || /^Lecture\s+\d+\s*:/.test(trimmed)) {
+      return explanation;
+    }
+
+    return `${lectureLine}\n\n${explanation}`;
+  }
+
   // ── Quiz state ──
   let currentIndex = 0;
   const answers = new Array(questions.length).fill(null); // user's selected answer index
@@ -235,7 +255,7 @@
       const isCorrect = answers[currentIndex] === q.correctAnswer;
       explanationResult.textContent = isCorrect ? '✓ Jawaban Benar!' : '✗ Jawaban Salah';
       explanationResult.className = 'explanation-result ' + (isCorrect ? 'correct-result' : 'wrong-result');
-      explanationText.textContent = q.explanation;
+      explanationText.textContent = formatExplanation(q);
     } else {
       explanationBox.classList.remove('show');
     }
