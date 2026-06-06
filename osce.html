@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OSCE Mini Semester 4 — JStudyC</title>
+  <meta name="description" content="Mini OSCE Semester 4 - Rubrik Penilaian Interaktif dengan Timer 12 Menit">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="osce.css">
+  <link rel="icon" href="assets/logo.png">
+  <script src="theme.js"></script>
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Navbar -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/logo.png" alt="Logo" class="logo-img">
+        <div class="logo-text">JStudy<span>C</span></div>
+      </a>
+      <div class="navbar-links" id="navLinks">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="osce.html" class="nav-active">OSCE</a>
+        <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- OSCE Content -->
+  <main class="osce-page">
+    <div class="container">
+
+      <!-- Print Header (only visible when printing) -->
+      <div class="print-header">
+        <h1>RUBRIK PENILAIAN OSCE</h1>
+        <p id="printRubrikName">Mini OSCE Semester 4</p>
+      </div>
+      <div class="print-info">
+        <div><span class="label">Penguji:</span> <span id="printPenguji">-</span></div>
+        <div><span class="label">Peserta Ujian:</span> <span id="printPeserta">-</span></div>
+        <div><span class="label">Tanggal:</span> <span id="printDate">-</span></div>
+        <div><span class="label">Waktu:</span> <span id="printTime">-</span></div>
+      </div>
+
+      <!-- VIEW 1: Station Selection -->
+      <div id="viewStations">
+        <div class="osce-header reveal">
+          <h1 class="dash-title">Mini OSCE Semester 4</h1>
+          <div class="osce-breadcrumb">
+            <a href="dashboard.html">Dashboard</a>
+            <span class="separator">›</span>
+            <span>OSCE</span>
+            <span class="separator">›</span>
+            <span>Mini OSCE Semester 4</span>
+          </div>
+        </div>
+
+        <div class="stations-grid" id="stationsGrid">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- VIEW 2: Rubrik Selection (for a station) -->
+      <div id="viewRubriks" class="view-hidden">
+        <button class="osce-btn-back" id="btnBackToStations">
+          ← Kembali ke Station
+        </button>
+
+        <div class="osce-header">
+          <h1 class="dash-title" id="stationTitle">Station 1</h1>
+          <div class="osce-breadcrumb">
+            <a href="dashboard.html">Dashboard</a>
+            <span class="separator">›</span>
+            <a href="#" id="breadcrumbOsce">OSCE</a>
+            <span class="separator">›</span>
+            <span id="breadcrumbStation">Station 1</span>
+          </div>
+        </div>
+
+        <div class="rubrik-list" id="rubrikList">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- VIEW 3: Assessment (rubrik active) -->
+      <div id="viewAssessment" class="view-hidden">
+        
+        <!-- Timer Bar -->
+        <div class="timer-bar" id="timerBar">
+          <div class="container">
+            <div class="timer-inner">
+              <div class="timer-left">
+                <div class="timer-display" id="timerDisplay">12:00</div>
+                <div class="timer-info">
+                  <span class="timer-info-label">Penguji</span>
+                  <span class="timer-info-value" id="timerPenguji">-</span>
+                </div>
+                <div class="timer-info">
+                  <span class="timer-info-label">Peserta</span>
+                  <span class="timer-info-value" id="timerPeserta">-</span>
+                </div>
+              </div>
+              <div class="timer-progress">
+                <div class="timer-progress-bar" id="timerProgressBar" style="width: 100%"></div>
+              </div>
+              <div class="timer-controls">
+                <button class="timer-btn" id="btnTimerPause">⏸ Pause</button>
+                <button class="timer-btn" id="btnTimerReset">↺ Reset</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="osce-btn-back" id="btnBackToRubriks">
+          ← Kembali ke Rubrik
+        </button>
+
+        <!-- Scenario -->
+        <div class="scenario-box" id="scenarioBox">
+          <div class="scenario-badge" id="scenarioBadge">Skenario Klinik</div>
+          <h3 class="scenario-title" id="scenarioTitle"></h3>
+          <div class="scenario-text" id="scenarioText"></div>
+          <div class="scenario-tasks" id="scenarioTasks">
+            <h4>TUGAS:</h4>
+            <ol id="scenarioTaskList"></ol>
+          </div>
+          <button class="scenario-toggle" id="btnToggleScenario">Sembunyikan Skenario</button>
+        </div>
+
+        <!-- Rubrik Items -->
+        <div class="rubrik-section">
+          <div class="rubrik-section-title">I. Rubrik Penilaian</div>
+          <div id="rubrikItems">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Score Summary -->
+        <div class="score-summary" id="scoreSummary">
+          <div class="score-summary-header">
+            <div class="score-summary-title">Skor Total</div>
+            <div class="score-total">
+              <span class="score-total-value" id="scoreTotalValue">0</span>
+              <span class="score-total-max" id="scoreTotalMax">/0</span>
+              <span class="score-percentage" id="scorePercentage">(0%)</span>
+            </div>
+          </div>
+
+          <div class="score-breakdown" id="scoreBreakdown">
+            <!-- Dynamically populated -->
+          </div>
+
+          <!-- Global Rating -->
+          <div class="global-rating" id="globalRating">
+            <div class="global-rating-title">II. Global Rating</div>
+            <div class="global-rating-desc">Tanpa mempertimbangkan penilaian rubrik di atas, nilailah penampilan peserta ujian dalam melakukan keterampilan secara keseluruhan!</div>
+            <div class="global-rating-options">
+              <button class="global-rating-btn" data-rating="tidak-lulus">Tidak Lulus</button>
+              <button class="global-rating-btn" data-rating="borderline">Borderline</button>
+              <button class="global-rating-btn" data-rating="lulus">Lulus</button>
+              <button class="global-rating-btn" data-rating="superior">Superior</button>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="osce-actions">
+            <button class="osce-btn-print" id="btnPrint">🖨️ Cetak Rubrik</button>
+            <button class="osce-btn-reset" id="btnReset">↺ Reset Semua</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Pre-start Modal -->
+  <div class="prestart-overlay" id="prestartOverlay">
+    <div class="prestart-modal">
+      <h2>Mulai Penilaian</h2>
+      <p class="modal-subtitle" id="prestartRubrikName">Rubrik Penilaian OSCE</p>
+      <div class="form-group">
+        <label for="inputPenguji">Nama Penguji</label>
+        <input type="text" id="inputPenguji" placeholder="Masukkan nama penguji...">
+      </div>
+      <div class="form-group">
+        <label for="inputPeserta">Nama Peserta Ujian</label>
+        <input type="text" id="inputPeserta" placeholder="Masukkan nama peserta ujian...">
+      </div>
+      <button class="prestart-btn-start" id="btnStartExam">Mulai Ujian (12 Menit)</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="data/osce-rubrik.js"></script>
+  <script src="osce.js"></script>
+</body>
+</html>

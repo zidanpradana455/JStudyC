@@ -41,6 +41,17 @@
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target);} }), {threshold:0.1});
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
+  const modeTabs = document.querySelectorAll('.dashboard-mode-tab');
+  const dashboardPanels = document.querySelectorAll('.dashboard-panel');
+  modeTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      modeTabs.forEach(item => item.classList.remove('active'));
+      dashboardPanels.forEach(panel => panel.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById(tab.dataset.panel).classList.add('active');
+    });
+  });
+
   // ── Progress tracking ──
   let progressCache = {};
 
@@ -128,6 +139,18 @@
       tab.classList.add('active');
       currentExam = tab.dataset.exam;
       renderExamContent(currentExam);
+    });
+  });
+
+  // ── Dashboard Mode Tabs (Cumex / OSCE) ──
+  const modeTabs = document.querySelectorAll('.dashboard-mode-tab');
+  modeTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      modeTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      document.querySelectorAll('.dashboard-panel').forEach(p => p.classList.remove('active'));
+      const panel = document.getElementById(tab.dataset.panel);
+      if (panel) panel.classList.add('active');
     });
   });
 
