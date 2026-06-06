@@ -41,17 +41,6 @@
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target);} }), {threshold:0.1});
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
-  const modeTabs = document.querySelectorAll('.dashboard-mode-tab');
-  const dashboardPanels = document.querySelectorAll('.dashboard-panel');
-  modeTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      modeTabs.forEach(item => item.classList.remove('active'));
-      dashboardPanels.forEach(panel => panel.classList.remove('active'));
-      tab.classList.add('active');
-      document.getElementById(tab.dataset.panel).classList.add('active');
-    });
-  });
-
   // ── Progress tracking ──
   let progressCache = {};
 
