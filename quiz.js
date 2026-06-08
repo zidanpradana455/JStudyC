@@ -148,6 +148,7 @@
   // ── Elements ──
   const questionBadge = document.getElementById('questionBadge');
   const questionText = document.getElementById('questionText');
+  const questionMedia = document.getElementById('questionMedia');
   const optionsList = document.getElementById('optionsList');
   const explanationBox = document.getElementById('explanationBox');
   const explanationResult = document.getElementById('explanationResult');
@@ -228,6 +229,22 @@
 
     questionBadge.textContent = `Soal ${currentIndex + 1} dari ${questions.length}`;
     questionText.textContent = q.question;
+    questionMedia.innerHTML = '';
+
+    if (q.image) {
+      const img = document.createElement('img');
+      img.src = q.image;
+      img.alt = `Gambar soal ${q.id || currentIndex + 1}`;
+      img.loading = 'lazy';
+      img.addEventListener('error', () => {
+        questionMedia.classList.remove('show');
+        questionMedia.innerHTML = '';
+      });
+      questionMedia.appendChild(img);
+      questionMedia.classList.add('show');
+    } else {
+      questionMedia.classList.remove('show');
+    }
 
     const alreadyAnswered = answers[currentIndex] !== null;
 

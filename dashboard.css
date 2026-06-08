@@ -398,6 +398,21 @@
   margin-bottom: 28px;
   color: var(--text-primary);
 }
+.question-media {
+  display: none;
+  margin: -8px 0 28px;
+}
+.question-media.show {
+  display: block;
+}
+.question-media img {
+  width: min(100%, 520px);
+  max-height: 360px;
+  object-fit: contain;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: #fff;
+}
 .options-list {
   display: flex;
   flex-direction: column;
