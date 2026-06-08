@@ -41,6 +41,121 @@
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target);} }), {threshold:0.1});
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
 
+  // ── Patch updates ──
+  const PATCH_UPDATES = [
+    {
+      id: 'dashboard-and-question-pack-update-2026-06-08',
+      category: 'Paket Soal',
+      date: '8 Jun 2026',
+      title: 'Update paket soal & dashboard',
+      summary: 'Daftar paket soal aktif kini ditampilkan lebih jelas: Cumex 1 Reguler/IUP, Cumex 2 Reguler, dan UAS Reguler.',
+      highlights: [
+        'Cumex 1 Reguler: 2021 (10 soal), 2022 (25 soal), 2023 (15 soal).',
+        'Cumex 1 IUP: 2021 (20 soal), 2022 (17 soal), 2023 (16 soal).',
+        'Cumex 2 Reguler: 2021 (91 soal), 2022 (72 soal), 2023 (68 soal).',
+        'UAS Reguler: 2022 (47 soal).',
+        'Badge Baru otomatis hilang setelah update terbaru dibaca.'
+      ]
+    },
+    {
+      id: 'mini-osce-semester-4-2026-06-06',
+      category: 'OSCE',
+      date: '6 Jun 2026',
+      title: 'Mini OSCE Semester 4',
+      summary: 'Mode OSCE mendapat station overview, timer 12 menit, rubrik berbobot, feedback, dan mode cetak.',
+      highlights: [
+        'Station OSCE diringkas di dashboard supaya pemilihan latihan lebih cepat.',
+        'Timer, scoring, dan global rating dibuat dalam satu alur ujian.',
+        'Rubrik PDF tetap tersedia sebagai referensi pendamping.'
+      ]
+    },
+    {
+      id: 'cumex-progress-and-question-packs-2026-05-15',
+      category: 'Paket Soal',
+      date: '15 Mei 2026',
+      title: 'Progress latihan & paket Cumex',
+      summary: 'Paket Cumex 1, Cumex 2, dan UAS dibuat lebih mudah dipilih dengan progres belajar per paket.',
+      highlights: [
+        'Statistik soal dijawab, akurasi, dan paket selesai ditampilkan di bagian atas.',
+        'Progress bar per tahun membantu melihat paket soal yang sudah mulai dikerjakan.',
+        'Navigasi paket Cumex 1, Cumex 2, dan UAS dibuat sebagai tab.'
+      ]
+    }
+  ];
+
+  function escapeHTML(value) {
+    return String(value).replace(/[&<>"']/g, char => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      '"': '&quot;',
+      "'": '&#39;'
+    }[char]));
+  }
+
+  function initPatchUpdates() {
+    const latest = PATCH_UPDATES[0];
+    const summary = document.getElementById('patchUpdateSummary');
+    const list = document.getElementById('patchUpdatesList');
+    const badge = document.getElementById('patchNewBadge');
+    const detailBtn = document.getElementById('patchDetailBtn');
+    const modal = document.getElementById('patchModal');
+    const closeBtn = document.getElementById('patchModalClose');
+    const modalContent = document.getElementById('patchModalContent');
+
+    if (!latest || !summary || !list || !badge || !detailBtn || !modal || !closeBtn || !modalContent) return;
+
+    const seenUpdate = localStorage.getItem('jstudyc_seen_latest_update');
+    badge.classList.toggle('show', seenUpdate !== latest.id);
+    summary.textContent = latest.summary;
+
+    list.innerHTML = PATCH_UPDATES.slice(0, 3).map(update => `
+      <div class="patch-item">
+        <div class="patch-item-category">${escapeHTML(update.category)}</div>
+        <div class="patch-item-copy">
+          <strong>${escapeHTML(update.title)}</strong>
+          <span>${escapeHTML(update.date)} - ${escapeHTML(update.summary)}</span>
+        </div>
+      </div>
+    `).join('');
+
+    modalContent.innerHTML = PATCH_UPDATES.map(update => `
+      <article class="patch-release">
+        <span class="patch-release-category">${escapeHTML(update.category)}</span>
+        <div class="patch-release-header">
+          <h3>${escapeHTML(update.title)}</h3>
+          <time>${escapeHTML(update.date)}</time>
+        </div>
+        <ul>
+          ${update.highlights.map(item => `<li>${escapeHTML(item)}</li>`).join('')}
+        </ul>
+      </article>
+    `).join('');
+
+    function openPatchModal() {
+      localStorage.setItem('jstudyc_seen_latest_update', latest.id);
+      badge.classList.remove('show');
+      modal.classList.add('show');
+      modal.setAttribute('aria-hidden', 'false');
+      closeBtn.focus();
+    }
+
+    function closePatchModal() {
+      modal.classList.remove('show');
+      modal.setAttribute('aria-hidden', 'true');
+      detailBtn.focus();
+    }
+
+    detailBtn.addEventListener('click', openPatchModal);
+    closeBtn.addEventListener('click', closePatchModal);
+    modal.addEventListener('click', event => {
+      if (event.target === modal) closePatchModal();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && modal.classList.contains('show')) closePatchModal();
+    });
+  }
+
   // ── Progress tracking ──
   let progressCache = {};
 
@@ -143,6 +258,7 @@
     });
   });
 
+  initPatchUpdates();
   progressCache = await loadProgress();
   renderExamContent(currentExam);
   updateOverallStats();

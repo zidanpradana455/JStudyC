@@ -69,6 +69,21 @@
         </div>
       </div>
 
+      <!-- Latest Updates -->
+      <section class="patch-updates reveal" aria-labelledby="patchUpdatesTitle">
+        <div class="patch-updates-main">
+          <div class="patch-kicker">
+            <span class="patch-dot"></span>
+            <span>Update Terbaru</span>
+            <span class="patch-new-badge" id="patchNewBadge">Baru</span>
+          </div>
+          <h2 id="patchUpdatesTitle">Yang baru di JStudyC</h2>
+          <p id="patchUpdateSummary">Memuat ringkasan update terbaru...</p>
+          <button class="patch-detail-btn" id="patchDetailBtn" type="button">Lihat detail update</button>
+        </div>
+        <div class="patch-updates-list" id="patchUpdatesList" aria-label="Ringkasan update terbaru"></div>
+      </section>
+
       <!-- Menu Tabs: Cumex & OSCE -->
       <section class="blocks-section">
         <div class="section-heading-row reveal">
@@ -142,6 +157,15 @@
 
     </div>
   </main>
+
+  <div class="patch-modal-overlay" id="patchModal" aria-hidden="true">
+    <div class="patch-modal" role="dialog" aria-modal="true" aria-labelledby="patchModalTitle">
+      <button class="patch-modal-close" id="patchModalClose" type="button" aria-label="Tutup update terbaru">&times;</button>
+      <span class="patch-modal-label">Catatan Update</span>
+      <h2 id="patchModalTitle">Update Terbaru</h2>
+      <div class="patch-modal-content" id="patchModalContent"></div>
+    </div>
+  </div>
 
   <div class="toast" id="toast"></div>
 
