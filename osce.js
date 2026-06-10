@@ -116,13 +116,84 @@
     return rubricCases[currentCase.id][itemIndex] || '';
   }
 
+  function normalizeCompetencyText(value) {
+    return String(value || '')
+      .replace(/â—|●/g, '\n- ')
+      .replace(/â—‹|○/g, '\n  - ')
+      .replace(/â– |■/g, '\n    - ')
+      .replace(/â†’|→/g, ' -> ')
+      .replace(/â€œ|â€|“|”/g, '"')
+      .replace(/â€™|’/g, "'")
+      .replace(/\r/g, '')
+      .replace(/\s+(?=\d+[.)]\s+[A-ZÀ-ÿ])/g, '\n')
+      .replace(/\s+(?=\(\d+\)\s+[A-ZÀ-ÿ])/g, '\n')
+      .replace(/[ \t]+\n/g, '\n')
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+  }
+
+  function isCompetencyHeading(line) {
+    const plain = line.replace(/[:.]+$/, '').trim();
+    if (!plain || plain.length > 72 || /^(\d+[\s.)]|-)/.test(plain)) return false;
+    const knownHeadings = /^(anamnesis|keluhan|rps|rpd|rpk|riwayat penyakit|pemeriksaan fisik|pemeriksaan penunjang|diagnosis|diagnosis banding|tatalaksana|terapi|edukasi|persiapan|persiapan alat|persiapan pasien|prosedur|interpretasi|komunikasi|perilaku profesional|alat|diri|pasien|akhiran|checklist)$/i;
+    if (knownHeadings.test(plain)) return true;
+    const letters = plain.replace(/[^A-Za-zÀ-ÿ]/g, '');
+    return letters.length >= 3 && plain === plain.toUpperCase();
+  }
+
+  function formatCompetencyDetail(value) {
+    const lines = normalizeCompetencyText(value)
+      .split('\n')
+      .map(line => line.trim())
+      .filter(Boolean);
+    let html = '';
+    let listType = '';
+
+    function closeList() {
+      if (!listType) return;
+      html += `</${listType}>`;
+      listType = '';
+    }
+
+    lines.forEach(line => {
+      const ordered = line.match(/^(?:\()?(\d+)[.)]\s*(.+)$/);
+      const bullet = line.match(/^-\s+(.+)$/);
+
+      if (ordered || bullet) {
+        const type = ordered ? 'ol' : 'ul';
+        if (listType !== type) {
+          closeList();
+          html += ordered && Number(ordered[1]) !== 1
+            ? `<ol start="${Number(ordered[1])}">`
+            : `<${type}>`;
+          listType = type;
+        }
+        html += `<li>${escapeHtml(ordered ? ordered[2] : bullet[1])}</li>`;
+        return;
+      }
+
+      closeList();
+      if (isCompetencyHeading(line)) {
+        html += `<h5>${escapeHtml(line.replace(/[:.]+$/, ''))}</h5>`;
+      } else if (/^[A-Za-zÀ-ÿ][^:]{1,38}:\s+\S/.test(line)) {
+        const separator = line.indexOf(':');
+        html += `<p><strong>${escapeHtml(line.slice(0, separator + 1))}</strong>${escapeHtml(line.slice(separator + 1))}</p>`;
+      } else {
+        html += `<p>${escapeHtml(line)}</p>`;
+      }
+    });
+
+    closeList();
+    return html;
+  }
+
   function renderCompetencyDetail(itemIndex, itemName) {
     const detail = getCompetencyDetail(itemIndex);
     if (!detail) return '';
     return `
       <details class="competency-case-detail">
-        <summary>Detail kasus untuk menilai ${escapeHtml(itemName)}</summary>
-        <div class="competency-case-detail-content">${escapeHtml(detail).replace(/\n/g, '<br>')}</div>
+        <summary>Catatan kompetensi: ${escapeHtml(itemName)}</summary>
+        <div class="competency-case-detail-content">${formatCompetencyDetail(detail)}</div>
       </details>`;
   }
 

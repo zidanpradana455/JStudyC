@@ -551,14 +551,52 @@
   color: #3b82f6;
 }
 .competency-case-detail-content {
-  max-height: 420px;
+  max-height: 520px;
   overflow-y: auto;
-  padding: 16px;
+  padding: 18px;
   border-top: 1px solid rgba(59, 130, 246, 0.2);
   color: var(--text-secondary);
   font-size: 0.82rem;
-  line-height: 1.7;
+  line-height: 1.65;
   white-space: normal;
+}
+.competency-case-detail-content h5 {
+  position: sticky;
+  top: -18px;
+  z-index: 1;
+  margin: 18px -18px 10px;
+  padding: 9px 18px;
+  border-top: 1px solid rgba(59, 130, 246, 0.14);
+  border-bottom: 1px solid rgba(59, 130, 246, 0.14);
+  background: color-mix(in srgb, var(--bg-primary) 92%, #3b82f6 8%);
+  color: var(--text-primary);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.competency-case-detail-content h5:first-child {
+  margin-top: -18px;
+  border-top: 0;
+}
+.competency-case-detail-content p {
+  margin: 0 0 10px;
+}
+.competency-case-detail-content p:last-child {
+  margin-bottom: 0;
+}
+.competency-case-detail-content ol,
+.competency-case-detail-content ul {
+  display: grid;
+  gap: 8px;
+  margin: 8px 0 16px;
+  padding-left: 24px;
+}
+.competency-case-detail-content li {
+  padding-left: 3px;
+}
+.competency-case-detail-content li::marker {
+  color: #3b82f6;
+  font-weight: 700;
 }
 .rubrik-section-title {
   font-size: 0.7rem;

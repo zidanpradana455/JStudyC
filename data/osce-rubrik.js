@@ -433,23 +433,12 @@ window.OSCE_DATA = {
             {
               name: 'Tindakan Klinis Dasar',
               langkah: 'Intubasi Pipa Endotrakeal',
-              bobot: 3,
+              bobot: 5,
               scores: {
                 0: 'Peserta ujian melakukan langkah intubasi pipa ET dengan tidak urut, tidak lengkap, dan teknik tidak tepat ATAU peserta ujian tidak berhasil memasang ET sama sekali.',
                 1: 'Peserta ujian melakukan langkah intubasi pipa ET dengan urut tetapi tidak lengkap dan teknik tidak tepat.',
-                2: 'Peserta ujian melakukan langkah berikut dengan urut, lengkap, tetapi teknik tidak tepat:\n1) Memeriksa semua peralatan\n2) Menghubungkan bilah laringoskop dengan gagang dan memastikan lampu menyala\n3) Mengembangkan cuff pipa ET dan memastikan balon tidak bocor\n4) Memilih ukuran pipa ET yang sesuai\n5) Memeriksa kemungkinan fraktur tulang belakang servikal\n6) Membuka jalan napas menggunakan triple airway maneuver\n7) Melakukan pengambilan benda asing/penyedotan cairan\n8) Memberikan ventilasi dengan oksigen 100% menggunakan BVM selama 2-3 menit\n9) Menempatkan kepala pasien di posisi yang tepat',
-                3: 'Peserta ujian melakukan langkah berikut dengan urut, lengkap, dan teknik tepat:\n1) Memeriksa semua peralatan tata laksana jalan napas lanjut\n2) Menghubungkan bilah laringoskop dan memastikan lampu menyala\n3) Mengembangkan cuff pipa ET, memastikan tidak bocor, kempiskan kembali\n4) Memilih ukuran pipa ET yang sesuai\n5) Memeriksa kemungkinan fraktur tulang belakang servikal\n6) Membuka jalan napas dengan triple airway maneuver\n7) Pengambilan benda asing atau penyedotan cairan\n8) Ventilasi dengan O2 100% menggunakan BVM 2-3 menit\n9) Posisi kepala yang tepat\n10) Laringoskopi dengan teknik yang benar\n11) Memasukkan pipa ET melewati pita suara\n12) Mengembangkan cuff\n13) Konfirmasi posisi pipa ET'
-              }
-            },
-            {
-              name: 'Konfirmasi Posisi ET',
-              langkah: 'Memastikan pipa ET berada di posisi yang benar',
-              bobot: 2,
-              scores: {
-                0: 'Tidak melakukan konfirmasi posisi pipa ET.',
-                1: 'Melakukan konfirmasi namun tidak lengkap: hanya melakukan salah satu metode.',
-                2: 'Melakukan konfirmasi dengan 2 metode namun tidak semuanya tepat.',
-                3: 'Melakukan konfirmasi posisi pipa ET secara lengkap dan tepat: auskultasi epigastrium, auskultasi paru kanan dan kiri, mengamati pengembangan dada bilateral, fiksasi pipa ET.'
+                2: 'Peserta ujian melakukan seluruh langkah intubasi pipa ET dengan urut dan lengkap, tetapi teknik tidak tepat.',
+                3: 'Peserta ujian melakukan seluruh langkah intubasi pipa ET dengan urut, lengkap, dan teknik tepat, termasuk konfirmasi posisi serta fiksasi pipa.'
               }
             },
             {
@@ -457,10 +446,10 @@ window.OSCE_DATA = {
               langkah: '',
               bobot: 1,
               scores: {
-                0: 'Tidak menunjukkan perilaku profesional.',
-                1: '1-2 aspek perilaku profesional.',
-                2: '3 aspek perilaku profesional.',
-                3: 'Semua aspek perilaku profesional secara lengkap: berhati-hati dan teliti, memperhatikan kenyamanan pasien, tindakan sesuai prioritas, menunjukkan rasa hormat, mengetahui keterbatasan.'
+                0: 'Melakukan satu hal berikut: membahayakan pasien atau diri sendiri/tim; tidak memahami prioritas tindakan dan tujuan; atau tidak merujuk/konsultasi pada ahli bila diperlukan setelah pemasangan.',
+                1: 'Melakukan satu dari tiga aspek berikut: berhati-hati dan teliti; melakukan tindakan sesuai prioritas; mengetahui keterbatasan dengan merujuk atau konsultasi ahli (Sp.An) bila perlu setelah pemasangan.',
+                2: 'Melakukan dua dari tiga aspek perilaku profesional dengan tepat.',
+                3: 'Melakukan lengkap ketiga aspek: berhati-hati dan teliti agar tidak membahayakan pasien maupun diri sendiri/tim; bertindak sesuai prioritas; dan mengetahui keterbatasan dengan merujuk atau konsultasi ahli (Sp.An) bila perlu setelah pemasangan.'
               }
             }
           ]
