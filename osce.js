@@ -7,6 +7,7 @@
   // ── State ──
   let currentStation = null;
   let currentRubrik = null;
+  let currentCase = null;
   let penguji = '';
   let peserta = '';
   let scores = {};       // { itemIndex: scoreValue }
@@ -61,6 +62,54 @@
     toast.textContent = msg;
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 3000);
+  }
+
+  function getCasesForRubrik(rubrik) {
+    if (!rubrik || !window.OSCE_CASES) return [];
+    return window.OSCE_CASES[rubrik.id] || [];
+  }
+
+  function escapeHtml(value) {
+    return String(value == null ? '' : value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  function renderGuideSections(data) {
+    if (!data) return '<p>Belum ada panduan khusus untuk kasus ini.</p>';
+    return Object.entries(data).map(([heading, content]) => {
+      const body = Array.isArray(content)
+        ? `<ul>${content.map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`
+        : `<p>${escapeHtml(content)}</p>`;
+      return `<section class="case-guide-section"><h4>${escapeHtml(heading)}</h4>${body}</section>`;
+    }).join('');
+  }
+
+  function updateCaseSelectHint() {
+    const selectedCaseId = document.getElementById('inputCase').value;
+    const selected = getCasesForRubrik(currentRubrik).find(item => item.id === selectedCaseId);
+    document.getElementById('caseSelectHint').textContent = selected
+      ? `Diagnosis target penguji: ${selected.diagnosis}`
+      : '';
+  }
+
+  function renderCaseGuides() {
+    const guides = document.getElementById('caseGuides');
+    if (!currentCase) {
+      guides.style.display = 'none';
+      return;
+    }
+
+    guides.style.display = '';
+    document.getElementById('patientGuideBody').innerHTML = renderGuideSections(currentCase.patient);
+    document.getElementById('examinerGuideBody').innerHTML =
+      renderGuideSections(currentCase.examiner) +
+      '<div class="case-guide-warning"><strong>Catatan keselamatan:</strong> Ringkasan ini untuk latihan OSCE berdasarkan file M.NOTES. Dosis dan keputusan klinis wajib disesuaikan dengan berat badan, alergi, kehamilan, fungsi ginjal/hati, kondisi aktual, formularium, dan pedoman lokal terbaru.</div>';
+
+    document.querySelectorAll('.case-guide-card').forEach(card => card.classList.remove('open'));
   }
 
   // ── View Management ──
@@ -131,13 +180,14 @@
 
     let html = '';
     station.rubrics.forEach(rubrik => {
+      const caseCount = getCasesForRubrik(rubrik).length;
       const icon = rubrikIcons[rubrik.id] || '📋';
       html += `
         <div class="rubrik-card" onclick="window.__osceSelectRubrik('${rubrik.id}')">
           <div class="rubrik-card-icon">${icon}</div>
           <div class="rubrik-card-info">
             <h4>${rubrik.name}</h4>
-            <p>${rubrik.items.length} kompetensi</p>
+            <p>${rubrik.items.length} kompetensi &middot; ${caseCount} kasus</p>
           </div>
         </div>`;
     });
@@ -165,6 +215,8 @@
     const rubrik = currentStation.rubrics.find(r => r.id === rubrikId);
     if (!rubrik) return;
     currentRubrik = rubrik;
+    const availableCases = getCasesForRubrik(rubrik);
+    currentCase = availableCases[0] || null;
 
     // Reset state
     scores = {};
@@ -174,6 +226,19 @@
 
     // Show pre-start modal
     document.getElementById('prestartRubrikName').textContent = rubrik.name;
+    const caseSelect = document.getElementById('inputCase');
+    const caseGroup = document.getElementById('caseSelectGroup');
+    if (availableCases.length > 0) {
+      caseGroup.style.display = '';
+      caseSelect.innerHTML = availableCases.map(item =>
+        `<option value="${escapeHtml(item.id)}">${escapeHtml(item.title)}</option>`
+      ).join('');
+      updateCaseSelectHint();
+    } else {
+      caseGroup.style.display = 'none';
+      caseSelect.innerHTML = '';
+      document.getElementById('caseSelectHint').textContent = '';
+    }
     document.getElementById('inputPenguji').value = penguji;
     document.getElementById('inputPeserta').value = peserta;
     prestartOverlay.classList.add('active');
@@ -190,6 +255,8 @@
     if (!s) { showToast('Masukkan nama peserta'); return; }
     penguji = p;
     peserta = s;
+    const selectedCaseId = document.getElementById('inputCase').value;
+    currentCase = getCasesForRubrik(currentRubrik).find(item => item.id === selectedCaseId) || currentCase;
 
     prestartOverlay.classList.remove('active');
     document.body.style.overflow = '';
@@ -197,6 +264,14 @@
     renderAssessment();
     showView(viewAssessment);
     startTimer();
+  });
+
+  document.getElementById('inputCase').addEventListener('change', updateCaseSelectHint);
+
+  document.querySelectorAll('.case-guide-header').forEach(button => {
+    button.addEventListener('click', () => {
+      button.closest('.case-guide-card').classList.toggle('open');
+    });
   });
 
   // Close pre-start on Escape
@@ -226,7 +301,8 @@
     document.getElementById('timerPeserta').textContent = peserta;
 
     // Update print info
-    document.getElementById('printRubrikName').textContent = `RUBRIK PENILAIAN OSCE — ${currentRubrik.name}`;
+    const caseLabel = currentCase ? ` - ${currentCase.title}` : '';
+    document.getElementById('printRubrikName').textContent = `RUBRIK PENILAIAN OSCE — ${currentRubrik.name}${caseLabel}`;
     document.getElementById('printPenguji').textContent = penguji;
     document.getElementById('printPeserta').textContent = peserta;
     const now = new Date();
@@ -235,10 +311,13 @@
 
     // Render scenario
     const scenarioBox = document.getElementById('scenarioBox');
-    if (currentRubrik.scenario && currentRubrik.scenario.trim()) {
+    const scenarioContent = currentCase ? currentCase.prompt : currentRubrik.scenario;
+    if (scenarioContent && scenarioContent.trim()) {
       scenarioBox.style.display = '';
-      document.getElementById('scenarioTitle').textContent = currentRubrik.name;
-      document.getElementById('scenarioText').innerHTML = currentRubrik.scenario;
+      document.getElementById('scenarioTitle').textContent = currentCase ? currentCase.title : currentRubrik.name;
+      document.getElementById('scenarioText').innerHTML = currentCase
+        ? `<strong>SKENARIO KLINIK:</strong><br>${escapeHtml(scenarioContent)}`
+        : scenarioContent;
 
       const taskList = document.getElementById('scenarioTaskList');
       const tasksContainer = document.getElementById('scenarioTasks');
@@ -251,6 +330,8 @@
     } else {
       scenarioBox.style.display = 'none';
     }
+
+    renderCaseGuides();
 
     // Render rubrik items
     let itemsHtml = '';

@@ -225,7 +225,8 @@
   color: var(--text-muted);
   margin-bottom: 8px;
 }
-.prestart-modal .form-group input {
+.prestart-modal .form-group input,
+.prestart-modal .form-group select {
   width: 100%;
   padding: 14px 16px;
   background: rgba(255,255,255,0.04);
@@ -236,12 +237,27 @@
   transition: var(--transition);
   outline: none;
 }
-.prestart-modal .form-group input:focus {
+.prestart-modal .form-group input:focus,
+.prestart-modal .form-group select:focus {
   border-color: var(--border-hover);
   background: rgba(255,255,255,0.06);
 }
 .prestart-modal .form-group input::placeholder {
   color: var(--text-muted);
+}
+.prestart-modal .form-group select {
+  appearance: none;
+  cursor: pointer;
+}
+.prestart-modal .form-group select option {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+.case-select-hint {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  margin-top: 8px;
 }
 .prestart-btn-start {
   width: 100%;
@@ -446,6 +462,86 @@
 }
 
 /* ── Rubrik Table ── */
+.case-guides {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.case-guide-card {
+  background: var(--bg-glass);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.patient-guide { border-top: 3px solid #22c55e; }
+.examiner-guide { border-top: 3px solid #3b82f6; }
+.case-guide-header {
+  width: 100%;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: left;
+}
+.case-guide-header small {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.case-guide-chevron {
+  color: var(--text-muted);
+  font-size: 1.4rem;
+  transition: transform 0.2s ease;
+}
+.case-guide-card.open .case-guide-chevron { transform: rotate(45deg); }
+.case-guide-body {
+  display: none;
+  padding: 0 20px 20px;
+}
+.case-guide-card.open .case-guide-body { display: block; }
+.case-guide-section {
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  margin-top: 14px;
+}
+.case-guide-section:first-child { margin-top: 0; }
+.case-guide-section h4 {
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.case-guide-section p,
+.case-guide-section li {
+  color: var(--text-secondary);
+  font-size: 0.84rem;
+  line-height: 1.6;
+}
+.case-guide-section ul {
+  list-style: disc;
+  padding-left: 18px;
+}
+.case-guide-section li + li { margin-top: 5px; }
+.case-guide-warning {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border: 1px solid rgba(249, 115, 22, 0.35);
+  border-radius: var(--radius-sm);
+  background: rgba(249, 115, 22, 0.08);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+
 .rubrik-section {
   margin-bottom: 32px;
 }
@@ -888,12 +984,15 @@
     max-width: 100% !important;
     padding: 0 16px !important;
   }
-  .rubrik-item, .scenario-box, .score-summary, .station-card {
+  .rubrik-item, .scenario-box, .score-summary, .station-card, .case-guide-card {
     break-inside: avoid;
     border: 1px solid #ddd !important;
     background: white !important;
     box-shadow: none !important;
   }
+  .case-guides { display: block; }
+  .case-guide-card { margin-bottom: 14px; }
+  .case-guide-body { display: block !important; }
   .score-btn {
     border: 1px solid #ccc !important;
     background: white !important;
@@ -973,6 +1072,7 @@
    Responsive
    ═══════════════════════════════════════════ */
 @media (max-width: 900px) {
+  .case-guides { grid-template-columns: 1fr; }
   .stations-grid {
     grid-template-columns: 1fr;
   }
@@ -1002,6 +1102,7 @@
   .rubrik-item { padding: 16px; }
   .rubrik-item-header { flex-direction: column; gap: 8px; }
   .scenario-box { padding: 20px; }
+  .prestart-modal { padding: 32px 22px; }
   .score-summary { padding: 20px; }
   .osce-actions { flex-direction: column; }
   .osce-btn-print, .osce-btn-reset { width: 100%; justify-content: center; }

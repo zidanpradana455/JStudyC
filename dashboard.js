@@ -44,6 +44,20 @@
   // ── Patch updates ──
   const PATCH_UPDATES = [
     {
+      id: 'osce-case-simulation-update-2026-06-10',
+      category: 'OSCE',
+      date: '10 Jun 2026',
+      title: 'Skenario kasus & panduan penguji OSCE',
+      summary: 'Setiap rubrik Mini OSCE kini dilengkapi pilihan kasus, panduan pasien simulasi, dan catatan penguji yang lebih lengkap.',
+      highlights: [
+        'Tersedia 31 variasi kasus yang dipetakan ke seluruh 13 rubrik Mini OSCE.',
+        'Panduan pasien simulasi memuat identitas, kalimat pembuka, sikap, serta jawaban anamnesis.',
+        'Catatan penguji memuat diagnosis, diagnosis banding, pemeriksaan fisik, penunjang, farmakologi, edukasi, dan tanda bahaya.',
+        'Kasus dapat dipilih sebelum timer dimulai dan ikut ditampilkan dalam hasil cetak rubrik.',
+        'Catatan terapi dilengkapi pengingat untuk menyesuaikan kondisi pasien dan pedoman lokal terbaru.'
+      ]
+    },
+    {
       id: 'dashboard-and-question-pack-update-2026-06-08',
       category: 'Paket Soal',
       date: '8 Jun 2026',

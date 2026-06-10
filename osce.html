@@ -133,6 +133,23 @@
           <button class="scenario-toggle" id="btnToggleScenario">Sembunyikan Skenario</button>
         </div>
 
+        <div class="case-guides" id="caseGuides">
+          <div class="case-guide-card patient-guide">
+            <button class="case-guide-header" type="button" data-guide="patientGuideBody">
+              <span><small>Panduan Aktor</small>Pasien Simulasi</span>
+              <span class="case-guide-chevron">+</span>
+            </button>
+            <div class="case-guide-body" id="patientGuideBody"></div>
+          </div>
+          <div class="case-guide-card examiner-guide">
+            <button class="case-guide-header" type="button" data-guide="examinerGuideBody">
+              <span><small>Kunci Kasus</small>Catatan Penguji</span>
+              <span class="case-guide-chevron">+</span>
+            </button>
+            <div class="case-guide-body" id="examinerGuideBody"></div>
+          </div>
+        </div>
+
         <!-- Rubrik Items -->
         <div class="rubrik-section">
           <div class="rubrik-section-title">I. Rubrik Penilaian</div>
@@ -184,6 +201,11 @@
     <div class="prestart-modal">
       <h2>Mulai Penilaian</h2>
       <p class="modal-subtitle" id="prestartRubrikName">Rubrik Penilaian OSCE</p>
+      <div class="form-group" id="caseSelectGroup">
+        <label for="inputCase">Kasus Latihan</label>
+        <select id="inputCase"></select>
+        <p class="case-select-hint" id="caseSelectHint"></p>
+      </div>
       <div class="form-group">
         <label for="inputPenguji">Nama Penguji</label>
         <input type="text" id="inputPenguji" placeholder="Masukkan nama penguji...">
@@ -199,6 +221,7 @@
   <div class="toast" id="toast"></div>
 
   <script src="data/osce-rubrik.js"></script>
+  <script src="data/osce-cases.js"></script>
   <script src="osce.js"></script>
 </body>
 </html>
