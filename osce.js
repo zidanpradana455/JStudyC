@@ -105,11 +105,25 @@
 
     guides.style.display = '';
     document.getElementById('patientGuideBody').innerHTML = renderGuideSections(currentCase.patient);
-    document.getElementById('examinerGuideBody').innerHTML =
-      renderGuideSections(currentCase.examiner) +
-      '<div class="case-guide-warning"><strong>Catatan keselamatan:</strong> Ringkasan ini untuk latihan OSCE berdasarkan file M.NOTES. Dosis dan keputusan klinis wajib disesuaikan dengan berat badan, alergi, kehamilan, fungsi ginjal/hati, kondisi aktual, formularium, dan pedoman lokal terbaru.</div>';
 
     document.querySelectorAll('.case-guide-card').forEach(card => card.classList.remove('open'));
+  }
+
+  function getCompetencyDetail(itemIndex) {
+    if (!currentRubrik || !currentCase || !window.OSCE_COMPETENCY_DETAILS) return '';
+    const rubricCases = window.OSCE_COMPETENCY_DETAILS[currentRubrik.id];
+    if (!rubricCases || !rubricCases[currentCase.id]) return '';
+    return rubricCases[currentCase.id][itemIndex] || '';
+  }
+
+  function renderCompetencyDetail(itemIndex, itemName) {
+    const detail = getCompetencyDetail(itemIndex);
+    if (!detail) return '';
+    return `
+      <details class="competency-case-detail">
+        <summary>Detail kasus untuk menilai ${escapeHtml(itemName)}</summary>
+        <div class="competency-case-detail-content">${escapeHtml(detail).replace(/\n/g, '<br>')}</div>
+      </details>`;
   }
 
   // ── View Management ──
@@ -345,6 +359,8 @@
             </div>
             <div class="rubrik-item-bobot">Bobot: ${item.bobot}</div>
           </div>
+
+          ${renderCompetencyDetail(idx, item.name)}
 
           <button class="score-detail-trigger" onclick="window.__toggleDetail(${idx})">
             📖 Lihat Deskripsi Skor

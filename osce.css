@@ -463,9 +463,7 @@
 
 /* ── Rubrik Table ── */
 .case-guides {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+  display: block;
   margin-bottom: 32px;
 }
 .case-guide-card {
@@ -475,7 +473,6 @@
   overflow: hidden;
 }
 .patient-guide { border-top: 3px solid #22c55e; }
-.examiner-guide { border-top: 3px solid #3b82f6; }
 .case-guide-header {
   width: 100%;
   padding: 18px 20px;
@@ -531,19 +528,37 @@
   padding-left: 18px;
 }
 .case-guide-section li + li { margin-top: 5px; }
-.case-guide-warning {
-  margin-top: 16px;
-  padding: 12px 14px;
-  border: 1px solid rgba(249, 115, 22, 0.35);
-  border-radius: var(--radius-sm);
-  background: rgba(249, 115, 22, 0.08);
-  color: var(--text-secondary);
-  font-size: 0.75rem;
-  line-height: 1.55;
-}
-
 .rubrik-section {
   margin-bottom: 32px;
+}
+
+.competency-case-detail {
+  margin: 16px 0;
+  border: 1px solid rgba(59, 130, 246, 0.28);
+  border-radius: var(--radius-sm);
+  background: rgba(59, 130, 246, 0.06);
+  overflow: hidden;
+}
+.competency-case-detail summary {
+  cursor: pointer;
+  padding: 13px 16px;
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.competency-case-detail summary::marker {
+  color: #3b82f6;
+}
+.competency-case-detail-content {
+  max-height: 420px;
+  overflow-y: auto;
+  padding: 16px;
+  border-top: 1px solid rgba(59, 130, 246, 0.2);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  line-height: 1.7;
+  white-space: normal;
 }
 .rubrik-section-title {
   font-size: 0.7rem;
@@ -993,6 +1008,11 @@
   .case-guides { display: block; }
   .case-guide-card { margin-bottom: 14px; }
   .case-guide-body { display: block !important; }
+  .competency-case-detail[open] .competency-case-detail-content {
+    display: block !important;
+    max-height: none;
+    overflow: visible;
+  }
   .score-btn {
     border: 1px solid #ccc !important;
     background: white !important;

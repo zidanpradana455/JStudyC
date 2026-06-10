@@ -48,13 +48,13 @@
       category: 'OSCE',
       date: '10 Jun 2026',
       title: 'Skenario kasus & panduan penguji OSCE',
-      summary: 'Setiap rubrik Mini OSCE kini dilengkapi pilihan kasus, panduan pasien simulasi, dan catatan penguji yang lebih lengkap.',
+      summary: 'Setiap rubrik Mini OSCE kini dilengkapi pilihan kasus, panduan pasien simulasi, dan detail penilaian pada masing-masing kompetensi.',
       highlights: [
         'Tersedia 31 variasi kasus yang dipetakan ke seluruh 13 rubrik Mini OSCE.',
         'Panduan pasien simulasi memuat identitas, kalimat pembuka, sikap, serta jawaban anamnesis.',
-        'Catatan penguji memuat diagnosis, diagnosis banding, pemeriksaan fisik, penunjang, farmakologi, edukasi, dan tanda bahaya.',
+        'Informasi kasus ditempatkan langsung pada kompetensi anamnesis, pemeriksaan fisik, penunjang, diagnosis, tatalaksana, edukasi, dan profesionalisme.',
         'Kasus dapat dipilih sebelum timer dimulai dan ikut ditampilkan dalam hasil cetak rubrik.',
-        'Catatan terapi dilengkapi pengingat untuk menyesuaikan kondisi pasien dan pedoman lokal terbaru.'
+        'Detail tatalaksana dan resep ditampilkan lengkap mengikuti materi kasus.'
       ]
     },
     {
