@@ -67,7 +67,7 @@
         'Cumex 1 Reguler: 2021 (10 soal), 2022 (25 soal), 2023 (15 soal).',
         'Cumex 1 IUP: 2021 (20 soal), 2022 (17 soal), 2023 (16 soal).',
         'Cumex 2 Reguler: 2021 (91 soal), 2022 (72 soal), 2023 (68 soal).',
-        'UAS Reguler: 2022 (47 soal).',
+        'UAS Reguler: 2022 (47 soal) dan 2023 (45 soal).',
         'Badge Baru otomatis hilang setelah update terbaru dibaca.'
       ]
     },
