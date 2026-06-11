@@ -101,7 +101,7 @@
     const parts = [];
     if (q.lectureNumber) parts.push(`Lecture ${q.lectureNumber}`);
     if (q.lecture) parts.push(q.lecture);
-    return parts.length ? parts.join(': ') : '';
+    return parts.length ? parts.join(' - ') : '';
   }
 
   function formatExplanation(q) {
@@ -109,12 +109,12 @@
     const lectureLine = getLectureLine(q);
     if (!lectureLine) return explanation;
 
-    const trimmed = explanation.trimStart();
-    if (trimmed.startsWith(lectureLine) || /^Lecture\s+\d+\s*:/.test(trimmed)) {
-      return explanation;
-    }
+    const explanationWithoutLecture = explanation
+      .trimStart()
+      .replace(/^Lecture\s+\d+\s*[-:]\s*[^\n]+\n*/, '')
+      .trimStart();
 
-    return `${lectureLine}\n\n${explanation}`;
+    return `${lectureLine}\n\n${explanationWithoutLecture}`;
   }
 
   // ── Quiz state ──
