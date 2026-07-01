@@ -392,7 +392,8 @@
   border-bottom: 1px solid var(--border);
   padding-bottom: 16px;
 }
-.exam-tab {
+.exam-tab,
+.ebm-exam-tab {
   padding: 10px 24px;
   border-radius: 999px;
   font-size: 0.85rem;
@@ -401,8 +402,10 @@
   transition: var(--transition);
   border: 1px solid transparent;
 }
-.exam-tab:hover { color: var(--text-secondary); }
-.exam-tab.active {
+.exam-tab:hover,
+.ebm-exam-tab:hover { color: var(--text-secondary); }
+.exam-tab.active,
+.ebm-exam-tab.active {
   background: var(--text-primary);
   color: var(--bg-primary);
   border-color: var(--text-primary);
@@ -1148,7 +1151,8 @@
   .year-card { padding: 14px; }
   .year-card .year-num { font-size: 1.1rem; }
   .exam-tabs { overflow-x: auto; flex-wrap: nowrap; }
-  .exam-tab { white-space: nowrap; padding: 8px 18px; font-size: 0.8rem; }
+  .exam-tab,
+  .ebm-exam-tab { white-space: nowrap; padding: 8px 18px; font-size: 0.8rem; }
   .block-card { padding: 20px; }
   .block-name { font-size: 1.15rem; }
   .section-heading-row {

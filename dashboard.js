@@ -196,6 +196,21 @@
 
   function getProgress() { return progressCache; }
 
+  function getAvailableQuizPackCount() {
+    let total = 0;
+    Object.values(QUESTION_DATA).forEach(block => {
+      Object.values(block.exams || {}).forEach(exam => {
+        Object.values(exam.types || {}).forEach(type => {
+          if (type.locked) return;
+          Object.values(type.years || {}).forEach(questions => {
+            if (Array.isArray(questions) && questions.length > 0) total++;
+          });
+        });
+      });
+    });
+    return total;
+  }
+
   function updateOverallStats() {
     const progress = getProgress();
     let total = 0, correct = 0, completed = 0;
@@ -206,7 +221,7 @@
     });
     document.getElementById('totalAnswered').textContent = total;
     document.getElementById('totalCorrect').textContent = total > 0 ? Math.round((correct/total)*100)+'%' : '0%';
-    document.getElementById('totalPakets').textContent = completed + '/6';
+    document.getElementById('totalPakets').textContent = completed + '/' + getAvailableQuizPackCount();
   }
 
   // ── Exam Tabs ──
@@ -214,10 +229,10 @@
   const content = document.getElementById('examContent');
   let currentExam = 'cumex-1';
 
-  function renderExamContent(examId) {
-    const block = QUESTION_DATA['blok-ii-3'];
-    const exam = block.exams[examId];
-    if (!exam) return;
+  function renderPackageContent(blockId, examId, target) {
+    const block = QUESTION_DATA[blockId];
+    const exam = block?.exams?.[examId];
+    if (!block || !exam || !target) return;
     const progress = getProgress();
 
     let html = '';
@@ -227,7 +242,7 @@
         <div class="type-label">${typeData.name}${isLocked ? ' <span style="opacity:0.5">🔒</span>' : ''}</div>
         <div class="year-cards">`;
       Object.entries(typeData.years).forEach(([year, questions]) => {
-        const key = `blok-ii-3_${examId}_${typeId}_${year}`;
+        const key = `${blockId}_${examId}_${typeId}_${year}`;
         const p = progress[key] || { answered: 0, total: questions.length };
         const pct = p.total > 0 ? Math.round((p.answered / p.total) * 100) : 0;
         const hasQuestions = questions.length > 0;
@@ -239,7 +254,7 @@
             <div class="year-progress"><div class="year-progress-bar" style="width:0%"></div></div>
           </div>`;
         } else {
-          html += `<a class="year-card" href="quiz.html?block=blok-ii-3&exam=${examId}&type=${typeId}&year=${year}">
+          html += `<a class="year-card" href="quiz.html?block=${blockId}&exam=${examId}&type=${typeId}&year=${year}">
             <span class="year-num">${year}</span>
             <span class="year-info">${questions.length} soal</span>
             <div class="year-progress"><div class="year-progress-bar" style="width:${pct}%"></div></div>
@@ -248,7 +263,11 @@
       });
       html += `</div></div>`;
     });
-    content.innerHTML = html;
+    target.innerHTML = html;
+  }
+
+  function renderExamContent(examId) {
+    renderPackageContent('blok-ii-3', examId, content);
   }
 
   tabs.forEach(tab => {
@@ -257,6 +276,23 @@
       tab.classList.add('active');
       currentExam = tab.dataset.exam;
       renderExamContent(currentExam);
+    });
+  });
+
+  const ebmTabs = document.querySelectorAll('.ebm-exam-tab');
+  const ebmContent = document.getElementById('ebmCasContent');
+  let currentEbmExam = 'blok-ii-1';
+
+  function renderEbmContent(examId) {
+    renderPackageContent('ebm-cas-2', examId, ebmContent);
+  }
+
+  ebmTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      ebmTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      currentEbmExam = tab.dataset.exam;
+      renderEbmContent(currentEbmExam);
     });
   });
 
@@ -275,5 +311,6 @@
   initPatchUpdates();
   progressCache = await loadProgress();
   renderExamContent(currentExam);
+  renderEbmContent(currentEbmExam);
   updateOverallStats();
 })();

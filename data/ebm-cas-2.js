@@ -1,0 +1,2988 @@
+/* JStudyC EBM-CAS 2 Question Data - generated from Bank Soal/Soal EBM CAS 2.txt */
+QUESTION_DATA["ebm-cas-2"] = {
+  "id": "ebm-cas-2",
+  "name": "EBM-CAS 2",
+  "fullName": "Evidence-Based Medicine and Critical Appraisal Skills 2",
+  "shuffleQuestions": true,
+  "exams": {
+    "blok-ii-1": {
+      "name": "Blok II.1",
+      "description": "EBM, PICO, searching, critical appraisal diagnosis-terapi, secondary data research, research ethics, GCP, ethical approval",
+      "types": {
+        "latihan": {
+          "name": "Latihan",
+          "years": {
+            "2026": [
+              {
+                "id": 1,
+                "originalId": 1,
+                "block": "Blok II.1",
+                "materi": "Definisi EBM",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Definisi EBM",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Evidence-Based Medicine (EBM) paling tepat didefinisikan sebagai proses yang menggabungkan...",
+                "image": "",
+                "options": [
+                  "Preferensi pasien, keahlian klinis, dan bukti ilmiah terbaik",
+                  "Pengalaman dokter saja tanpa mempertimbangkan literatur",
+                  "Pedoman rumah sakit tanpa memperhatikan pasien",
+                  "Hasil penelitian terbaru tanpa mempertimbangkan konteks klinis",
+                  "Pendapat ahli sebagai satu-satunya dasar keputusan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "EBM mengintegrasikan bukti ilmiah terbaik, clinical expertise, dan preferensi pasien."
+              },
+              {
+                "id": 2,
+                "originalId": 2,
+                "block": "Blok II.1",
+                "materi": "Tujuan Praktikum EBM",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Tujuan Praktikum EBM",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Tujuan utama praktikum EBM adalah agar mahasiswa mampu...",
+                "image": "",
+                "options": [
+                  "Menghafal semua guideline klinis tanpa appraisal",
+                  "Melakukan PICO, searching, memilih artikel, appraising, dan menyimpulkan evidence",
+                  "Membuat systematic review lengkap dalam satu sesi",
+                  "Mengganti keputusan klinis dengan keputusan statistik saja",
+                  "Menggunakan opini senior sebagai bukti tertinggi"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Praktikum EBM melatih keterampilan dari PICO hingga conclusion berbasis evidence."
+              },
+              {
+                "id": 3,
+                "originalId": 3,
+                "block": "Blok II.1",
+                "materi": "PICO",
+                "level": "mudah",
+                "type": "",
+                "lecture": "PICO",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Dalam PICO untuk pertanyaan terapi, komponen I berarti...",
+                "image": "",
+                "options": [
+                  "Index test",
+                  "Intervention",
+                  "Incidence",
+                  "Interpretation",
+                  "Inclusion criteria"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Pada pertanyaan terapi, I adalah intervention atau terapi yang dinilai."
+              },
+              {
+                "id": 4,
+                "originalId": 4,
+                "block": "Blok II.1",
+                "materi": "PICO Diagnosis",
+                "level": "sedang",
+                "type": "",
+                "lecture": "PICO Diagnosis",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Pada pertanyaan diagnosis, komponen C dalam PICO biasanya merujuk pada...",
+                "image": "",
+                "options": [
+                  "Confounder utama",
+                  "Clinical outcome",
+                  "Reference standard atau gold standard",
+                  "Case report pembanding",
+                  "Confidence interval"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pada diagnosis, index test dibandingkan dengan reference standard/gold standard."
+              },
+              {
+                "id": 5,
+                "originalId": 5,
+                "block": "Blok II.1",
+                "materi": "Searching",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Searching",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Teknik searching yang digunakan untuk menggabungkan sinonim atau konsep dalam database adalah...",
+                "image": "",
+                "options": [
+                  "Boolean logic",
+                  "Randomization",
+                  "Blinding",
+                  "Allocation concealment",
+                  "Intention-to-treat"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Boolean logic seperti AND, OR, NOT digunakan untuk mengoptimalkan pencarian literatur."
+              },
+              {
+                "id": 6,
+                "originalId": 6,
+                "block": "Blok II.1",
+                "materi": "Searching",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Searching",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Strategi pencarian '(fever OR pyrexia) AND child*' bertujuan untuk...",
+                "image": "",
+                "options": [
+                  "Mencari artikel tentang fever saja dan mengabaikan anak",
+                  "Menggabungkan sinonim demam dan membatasi hasil pada konsep anak",
+                  "Menghilangkan semua artikel pediatri",
+                  "Mengambil hanya systematic review",
+                  "Mengambil artikel tanpa memperhatikan PICO"
+                ],
+                "correctAnswer": 1,
+                "explanation": "OR menggabungkan sinonim, AND menggabungkan konsep berbeda, dan child* memakai truncation."
+              },
+              {
+                "id": 7,
+                "originalId": 7,
+                "block": "Blok II.1",
+                "materi": "Seleksi Artikel Diagnosis",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Seleksi Artikel Diagnosis",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Artikel diagnosis yang baik untuk praktikum EBM harus memiliki...",
+                "image": "",
+                "options": [
+                  "Data sensitivity dan specificity",
+                  "Hanya opini ahli",
+                  "Hanya narasi patofisiologi",
+                  "Tidak perlu reference standard",
+                  "Outcome terapi jangka panjang"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Artikel diagnosis perlu menampilkan akurasi seperti sensitivity dan specificity."
+              },
+              {
+                "id": 8,
+                "originalId": 8,
+                "block": "Blok II.1",
+                "materi": "Seleksi Artikel Terapi",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Seleksi Artikel Terapi",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Untuk pertanyaan terapi pada praktikum EBM, desain studi yang paling diutamakan adalah...",
+                "image": "",
+                "options": [
+                  "Case report",
+                  "Cross-sectional study",
+                  "Randomized controlled trial",
+                  "Case series tanpa kontrol",
+                  "Editorial"
+                ],
+                "correctAnswer": 2,
+                "explanation": "RCT adalah desain terbaik untuk menilai efektivitas intervensi terapi."
+              },
+              {
+                "id": 9,
+                "originalId": 9,
+                "block": "Blok II.1",
+                "materi": "Worksheet EBM",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Worksheet EBM",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Table 1 pada group assignment EBM terutama berisi...",
+                "image": "",
+                "options": [
+                  "PICO dan searching details",
+                  "Daftar konflik kepentingan peneliti",
+                  "Perhitungan hazard ratio",
+                  "Data mentah semua pasien",
+                  "Laporan adverse event clinical trial"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Table 1 digunakan untuk merumuskan PICO dan detail pencarian artikel."
+              },
+              {
+                "id": 10,
+                "originalId": 10,
+                "block": "Blok II.1",
+                "materi": "Assessment Praktikum",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Assessment Praktikum",
+                "sourceFile": "1. Modul Praktikum EBM Blok II.1_2026",
+                "question": "Dalam praktikum EBM, komponen penilaian terbesar pada individual worksheet adalah...",
+                "image": "",
+                "options": [
+                  "10%",
+                  "20%",
+                  "30%",
+                  "40%",
+                  "60%"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Individual worksheet memiliki bobot 40% dalam assessment praktikum."
+              },
+              {
+                "id": 11,
+                "originalId": 11,
+                "block": "Blok II.1",
+                "materi": "Skenario Diagnosis",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Skenario Diagnosis",
+                "sourceFile": "Advanced Literature Search and Critical Appraisal on Diagnosis",
+                "question": "Pada skenario tympanic thermometer, index test yang dinilai adalah...",
+                "image": "",
+                "options": [
+                  "Standard thermometer",
+                  "Infrared tympanic thermometer",
+                  "Diagnosis demam berdasarkan anamnesis saja",
+                  "Paracetamol syrup",
+                  "Ibuprofen syrup"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Index test adalah pemeriksaan baru/yang dipertanyakan akurasinya, yaitu tympanic thermometer."
+              },
+              {
+                "id": 12,
+                "originalId": 12,
+                "block": "Blok II.1",
+                "materi": "Skenario Terapi",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Skenario Terapi",
+                "sourceFile": "Advanced Literature Search and Critical Appraisal on Diagnosis",
+                "question": "Pada skenario paracetamol vs ibuprofen untuk demam anak, outcome yang paling sesuai adalah...",
+                "image": "",
+                "options": [
+                  "Akurasi alat diagnosis",
+                  "Penurunan demam atau keberhasilan meredakan demam",
+                  "Sensitivitas dan spesifisitas",
+                  "Reference standard",
+                  "Nilai kappa antar pemeriksa"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Pertanyaan terapi menilai efektivitas intervensi terhadap outcome klinis."
+              },
+              {
+                "id": 13,
+                "originalId": 13,
+                "block": "Blok II.1",
+                "materi": "Skenario Dengue",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Skenario Dengue",
+                "sourceFile": "Advanced Literature Search and Critical Appraisal on Diagnosis",
+                "question": "Dalam skenario tourniquet test untuk dengue, reference standard seharusnya berupa...",
+                "image": "",
+                "options": [
+                  "Tes diagnostik yang diakui sebagai pembanding standar untuk dengue",
+                  "Pendapat keluarga pasien",
+                  "Hasil tourniquet test itu sendiri",
+                  "Kuesioner kualitas hidup",
+                  "Randomisasi terapi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Reference standard adalah pembanding terbaik untuk memastikan diagnosis."
+              },
+              {
+                "id": 14,
+                "originalId": 14,
+                "block": "Blok II.1",
+                "materi": "Skenario COVID-19 Diagnosis",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Skenario COVID-19 Diagnosis",
+                "sourceFile": "Advanced Literature Search and Critical Appraisal on Diagnosis",
+                "question": "Pada skenario saliva PCR vs nasopharyngeal swab, jenis pertanyaan klinisnya adalah...",
+                "image": "",
+                "options": [
+                  "Terapi",
+                  "Prognosis",
+                  "Diagnosis",
+                  "Etiologi",
+                  "Ekonomi kesehatan"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pertanyaan membandingkan akurasi metode pengambilan sampel untuk diagnosis COVID-19."
+              },
+              {
+                "id": 15,
+                "originalId": 15,
+                "block": "Blok II.1",
+                "materi": "Skenario Malaria",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Skenario Malaria",
+                "sourceFile": "Advanced Literature Search and Critical Appraisal on Diagnosis",
+                "question": "Pada skenario RDT malaria, outcome utama artikel diagnosis yang dicari adalah...",
+                "image": "",
+                "options": [
+                  "RR dan NNT",
+                  "Sensitivity dan specificity",
+                  "ARR dan RRR",
+                  "Hazard ratio",
+                  "Odds ratio adjusted"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Artikel diagnosis berfokus pada ukuran akurasi tes."
+              },
+              {
+                "id": 16,
+                "originalId": 16,
+                "block": "Blok II.1",
+                "materi": "Table 2A Diagnosis",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Table 2A Diagnosis",
+                "sourceFile": "2. Isi_Group Assignment",
+                "question": "Table 2A dalam group assignment digunakan untuk merangkum...",
+                "image": "",
+                "options": [
+                  "Studi diagnosis",
+                  "Studi terapi saja",
+                  "Data informed consent",
+                  "Forest plot meta-analysis",
+                  "Protocol clinical trial"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Table 2A adalah summary of diagnostic study."
+              },
+              {
+                "id": 17,
+                "originalId": 17,
+                "block": "Blok II.1",
+                "materi": "Table 2B Terapi",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Table 2B Terapi",
+                "sourceFile": "2. Isi_Group Assignment",
+                "question": "Komponen yang paling tepat dimasukkan ke Table 2B adalah...",
+                "image": "",
+                "options": [
+                  "Index test dan reference standard",
+                  "Intervention, comparison, dan outcome terapi",
+                  "Hazard function dan censoring",
+                  "Plagiarism dan falsification",
+                  "PRISMA flow diagram"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Table 2B merangkum studi terapi, termasuk intervention, comparison, dan outcome."
+              },
+              {
+                "id": 18,
+                "originalId": 18,
+                "block": "Blok II.1",
+                "materi": "Critical Appraisal Diagnosis",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Critical Appraisal Diagnosis",
+                "sourceFile": "2. Isi_Group Assignment",
+                "question": "Pertanyaan critical appraisal diagnosis 'apakah index test dibandingkan secara blind dengan reference standard?' menilai aspek...",
+                "image": "",
+                "options": [
+                  "Validitas studi diagnosis",
+                  "Presisi terapi",
+                  "Efektivitas vaksin",
+                  "Ukuran sampel survival",
+                  "Kepatuhan pada GCP"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Blinding antara index test dan reference standard mengurangi bias interpretasi."
+              },
+              {
+                "id": 19,
+                "originalId": 19,
+                "block": "Blok II.1",
+                "materi": "Critical Appraisal Terapi",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Critical Appraisal Terapi",
+                "sourceFile": "2. Isi_Group Assignment",
+                "question": "Intention-to-treat analysis dalam studi terapi berarti...",
+                "image": "",
+                "options": [
+                  "Subjek dianalisis sesuai kelompok awal randomisasi",
+                  "Subjek dianalisis hanya jika patuh penuh",
+                  "Subjek dengan efek samping dikeluarkan otomatis",
+                  "Hanya kelompok intervensi yang dianalisis",
+                  "Analisis dilakukan tanpa outcome"
+                ],
+                "correctAnswer": 0,
+                "explanation": "ITT mempertahankan keuntungan randomisasi dengan menganalisis sesuai alokasi awal."
+              },
+              {
+                "id": 20,
+                "originalId": 20,
+                "block": "Blok II.1",
+                "materi": "Kesimpulan EBM",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Kesimpulan EBM",
+                "sourceFile": "2. Isi_Group Assignment",
+                "question": "Table 4 dalam group assignment paling tepat berisi...",
+                "image": "",
+                "options": [
+                  "Kesimpulan untuk menjawab skenario klinis berdasarkan evidence",
+                  "Daftar nama dosen pengampu",
+                  "Raw data seluruh penelitian",
+                  "Komentar tanpa dasar artikel",
+                  "Hanya daftar keyword PubMed"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Table 4 adalah conclusion to answer scenario."
+              },
+              {
+                "id": 21,
+                "originalId": 21,
+                "block": "Blok II.1",
+                "materi": "Sensitivity",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Sensitivity",
+                "sourceFile": "Critical Appraisal Diagnosis",
+                "question": "Sensitivity adalah kemampuan tes untuk...",
+                "image": "",
+                "options": [
+                  "Mendeteksi orang yang benar-benar sakit sebagai positif",
+                  "Mendeteksi orang sehat sebagai negatif",
+                  "Mengukur manfaat terapi",
+                  "Mengukur risiko relatif",
+                  "Menentukan randomisasi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Sensitivity = true positive rate."
+              },
+              {
+                "id": 22,
+                "originalId": 22,
+                "block": "Blok II.1",
+                "materi": "Specificity",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Specificity",
+                "sourceFile": "Critical Appraisal Diagnosis",
+                "question": "Specificity adalah kemampuan tes untuk...",
+                "image": "",
+                "options": [
+                  "Mendeteksi orang sakit sebagai positif",
+                  "Mendeteksi orang sehat sebagai negatif",
+                  "Menghitung NNT",
+                  "Menilai heterogeneity",
+                  "Mengukur hazard ratio"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Specificity = true negative rate."
+              },
+              {
+                "id": 23,
+                "originalId": 23,
+                "block": "Blok II.1",
+                "materi": "PPV",
+                "level": "sedang",
+                "type": "",
+                "lecture": "PPV",
+                "sourceFile": "Critical Appraisal Diagnosis",
+                "question": "Positive Predictive Value (PPV) menjawab pertanyaan...",
+                "image": "",
+                "options": [
+                  "Jika tes positif, berapa kemungkinan pasien benar-benar sakit?",
+                  "Jika tes negatif, berapa kemungkinan pasien benar-benar sehat?",
+                  "Berapa banyak pasien perlu diterapi?",
+                  "Apakah follow-up cukup lama?",
+                  "Apakah subjek dirandomisasi?"
+                ],
+                "correctAnswer": 0,
+                "explanation": "PPV adalah probabilitas pasien benar-benar sakit bila hasil tes positif."
+              },
+              {
+                "id": 24,
+                "originalId": 24,
+                "block": "Blok II.1",
+                "materi": "NPV",
+                "level": "sedang",
+                "type": "",
+                "lecture": "NPV",
+                "sourceFile": "Critical Appraisal Diagnosis",
+                "question": "Negative Predictive Value (NPV) menjawab pertanyaan...",
+                "image": "",
+                "options": [
+                  "Jika tes positif, apakah pasien pasti sakit?",
+                  "Jika tes negatif, berapa kemungkinan pasien benar-benar tidak sakit?",
+                  "Berapa besar efek terapi?",
+                  "Berapa nilai adjusted odds ratio?",
+                  "Apakah outcome dikotomi?"
+                ],
+                "correctAnswer": 1,
+                "explanation": "NPV adalah probabilitas tidak sakit bila hasil tes negatif."
+              },
+              {
+                "id": 25,
+                "originalId": 25,
+                "block": "Blok II.1",
+                "materi": "2x2 Table",
+                "level": "sulit",
+                "type": "",
+                "lecture": "2x2 Table",
+                "sourceFile": "Critical Appraisal Diagnosis",
+                "question": "Dalam tabel 2x2 diagnosis, false negative adalah kondisi ketika...",
+                "image": "",
+                "options": [
+                  "Tes positif dan pasien sakit",
+                  "Tes positif tetapi pasien sehat",
+                  "Tes negatif tetapi pasien sakit",
+                  "Tes negatif dan pasien sehat",
+                  "Tes tidak dilakukan"
+                ],
+                "correctAnswer": 2,
+                "explanation": "False negative berarti tes gagal mendeteksi penyakit yang sebenarnya ada."
+              },
+              {
+                "id": 26,
+                "originalId": 26,
+                "block": "Blok II.1",
+                "materi": "RR",
+                "level": "sedang",
+                "type": "",
+                "lecture": "RR",
+                "sourceFile": "Critical Appraisal Therapy",
+                "question": "Risk Ratio (RR) pada studi terapi membandingkan...",
+                "image": "",
+                "options": [
+                  "Risiko outcome pada kelompok intervensi dengan kelompok kontrol",
+                  "Odds outcome dengan odds exposure",
+                  "Median survival antar kelompok",
+                  "Jumlah artikel yang tersaring",
+                  "Kualitas informed consent"
+                ],
+                "correctAnswer": 0,
+                "explanation": "RR adalah rasio risiko outcome antara dua kelompok."
+              },
+              {
+                "id": 27,
+                "originalId": 27,
+                "block": "Blok II.1",
+                "materi": "ARR",
+                "level": "sedang",
+                "type": "",
+                "lecture": "ARR",
+                "sourceFile": "Critical Appraisal Therapy",
+                "question": "Absolute Risk Reduction (ARR) menggambarkan...",
+                "image": "",
+                "options": [
+                  "Penurunan risiko absolut antara kontrol dan intervensi",
+                  "Rasio odds antara dua kelompok",
+                  "Waktu sampai event",
+                  "Jumlah artikel yang dieksklusi",
+                  "Risiko bias publikasi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "ARR = risiko kontrol dikurangi risiko intervensi."
+              },
+              {
+                "id": 28,
+                "originalId": 28,
+                "block": "Blok II.1",
+                "materi": "NNT",
+                "level": "sulit",
+                "type": "",
+                "lecture": "NNT",
+                "sourceFile": "Critical Appraisal Therapy",
+                "question": "Jika ARR suatu terapi adalah 0,25, maka NNT adalah...",
+                "image": "",
+                "options": [
+                  "2",
+                  "4",
+                  "10",
+                  "25",
+                  "40"
+                ],
+                "correctAnswer": 1,
+                "explanation": "NNT = 1/ARR = 1/0,25 = 4."
+              },
+              {
+                "id": 29,
+                "originalId": 29,
+                "block": "Blok II.1",
+                "materi": "95% CI",
+                "level": "sedang",
+                "type": "",
+                "lecture": "95% CI",
+                "sourceFile": "Critical Appraisal Therapy",
+                "question": "Pada studi terapi dengan RR, confidence interval yang melewati angka 1 biasanya berarti...",
+                "image": "",
+                "options": [
+                  "Hasil tidak signifikan secara statistik",
+                  "Efek terapi pasti besar",
+                  "Tidak ada masalah presisi",
+                  "Studi pasti bias",
+                  "Outcome bukan dikotomi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Untuk rasio seperti RR/OR/HR, nilai null adalah 1."
+              },
+              {
+                "id": 30,
+                "originalId": 30,
+                "block": "Blok II.1",
+                "materi": "Randomisasi",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Randomisasi",
+                "sourceFile": "Critical Appraisal Therapy",
+                "question": "Tujuan utama randomisasi dalam RCT adalah...",
+                "image": "",
+                "options": [
+                  "Mengurangi selection bias dan menyeimbangkan faktor prognostik",
+                  "Menjamin semua pasien sembuh",
+                  "Menghapus kebutuhan informed consent",
+                  "Membuat semua outcome objektif",
+                  "Menghilangkan kebutuhan analisis statistik"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Randomisasi membantu membuat kelompok sebanding pada awal studi."
+              },
+              {
+                "id": 31,
+                "originalId": 46,
+                "block": "Blok II.1",
+                "materi": "Definisi Secondary Data",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Definisi Secondary Data",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "Secondary data research menggunakan data yang...",
+                "image": "",
+                "options": [
+                  "Sudah dikumpulkan sebelumnya untuk tujuan tertentu",
+                  "Selalu dikumpulkan langsung oleh peneliti pada hari yang sama",
+                  "Tidak pernah memiliki missing data",
+                  "Tidak membutuhkan analisis statistik",
+                  "Hanya berasal dari wawancara primer"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Data sekunder adalah data yang sudah ada sebelum penelitian baru dilakukan."
+              },
+              {
+                "id": 32,
+                "originalId": 47,
+                "block": "Blok II.1",
+                "materi": "Sumber Data Sekunder",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Sumber Data Sekunder",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "Contoh sumber data sekunder dalam penelitian medis adalah...",
+                "image": "",
+                "options": [
+                  "Rekam medis rumah sakit dan survei nasional",
+                  "Hanya wawancara langsung pasien baru",
+                  "Eksperimen laboratorium yang baru dibuat",
+                  "Randomisasi obat baru pada pasien",
+                  "Catatan pribadi tanpa struktur"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Rekam medis, survei nasional, dan data administratif dapat menjadi data sekunder."
+              },
+              {
+                "id": 33,
+                "originalId": 48,
+                "block": "Blok II.1",
+                "materi": "Kelebihan Data Sekunder",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Kelebihan Data Sekunder",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "Kelebihan utama secondary data research adalah...",
+                "image": "",
+                "options": [
+                  "Lebih cepat dan hemat biaya dibanding pengumpulan data primer",
+                  "Selalu bebas bias",
+                  "Tidak perlu memahami struktur data",
+                  "Tidak perlu ethical consideration",
+                  "Selalu memiliki semua variabel yang diinginkan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Data sudah tersedia sehingga penelitian bisa lebih cepat dan efisien."
+              },
+              {
+                "id": 34,
+                "originalId": 49,
+                "block": "Blok II.1",
+                "materi": "Keterbatasan Data Sekunder",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Keterbatasan Data Sekunder",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "Salah satu keterbatasan utama data sekunder adalah...",
+                "image": "",
+                "options": [
+                  "Variabel yang tersedia mungkin tidak sesuai dengan pertanyaan penelitian",
+                  "Data selalu terlalu kecil",
+                  "Tidak mungkin dianalisis statistik",
+                  "Tidak pernah ada missing data",
+                  "Tidak bisa berasal dari rumah sakit"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Peneliti harus menyesuaikan pertanyaan riset dengan data yang tersedia."
+              },
+              {
+                "id": 35,
+                "originalId": 50,
+                "block": "Blok II.1",
+                "materi": "Missing Data",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Missing Data",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "Missing data dalam secondary data research penting diperhatikan karena...",
+                "image": "",
+                "options": [
+                  "Dapat menimbulkan bias dan menurunkan validitas analisis",
+                  "Selalu membuat penelitian tidak mungkin dilakukan",
+                  "Selalu berarti data palsu",
+                  "Tidak memengaruhi hasil jika sample besar",
+                  "Hanya terjadi pada clinical trial"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Missing data dapat menyebabkan hasil tidak representatif bila tidak ditangani dengan baik."
+              },
+              {
+                "id": 36,
+                "originalId": 51,
+                "block": "Blok II.1",
+                "materi": "Workflow",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Workflow",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "Urutan umum workflow secondary data research adalah...",
+                "image": "",
+                "options": [
+                  "Research question, cari sumber data, obtain/clean data, analisis, interpretasi/publikasi",
+                  "Publikasi, baru membuat research question",
+                  "Analisis tanpa cleaning data",
+                  "Membuat conclusion sebelum memahami data",
+                  "Membuang semua data missing tanpa pertimbangan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Workflow dimulai dari pertanyaan riset dan berakhir dengan interpretasi/publikasi."
+              },
+              {
+                "id": 37,
+                "originalId": 52,
+                "block": "Blok II.1",
+                "materi": "STROBE",
+                "level": "sedang",
+                "type": "",
+                "lecture": "STROBE",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "STROBE paling berkaitan dengan...",
+                "image": "",
+                "options": [
+                  "Pelaporan studi observasional",
+                  "Pelaporan RCT",
+                  "Pelaporan systematic review",
+                  "Perhitungan NNT",
+                  "Pembuatan informed consent"
+                ],
+                "correctAnswer": 0,
+                "explanation": "STROBE digunakan untuk meningkatkan kualitas pelaporan studi observasional."
+              },
+              {
+                "id": 38,
+                "originalId": 53,
+                "block": "Blok II.1",
+                "materi": "Analisis Lanjutan",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Analisis Lanjutan",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "Dalam penelitian data sekunder, analisis sederhana seperti chi-square saja sering belum cukup untuk publikasi karena...",
+                "image": "",
+                "options": [
+                  "Sering perlu mengontrol confounding atau struktur data yang kompleks",
+                  "Chi-square tidak pernah valid",
+                  "Semua data sekunder harus dianalisis kualitatif",
+                  "Publikasi tidak menerima angka",
+                  "Data sekunder selalu RCT"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Analisis lanjutan seperti logistic regression atau multilevel analysis sering diperlukan."
+              },
+              {
+                "id": 39,
+                "originalId": 54,
+                "block": "Blok II.1",
+                "materi": "Etika Data Sekunder",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Etika Data Sekunder",
+                "sourceFile": "EBM Secondary Data Research",
+                "question": "Meskipun data sekunder sering anonim, peneliti tetap perlu mempertimbangkan...",
+                "image": "",
+                "options": [
+                  "Persetujuan etik/IRB dan perlindungan kerahasiaan data",
+                  "Menghilangkan semua variabel outcome",
+                  "Tidak menyebut sumber data",
+                  "Mengubah data agar signifikan",
+                  "Mengabaikan bias"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Data sekunder tetap memiliki aspek etik, terutama privasi dan izin penggunaan data."
+              },
+              {
+                "id": 40,
+                "originalId": 81,
+                "block": "Blok II.1",
+                "materi": "Definisi Research",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Definisi Research",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Research didefinisikan sebagai...",
+                "image": "",
+                "options": [
+                  "Penyelidikan sistematis untuk memperluas pengetahuan",
+                  "Opini pribadi tanpa metode",
+                  "Keputusan klinis tanpa data",
+                  "Promosi produk kesehatan",
+                  "Pengobatan rutin tanpa tujuan ilmiah"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Research adalah systematic investigation untuk menghasilkan pengetahuan."
+              },
+              {
+                "id": 41,
+                "originalId": 82,
+                "block": "Blok II.1",
+                "materi": "Research Ethics",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Research Ethics",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Tujuan utama research ethics adalah...",
+                "image": "",
+                "options": [
+                  "Melindungi peserta penelitian dan memastikan penelitian bermanfaat bagi masyarakat",
+                  "Mempercepat publikasi dengan mengabaikan consent",
+                  "Membuat hasil selalu signifikan",
+                  "Menghilangkan kebutuhan review independen",
+                  "Mencegah penggunaan metode statistik"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Research ethics memastikan perlindungan subjek dan integritas penelitian."
+              },
+              {
+                "id": 42,
+                "originalId": 83,
+                "block": "Blok II.1",
+                "materi": "Belmont Principles",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Belmont Principles",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Tiga prinsip dasar Belmont Report adalah...",
+                "image": "",
+                "options": [
+                  "Respect for persons, beneficence, justice",
+                  "Randomization, blinding, placebo",
+                  "Sensitivity, specificity, PPV",
+                  "ARR, RRR, NNT",
+                  "PICO, PRISMA, PROSPERO"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Belmont Report menekankan respect for persons, beneficence, dan justice."
+              },
+              {
+                "id": 43,
+                "originalId": 84,
+                "block": "Blok II.1",
+                "materi": "Nuremberg Code",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Nuremberg Code",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Prinsip utama Nuremberg Code yang paling mendasar adalah...",
+                "image": "",
+                "options": [
+                  "Voluntary consent dari subjek penelitian",
+                  "Meta-analysis wajib dilakukan",
+                  "Subjek tidak boleh mendapat informasi risiko",
+                  "Peneliti boleh memaksa partisipasi",
+                  "Outcome harus selalu biner"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Nuremberg Code menekankan voluntary informed consent."
+              },
+              {
+                "id": 44,
+                "originalId": 85,
+                "block": "Blok II.1",
+                "materi": "Declaration of Helsinki",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Declaration of Helsinki",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Declaration of Helsinki menekankan bahwa consent sebaiknya...",
+                "image": "",
+                "options": [
+                  "Tertulis dan diberikan secara sukarela",
+                  "Diberikan hanya oleh peneliti tanpa pasien tahu",
+                  "Tidak diperlukan jika penelitian klinis",
+                  "Diberikan setelah publikasi",
+                  "Diganti dengan hasil statistik"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Helsinki menekankan informed consent tertulis dan perlindungan partisipan."
+              },
+              {
+                "id": 45,
+                "originalId": 86,
+                "block": "Blok II.1",
+                "materi": "Tuskegee Study",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Tuskegee Study",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Tuskegee Syphilis Study sering dibahas dalam etika penelitian karena...",
+                "image": "",
+                "options": [
+                  "Menunjukkan pelanggaran serius terhadap hak dan keselamatan subjek",
+                  "Menjadi contoh RCT ideal",
+                  "Membuktikan semua observasional study bebas etik",
+                  "Menunjukkan informed consent sempurna",
+                  "Menjadi contoh meta-analysis terbaik"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Tuskegee menjadi contoh historis pelanggaran etika penelitian manusia."
+              },
+              {
+                "id": 46,
+                "originalId": 87,
+                "block": "Blok II.1",
+                "materi": "Ethical Clinical Research",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Ethical Clinical Research",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Menurut prinsip ethical clinical research, fair subject selection berarti...",
+                "image": "",
+                "options": [
+                  "Pemilihan subjek adil dan tidak mengeksploitasi kelompok rentan",
+                  "Hanya memilih subjek miskin agar mudah direkrut",
+                  "Hanya memilih subjek yang dekat dengan peneliti",
+                  "Memilih subjek tanpa kriteria jelas",
+                  "Menghindari semua kelompok yang butuh manfaat"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Fair subject selection mencegah eksploitasi dan distribusi manfaat/risiko yang tidak adil."
+              },
+              {
+                "id": 47,
+                "originalId": 88,
+                "block": "Blok II.1",
+                "materi": "Research Misconduct",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Research Misconduct",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Research misconduct paling klasik mencakup...",
+                "image": "",
+                "options": [
+                  "Fabrication, falsification, plagiarism",
+                  "PICO, searching, appraisal",
+                  "Sensitivity, specificity, PPV",
+                  "Kaplan-Meier, log-rank, Cox",
+                  "ARR, RRR, NNT"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Tiga bentuk utama misconduct adalah fabrication, falsification, dan plagiarism."
+              },
+              {
+                "id": 48,
+                "originalId": 89,
+                "block": "Blok II.1",
+                "materi": "Fabrication",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Fabrication",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Fabrication dalam penelitian berarti...",
+                "image": "",
+                "options": [
+                  "Membuat data atau hasil yang sebenarnya tidak ada",
+                  "Mengutip sumber dengan benar",
+                  "Menggunakan metode statistik yang tepat",
+                  "Mendaftarkan protokol",
+                  "Melakukan informed consent"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Fabrication adalah menciptakan data palsu."
+              },
+              {
+                "id": 49,
+                "originalId": 90,
+                "block": "Blok II.1",
+                "materi": "Falsification",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Falsification",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Falsification dalam penelitian berarti...",
+                "image": "",
+                "options": [
+                  "Memanipulasi data, metode, atau hasil sehingga tidak mencerminkan kebenaran",
+                  "Membuat PICO yang jelas",
+                  "Menyimpan data mentah dengan baik",
+                  "Melaporkan limitation",
+                  "Menyebut conflict of interest"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Falsification adalah manipulasi data atau proses penelitian."
+              },
+              {
+                "id": 50,
+                "originalId": 91,
+                "block": "Blok II.1",
+                "materi": "Plagiarism",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Plagiarism",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Plagiarism adalah...",
+                "image": "",
+                "options": [
+                  "Menggunakan ide atau tulisan orang lain tanpa pengakuan yang tepat",
+                  "Membuat daftar pustaka lengkap",
+                  "Mendaftarkan systematic review",
+                  "Menulis metode secara transparan",
+                  "Menggunakan software statistik"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Plagiarism melanggar integritas akademik karena mengambil karya orang lain tanpa atribusi."
+              },
+              {
+                "id": 51,
+                "originalId": 92,
+                "block": "Blok II.1",
+                "materi": "Publication Ethics",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Publication Ethics",
+                "sourceFile": "Research Ethics, Misconduct, Fabrication, and Plagiarism",
+                "question": "Salami slicing dalam publication ethics berarti...",
+                "image": "",
+                "options": [
+                  "Membagi satu penelitian menjadi banyak publikasi kecil yang tidak semestinya",
+                  "Menggabungkan beberapa studi dalam meta-analysis",
+                  "Menggunakan informed consent tertulis",
+                  "Menyimpan raw data",
+                  "Menilai risk of bias"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Salami slicing adalah fragmentasi publikasi untuk meningkatkan jumlah paper secara tidak etis."
+              },
+              {
+                "id": 52,
+                "originalId": 93,
+                "block": "Blok II.1",
+                "materi": "Definisi GCP",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Definisi GCP",
+                "sourceFile": "GCP - Block II.1 - March 2026",
+                "question": "Good Clinical Practice (GCP) adalah standar...",
+                "image": "",
+                "options": [
+                  "Etik dan ilmiah untuk clinical trial yang melibatkan manusia",
+                  "Pencarian artikel PubMed",
+                  "Perhitungan sensitivity-specificity",
+                  "Pedoman menulis systematic review",
+                  "Metode menghitung odds ratio"
+                ],
+                "correctAnswer": 0,
+                "explanation": "GCP adalah standar etik dan ilmiah internasional dalam studi klinis."
+              },
+              {
+                "id": 53,
+                "originalId": 94,
+                "block": "Blok II.1",
+                "materi": "Prinsip GCP",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Prinsip GCP",
+                "sourceFile": "GCP - Block II.1 - March 2026",
+                "question": "Dalam GCP, kepentingan yang harus diutamakan adalah...",
+                "image": "",
+                "options": [
+                  "Hak, keselamatan, dan kesejahteraan subjek penelitian",
+                  "Kecepatan publikasi",
+                  "Kepentingan sponsor saja",
+                  "Jumlah sitasi peneliti",
+                  "Kemudahan rekrutmen"
+                ],
+                "correctAnswer": 0,
+                "explanation": "GCP menempatkan rights, safety, and well-being subjek sebagai prioritas."
+              },
+              {
+                "id": 54,
+                "originalId": 95,
+                "block": "Blok II.1",
+                "materi": "Informed Consent",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Informed Consent",
+                "sourceFile": "GCP - Block II.1 - March 2026",
+                "question": "Informed consent dalam GCP adalah proses yang mencakup...",
+                "image": "",
+                "options": [
+                  "Information, comprehension, dan voluntary decision making",
+                  "Randomization, blinding, dan allocation",
+                  "Sensitivity, specificity, dan PPV",
+                  "Search, select, dan synthesize",
+                  "Cleaning, merging, dan coding"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Consent membutuhkan informasi, pemahaman, dan keputusan sukarela."
+              },
+              {
+                "id": 55,
+                "originalId": 96,
+                "block": "Blok II.1",
+                "materi": "ALCOA",
+                "level": "sedang",
+                "type": "",
+                "lecture": "ALCOA",
+                "sourceFile": "GCP - Block II.1 - March 2026",
+                "question": "Prinsip ALCOA dalam data integrity mencakup...",
+                "image": "",
+                "options": [
+                  "Attributable, Legible, Contemporaneous, Original, Accurate",
+                  "Analysis, Literature, Conclusion, Outcome, Appraisal",
+                  "Autonomy, Liability, Consent, Outcome, Approval",
+                  "Allocation, Loss, Censoring, Odds, Adjustment",
+                  "Accuracy, Logistic, Cox, Odds, Appraisal"
+                ],
+                "correctAnswer": 0,
+                "explanation": "ALCOA adalah prinsip integritas data dalam clinical trial."
+              },
+              {
+                "id": 56,
+                "originalId": 97,
+                "block": "Blok II.1",
+                "materi": "Protocol",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Protocol",
+                "sourceFile": "GCP - Block II.1 - March 2026",
+                "question": "Menurut prinsip GCP, clinical trial harus dijalankan berdasarkan...",
+                "image": "",
+                "options": [
+                  "Protokol yang jelas, ilmiah, dan telah disetujui IRB/IEC",
+                  "Keputusan spontan investigator tanpa dokumen",
+                  "Opini sponsor tanpa review etik",
+                  "Artikel systematic review saja",
+                  "Data sekunder tanpa izin"
+                ],
+                "correctAnswer": 0,
+                "explanation": "GCP menuntut protokol ilmiah dan approval dari IRB/IEC."
+              },
+              {
+                "id": 57,
+                "originalId": 98,
+                "block": "Blok II.1",
+                "materi": "Penelitian yang Perlu Etik",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Penelitian yang Perlu Etik",
+                "sourceFile": "Research Ethical Approval",
+                "question": "Penelitian yang memerlukan ethical approval mencakup...",
+                "image": "",
+                "options": [
+                  "Penelitian yang melibatkan manusia atau hewan",
+                  "Hanya penelitian tanpa subjek",
+                  "Hanya systematic review tanpa data manusia",
+                  "Hanya tugas tanpa publikasi",
+                  "Hanya artikel opini"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Research involving human atau animal membutuhkan pertimbangan ethical approval."
+              },
+              {
+                "id": 58,
+                "originalId": 99,
+                "block": "Blok II.1",
+                "materi": "IRB/IEC",
+                "level": "sedang",
+                "type": "",
+                "lecture": "IRB/IEC",
+                "sourceFile": "Research Ethical Approval",
+                "question": "Tugas utama IRB/IEC adalah...",
+                "image": "",
+                "options": [
+                  "Melindungi hak, keselamatan, dan kesejahteraan subjek penelitian",
+                  "Menentukan hasil statistik yang harus signifikan",
+                  "Menulis artikel untuk peneliti",
+                  "Mengganti informed consent",
+                  "Membuat randomisasi tanpa protokol"
+                ],
+                "correctAnswer": 0,
+                "explanation": "IRB/IEC menilai protokol dan dokumen penelitian untuk melindungi subjek."
+              },
+              {
+                "id": 59,
+                "originalId": 100,
+                "block": "Blok II.1",
+                "materi": "Jenis Review Etik",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Jenis Review Etik",
+                "sourceFile": "Research Ethical Approval",
+                "question": "Penelitian dengan risiko sedang-tinggi, clinical trial, intervensi eksperimental, atau subjek rentan umumnya memerlukan...",
+                "image": "",
+                "options": [
+                  "Fullboard review",
+                  "Exempted review saja",
+                  "Tidak perlu review",
+                  "Review oleh sponsor saja",
+                  "Review setelah penelitian selesai"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Fullboard review digunakan untuk penelitian dengan risiko lebih tinggi atau isu etik kompleks."
+              },
+              {
+                "id": 60,
+                "originalId": 116,
+                "block": "Blok II.1",
+                "materi": "Confidence Interval Risk Difference",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Confidence Interval Risk Difference",
+                "sourceFile": "",
+                "question": "Dalam RCT terapi demam, ARR = 0,12; 95% CI = 0,04–0,20. Interpretasi statistik yang tepat adalah...",
+                "image": "",
+                "options": [
+                  "ARR signifikan karena CI tidak mencakup 0",
+                  "ARR tidak signifikan karena CI tidak mencakup 1",
+                  "ARR tidak dapat digunakan untuk terapi",
+                  "NNT pasti 0",
+                  "RR pasti sama dengan 1"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Untuk absolute difference seperti ARR, nilai null adalah 0."
+              },
+              {
+                "id": 61,
+                "originalId": 117,
+                "block": "Blok II.1",
+                "materi": "Confidence Interval Risk Difference",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Confidence Interval Risk Difference",
+                "sourceFile": "",
+                "question": "Suatu terapi memiliki ARR = 0,08; 95% CI = -0,02–0,18. Kesimpulan paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Tidak signifikan karena CI mencakup 0",
+                  "Signifikan karena ARR positif",
+                  "Pasti merugikan",
+                  "NNT tidak perlu dihitung",
+                  "Outcome pasti salah"
+                ],
+                "correctAnswer": 0,
+                "explanation": "CI untuk difference yang mencakup 0 menunjukkan hasil tidak signifikan secara statistik."
+              },
+              {
+                "id": 62,
+                "originalId": 118,
+                "block": "Blok II.1",
+                "materi": "RR dan CI",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "RR dan CI",
+                "sourceFile": "",
+                "question": "Pada RCT, RR kejadian demam persisten pada kelompok ibuprofen dibanding paracetamol adalah 0,70; 95% CI = 0,55–0,90. Interpretasi terbaik adalah...",
+                "image": "",
+                "options": [
+                  "Ibuprofen menurunkan risiko demam persisten secara signifikan",
+                  "Ibuprofen meningkatkan risiko secara signifikan",
+                  "Tidak signifikan karena CI tidak melewati 0",
+                  "RR tidak bisa dipakai pada RCT",
+                  "Hasil pasti tidak clinically important"
+                ],
+                "correctAnswer": 0,
+                "explanation": "RR < 1 menunjukkan risiko lebih rendah; CI tidak melewati 1 berarti signifikan."
+              },
+              {
+                "id": 63,
+                "originalId": 119,
+                "block": "Blok II.1",
+                "materi": "RR dan CI",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "RR dan CI",
+                "sourceFile": "",
+                "question": "Sebuah vaksin dengue memiliki RR infeksi = 0,92; 95% CI = 0,70–1,15. Interpretasi paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Tidak ada bukti statistik yang cukup bahwa vaksin menurunkan risiko",
+                  "Vaksin efektif signifikan karena RR < 1",
+                  "Vaksin berbahaya signifikan",
+                  "CI tidak bisa digunakan untuk RR",
+                  "P-value pasti 0"
+                ],
+                "correctAnswer": 0,
+                "explanation": "CI yang melewati 1 menunjukkan hasil tidak signifikan untuk ukuran rasio."
+              },
+              {
+                "id": 64,
+                "originalId": 120,
+                "block": "Blok II.1",
+                "materi": "ARR dan NNT",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "ARR dan NNT",
+                "sourceFile": "",
+                "question": "Dalam RCT, risiko demam persisten pada kontrol 30%, sedangkan pada intervensi 15%. ARR dan NNT yang benar adalah...",
+                "image": "",
+                "options": [
+                  "ARR 15%; NNT sekitar 7",
+                  "ARR 45%; NNT sekitar 2",
+                  "ARR 30%; NNT sekitar 3",
+                  "ARR 15%; NNT 15",
+                  "ARR 0%; NNT tidak terbatas"
+                ],
+                "correctAnswer": 0,
+                "explanation": "ARR = 0,30 - 0,15 = 0,15. NNT = 1/0,15 = 6,67, dibulatkan menjadi 7."
+              },
+              {
+                "id": 65,
+                "originalId": 121,
+                "block": "Blok II.1",
+                "materi": "RRR",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "RRR",
+                "sourceFile": "",
+                "question": "Dalam studi terapi, risiko outcome buruk pada kontrol 40%, sedangkan pada terapi 20%. Relative Risk Reduction adalah...",
+                "image": "",
+                "options": [
+                  "20%",
+                  "40%",
+                  "50%",
+                  "60%",
+                  "80%"
+                ],
+                "correctAnswer": 2,
+                "explanation": "RR = 0,20/0,40 = 0,5. RRR = 1 - RR = 0,5 atau 50%."
+              },
+              {
+                "id": 66,
+                "originalId": 122,
+                "block": "Blok II.1",
+                "materi": "Clinical Significance NNT",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Clinical Significance NNT",
+                "sourceFile": "",
+                "question": "Dua terapi memiliki efek signifikan. Terapi A memiliki NNT = 5, terapi B NNT = 50, dengan efek samping serupa. Mana interpretasi terbaik?",
+                "image": "",
+                "options": [
+                  "Terapi A lebih menarik secara klinis karena lebih sedikit pasien perlu diterapi untuk mencegah satu outcome",
+                  "Terapi B selalu lebih baik karena NNT lebih besar",
+                  "NNT tidak berhubungan dengan clinical importance",
+                  "Keduanya pasti sama efektif",
+                  "NNT hanya digunakan untuk diagnosis"
+                ],
+                "correctAnswer": 0,
+                "explanation": "NNT yang lebih kecil biasanya menunjukkan efek klinis yang lebih besar, dengan tetap mempertimbangkan harms."
+              },
+              {
+                "id": 67,
+                "originalId": 123,
+                "block": "Blok II.1",
+                "materi": "Sensitivity CI",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Sensitivity CI",
+                "sourceFile": "",
+                "question": "Sebuah studi RDT malaria melaporkan sensitivity 95%; 95% CI = 82%–99%. Interpretasi yang benar adalah...",
+                "image": "",
+                "options": [
+                  "Estimasi sensitivity cukup tinggi, tetapi presisinya perlu dinilai dari lebar CI",
+                  "Tes pasti 100% akurat",
+                  "CI untuk sensitivity harus melewati 1",
+                  "Sensitivity sama dengan PPV",
+                  "Tidak perlu reference standard"
+                ],
+                "correctAnswer": 0,
+                "explanation": "CI menunjukkan presisi estimasi sensitivity; semakin lebar CI, semakin kurang presisi."
+              },
+              {
+                "id": 68,
+                "originalId": 124,
+                "block": "Blok II.1",
+                "materi": "Specificity CI",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Specificity CI",
+                "sourceFile": "",
+                "question": "Studi ID-Migraine menunjukkan specificity 60%. Kelemahan utama dari specificity yang sedang/rendah adalah...",
+                "image": "",
+                "options": [
+                  "Lebih banyak false positive",
+                  "Lebih banyak false negative",
+                  "Sensitivity pasti rendah",
+                  "PPV pasti 100%",
+                  "Tes tidak bisa menghasilkan hasil positif"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Specificity rendah berarti kemampuan mengenali orang sehat sebagai negatif lebih rendah, sehingga false positive meningkat."
+              },
+              {
+                "id": 69,
+                "originalId": 125,
+                "block": "Blok II.1",
+                "materi": "Pemilihan Uji Diagnosis",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Pemilihan Uji Diagnosis",
+                "sourceFile": "",
+                "question": "Peneliti membandingkan hasil saliva PCR dengan nasopharyngeal swab sebagai reference standard. Ukuran statistik utama yang harus dilaporkan adalah...",
+                "image": "",
+                "options": [
+                  "Sensitivity dan specificity",
+                  "NNT dan ARR",
+                  "Hazard ratio",
+                  "Mean difference",
+                  "Kaplan-Meier probability"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Studi diagnosis melaporkan ukuran akurasi seperti sensitivity dan specificity."
+              },
+              {
+                "id": 70,
+                "originalId": 137,
+                "block": "Blok II.1",
+                "materi": "Ukuran Sampel dan P-value",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "Ukuran Sampel dan P-value",
+                "sourceFile": "",
+                "question": "Sebuah penelitian data sekunder dengan sampel sangat besar menemukan p-value < 0,001 untuk perbedaan risiko yang sangat kecil. Hal utama yang harus diperhatikan adalah...",
+                "image": "",
+                "options": [
+                  "Apakah perbedaan tersebut penting secara klinis/praktis",
+                  "P-value kecil selalu berarti efek besar",
+                  "CI tidak perlu dilaporkan",
+                  "Sample besar membuat semua bias hilang",
+                  "Tidak perlu adjusted analysis"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Pada sampel besar, efek kecil bisa signifikan statistik; clinical/practical importance tetap harus dinilai."
+              },
+              {
+                "id": 71,
+                "originalId": 138,
+                "block": "Blok II.1",
+                "materi": "Adjusted Analysis",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "Adjusted Analysis",
+                "sourceFile": "",
+                "question": "Dalam secondary data research, hubungan physical activity dengan low back pain signifikan pada chi-square. Namun usia dan sitting time juga berhubungan dengan keduanya. Analisis lanjutan yang lebih tepat adalah...",
+                "image": "",
+                "options": [
+                  "Multiple logistic regression",
+                  "Mengabaikan usia dan sitting time",
+                  "Hanya membuat pie chart",
+                  "Paired t-test",
+                  "Tidak perlu analisis tambahan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Multiple logistic regression dapat mengontrol confounder seperti usia dan sitting time."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "blok-ii-2": {
+      "name": "Blok II.2",
+      "description": "Systematic review, meta-analysis, forest plot, heterogeneity, logistic regression, OR, AOR, p-value, confidence interval",
+      "types": {
+        "latihan": {
+          "name": "Latihan",
+          "years": {
+            "2026": [
+              {
+                "id": 1,
+                "originalId": 31,
+                "block": "Blok II.2",
+                "materi": "Definisi Systematic Review",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Definisi Systematic Review",
+                "sourceFile": "Systematic Review",
+                "question": "Systematic review adalah review yang...",
+                "image": "",
+                "options": [
+                  "Menggunakan pertanyaan jelas dan metode eksplisit untuk mencari, memilih, menilai, dan menganalisis studi",
+                  "Hanya berisi pendapat ahli tanpa metode pencarian",
+                  "Selalu hanya memakai satu artikel utama",
+                  "Tidak membutuhkan eligibility criteria",
+                  "Tidak memerlukan critical appraisal"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Systematic review harus sistematis, eksplisit, dan dapat direplikasi."
+              },
+              {
+                "id": 2,
+                "originalId": 32,
+                "block": "Blok II.2",
+                "materi": "Cochrane",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Cochrane",
+                "sourceFile": "Systematic Review",
+                "question": "Misi Cochrane berkaitan dengan...",
+                "image": "",
+                "options": [
+                  "Mempromosikan keputusan kesehatan berbasis evidence",
+                  "Menggantikan semua clinical trial dengan opini",
+                  "Menerbitkan hanya case report",
+                  "Menentukan harga obat",
+                  "Menetapkan diagnosis pasien individual"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Cochrane berfokus pada evidence-informed health decision-making."
+              },
+              {
+                "id": 3,
+                "originalId": 33,
+                "block": "Blok II.2",
+                "materi": "PRISMA",
+                "level": "sedang",
+                "type": "",
+                "lecture": "PRISMA",
+                "sourceFile": "Systematic Review",
+                "question": "PRISMA terutama digunakan untuk...",
+                "image": "",
+                "options": [
+                  "Pelaporan systematic review dan meta-analysis",
+                  "Menghitung odds ratio pada logistic regression",
+                  "Menguji proportional hazard assumption",
+                  "Mengajukan informed consent",
+                  "Membuat dataset sekunder"
+                ],
+                "correctAnswer": 0,
+                "explanation": "PRISMA adalah pedoman pelaporan systematic review dan meta-analysis."
+              },
+              {
+                "id": 4,
+                "originalId": 34,
+                "block": "Blok II.2",
+                "materi": "PROSPERO",
+                "level": "sedang",
+                "type": "",
+                "lecture": "PROSPERO",
+                "sourceFile": "Systematic Review",
+                "question": "PROSPERO paling berkaitan dengan...",
+                "image": "",
+                "options": [
+                  "Registrasi protokol systematic review",
+                  "Software analisis survival",
+                  "Uji diagnostik dengue",
+                  "Komite etik lokal",
+                  "Penghitungan NNT"
+                ],
+                "correctAnswer": 0,
+                "explanation": "PROSPERO digunakan untuk mendaftarkan protokol systematic review."
+              },
+              {
+                "id": 5,
+                "originalId": 35,
+                "block": "Blok II.2",
+                "materi": "Eligibility Criteria",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Eligibility Criteria",
+                "sourceFile": "Systematic Review",
+                "question": "Eligibility criteria dalam systematic review berfungsi untuk...",
+                "image": "",
+                "options": [
+                  "Menentukan studi mana yang layak dimasukkan atau dikeluarkan",
+                  "Menentukan dosis obat pasien",
+                  "Mengganti proses searching",
+                  "Menghilangkan kebutuhan appraisal",
+                  "Membuat hasil selalu signifikan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Eligibility criteria menentukan batasan populasi, intervensi, outcome, setting, dan desain studi."
+              },
+              {
+                "id": 6,
+                "originalId": 36,
+                "block": "Blok II.2",
+                "materi": "Risk of Bias",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Risk of Bias",
+                "sourceFile": "Systematic Review",
+                "question": "Risk of bias dalam systematic review menilai...",
+                "image": "",
+                "options": [
+                  "Kemungkinan kesalahan sistematis dalam desain atau pelaksanaan studi",
+                  "Jumlah halaman artikel",
+                  "Apakah artikel berbahasa Inggris",
+                  "Kadar obat dalam darah",
+                  "Jumlah author dalam paper"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Risk of bias menilai potensi distorsi sistematis terhadap hasil studi."
+              },
+              {
+                "id": 7,
+                "originalId": 37,
+                "block": "Blok II.2",
+                "materi": "Meta-analysis",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Meta-analysis",
+                "sourceFile": "Systematic Review",
+                "question": "Meta-analysis adalah...",
+                "image": "",
+                "options": [
+                  "Penggabungan statistik hasil beberapa studi yang sesuai",
+                  "Ringkasan naratif tanpa angka",
+                  "Satu studi observasional besar",
+                  "Daftar artikel tanpa appraisal",
+                  "Analisis pasien individual di klinik"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Meta-analysis menggabungkan effect estimate beberapa studi secara statistik."
+              },
+              {
+                "id": 8,
+                "originalId": 38,
+                "block": "Blok II.2",
+                "materi": "Kapan Tidak Meta-analysis",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Kapan Tidak Meta-analysis",
+                "sourceFile": "Systematic Review",
+                "question": "Meta-analysis sebaiknya tidak dilakukan jika...",
+                "image": "",
+                "options": [
+                  "Studi terlalu berbeda dalam PICO, desain, atau outcome",
+                  "Semua studi homogen",
+                  "Outcome sama dan metode mirip",
+                  "Data effect estimate tersedia",
+                  "Semua studi RCT berkualitas baik"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Menggabungkan studi yang terlalu heterogen dapat menghasilkan pooled estimate yang menyesatkan."
+              },
+              {
+                "id": 9,
+                "originalId": 39,
+                "block": "Blok II.2",
+                "materi": "Forest Plot",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Forest Plot",
+                "sourceFile": "Systematic Review",
+                "question": "Pada forest plot, garis horizontal pada tiap studi biasanya menunjukkan...",
+                "image": "",
+                "options": [
+                  "Confidence interval",
+                  "Jumlah reviewer",
+                  "Nama jurnal",
+                  "Tanggal publikasi",
+                  "Jumlah database"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Garis horizontal menunjukkan rentang confidence interval effect estimate."
+              },
+              {
+                "id": 10,
+                "originalId": 40,
+                "block": "Blok II.2",
+                "materi": "Forest Plot",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Forest Plot",
+                "sourceFile": "Systematic Review",
+                "question": "Pada forest plot, diamond biasanya menunjukkan...",
+                "image": "",
+                "options": [
+                  "Pooled effect estimate",
+                  "Artikel yang dieksklusi",
+                  "Judul systematic review",
+                  "Risk of bias domain",
+                  "Database pencarian"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Diamond merepresentasikan hasil gabungan meta-analysis."
+              },
+              {
+                "id": 11,
+                "originalId": 41,
+                "block": "Blok II.2",
+                "materi": "Heterogeneity",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Heterogeneity",
+                "sourceFile": "Systematic Review",
+                "question": "Heterogeneity dalam systematic review berarti...",
+                "image": "",
+                "options": [
+                  "Variasi antar studi dalam hasil, populasi, intervensi, desain, atau metode",
+                  "Semua studi menunjukkan hasil identik",
+                  "Artikel berasal dari satu jurnal",
+                  "Semua studi memiliki sample size sama",
+                  "Tidak ada perbedaan karakteristik studi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Heterogeneity menunjukkan ketidaksamaan antar studi yang dapat memengaruhi interpretasi."
+              },
+              {
+                "id": 12,
+                "originalId": 42,
+                "block": "Blok II.2",
+                "materi": "GRADE",
+                "level": "sedang",
+                "type": "",
+                "lecture": "GRADE",
+                "sourceFile": "Systematic Review",
+                "question": "GRADE digunakan untuk menilai...",
+                "image": "",
+                "options": [
+                  "Kualitas atau kepastian evidence",
+                  "Kekuatan warna forest plot",
+                  "Jumlah keyword PubMed",
+                  "Nilai p pada log-rank test",
+                  "Validitas informed consent"
+                ],
+                "correctAnswer": 0,
+                "explanation": "GRADE menilai certainty of evidence untuk outcome penting."
+              },
+              {
+                "id": 13,
+                "originalId": 43,
+                "block": "Blok II.2",
+                "materi": "Summary of Findings",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Summary of Findings",
+                "sourceFile": "Systematic Review",
+                "question": "Summary of Findings table biasanya berisi...",
+                "image": "",
+                "options": [
+                  "Outcome utama, jumlah studi/peserta, effect estimate, dan kualitas bukti",
+                  "Data mentah semua pasien",
+                  "Daftar biaya penelitian saja",
+                  "Transkrip wawancara lengkap",
+                  "Kode etik publikasi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "SoF table merangkum hasil utama dan kepastian evidence."
+              },
+              {
+                "id": 14,
+                "originalId": 44,
+                "block": "Blok II.2",
+                "materi": "RevMan",
+                "level": "mudah",
+                "type": "",
+                "lecture": "RevMan",
+                "sourceFile": "Systematic Review",
+                "question": "RevMan dalam konteks systematic review digunakan untuk...",
+                "image": "",
+                "options": [
+                  "Membantu membuat dan menganalisis review Cochrane/meta-analysis",
+                  "Membuat informed consent pasien",
+                  "Menghitung suhu tubuh",
+                  "Menyimpan rekam medis rumah sakit",
+                  "Menguji tourniquet test"
+                ],
+                "correctAnswer": 0,
+                "explanation": "RevMan adalah software yang umum dipakai dalam systematic review Cochrane."
+              },
+              {
+                "id": 15,
+                "originalId": 45,
+                "block": "Blok II.2",
+                "materi": "Conclusion",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Conclusion",
+                "sourceFile": "Systematic Review",
+                "question": "Kesimpulan systematic review yang baik seharusnya...",
+                "image": "",
+                "options": [
+                  "Sejalan dengan kualitas dan kekuatan evidence yang ditemukan",
+                  "Selalu memberi rekomendasi kuat meski bukti lemah",
+                  "Mengabaikan risk of bias",
+                  "Hanya berdasarkan studi terbesar",
+                  "Tidak perlu menyebut keterbatasan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kesimpulan harus proporsional terhadap kualitas bukti dan keterbatasan studi."
+              },
+              {
+                "id": 16,
+                "originalId": 55,
+                "block": "Blok II.2",
+                "materi": "Konsep Logistic Regression",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Konsep Logistic Regression",
+                "sourceFile": "Theory of Logistic Regression",
+                "question": "Logistic regression digunakan ketika dependent variable bersifat...",
+                "image": "",
+                "options": [
+                  "Biner",
+                  "Selalu numerik kontinu",
+                  "Selalu ordinal lebih dari 10 kategori",
+                  "Teks bebas",
+                  "Gambar radiologi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Logistic regression paling umum digunakan untuk outcome biner."
+              },
+              {
+                "id": 17,
+                "originalId": 56,
+                "block": "Blok II.2",
+                "materi": "Outcome Biner",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Outcome Biner",
+                "sourceFile": "Theory of Logistic Regression",
+                "question": "Contoh dependent variable yang sesuai untuk logistic regression adalah...",
+                "image": "",
+                "options": [
+                  "Mati/hidup",
+                  "Kadar hemoglobin dalam g/dL sebagai angka kontinu",
+                  "Tinggi badan dalam cm",
+                  "Berat badan dalam kg",
+                  "Jumlah leukosit kontinu"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Mati/hidup adalah outcome biner."
+              },
+              {
+                "id": 18,
+                "originalId": 57,
+                "block": "Blok II.2",
+                "materi": "Odds Ratio",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Odds Ratio",
+                "sourceFile": "Theory of Logistic Regression",
+                "question": "Ukuran asosiasi utama pada logistic regression adalah...",
+                "image": "",
+                "options": [
+                  "Odds ratio",
+                  "Mean difference",
+                  "Median survival",
+                  "Sensitivity",
+                  "NNT"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Logistic regression menghasilkan OR untuk mengukur asosiasi."
+              },
+              {
+                "id": 19,
+                "originalId": 58,
+                "block": "Blok II.2",
+                "materi": "Interpretasi OR",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Interpretasi OR",
+                "sourceFile": "Theory of Logistic Regression",
+                "question": "Jika OR = 1, maka interpretasi paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Tidak ada asosiasi antara exposure dan outcome",
+                  "Exposure pasti protektif kuat",
+                  "Exposure meningkatkan outcome 100 kali",
+                  "Outcome pasti tidak terjadi",
+                  "Data tidak bisa dianalisis"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Nilai null OR adalah 1, artinya odds outcome sama antar kelompok."
+              },
+              {
+                "id": 20,
+                "originalId": 59,
+                "block": "Blok II.2",
+                "materi": "Adjusted OR",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Adjusted OR",
+                "sourceFile": "Theory of Logistic Regression",
+                "question": "Adjusted odds ratio diperoleh dari...",
+                "image": "",
+                "options": [
+                  "Multiple logistic regression yang mengontrol confounder",
+                  "Simple logistic regression tanpa variabel lain",
+                  "Kaplan-Meier curve",
+                  "Forest plot saja",
+                  "Tabel informed consent"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Adjusted OR memperhitungkan variabel lain yang berpotensi menjadi confounder."
+              },
+              {
+                "id": 21,
+                "originalId": 60,
+                "block": "Blok II.2",
+                "materi": "Confounding",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Confounding",
+                "sourceFile": "Theory of Logistic Regression",
+                "question": "Tujuan memasukkan confounding variables dalam multiple logistic regression adalah...",
+                "image": "",
+                "options": [
+                  "Mengontrol pengaruh variabel perancu terhadap hubungan exposure-outcome",
+                  "Membuat semua hasil otomatis signifikan",
+                  "Mengubah outcome menjadi numerik kontinu",
+                  "Menghilangkan kebutuhan hipotesis",
+                  "Mengganti OR dengan sensitivity"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Multiple logistic regression membantu mengontrol confounding."
+              },
+              {
+                "id": 22,
+                "originalId": 61,
+                "block": "Blok II.2",
+                "materi": "Independent Variable",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Independent Variable",
+                "sourceFile": "Theory of Logistic Regression",
+                "question": "Dalam logistic regression, independent variable dapat berupa...",
+                "image": "",
+                "options": [
+                  "Kategorik atau numerik",
+                  "Hanya biner",
+                  "Hanya nominal",
+                  "Hanya ordinal",
+                  "Tidak boleh numerik"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Independent variable pada logistic regression dapat berupa berbagai jenis variabel."
+              },
+              {
+                "id": 23,
+                "originalId": 62,
+                "block": "Blok II.2",
+                "materi": "β dan OR",
+                "level": "sulit",
+                "type": "",
+                "lecture": "β dan OR",
+                "sourceFile": "Theory of Logistic Regression",
+                "question": "Jika dalam publikasi hanya tersedia koefisien β logistic regression, OR dapat diperoleh dengan...",
+                "image": "",
+                "options": [
+                  "exp(β)",
+                  "β/2",
+                  "β x 100",
+                  "log(β)",
+                  "1 - β"
+                ],
+                "correctAnswer": 0,
+                "explanation": "OR adalah eksponensial dari koefisien β."
+              },
+              {
+                "id": 24,
+                "originalId": 63,
+                "block": "Blok II.2",
+                "materi": "Simple Logistic Regression",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Simple Logistic Regression",
+                "sourceFile": "MODUL MAHASISWA S1 2026 Logistic Regression Tutorial",
+                "question": "Simple logistic regression menganalisis hubungan...",
+                "image": "",
+                "options": [
+                  "Satu independent variable dengan outcome biner",
+                  "Banyak outcome numerik sekaligus",
+                  "Survival time tanpa censoring",
+                  "Hanya data kualitatif wawancara",
+                  "Forest plot antar studi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Simple logistic regression memakai satu prediktor utama terhadap outcome biner."
+              },
+              {
+                "id": 25,
+                "originalId": 64,
+                "block": "Blok II.2",
+                "materi": "Multiple Logistic Regression",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Multiple Logistic Regression",
+                "sourceFile": "MODUL MAHASISWA S1 2026 Logistic Regression Tutorial",
+                "question": "Multiple logistic regression pada latihan Jamovi digunakan untuk membandingkan...",
+                "image": "",
+                "options": [
+                  "Unadjusted OR dan adjusted OR",
+                  "Sensitivity dan specificity",
+                  "ARR dan NNT saja",
+                  "Median survival",
+                  "Risk of bias domain"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Latihan membandingkan OR sebelum dan sesudah adjustment variabel lain."
+              },
+              {
+                "id": 26,
+                "originalId": 65,
+                "block": "Blok II.2",
+                "materi": "Jamovi",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Jamovi",
+                "sourceFile": "MODUL MAHASISWA S1 2026 Logistic Regression Tutorial",
+                "question": "Dalam Jamovi, menu yang digunakan untuk logistic regression pada modul adalah...",
+                "image": "",
+                "options": [
+                  "Analyses → Regression → 2 outcomes",
+                  "Analyses → Frequencies → Histogram",
+                  "Data → Transform → Text",
+                  "Exploration → Descriptives only",
+                  "Survival → Kaplan-Meier only"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Modul mengarahkan analisis logistic regression melalui Regression dan 2 outcomes."
+              },
+              {
+                "id": 27,
+                "originalId": 66,
+                "block": "Blok II.2",
+                "materi": "Current LBP",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Current LBP",
+                "sourceFile": "MODUL MAHASISWA S1 2026 Logistic Regression Tutorial",
+                "question": "Pada modul logistic regression 2026, outcome utama yang dianalisis adalah...",
+                "image": "",
+                "options": [
+                  "Current low back pain",
+                  "Fatal injury pada pengendara motor",
+                  "Ovarian cancer survival",
+                  "Akurasi tourniquet test",
+                  "Efektivitas vaksin malaria"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Modul 2026 menggunakan contoh current low back pain pada mahasiswa."
+              },
+              {
+                "id": 28,
+                "originalId": 67,
+                "block": "Blok II.2",
+                "materi": "Motorcyclist Fatal Injury",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Motorcyclist Fatal Injury",
+                "sourceFile": "UNTUK MODUL MAHASISWA S1 2025 Logistic Regression Tutorial",
+                "question": "Pada modul logistic regression 2025, contoh kasus utama berkaitan dengan...",
+                "image": "",
+                "options": [
+                  "Fatal injury pada pengendara motor",
+                  "Low back pain akibat kursi",
+                  "Akurasi saliva PCR",
+                  "Meta-analysis vaksin dengue",
+                  "Ethical approval clinical trial"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Modul 2025 menggunakan studi fatal injury pada motorcyclist."
+              },
+              {
+                "id": 29,
+                "originalId": 68,
+                "block": "Blok II.2",
+                "materi": "Helmet Use",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Helmet Use",
+                "sourceFile": "UNTUK MODUL MAHASISWA S1 2025 Logistic Regression Tutorial",
+                "question": "Pada contoh motorcyclist fatal injury, exposure utama yang dianalisis adalah...",
+                "image": "",
+                "options": [
+                  "Helmet use",
+                  "Jenis kursi",
+                  "Saliva PCR",
+                  "FIGO stage",
+                  "Informed consent"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Contoh 2025 mengevaluasi hubungan helmet use dengan fatal injury."
+              },
+              {
+                "id": 30,
+                "originalId": 69,
+                "block": "Blok II.2",
+                "materi": "Hipotesis Statistik",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Hipotesis Statistik",
+                "sourceFile": "Logistic Regression Tutorial",
+                "question": "Hipotesis nol yang umum untuk logistic regression adalah...",
+                "image": "",
+                "options": [
+                  "OR = 1",
+                  "OR > 10",
+                  "Sensitivity = 100%",
+                  "HR = 0",
+                  "NNT = 1"
+                ],
+                "correctAnswer": 0,
+                "explanation": "H0 biasanya menyatakan tidak ada asosiasi, yaitu OR sama dengan 1."
+              },
+              {
+                "id": 31,
+                "originalId": 70,
+                "block": "Blok II.2",
+                "materi": "Statistical vs Practical Importance",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Statistical vs Practical Importance",
+                "sourceFile": "Logistic Regression Tutorial",
+                "question": "Hasil logistic regression signifikan secara statistik tetapi efeknya sangat kecil. Interpretasi paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Perlu membedakan statistical significance dan practical importance",
+                  "Hasil pasti sangat penting secara klinis",
+                  "Analisis otomatis salah",
+                  "Tidak perlu melihat OR",
+                  "Confidence interval tidak relevan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Signifikansi statistik tidak selalu berarti penting secara klinis/praktis."
+              },
+              {
+                "id": 32,
+                "originalId": 101,
+                "block": "Blok II.2",
+                "materi": "P-value",
+                "level": "mudah",
+                "type": "case-based",
+                "lecture": "P-value",
+                "sourceFile": "",
+                "question": "Seorang mahasiswa menganalisis hubungan chair type dengan current low back pain menggunakan logistic regression. Output menunjukkan p-value = 0,03. Dengan alpha 0,05, interpretasi yang paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Hasil signifikan secara statistik",
+                  "Hasil tidak signifikan karena p-value lebih kecil dari 0,05",
+                  "Hipotesis nol pasti benar",
+                  "Chair type pasti menyebabkan low back pain",
+                  "Tidak perlu melihat OR dan 95% CI"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Jika p-value < 0,05, hasil dianggap signifikan secara statistik, tetapi tetap perlu melihat OR dan 95% CI."
+              },
+              {
+                "id": 33,
+                "originalId": 102,
+                "block": "Blok II.2",
+                "materi": "P-value",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "P-value",
+                "sourceFile": "",
+                "question": "Dalam analisis helmet use terhadap fatal injury, didapatkan p-value = 0,21. Kesimpulan statistik yang paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Terdapat asosiasi signifikan",
+                  "Tidak terdapat bukti statistik yang cukup untuk menolak H0",
+                  "Helmet use pasti tidak berhubungan dengan fatal injury",
+                  "OR pasti sama dengan 1",
+                  "Data pasti salah"
+                ],
+                "correctAnswer": 1,
+                "explanation": "p-value > 0,05 berarti gagal menolak H0; bukan berarti hubungan pasti tidak ada."
+              },
+              {
+                "id": 34,
+                "originalId": 103,
+                "block": "Blok II.2",
+                "materi": "Makna P-value",
+                "level": "sulit",
+                "type": "conceptual case",
+                "lecture": "Makna P-value",
+                "sourceFile": "",
+                "question": "Seorang teman mengatakan, 'p-value 0,04 berarti probabilitas H0 benar adalah 4%.' Pernyataan ini...",
+                "image": "",
+                "options": [
+                  "Benar, karena p-value menunjukkan peluang H0 benar",
+                  "Salah, karena p-value menunjukkan probabilitas mendapatkan data seekstrem ini atau lebih ekstrem jika H0 benar",
+                  "Benar hanya pada logistic regression",
+                  "Benar hanya pada survival analysis",
+                  "Salah karena p-value selalu sama dengan OR"
+                ],
+                "correctAnswer": 1,
+                "explanation": "P-value bukan probabilitas H0 benar, tetapi probabilitas hasil data ekstrem dengan asumsi H0 benar."
+              },
+              {
+                "id": 35,
+                "originalId": 104,
+                "block": "Blok II.2",
+                "materi": "Confidence Interval OR",
+                "level": "mudah",
+                "type": "case-based",
+                "lecture": "Confidence Interval OR",
+                "sourceFile": "",
+                "question": "Hasil logistic regression menunjukkan OR = 2,10; 95% CI = 1,30–3,40. Interpretasi statistik yang benar adalah...",
+                "image": "",
+                "options": [
+                  "Hasil signifikan karena CI tidak melewati 1",
+                  "Hasil tidak signifikan karena OR lebih dari 1",
+                  "Tidak ada asosiasi karena CI sempit",
+                  "OR tidak bisa diinterpretasikan",
+                  "CI menunjukkan probabilitas pasien sakit"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Untuk OR, nilai null adalah 1. Jika 95% CI tidak melewati 1, hasil signifikan secara statistik."
+              },
+              {
+                "id": 36,
+                "originalId": 105,
+                "block": "Blok II.2",
+                "materi": "Confidence Interval OR",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Confidence Interval OR",
+                "sourceFile": "",
+                "question": "Analisis chair type terhadap low back pain menghasilkan OR = 1,45; 95% CI = 0,90–2,30. Kesimpulan terbaik adalah...",
+                "image": "",
+                "options": [
+                  "Signifikan karena OR > 1",
+                  "Tidak signifikan karena 95% CI melewati 1",
+                  "Chair type pasti faktor protektif",
+                  "Tidak perlu mempertimbangkan p-value",
+                  "Hasil pasti clinically important"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Meskipun OR > 1, CI yang melewati 1 menunjukkan hasil tidak signifikan secara statistik."
+              },
+              {
+                "id": 37,
+                "originalId": 106,
+                "block": "Blok II.2",
+                "materi": "Confidence Interval Protektif",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Confidence Interval Protektif",
+                "sourceFile": "",
+                "question": "Dalam studi fatal injury, helmet use memiliki OR = 0,55; 95% CI = 0,35–0,86. Interpretasi paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Helmet use berasosiasi dengan odds fatal injury yang lebih rendah dan signifikan",
+                  "Helmet use meningkatkan fatal injury secara signifikan",
+                  "Tidak signifikan karena OR < 1",
+                  "Tidak bisa disimpulkan karena CI tidak melewati 0",
+                  "Helmet use pasti menyebabkan kematian"
+                ],
+                "correctAnswer": 0,
+                "explanation": "OR < 1 menunjukkan efek protektif; CI tidak melewati 1 berarti signifikan."
+              },
+              {
+                "id": 38,
+                "originalId": 107,
+                "block": "Blok II.2",
+                "materi": "Lebar Confidence Interval",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Lebar Confidence Interval",
+                "sourceFile": "",
+                "question": "Dua studi menghasilkan OR sama, yaitu 2,0. Studi A memiliki 95% CI 1,8–2,2, sedangkan studi B 0,8–5,0. Studi mana yang lebih presisi?",
+                "image": "",
+                "options": [
+                  "Studi A",
+                  "Studi B",
+                  "Keduanya sama presisi karena OR sama",
+                  "Tidak bisa dinilai dari CI",
+                  "Studi B karena CI lebih lebar"
+                ],
+                "correctAnswer": 0,
+                "explanation": "CI yang lebih sempit menunjukkan estimasi yang lebih presisi."
+              },
+              {
+                "id": 39,
+                "originalId": 108,
+                "block": "Blok II.2",
+                "materi": "Statistical vs Practical Importance",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "Statistical vs Practical Importance",
+                "sourceFile": "",
+                "question": "Sebuah studi besar menunjukkan OR = 1,05; 95% CI = 1,02–1,08; p = 0,001. Interpretasi terbaik adalah...",
+                "image": "",
+                "options": [
+                  "Signifikan statistik, tetapi efek klinis/praktis mungkin kecil",
+                  "Tidak signifikan karena OR dekat 1",
+                  "Efek pasti sangat besar",
+                  "P-value tidak boleh digunakan",
+                  "CI melewati 1"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Hasil bisa signifikan secara statistik karena sampel besar, tetapi besar efek perlu dinilai secara klinis."
+              },
+              {
+                "id": 40,
+                "originalId": 109,
+                "block": "Blok II.2",
+                "materi": "Hipotesis Logistic Regression",
+                "level": "mudah",
+                "type": "case-based",
+                "lecture": "Hipotesis Logistic Regression",
+                "sourceFile": "",
+                "question": "Dalam logistic regression untuk menilai hubungan loneliness dengan acute pain, hipotesis nol yang paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "OR = 1",
+                  "OR > 1",
+                  "OR < 1",
+                  "p-value = 1",
+                  "CI = 0"
+                ],
+                "correctAnswer": 0,
+                "explanation": "H0 pada logistic regression umumnya menyatakan tidak ada asosiasi, yaitu OR = 1."
+              },
+              {
+                "id": 41,
+                "originalId": 110,
+                "block": "Blok II.2",
+                "materi": "OR dari Koefisien Beta",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "OR dari Koefisien Beta",
+                "sourceFile": "",
+                "question": "Dalam output logistic regression, koefisien β untuk loneliness adalah 0,69. Perkiraan OR yang paling mendekati adalah...",
+                "image": "",
+                "options": [
+                  "0,69",
+                  "1,00",
+                  "2,00",
+                  "6,90",
+                  "69,00"
+                ],
+                "correctAnswer": 2,
+                "explanation": "OR = exp(β). exp(0,69) kira-kira 2,00."
+              },
+              {
+                "id": 42,
+                "originalId": 111,
+                "block": "Blok II.2",
+                "materi": "Simple vs Multiple Logistic Regression",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Simple vs Multiple Logistic Regression",
+                "sourceFile": "",
+                "question": "Analisis simple logistic regression chair type terhadap low back pain menghasilkan OR = 2,3. Setelah adjustment gender, age group, physical activity, dan sitting time, adjusted OR menjadi 1,4. Apa interpretasi terbaik?",
+                "image": "",
+                "options": [
+                  "Sebagian asosiasi awal mungkin dipengaruhi confounding",
+                  "Analisis multiple pasti salah",
+                  "Chair type tidak boleh dianalisis",
+                  "Adjusted OR selalu harus lebih besar",
+                  "Confounder tidak berpengaruh"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Perubahan OR setelah adjustment menunjukkan kemungkinan pengaruh confounder."
+              },
+              {
+                "id": 43,
+                "originalId": 112,
+                "block": "Blok II.2",
+                "materi": "Pemilihan Uji Statistik",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Pemilihan Uji Statistik",
+                "sourceFile": "",
+                "question": "Seorang peneliti ingin mengetahui hubungan antara jenis kursi, yaitu adjustable vs non-adjustable, dengan low back pain, yaitu ya vs tidak. Uji awal sederhana yang sesuai adalah...",
+                "image": "",
+                "options": [
+                  "Chi-square test",
+                  "Paired t-test",
+                  "ANOVA satu arah",
+                  "Pearson correlation",
+                  "Kaplan-Meier"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Dua variabel kategorik dapat diuji asosiasinya dengan chi-square test."
+              },
+              {
+                "id": 44,
+                "originalId": 113,
+                "block": "Blok II.2",
+                "materi": "Pemilihan Uji Statistik",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Pemilihan Uji Statistik",
+                "sourceFile": "",
+                "question": "Peneliti ingin membandingkan rerata total sitting time antara mahasiswa dengan low back pain dan tanpa low back pain. Jika data numerik berdistribusi normal dan dua kelompok independen, uji yang sesuai adalah...",
+                "image": "",
+                "options": [
+                  "Independent t-test",
+                  "Log-rank test",
+                  "Cox regression",
+                  "McNemar test",
+                  "Fisher exact test"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Independent t-test digunakan untuk membandingkan rerata numerik antara dua kelompok independen."
+              },
+              {
+                "id": 45,
+                "originalId": 114,
+                "block": "Blok II.2",
+                "materi": "Pemilihan Model Statistik",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Pemilihan Model Statistik",
+                "sourceFile": "",
+                "question": "Outcome penelitian adalah current low back pain, dikodekan ya/tidak. Peneliti ingin mengontrol gender, age group, dan physical activity. Analisis paling sesuai adalah...",
+                "image": "",
+                "options": [
+                  "Multiple logistic regression",
+                  "Linear regression sederhana",
+                  "Kaplan-Meier saja",
+                  "Paired t-test",
+                  "Wilcoxon signed-rank test"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Outcome biner dengan beberapa prediktor/confounder dianalisis menggunakan multiple logistic regression."
+              },
+              {
+                "id": 46,
+                "originalId": 115,
+                "block": "Blok II.2",
+                "materi": "Interpretasi P-value dan CI",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "Interpretasi P-value dan CI",
+                "sourceFile": "",
+                "question": "Sebuah output menampilkan OR = 1,80; p = 0,049; 95% CI = 1,00–3,20. Apa sikap interpretasi yang paling hati-hati?",
+                "image": "",
+                "options": [
+                  "Secara statistik borderline; perlu interpretasi hati-hati dengan melihat presisi dan konteks klinis",
+                  "Efek pasti sangat kuat",
+                  "Tidak mungkin signifikan karena p < 0,05",
+                  "CI tidak relevan",
+                  "Hasil pasti bias publikasi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "p-value mendekati 0,05 dan batas CI dekat 1 menunjukkan hasil borderline."
+              },
+              {
+                "id": 47,
+                "originalId": 134,
+                "block": "Blok II.2",
+                "materi": "Forest Plot CI",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Forest Plot CI",
+                "sourceFile": "",
+                "question": "Dalam forest plot meta-analysis terapi, pooled RR = 0,78; 95% CI = 0,62–0,95. Interpretasi statistiknya adalah...",
+                "image": "",
+                "options": [
+                  "Terapi menurunkan risiko outcome secara signifikan",
+                  "Terapi tidak signifikan karena RR < 1",
+                  "Terapi meningkatkan risiko secara signifikan",
+                  "CI harus melewati 1 agar signifikan",
+                  "Forest plot hanya untuk studi diagnosis"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Pooled RR < 1 dengan CI tidak melewati 1 menunjukkan efek protektif signifikan."
+              },
+              {
+                "id": 48,
+                "originalId": 135,
+                "block": "Blok II.2",
+                "materi": "Forest Plot CI",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Forest Plot CI",
+                "sourceFile": "",
+                "question": "Pada forest plot, diamond pooled effect menyentuh line of no effect. Kesimpulan paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Hasil pooled effect tidak signifikan secara statistik",
+                  "Semua studi pasti berkualitas buruk",
+                  "Meta-analysis tidak pernah boleh dilakukan",
+                  "Hasil pasti sangat signifikan",
+                  "Tidak perlu melihat heterogeneity"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Jika CI pooled effect melewati line of no effect, hasil tidak signifikan."
+              },
+              {
+                "id": 49,
+                "originalId": 136,
+                "block": "Blok II.2",
+                "materi": "Heterogeneity",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "Heterogeneity",
+                "sourceFile": "",
+                "question": "Dalam systematic review, beberapa studi memiliki populasi, dosis intervensi, dan definisi outcome yang sangat berbeda. Keputusan paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Berhati-hati atau tidak melakukan meta-analysis karena heterogeneity tinggi",
+                  "Tetap menggabungkan semua studi tanpa pertimbangan",
+                  "Menghapus semua studi yang tidak signifikan",
+                  "Mengubah outcome agar sama",
+                  "Mengabaikan risk of bias"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Meta-analysis tidak tepat jika studi terlalu berbeda secara klinis/metodologis."
+              },
+              {
+                "id": 50,
+                "originalId": 139,
+                "block": "Blok II.2",
+                "materi": "Interpretasi Adjusted OR",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Interpretasi Adjusted OR",
+                "sourceFile": "",
+                "question": "Adjusted OR loneliness terhadap acute pain = 1,84; 95% CI = 1,81–1,87. Interpretasi paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Setelah mengontrol variabel lain, loneliness berasosiasi dengan odds acute pain yang lebih tinggi secara signifikan",
+                  "Loneliness tidak berhubungan karena OR bukan 2",
+                  "Loneliness menurunkan odds acute pain",
+                  "CI melewati 1 sehingga tidak signifikan",
+                  "Adjusted OR tidak boleh diinterpretasikan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "AOR > 1 dan CI tidak melewati 1 menunjukkan asosiasi positif signifikan setelah adjustment."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "blok-ii-3": {
+      "name": "Blok II.3",
+      "description": "Survival analysis, censoring, Kaplan-Meier, log-rank test, proportional hazard assumption, Cox regression, hazard ratio",
+      "types": {
+        "latihan": {
+          "name": "Latihan",
+          "years": {
+            "2026": [
+              {
+                "id": 1,
+                "originalId": 71,
+                "block": "Blok II.3",
+                "materi": "Survival Analysis",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Survival Analysis",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Survival analysis digunakan untuk outcome berupa...",
+                "image": "",
+                "options": [
+                  "Time-to-event",
+                  "Hanya outcome numerik kontinu tanpa waktu",
+                  "Hanya data cross-sectional tanpa follow-up",
+                  "Hanya opini pasien",
+                  "Hanya hasil pencarian artikel"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Survival analysis menganalisis waktu sampai event terjadi."
+              },
+              {
+                "id": 2,
+                "originalId": 72,
+                "block": "Blok II.3",
+                "materi": "Event",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Event",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Dalam survival analysis, event berarti...",
+                "image": "",
+                "options": [
+                  "Kejadian akhir yang diamati, misalnya kematian atau relapse",
+                  "Jumlah database yang dicari",
+                  "Variabel confounder saja",
+                  "Artikel yang dieksklusi",
+                  "Protokol penelitian"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Event adalah outcome akhir yang waktunya dianalisis."
+              },
+              {
+                "id": 3,
+                "originalId": 73,
+                "block": "Blok II.3",
+                "materi": "Censoring",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Censoring",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Right-censoring terjadi ketika...",
+                "image": "",
+                "options": [
+                  "Subjek belum mengalami event sampai akhir follow-up atau hilang dari pengamatan",
+                  "Subjek mengalami event sebelum studi dimulai",
+                  "Semua subjek mengalami event serentak",
+                  "Data outcome pasti lengkap",
+                  "Studi tidak memiliki follow-up"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Right-censoring berarti waktu event sebenarnya lebih lama dari waktu observasi yang tersedia."
+              },
+              {
+                "id": 4,
+                "originalId": 74,
+                "block": "Blok II.3",
+                "materi": "Kaplan-Meier",
+                "level": "mudah",
+                "type": "",
+                "lecture": "Kaplan-Meier",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Kaplan-Meier curve digunakan untuk menggambarkan...",
+                "image": "",
+                "options": [
+                  "Probabilitas survival sepanjang waktu",
+                  "Odds ratio adjusted",
+                  "Sensitivity dan specificity",
+                  "Jumlah artikel dalam PRISMA",
+                  "Skor plagiarism"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kurva Kaplan-Meier menunjukkan survival probability dari waktu ke waktu."
+              },
+              {
+                "id": 5,
+                "originalId": 75,
+                "block": "Blok II.3",
+                "materi": "Kaplan-Meier Interpretation",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Kaplan-Meier Interpretation",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Pada Kaplan-Meier curve, garis yang turun tajam pada awal follow-up menunjukkan...",
+                "image": "",
+                "options": [
+                  "Banyak event terjadi pada awal periode pengamatan",
+                  "Tidak ada event sama sekali",
+                  "Semua subjek tersensor",
+                  "Outcome tidak valid",
+                  "Tidak perlu analisis lanjutan"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Penurunan kurva terjadi saat event muncul."
+              },
+              {
+                "id": 6,
+                "originalId": 76,
+                "block": "Blok II.3",
+                "materi": "Log-rank Test",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Log-rank Test",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Log-rank test digunakan untuk...",
+                "image": "",
+                "options": [
+                  "Membandingkan dua atau lebih Kaplan-Meier curve",
+                  "Menghitung sensitivity",
+                  "Menghitung NNT",
+                  "Menilai plagiarism",
+                  "Membuat eligibility criteria"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Log-rank test membandingkan survival antar kelompok."
+              },
+              {
+                "id": 7,
+                "originalId": 77,
+                "block": "Blok II.3",
+                "materi": "Hipotesis Log-rank",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Hipotesis Log-rank",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Hipotesis nol pada log-rank test umumnya menyatakan...",
+                "image": "",
+                "options": [
+                  "Hazard rate antar kelompok sama",
+                  "OR antar kelompok sama dengan 0",
+                  "Sensitivity sama dengan specificity",
+                  "Semua artikel bebas bias",
+                  "Tidak ada censoring"
+                ],
+                "correctAnswer": 0,
+                "explanation": "H0 log-rank menyatakan tidak ada perbedaan hazard/survival antar kelompok."
+              },
+              {
+                "id": 8,
+                "originalId": 78,
+                "block": "Blok II.3",
+                "materi": "PH Assumption",
+                "level": "sulit",
+                "type": "",
+                "lecture": "PH Assumption",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Proportional hazard assumption berarti...",
+                "image": "",
+                "options": [
+                  "Rasio hazard antar kelompok relatif konstan sepanjang waktu",
+                  "Semua pasien harus mengalami event",
+                  "Semua kurva survival harus identik",
+                  "Censoring tidak boleh terjadi",
+                  "OR harus sama dengan HR"
+                ],
+                "correctAnswer": 0,
+                "explanation": "PH assumption menyatakan hazard ratio konstan sepanjang follow-up."
+              },
+              {
+                "id": 9,
+                "originalId": 79,
+                "block": "Blok II.3",
+                "materi": "Cox Regression",
+                "level": "sedang",
+                "type": "",
+                "lecture": "Cox Regression",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Cox proportional hazard regression menghasilkan ukuran asosiasi berupa...",
+                "image": "",
+                "options": [
+                  "Hazard ratio",
+                  "Odds ratio",
+                  "Sensitivity",
+                  "NNT",
+                  "PPV"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Cox regression menghasilkan hazard ratio untuk survival study."
+              },
+              {
+                "id": 10,
+                "originalId": 80,
+                "block": "Blok II.3",
+                "materi": "Interpretasi HR",
+                "level": "sulit",
+                "type": "",
+                "lecture": "Interpretasi HR",
+                "sourceFile": "Survival Analysis for Students 2026",
+                "question": "Jika HR = 1,67 untuk kelompok terpapar dibanding tidak terpapar, interpretasi paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Hazard event pada kelompok terpapar sekitar 67% lebih tinggi",
+                  "Risiko pasti 167% lebih rendah",
+                  "Tidak ada asosiasi",
+                  "Sensitivity tes 67%",
+                  "NNT sama dengan 1,67"
+                ],
+                "correctAnswer": 0,
+                "explanation": "HR 1,67 menunjukkan hazard lebih tinggi 67% pada kelompok terpapar."
+              },
+              {
+                "id": 11,
+                "originalId": 126,
+                "block": "Blok II.3",
+                "materi": "Log-rank Test",
+                "level": "mudah",
+                "type": "case-based",
+                "lecture": "Log-rank Test",
+                "sourceFile": "",
+                "question": "Dua kelompok pasien kanker ovarium dibandingkan waktu survivalnya menggunakan Kaplan-Meier curve. Uji statistik yang sesuai untuk membandingkan kurva adalah...",
+                "image": "",
+                "options": [
+                  "Log-rank test",
+                  "Chi-square test biasa",
+                  "Paired t-test",
+                  "McNemar test",
+                  "Linear regression"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Log-rank test digunakan untuk membandingkan survival curve antar kelompok."
+              },
+              {
+                "id": 12,
+                "originalId": 127,
+                "block": "Blok II.3",
+                "materi": "P-value Log-rank",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "P-value Log-rank",
+                "sourceFile": "",
+                "question": "Kaplan-Meier curve antara stadium awal dan stadium lanjut dibandingkan dengan log-rank test. p-value = 0,002. Kesimpulan paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Ada perbedaan survival yang signifikan antar kelompok",
+                  "Tidak ada perbedaan survival",
+                  "Stadium tidak boleh dianalisis",
+                  "Semua pasien mengalami censoring",
+                  "HR pasti sama dengan 1"
+                ],
+                "correctAnswer": 0,
+                "explanation": "p-value < 0,05 pada log-rank test menunjukkan perbedaan survival curve yang signifikan."
+              },
+              {
+                "id": 13,
+                "originalId": 128,
+                "block": "Blok II.3",
+                "materi": "Hipotesis Log-rank",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "Hipotesis Log-rank",
+                "sourceFile": "",
+                "question": "Dalam log-rank test untuk membandingkan survival pasien stadium I dan IV, H0 yang tepat adalah...",
+                "image": "",
+                "options": [
+                  "Tidak ada perbedaan hazard/survival antara kedua kelompok",
+                  "Stadium IV pasti memiliki survival lebih buruk",
+                  "Semua pasien stadium I sembuh",
+                  "Tidak ada censoring",
+                  "OR = 1"
+                ],
+                "correctAnswer": 0,
+                "explanation": "H0 log-rank menyatakan hazard/survival antar kelompok sama."
+              },
+              {
+                "id": 14,
+                "originalId": 129,
+                "block": "Blok II.3",
+                "materi": "Cox Regression",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Cox Regression",
+                "sourceFile": "",
+                "question": "Peneliti ingin menilai pengaruh stadium kanker terhadap time-to-death sambil mengontrol usia dan jenis terapi. Analisis yang paling sesuai adalah...",
+                "image": "",
+                "options": [
+                  "Cox proportional hazard regression",
+                  "Simple chi-square test",
+                  "Independent t-test",
+                  "Logistic regression tanpa waktu follow-up",
+                  "Paired t-test"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Cox regression digunakan untuk time-to-event dan dapat mengontrol variabel lain."
+              },
+              {
+                "id": 15,
+                "originalId": 130,
+                "block": "Blok II.3",
+                "materi": "Hazard Ratio dan CI",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Hazard Ratio dan CI",
+                "sourceFile": "",
+                "question": "Cox regression menghasilkan HR = 2,40; 95% CI = 1,50–3,80 untuk stadium lanjut terhadap kematian. Interpretasi paling tepat adalah...",
+                "image": "",
+                "options": [
+                  "Stadium lanjut memiliki hazard kematian lebih tinggi dan signifikan",
+                  "Stadium lanjut bersifat protektif",
+                  "Tidak signifikan karena HR > 1",
+                  "CI harus melewati 0 agar signifikan",
+                  "HR sama dengan sensitivity"
+                ],
+                "correctAnswer": 0,
+                "explanation": "HR > 1 menunjukkan hazard lebih tinggi; CI tidak melewati 1 berarti signifikan."
+              },
+              {
+                "id": 16,
+                "originalId": 131,
+                "block": "Blok II.3",
+                "materi": "Hazard Ratio dan CI",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Hazard Ratio dan CI",
+                "sourceFile": "",
+                "question": "Sebuah Cox regression menunjukkan HR = 0,75; 95% CI = 0,48–1,12. Kesimpulan statistik terbaik adalah...",
+                "image": "",
+                "options": [
+                  "Tidak signifikan karena CI melewati 1",
+                  "Signifikan protektif karena HR < 1",
+                  "Hazard meningkat signifikan",
+                  "Tidak bisa menilai survival dengan HR",
+                  "CI harus dibandingkan dengan 0"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Untuk HR, nilai null adalah 1. CI yang melewati 1 berarti tidak signifikan."
+              },
+              {
+                "id": 17,
+                "originalId": 132,
+                "block": "Blok II.3",
+                "materi": "Proportional Hazard Assumption",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "Proportional Hazard Assumption",
+                "sourceFile": "",
+                "question": "Pada Kaplan-Meier curve, dua kurva survival saling bersilangan jelas. Hal ini terutama menimbulkan kekhawatiran terhadap...",
+                "image": "",
+                "options": [
+                  "Proportional hazard assumption",
+                  "Sensitivity test",
+                  "ARR calculation",
+                  "PICO formulation",
+                  "Plagiarism"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kurva yang bersilangan dapat mengindikasikan proportional hazard assumption tidak terpenuhi."
+              },
+              {
+                "id": 18,
+                "originalId": 133,
+                "block": "Blok II.3",
+                "materi": "Censoring",
+                "level": "sedang",
+                "type": "case-based",
+                "lecture": "Censoring",
+                "sourceFile": "",
+                "question": "Seorang pasien tidak mengalami relapse sampai akhir follow-up 12 bulan. Dalam survival analysis, data pasien tersebut disebut...",
+                "image": "",
+                "options": [
+                  "Right-censored",
+                  "False positive",
+                  "False negative",
+                  "Confounder",
+                  "Outlier pasti"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Jika event belum terjadi hingga akhir observasi, data termasuk right-censored."
+              },
+              {
+                "id": 19,
+                "originalId": 140,
+                "block": "Blok II.3",
+                "materi": "Pemilihan Uji Berdasarkan Outcome",
+                "level": "sulit",
+                "type": "case-based",
+                "lecture": "Pemilihan Uji Berdasarkan Outcome",
+                "sourceFile": "",
+                "question": "Seorang peneliti memiliki outcome: waktu sampai pasien mengalami relapse. Beberapa pasien belum relapse sampai akhir follow-up. Analisis yang paling sesuai adalah...",
+                "image": "",
+                "options": [
+                  "Survival analysis dengan Kaplan-Meier/log-rank atau Cox regression",
+                  "Logistic regression biasa tanpa mempertimbangkan waktu",
+                  "Independent t-test saja",
+                  "Chi-square tanpa follow-up time",
+                  "Sensitivity-specificity analysis"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Outcome time-to-event dengan censoring paling sesuai dianalisis menggunakan survival analysis."
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+};

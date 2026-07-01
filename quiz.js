@@ -50,7 +50,9 @@
   const block = QUESTION_DATA[blockId];
   if (!block) { window.location.href = 'dashboard.html'; return; }
   const exam = block.exams[examId];
+  if (!exam) { window.location.href = 'dashboard.html'; return; }
   const type = exam.types[typeId];
+  if (!type) { window.location.href = 'dashboard.html'; return; }
   const rawQuestions = type.years[year];
 
   if (!rawQuestions || rawQuestions.length === 0) {
@@ -90,7 +92,10 @@
     return result;
   }
 
-  const questions = JSON.parse(JSON.stringify(rawQuestions));
+  let questions = JSON.parse(JSON.stringify(rawQuestions));
+  if (block.shuffleQuestions === true) {
+    questions = shuffleWithSeed(questions, `${user.id}_${progressKey}_questions`);
+  }
   questions.forEach((q, index) => {
     const correctText = q.options[q.correctAnswer];
     q.options = shuffleWithSeed(q.options, `${user.id}_${progressKey}_${q.id || index}`);
@@ -142,7 +147,7 @@
 
   // ── Set header ──
   const examNames = { 'cumex-1': 'Cumex 1', 'cumex-2': 'Cumex 2', 'uas': 'UAS' };
-  document.getElementById('quizTitle').textContent = `${block.name} — ${examNames[examId] || examId}`;
+  document.getElementById('quizTitle').textContent = `${block.name} — ${exam.name || examNames[examId] || examId}`;
   document.getElementById('quizSubtitle').textContent = `${type.name} · ${year} · ${questions.length} soal`;
 
   // ── Elements ──
