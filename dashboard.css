@@ -345,6 +345,10 @@
 }
 .dashboard-panel { display: none; }
 .dashboard-panel.active { display: block; }
+.cumex-block-list {
+  display: grid;
+  gap: 24px;
+}
 
 /* ── Block Card ── */
 .block-card {

@@ -224,11 +224,6 @@
     document.getElementById('totalPakets').textContent = completed + '/' + getAvailableQuizPackCount();
   }
 
-  // ── Exam Tabs ──
-  const tabs = document.querySelectorAll('.exam-tab');
-  const content = document.getElementById('examContent');
-  let currentExam = 'cumex-1';
-
   function renderPackageContent(blockId, examId, target) {
     const block = QUESTION_DATA[blockId];
     const exam = block?.exams?.[examId];
@@ -266,35 +261,21 @@
     target.innerHTML = html;
   }
 
-  function renderExamContent(examId) {
-    renderPackageContent('blok-ii-3', examId, content);
-  }
+  function initPackageTabs(blockId, tabSelector, contentId, defaultExam) {
+    const packageTabs = document.querySelectorAll(tabSelector);
+    const target = document.getElementById(contentId);
+    if (!target) return;
 
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      currentExam = tab.dataset.exam;
-      renderExamContent(currentExam);
+    packageTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        packageTabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        renderPackageContent(blockId, tab.dataset.exam, target);
+      });
     });
-  });
 
-  const ebmTabs = document.querySelectorAll('.ebm-exam-tab');
-  const ebmContent = document.getElementById('ebmCasContent');
-  let currentEbmExam = 'blok-ii-1';
-
-  function renderEbmContent(examId) {
-    renderPackageContent('ebm-cas-2', examId, ebmContent);
+    renderPackageContent(blockId, defaultExam, target);
   }
-
-  ebmTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      ebmTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      currentEbmExam = tab.dataset.exam;
-      renderEbmContent(currentEbmExam);
-    });
-  });
 
   // ── Dashboard Mode Tabs (Cumex / OSCE) ──
   const modeTabs = document.querySelectorAll('.dashboard-mode-tab');
@@ -310,7 +291,8 @@
 
   initPatchUpdates();
   progressCache = await loadProgress();
-  renderExamContent(currentExam);
-  renderEbmContent(currentEbmExam);
+  initPackageTabs('blok-ii-3', '#block-ii-3 .exam-tab', 'examContent', 'cumex-1');
+  initPackageTabs('blok-ii-4', '#block-ii-4 .exam-tab', 'blok24ExamContent', 'cumex-1');
+  initPackageTabs('ebm-cas-2', '.ebm-exam-tab', 'ebmCasContent', 'blok-ii-1');
   updateOverallStats();
 })();
