@@ -44,6 +44,19 @@
   // ── Patch updates ──
   const PATCH_UPDATES = [
     {
+      id: 'blok-ii-4-cumex-2-update-2026-06-12',
+      category: 'Paket Soal',
+      date: '12 Jun 2026',
+      title: 'Paket Soal Blok II.4 Cumex 2 (2022 & 2023)',
+      summary: 'Tersedia paket latihan soal Cumex 2 Reguler untuk Blok II.4 tahun 2022 (96 soal) dan 2023 (61 soal) lengkap dengan pembahasan.',
+      highlights: [
+        'Cumex 2 Reguler 2022: 96 butir soal beserta materi kuliah dan pembahasan lengkap.',
+        'Cumex 2 Reguler 2023: 61 butir soal beserta materi kuliah dan pembahasan lengkap.',
+        'Navigasi tab Cumex 2 pada kartu Blok II.4 di dashboard untuk kemudahan akses.',
+        'Penyimpanan progres pengerjaan kuis otomatis terhubung dengan profil akun.'
+      ]
+    },
+    {
       id: 'osce-case-simulation-update-2026-06-10',
       category: 'OSCE',
       date: '10 Jun 2026',
