@@ -44,6 +44,22 @@
   // ── Patch updates ──
   const PATCH_UPDATES = [
     {
+      id: 'blok-ii-4-uas-cumex2iup-update-2026-09-18',
+      category: 'Paket Soal',
+      date: '18 Sep 2026',
+      title: 'UAS & Cumex 2 IUP Blok II.4 (2022 & 2023)',
+      summary: 'Tersedia paket soal UAS (Reguler & IUP) dan Cumex 2 IUP untuk Blok II.4 tahun 2022 dan 2023 lengkap dengan pembahasan.',
+      highlights: [
+        'UAS Reguler 2022: 43 soal beserta pembahasan lengkap.',
+        'UAS Reguler 2023: 42 soal beserta pembahasan lengkap.',
+        'UAS IUP 2023: 43 soal beserta pembahasan lengkap.',
+        'UAS IUP 2022: 36 soal beserta pembahasan lengkap.',
+        'Cumex 2 IUP 2022: 22 soal beserta pembahasan.',
+        'Cumex 2 IUP 2023: 41 soal beserta pembahasan.',
+        'Navigasi tab UAS pada kartu Blok II.4 di dashboard.'
+      ]
+    },
+    {
       id: 'blok-ii-4-cumex-2-update-2026-06-12',
       category: 'Paket Soal',
       date: '12 Jun 2026',
