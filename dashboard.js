@@ -44,6 +44,18 @@
   // ── Patch updates ──
   const PATCH_UPDATES = [
     {
+      id: 'blok-ii-5-cumex-1-update-2026-10-10',
+      category: 'Paket Soal',
+      date: '10 Okt 2026',
+      title: 'Cumex 1 Blok II.5 — IUP & Reguler',
+      summary: 'Paket Oedema, Urinary and Metabolic Disorders tersedia untuk IUP 2021–2023 dan Reguler 2023.',
+      highlights: [
+        'IUP 2021: 21 soal; IUP 2022: 20 soal; IUP 2023: 20 soal.',
+        'Reguler 2023: 18 soal.',
+        'Enam soal memiliki gambar rujukan yang belum tersedia; keterangan ditampilkan pada soal terkait.'
+      ]
+    },
+    {
       id: 'blok-ii-4-uas-cumex2iup-update-2026-09-18',
       category: 'Paket Soal',
       date: '18 Sep 2026',
@@ -322,6 +334,7 @@
   progressCache = await loadProgress();
   initPackageTabs('blok-ii-3', '#block-ii-3 .exam-tab', 'examContent', 'cumex-1');
   initPackageTabs('blok-ii-4', '#block-ii-4 .exam-tab', 'blok24ExamContent', 'cumex-1');
+  initPackageTabs('blok-ii-5', '#block-ii-5 .exam-tab', 'blok25ExamContent', 'cumex-1');
   initPackageTabs('ebm-cas-2', '.ebm-exam-tab', 'ebmCasContent', 'blok-ii-1');
   updateOverallStats();
 })();
