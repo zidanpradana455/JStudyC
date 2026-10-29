@@ -38,8 +38,8 @@
   const params = new URLSearchParams(window.location.search);
   const blockId = params.get('block');
   const examId = params.get('exam');
-  const typeId = params.get('type');
-  const year = params.get('year');
+  let typeId = params.get('type');
+  let year = params.get('year');
 
   if (!blockId || !examId || !typeId || !year) {
     window.location.href = 'dashboard.html';
@@ -49,6 +49,14 @@
   // ── Load questions ──
   const block = QUESTION_DATA[blockId];
   if (!block) { window.location.href = 'dashboard.html'; return; }
+  const oldPackage = (block.packageAliases || []).find(a => a.exams.includes(examId)
+    && a.from.type === typeId && a.from.year === year);
+  if (oldPackage) {
+    typeId = oldPackage.to.type;
+    year = oldPackage.to.year;
+    params.set('type', typeId); params.set('year', year);
+    history.replaceState(null, '', `${window.location.pathname}?${params}${window.location.hash}`);
+  }
   const exam = block.exams[examId];
   if (!exam) { window.location.href = 'dashboard.html'; return; }
   const type = exam.types[typeId];
@@ -62,6 +70,12 @@
 
   // Handle randomization and state
   const progressKey = `${blockId}_${examId}_${typeId}_${year}`;
+  const packageAlias = (block.packageAliases || []).find(a => a.exams.includes(examId)
+    && a.to.type === typeId && a.to.year === year);
+  const legacyProgressKey = packageAlias
+    ? `${blockId}_${examId}_${packageAlias.from.type}_${packageAlias.from.year}` : null;
+  // Preserve option permutations used by answers saved under archive names.
+  const shuffleKey = legacyProgressKey || progressKey;
 
   function hashString(text) {
     let hash = 2166136261;
@@ -94,11 +108,11 @@
 
   let questions = JSON.parse(JSON.stringify(rawQuestions));
   if (block.shuffleQuestions === true) {
-    questions = shuffleWithSeed(questions, `${user.id}_${progressKey}_questions`);
+    questions = shuffleWithSeed(questions, `${user.id}_${shuffleKey}_questions`);
   }
   questions.forEach((q, index) => {
     const correctText = q.options[q.correctAnswer];
-    q.options = shuffleWithSeed(q.options, `${user.id}_${progressKey}_${q.id || index}`);
+    q.options = shuffleWithSeed(q.options, `${user.id}_${shuffleKey}_${q.id || index}`);
     q.correctAnswer = q.options.indexOf(correctText);
   });
 
@@ -110,7 +124,9 @@
   }
 
   function formatExplanation(q) {
-    const explanation = q.explanation || '';
+    const editorialNote = q.reconstructionNote
+      ? `\n\nCatatan ${q.editorialStatus === 'ai-replacement' ? 'soal pengganti' : 'rekonstruksi'} AI: ${q.reconstructionNote}` : '';
+    const explanation = (q.explanation || '') + editorialNote;
     const lectureLine = getLectureLine(q);
     if (!lectureLine) return explanation;
 
@@ -130,18 +146,44 @@
   let wrongCount = 0;
 
   // ── Load previous progress for this set ──
-  const { data: savedState, error: savedStateError } = await supabase
+  let { data: savedState, error: savedStateError } = await supabase
     .from('quiz_progress')
-    .select('answers, flagged, correct')
+    .select('answers, flagged, correct, total')
     .eq('user_id', user.id)
     .eq('progress_key', progressKey)
     .maybeSingle();
   if (savedStateError) console.error(savedStateError);
+  if (!savedState && !savedStateError && legacyProgressKey) {
+    const legacy = await supabase.from('quiz_progress')
+      .select('answers, flagged, correct, total')
+      .eq('user_id', user.id).eq('progress_key', legacyProgressKey).maybeSingle();
+    if (legacy.error) console.error(legacy.error);
+    else savedState = legacy.data;
+  }
 
   if (savedState) {
-    (savedState.answers || []).forEach((a, i) => { answers[i] = a; });
-    (savedState.flagged || []).forEach(f => flagged.add(f));
-    correctCount = savedState.correct || 0;
+    // The first II.5 release omitted quarantined positions. Map its positional
+    // progress onto the unchanged source IDs before inserting reconstructed slots.
+    let legacyQuestions = rawQuestions.filter(q => !q.editorialStatus);
+    const migrateReconstruction = legacyQuestions.length !== questions.length
+      && (savedState.total === legacyQuestions.length
+        || (!savedState.total && savedState.answers?.length === legacyQuestions.length));
+    if (migrateReconstruction && block.shuffleQuestions === true) {
+      legacyQuestions = shuffleWithSeed(legacyQuestions, `${user.id}_${shuffleKey}_questions`);
+    }
+    const destination = i => migrateReconstruction
+      ? questions.findIndex(q => q.importIdentity === legacyQuestions[i]?.importIdentity)
+      : i;
+    (savedState.answers || []).forEach((a, i) => {
+      const target = destination(i);
+      if (target >= 0 && target < questions.length && Number.isInteger(a) && a >= 0 && a < 5) answers[target] = a;
+    });
+    (savedState.flagged || []).forEach(f => {
+      if (!Number.isInteger(f) || f < 0) return;
+      const target = destination(f);
+      if (target >= 0 && target < questions.length) flagged.add(target);
+    });
+    correctCount = answers.filter((a,i) => a !== null && a === questions[i].correctAnswer).length;
     wrongCount = answers.filter(a => a !== null).length - correctCount;
   }
 
@@ -178,10 +220,10 @@
   // ── Render number grid ──
   function renderNumberGrid() {
     numberGrid.innerHTML = '';
-    questions.forEach((_, i) => {
+    questions.forEach((q, i) => {
       const btn = document.createElement('button');
       btn.className = 'num-btn';
-      btn.textContent = i + 1;
+      btn.textContent = q.sourceNumber || i + 1;
       if (i === currentIndex) btn.classList.add('current');
       if (answers[i] !== null) btn.classList.add('answered');
       if (flagged.has(i)) btn.classList.add('flagged');
@@ -232,7 +274,11 @@
     const q = questions[currentIndex];
     const letters = ['A', 'B', 'C', 'D', 'E'];
 
-    questionBadge.textContent = `Soal ${currentIndex + 1} dari ${questions.length}`;
+    questionBadge.textContent = q.sourceNumber
+      ? `Soal sumber ${q.sourceNumber} · ${currentIndex + 1} dari ${questions.length}`
+      : `Soal ${currentIndex + 1} dari ${questions.length}`;
+    if (q.editorialStatus) questionBadge.textContent += q.editorialStatus === 'ai-replacement'
+      ? ' · Soal pengganti AI' : ' · Rekonstruksi AI';
     questionText.textContent = q.question;
     questionMedia.innerHTML = '';
 
@@ -354,6 +400,12 @@
     localStorage.removeItem('jstudyc_quiz_' + progressKey);
     localStorage.removeItem('jstudyc_quiz_data_' + progressKey);
 
+    // Remove the fallback first so restarting cannot resurrect an archive save.
+    if (legacyProgressKey) {
+      const { error: legacyError } = await supabase.from('quiz_progress').delete()
+        .eq('user_id', user.id).eq('progress_key', legacyProgressKey);
+      if (legacyError) { console.error(legacyError); showToast('Progres belum bisa direset. Coba lagi.'); return; }
+    }
     const { error } = await supabase
       .from('quiz_progress')
       .delete()

@@ -1,0 +1,47 @@
+{
+  "source_02:uas:8": {
+    "verified": true,
+    "sha256": "ad89e1ace1e00265a9287e605a9eea5ae3f041ba7120cd8efe5cb58657ae795f",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  },
+  "source_02:uas:12": {
+    "verified": true,
+    "sha256": "ebcabdb35e6fb09d1380f6429809742b0fe2d742417433a39faefdaf0c00ceea",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  },
+  "source_03:cumex-2:14": {
+    "verified": true,
+    "sha256": "e6be1842ecd5283af14281cb1516889d85410ca6f361437b6b3498d59f9291ef",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  },
+  "source_03:cumex-2:15": {
+    "verified": true,
+    "sha256": "53bf79039c88c5ee52f55364dee6dd55132eb43d4ff1d3a5e815e477b3238034",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  },
+  "source_06:cumex-2:20": {
+    "verified": true,
+    "sha256": "479aac28f340d0caa6d26c38cf122ecbc9ac99e4e32d69589c03ef5897dc8402",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  },
+  "source_06:cumex-2:35": {
+    "verified": true,
+    "sha256": "7dc24e3ab647ce2fa575e1f422992af7c915ffc37201a83080e668508e909c7e",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  },
+  "source_06:cumex-2:52": {
+    "verified": true,
+    "sha256": "5bbd3f1adf67e461eec65be36c6f1c4ddc0e3239e32dcf7b4400c626c75692c1",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  },
+  "source_10:cumex-2:28": {
+    "verified": true,
+    "sha256": "6d8dc850144f6f8dc3cff7d2d71e20125f3f5a135689dfbe27ab1dd3df827de0",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  },
+  "source_10:cumex-2:68": {
+    "verified": true,
+    "sha256": "9f313ed1fdc315151909788e843eb66f52f63da9b765c49584f507bc2662094f",
+    "note": "AI visual QA: question association and image-only extraction; clinical certainty recorded separately."
+  }
+}

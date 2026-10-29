@@ -1089,6 +1089,7 @@
   /* Sidebar as slide-up drawer */
   .quiz-sidebar {
     position: fixed;
+    top: auto;
     bottom: 0; left: 0; right: 0;
     z-index: 55;
     background: var(--bg-secondary);

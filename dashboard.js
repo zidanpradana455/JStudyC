@@ -44,6 +44,20 @@
   // ── Patch updates ──
   const PATCH_UPDATES = [
     {
+      id: 'blok-ii-5-import-2026-10-29',
+      category: 'Paket Soal',
+      date: '29 Okt 2026',
+      title: 'Cumex 2 & UAS Blok II.5',
+      summary: '397 soal tambahan untuk Reguler 2023 dan IUP 2021–2023.',
+      highlights: [
+        'Cumex 2: 215 soal; UAS: 182 soal.',
+        'Acromion masuk Reguler 2023; Lakrawiyasa masuk IUP 2023.',
+        '100 soal tambahan berlabel: 81 rekonstruksi dan 19 soal pengganti AI.',
+        'Sembilan gambar sumber tersedia pada soal terkait.',
+        'Seluruh 79 soal Cumex 1 tetap tersedia.'
+      ]
+    },
+    {
       id: 'blok-ii-5-cumex-1-update-2026-10-10',
       category: 'Paket Soal',
       date: '10 Okt 2026',
@@ -225,7 +239,7 @@
       return {};
     }
 
-    return (data || []).reduce((acc, item) => {
+    const progress = (data || []).reduce((acc, item) => {
       acc[item.progress_key] = {
         answered: item.answered,
         correct: item.correct,
@@ -233,9 +247,33 @@
       };
       return acc;
     }, {});
+    // Prefer current saves; otherwise reuse legacy archive progress without
+    // counting the same package twice in dashboard statistics.
+    for (const [blockId, block] of Object.entries(QUESTION_DATA)) {
+      for (const alias of block.packageAliases || []) for (const examId of alias.exams) {
+        const oldKey=`${blockId}_${examId}_${alias.from.type}_${alias.from.year}`;
+        const newKey=`${blockId}_${examId}_${alias.to.type}_${alias.to.year}`;
+        if (progress[oldKey]) {
+          progress[newKey] ||= progress[oldKey];
+          delete progress[oldKey];
+        }
+      }
+    }
+    return progress;
   }
 
   function getProgress() { return progressCache; }
+
+  const currentPackageSizes = {};
+  for (const [blockId, block] of Object.entries(QUESTION_DATA)) {
+    for (const [examId, exam] of Object.entries(block.exams || {})) {
+      for (const [typeId, type] of Object.entries(exam.types || {})) {
+        for (const [year, questions] of Object.entries(type.years || {})) {
+          currentPackageSizes[`${blockId}_${examId}_${typeId}_${year}`] = questions.length;
+        }
+      }
+    }
+  }
 
   function getAvailableQuizPackCount() {
     let total = 0;
@@ -255,10 +293,10 @@
   function updateOverallStats() {
     const progress = getProgress();
     let total = 0, correct = 0, completed = 0;
-    Object.values(progress).forEach(p => {
+    Object.entries(progress).forEach(([key, p]) => {
       total += (p.answered || 0);
       correct += (p.correct || 0);
-      if (p.answered > 0 && p.answered >= p.total) completed++;
+      if (p.answered > 0 && p.answered >= (currentPackageSizes[key] ?? p.total)) completed++;
     });
     document.getElementById('totalAnswered').textContent = total;
     document.getElementById('totalCorrect').textContent = total > 0 ? Math.round((correct/total)*100)+'%' : '0%';
@@ -280,7 +318,7 @@
       Object.entries(typeData.years).forEach(([year, questions]) => {
         const key = `${blockId}_${examId}_${typeId}_${year}`;
         const p = progress[key] || { answered: 0, total: questions.length };
-        const pct = p.total > 0 ? Math.round((p.answered / p.total) * 100) : 0;
+        const pct = questions.length > 0 ? Math.min(100, Math.round((p.answered / questions.length) * 100)) : 0;
         const hasQuestions = questions.length > 0;
         
         if (isLocked || !hasQuestions) {
