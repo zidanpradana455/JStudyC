@@ -44,6 +44,19 @@
   // ── Patch updates ──
   const PATCH_UPDATES = [
     {
+      id: 'blok-ii-6-cumex-1-2026-11-18',
+      category: 'Paket Soal',
+      date: '18 Nov 2026',
+      title: 'Cumex 1 Blok II.6 — IUP & Reguler',
+      summary: 'Paket Cough, Dyspnea, and Cyanosis tersedia untuk IUP 2021–2023 dan Reguler 2023.',
+      highlights: [
+        'IUP 2021: 18 soal; IUP 2022: 14 soal; IUP 2023: 15 soal.',
+        'Reguler 2023: 15 soal.',
+        'Delapan soal dilengkapi gambar (rontgen, histopatologi, makroskopis, uji katalase).',
+        'Soal yang disusun ulang dari rekap tidak lengkap diberi label Rekonstruksi AI.'
+      ]
+    },
+    {
       id: 'blok-ii-5-import-2026-10-29',
       category: 'Paket Soal',
       date: '29 Okt 2026',
@@ -373,6 +386,7 @@
   initPackageTabs('blok-ii-3', '#block-ii-3 .exam-tab', 'examContent', 'cumex-1');
   initPackageTabs('blok-ii-4', '#block-ii-4 .exam-tab', 'blok24ExamContent', 'cumex-1');
   initPackageTabs('blok-ii-5', '#block-ii-5 .exam-tab', 'blok25ExamContent', 'cumex-1');
+  initPackageTabs('blok-ii-6', '#block-ii-6 .exam-tab', 'blok26ExamContent', 'cumex-1');
   initPackageTabs('ebm-cas-2', '.ebm-exam-tab', 'ebmCasContent', 'blok-ii-1');
   updateOverallStats();
 })();
