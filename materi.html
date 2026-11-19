@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materi — JStudyC</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="materi.css">
+  <link rel="icon" href="assets/logo.png">
+  <script src="theme.js"></script>
+  <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/logo.png" alt="Logo" class="logo-img">
+        <div class="logo-text">JStudy<span>C</span></div>
+      </a>
+      <div class="navbar-links" id="navLinks">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="osce.html">OSCE</a>
+        <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+        <button class="btn-login" id="btnLogout">Logout</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="materi-page">
+    <div class="container">
+      <a class="back-link" id="materiBack" href="dashboard.html"><span aria-hidden="true">←</span> Kembali ke blok</a>
+      <header class="materi-hero">
+        <span class="block-badge" id="materiBlockName">Blok</span>
+        <h1>Materi Pembelajaran</h1>
+        <p id="materiFullName"></p>
+        <p class="materi-stats" id="materiStats"></p>
+      </header>
+
+      <div class="materi-layout">
+        <aside class="materi-sidebar" aria-label="Daftar materi">
+          <nav id="materiNav"></nav>
+        </aside>
+        <article class="materi-article" id="materiArticle">
+          <div class="materi-empty">Memuat materi...</div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <div class="materi-lightbox" id="materiLightbox" aria-hidden="true">
+    <figure>
+      <img id="materiLightboxImg" alt="">
+      <figcaption id="materiLightboxCaption"></figcaption>
+    </figure>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabaseClient.js"></script>
+  <script src="data/materi-blok2.6.js"></script>
+  <script src="materi.js"></script>
+</body>
+</html>

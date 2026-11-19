@@ -391,8 +391,12 @@
     resultModal.classList.add('show');
   });
 
+  const isMateriQuiz = blockId.startsWith('materi-');
+  btnDashboard.textContent = isMateriQuiz ? 'Kembali ke Materi' : `Kembali ke ${block.name}`;
   btnDashboard.addEventListener('click', () => {
-    window.location.href = 'dashboard.html';
+    window.location.href = isMateriQuiz
+      ? `materi.html?block=${encodeURIComponent(blockId.slice('materi-'.length))}&unit=${encodeURIComponent(typeId)}`
+      : `blok.html?id=${encodeURIComponent(blockId)}&tab=soal`;
   });
 
   btnRetake.addEventListener('click', async () => {

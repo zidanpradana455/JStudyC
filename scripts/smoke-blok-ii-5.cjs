@@ -42,12 +42,12 @@ const server=http.createServer((req,res)=>{
   });
   const page=await context.newPage(),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
-  await page.goto(origin+'/dashboard.html');
-  await page.locator('#block-ii-5 [data-exam="cumex-2"]').click();
-  assert.equal(await page.locator('#blok25ExamContent a.year-card').count(),4);
-  await page.locator('#block-ii-5 [data-exam="uas"]').click();
-  assert.equal(await page.locator('#blok25ExamContent a.year-card').count(),4);
-  await page.locator('#block-ii-5').scrollIntoViewIfNeeded();
+  await page.goto(origin+'/blok.html?id=blok-ii-5&tab=soal');
+  await page.locator('#examTabs [data-exam="cumex-2"]').click();
+  assert.equal(await page.locator('#examContent a.year-card').count(),4);
+  await page.locator('#examTabs [data-exam="uas"]').click();
+  assert.equal(await page.locator('#examContent a.year-card').count(),4);
+  await page.locator('#panelSoal').scrollIntoViewIfNeeded();
   await page.screenshot({path:path.join(output,'dashboard.png')});
   let packages=0,images=0,reconstructed=0,replacements=0;
   for(const [exam,e] of Object.entries(block.exams))for(const [type,t] of Object.entries(e.types))for(const [year,questions] of Object.entries(t.years)){
@@ -122,16 +122,16 @@ const server=http.createServer((req,res)=>{
   assert.deepEqual(await page.locator('#numberGrid button.answered').allTextContents(),['16','18']);
   // A formerly complete 42-question package is now 42/47, not complete.
   testProgress={[legacyKey]:{answered:42,correct:30,total:42}};
-  await page.goto(origin+'/dashboard.html');await page.locator('#block-ii-5 [data-exam="uas"]').click();
-  const card=page.locator('#blok25ExamContent a.year-card[href*="type=reguler&year=2023"]');
+  await page.goto(origin+'/blok.html?id=blok-ii-5&tab=soal');await page.locator('#examTabs [data-exam="uas"]').click();
+  const card=page.locator('#examContent a.year-card[href*="type=reguler&year=2023"]');
   assert.equal(await card.locator('.year-progress-bar').getAttribute('style'),'width:89%');
-  assert((await page.locator('#totalPakets').innerText()).startsWith('0/'));
+  assert((await page.locator('#statPackages').innerText()).startsWith('0/'));
   assert.equal(await page.locator('a.year-card[href*="arsip-"]').count(),0);
   // Current data wins when both progress keys exist; totals are not doubled.
   testProgress={[legacyKey]:{answered:42,correct:30,total:42},[progressKey]:{answered:2,correct:1,total:47}};
-  await page.goto(origin+'/dashboard.html');await page.locator('#block-ii-5 [data-exam="uas"]').click();
+  await page.goto(origin+'/blok.html?id=blok-ii-5&tab=soal');await page.locator('#examTabs [data-exam="uas"]').click();
   assert.equal(await card.locator('.year-progress-bar').getAttribute('style'),'width:4%');
-  assert.equal(await page.locator('#totalAnswered').innerText(),'2');
+  assert((await page.locator('#statAnswered').innerText()).startsWith('2/'));
   testProgress={};
   for(const alias of block.packageAliases)for(const exam of alias.exams){
    await page.goto(origin+'/quiz.html?'+new URLSearchParams({block:'blok-ii-5',exam,type:alias.from.type,year:alias.from.year}));

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blok — JStudyC</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="icon" href="assets/logo.png">
+  <script src="theme.js"></script>
+  <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/logo.png" alt="Logo" class="logo-img">
+        <div class="logo-text">JStudy<span>C</span></div>
+      </a>
+      <div class="navbar-links" id="navLinks">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="osce.html">OSCE</a>
+        <button class="btn-theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+        <button class="btn-login" id="btnLogout">Logout</button>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="dashboard block-page">
+    <div class="container">
+      <a class="back-link" href="dashboard.html"><span aria-hidden="true">←</span> Semua blok</a>
+
+      <header class="block-page-header">
+        <span class="block-badge" id="blockBadge">Blok</span>
+        <h1 class="dash-title" id="blockTitle">Memuat...</h1>
+        <p class="dash-subtitle" id="blockDesc"></p>
+      </header>
+
+      <!-- Per-block tracker -->
+      <section class="overall-progress block-tracker" id="blockTracker" aria-label="Progres blok ini"></section>
+
+      <!-- Materi / Soal -->
+      <div class="block-mode-tabs" role="tablist" aria-label="Isi blok" id="blockModeTabs"></div>
+
+      <section class="block-panel" id="panelMateri" role="tabpanel" aria-labelledby="tab-materi" hidden></section>
+
+      <section class="block-panel" id="panelSoal" role="tabpanel" aria-labelledby="tab-soal" hidden>
+        <div class="block-card">
+          <div class="exam-tabs" role="tablist" aria-label="Jenis ujian" id="examTabs"></div>
+          <div class="exam-content" id="examContent"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabaseClient.js"></script>
+  <script src="data/questions.js"></script>
+  <script src="data/cumex1-blok2.4.js"></script>
+  <script src="data/cumex1-blok2.5.js"></script>
+  <script src="data/blok2.5-import.js"></script>
+  <script src="data/blok2.6.js"></script>
+  <script src="data/materi-blok2.6.js"></script>
+  <script src="data/cumex2-blok2.4.js"></script>
+  <script src="data/cumex2-iup-blok2.4.js"></script>
+  <script src="data/uas-blok2.4.js"></script>
+  <script src="data/ebm-cas-2.js"></script>
+  <script src="data/blocks.js"></script>
+  <script src="progress.js"></script>
+  <script src="blok.js"></script>
+</body>
+</html>

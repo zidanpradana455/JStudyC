@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "question": "Seorang anak laki-laki 6 tahun dibawa ibunya karena kelopak mata bengkak setiap bangun pagi sejak 2 minggu, kemudian bengkak menjalar ke kedua tungkai dan perut. Tekanan darah 100/70 mmHg. Urinalisis: protein +4, tanpa hematuria. Albumin serum 1,6 g/dL, kolesterol total 380 mg/dL. Mekanisme utama terbentuknya edema pada pasien ini adalah?",
+    "options": [
+      "Penurunan tekanan onkotik koloid plasma",
+      "Peningkatan tekanan hidrostatik kapiler akibat gagal jantung",
+      "Obstruksi aliran limfatik",
+      "Peningkatan permeabilitas vaskular akibat inflamasi",
+      "Retensi natrium primer akibat hiperaldosteronisme"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Proteinuria masif + hipoalbuminemia + hiperlipidemia + edema = sindrom nefrotik. Albumin yang hilang lewat urin menurunkan tekanan onkotik plasma, sehingga cairan tidak tertarik kembali ke kapiler dan menumpuk di jaringan longgar (periorbital) lalu menyebar menjadi anasarka. Gagal jantung tidak sesuai karena tidak ada tanda kongesti. Obstruksi limfe menyebabkan edema lokal dan non-pitting. Peningkatan permeabilitas menghasilkan eksudat pada radang. Retensi Na sekunder (RAAS) memang ikut berperan, tetapi bukan mekanisme utama."
+  },
+  {
+    "id": 2,
+    "question": "Seorang perempuan 52 tahun, 8 bulan pasca mastektomi radikal termodifikasi dan diseksi kelenjar getah bening aksila kanan, mengeluh lengan kanan makin membesar dan terasa berat. Pada pemeriksaan, kulit lengan kanan menebal, dan penekanan dengan jari tidak meninggalkan cekungan. Tidak ada tanda radang dan pemeriksaan jantung normal. Mekanisme edema yang paling tepat adalah?",
+    "options": [
+      "Peningkatan tekanan hidrostatik akibat trombosis vena subklavia",
+      "Penurunan tekanan onkotik akibat malnutrisi pasca operasi",
+      "Gangguan drainase limfatik",
+      "Retensi natrium akibat aktivasi RAAS",
+      "Peningkatan permeabilitas kapiler akibat radiasi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Diseksi kelenjar aksila mengangkat jalur limfe sehingga cairan interstisial kaya protein tidak bisa dialirkan, menyebabkan limfedema. Cairan yang kaya protein memicu fibrosis kulit, sehingga edemanya non-pitting dan terlokalisasi pada lengan sisi operasi. Trombosis vena biasanya menimbulkan edema akut, pitting, disertai kebiruan. Hipoalbuminemia dan retensi Na menyebabkan edema generalisata, bukan satu ekstremitas. Radiasi dapat memperberat limfedema, tetapi lewat kerusakan limfe, bukan kebocoran kapiler akut."
+  },
+  {
+    "id": 3,
+    "question": "Seorang perempuan 45 tahun dengan riwayat stenosis mitral sejak 10 tahun meninggal akibat gagal jantung. Pemeriksaan histopatologi jaringan paru menunjukkan gambaran seperti pada gambar: kapiler septum alveolar melebar penuh eritrosit dan di dalam rongga alveolus tampak banyak sel berisi pigmen coklat keemasan. Sel tersebut adalah?",
+    "image": "assets/materi/blok2.6/el-1-2/kongesti-paru.jpg",
+    "options": [
+      "Makrofag berisi hemosiderin (heart failure cells)",
+      "Sel datia Langhans",
+      "Pneumosit tipe II yang mengalami hiperplasia",
+      "Makrofag berisi lipid (foam cells)",
+      "Makrofag berisi pigmen antrakotik"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stenosis mitral menyebabkan tekanan atrium kiri dan vena pulmonal meningkat kronik, sehingga terjadi kongesti paru kronik. Eritrosit yang keluar ke alveoli difagosit makrofag dan hemoglobinnya diubah menjadi hemosiderin berwarna coklat keemasan. Makrofag ini disebut heart failure cells, dan secara makroskopis paru tampak sebagai brown induration. Sel datia Langhans khas granuloma TB. Foam cells berisi lipid (pneumonia lipid/obstruktif). Pigmen antrakotik berwarna hitam (karbon), bukan coklat keemasan."
+  },
+  {
+    "id": 4,
+    "question": "Seorang laki-laki 19 tahun dirawat hari ke-5 demam dengan diagnosis demam berdarah dengue. Hasil laboratorium: trombosit 22.000/µL, hematokrit 48%. Pada kulit lengan dan tungkai tampak bintik-bintik merah berdiameter 1–2 mm yang tidak hilang dengan penekanan. Istilah yang paling tepat untuk lesi kulit tersebut adalah?",
+    "options": [
+      "Purpura",
+      "Ekimosis",
+      "Hematoma",
+      "Petekie",
+      "Telangiektasis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Petekie adalah perdarahan kecil berukuran 1–2 mm pada kulit, mukosa, atau serosa. Lesi ini khas trombositopenia atau gangguan fungsi trombosit, dan tidak hilang saat ditekan karena darahnya berada di luar pembuluh. Purpura sedikit lebih besar (≥3 mm) dan sering terkait vaskulitis atau trauma. Ekimosis adalah memar subkutan berukuran 1–2 cm. Hematoma adalah kumpulan darah dalam jaringan yang membentuk massa. Telangiektasis adalah pelebaran pembuluh darah kecil yang memucat saat ditekan, sehingga bukan perdarahan."
+  },
+  {
+    "id": 5,
+    "question": "Seorang perempuan 30 tahun memeriksakan memar di lengan atasnya setelah terbentur pintu 6 hari yang lalu. Memar yang awalnya merah kebiruan kini berwarna kehijauan di bagian tengah. Perubahan warna menjadi kehijauan tersebut disebabkan oleh pigmen?",
+    "options": [
+      "Hemoglobin terdeoksigenasi",
+      "Bilirubin (biliverdin)",
+      "Hemosiderin",
+      "Melanin",
+      "Lipofuscin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Eritrosit di dalam memar difagosit makrofag dan hemoglobinnya diuraikan secara enzimatik. Warna memar berubah secara berurutan: hemoglobin (merah-biru), lalu bilirubin/biliverdin (biru-hijau), lalu hemosiderin (coklat keemasan). Warna hijau pada hari ke-5 sampai ke-7 menandakan tahap bilirubin/biliverdin. Hemoglobin terdeoksigenasi memberi warna biru-ungu pada fase awal. Hemosiderin muncul paling akhir dengan warna kuning-coklat. Melanin dan lipofuscin tidak berasal dari degradasi darah."
+  },
+  {
+    "id": 6,
+    "question": "Seorang perempuan 22 tahun mengeluh menstruasi selalu banyak dan lama, sering mimisan, dan gusi mudah berdarah sejak remaja. Ibunya memiliki keluhan serupa. Hasil laboratorium: trombosit 260.000/µL, bleeding time memanjang, PT normal, aPTT sedikit memanjang. Tahap hemostasis yang terutama terganggu pada pasien ini adalah?",
+    "options": [
+      "Vasokonstriksi refleks yang dimediasi endotelin",
+      "Pembentukan trombin melalui jalur ekstrinsik",
+      "Polimerisasi fibrin oleh faktor XIII",
+      "Fibrinolisis oleh t-PA",
+      "Adhesi trombosit ke kolagen subendotel"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Perdarahan mukokutan (menoragia, epistaksis, gusi berdarah), pola keturunan autosomal dominan, jumlah trombosit normal, bleeding time memanjang, dan aPTT sedikit memanjang sesuai dengan penyakit von Willebrand. vWF menjembatani reseptor GpIb trombosit dengan kolagen subendotel, sehingga defisiensinya mengganggu adhesi trombosit pada hemostasis primer. aPTT ikut memanjang karena vWF juga menstabilkan faktor VIII. Gangguan jalur ekstrinsik akan memanjangkan PT. Defek faktor XIII menyebabkan perdarahan lambat dengan PT/aPTT normal. Fibrinolisis berlebihan tidak memanjangkan bleeding time."
+  },
+  {
+    "id": 7,
+    "question": "Seorang laki-laki 28 tahun dirawat karena trombosis vena dalam pada tungkai kiri tanpa faktor pencetus yang jelas. Ayahnya pernah mengalami emboli paru di usia 35 tahun. Pasien diberi heparin tidak terfraksi dengan dosis yang adekuat, tetapi aPTT tidak memanjang sesuai target. Kelainan yang paling mungkin mendasari kondisi pasien adalah?",
+    "options": [
+      "Defisiensi protein C",
+      "Defisiensi antitrombin III",
+      "Sindrom antifosfolipid (antikoagulan lupus)",
+      "Defisiensi faktor VIII",
+      "Hiperhomosisteinemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Trombosis vena pada usia muda tanpa pencetus dan dengan riwayat keluarga mengarah ke status hiperkoagulabel primer (genetik). Heparin bekerja dengan mempercepat kerja antitrombin III dalam menginaktivasi trombin dan faktor Xa, sehingga pada defisiensi antitrombin III terjadi resistensi heparin dan aPTT tidak memanjang. Defisiensi protein C/S juga menyebabkan trombosis familial, tetapi respons terhadap heparin tetap normal (khasnya justru nekrosis kulit akibat warfarin). Antikoagulan lupus adalah kelainan didapat dan biasanya memanjangkan aPTT secara in vitro. Defisiensi faktor VIII menyebabkan perdarahan (hemofilia A), bukan trombosis."
+  },
+  {
+    "id": 8,
+    "question": "Seorang laki-laki 23 tahun dirawat karena fraktur tertutup femur kanan akibat kecelakaan motor. Pada hari ke-2 perawatan, ia tiba-tiba sesak napas, gelisah, dan bingung. Pemeriksaan: RR 32x/menit, SpO2 84%, tampak bintik-bintik perdarahan halus di dada, aksila, dan konjungtiva. Trombosit turun dari 240.000 menjadi 90.000/µL. Diagnosis yang paling mungkin adalah?",
+    "options": [
+      "Tromboemboli paru dari trombosis vena dalam",
+      "Emboli udara",
+      "Emboli lemak",
+      "Pneumotoraks tension",
+      "Edema paru kardiogenik"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Fraktur tulang panjang diikuti dalam 1–3 hari oleh trias insufisiensi paru, gejala neurologis (gelisah, delirium), dan ruam petekie di dada, aksila, dan konjungtiva, disertai trombositopenia dan anemia, adalah sindrom emboli lemak. Globul lemak dari sumsum tulang menyumbat mikrovaskular paru dan otak, lalu asam lemak bebasnya merusak endotel. Petekie muncul karena trombosit melekat pada globul lemak. Tromboemboli paru biasanya muncul lebih lambat dan tidak disertai petekie atau gangguan neurologis. Emboli udara memerlukan port masuk udara. Tension pneumotoraks dan edema kardiogenik tidak menjelaskan petekie dan trombositopenia."
+  },
+  {
+    "id": 9,
+    "question": "Perhatikan gambar spesimen autopsi. Gambar A menunjukkan infark paru berwarna merah gelap, sedangkan gambar B menunjukkan infark limpa yang pucat dengan batas tegas. Faktor yang paling menjelaskan mengapa infark paru pada gambar A berwarna merah (hemoragik) adalah?",
+    "image": "assets/materi/blok2.6/el-1-2/infark-merah-putih.jpg",
+    "options": [
+      "Paru diperdarahi oleh sirkulasi arteri terminal (end-artery)",
+      "Jaringan paru padat sehingga darah tidak dapat merembes",
+      "Infark paru disebabkan oleh trombosis arteri koroner",
+      "Paru memiliki suplai darah ganda dan jaringan yang longgar",
+      "Infark paru selalu disebabkan oleh oklusi vena pulmonalis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Infark merah terjadi pada oklusi vena, pada jaringan longgar/berpori seperti paru, dan pada organ dengan sirkulasi ganda (paru: arteri pulmonalis dan bronkialis). Darah dari sirkulasi bronkial tetap merembes ke area nekrotik sehingga infark tampak hemoragik. Infark putih (gambar B) terjadi pada organ padat dengan sirkulasi arteri terminal, seperti jantung, limpa, dan ginjal. Pilihan A dan B menggambarkan setting infark putih. Infark paru umumnya disebabkan tromboemboli arteri pulmonalis, bukan trombosis koroner atau oklusi vena pulmonalis."
+  },
+  {
+    "id": 10,
+    "question": "Seorang perempuan 60 tahun dibawa ke IGD dengan demam tinggi, menggigil, dan nyeri pinggang kanan sejak 3 hari. Pemeriksaan: kesadaran somnolen, TD 78/40 mmHg yang tidak membaik setelah resusitasi cairan 30 mL/kg, nadi 128x/menit, akral hangat. Leukosit 24.000/µL, laktat 5,2 mmol/L, trombosit 60.000/µL, D-dimer meningkat. Mekanisme utama hipotensi pada pasien ini adalah?",
+    "options": [
+      "Kehilangan volume plasma yang masif akibat perdarahan",
+      "Kegagalan pompa jantung primer akibat infark miokard",
+      "Obstruksi aliran keluar ventrikel akibat tamponade jantung",
+      "Hilangnya tonus simpatis akibat cedera medula spinalis",
+      "Vasodilatasi perifer yang dimediasi sitokin dan jejas endotel"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Infeksi (kemungkinan pielonefritis) dengan hipotensi yang menetap setelah resusitasi cairan, laktat >2 mmol/L, akral hangat, dan tanda DIC (trombositopenia, D-dimer naik) sesuai dengan syok septik. Produk mikroba mengaktifkan sel imun dan endotel sehingga dilepaskan TNF, IL-1, NO, dan PAF, yang menyebabkan vasodilatasi perifer, pooling darah, dan peningkatan permeabilitas, disertai trombosis mikrovaskular (DIC). Perdarahan menyebabkan syok hipovolemik dengan akral dingin. Infark miokard dan tamponade termasuk syok kardiogenik. Cedera medula spinalis menyebabkan syok neurogenik yang biasanya disertai bradikardia."
+  }
+]

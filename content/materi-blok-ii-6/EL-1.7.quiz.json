@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Seorang anak 10 tahun dengan serangan asma diberi nebulisasi salbutamol dan sesaknya membaik dalam 10 menit. Mekanisme molekular utama yang menjelaskan relaksasi otot polos bronkus oleh obat ini adalah?",
+    "options": [
+      "Blok reseptor muskarinik M3 sehingga IP3 dan Ca²⁺ intrasel menurun",
+      "Aktivasi reseptor β2 → protein Gs → adenilil siklase → cAMP meningkat → aktivasi protein kinase A",
+      "Inhibisi fosfolipase A2 melalui induksi lipokortin",
+      "Antagonis reseptor CysLT1",
+      "Stabilisasi membran sel mast"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Salbutamol adalah agonis β2 selektif kerja pendek (SABA). Ikatannya dengan reseptor β2 mengaktifkan protein Gs, lalu adenilil siklase meningkatkan cAMP dan mengaktifkan PKA. PKA memfosforilasi target sehingga Ca²⁺ intrasel turun dan myosin light chain kinase terinaktivasi, akibatnya otot polos bronkus relaksasi dengan cepat. Blok M3 adalah mekanisme antimuskarinik (ipratropium). Inhibisi PLA2 via lipokortin adalah mekanisme kortikosteroid. Antagonis CysLT1 adalah montelukast. Stabilisasi sel mast adalah kromolin."
+  },
+  {
+    "question": "Seorang laki-laki 68 tahun dengan PPOK rutin minum teofilin lepas lambat 2 x 300 mg dengan kadar terkontrol. Tiga hari lalu ia mendapat siprofloksasin untuk infeksi saluran kemih. Kini ia mengeluh mual, muntah, gelisah, berdebar, lalu mengalami kejang. EKG: takikardia supraventrikular. Penjelasan yang paling tepat adalah?",
+    "options": [
+      "Siprofloksasin menginduksi CYP1A2 sehingga kadar teofilin turun dan bronkospasme memburuk",
+      "Siprofloksasin menghambat CYP1A2 sehingga kadar teofilin meningkat ke rentang toksik",
+      "Reaksi alergi terhadap siprofloksasin",
+      "Hipoglikemia akibat interaksi kedua obat",
+      "Efek samping teofilin yang tidak berhubungan dengan siprofloksasin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Teofilin memiliki indeks terapi sempit dan dimetabolisme terutama oleh CYP1A2. Siprofloksasin (juga eritromisin/klaritromisin, simetidin, fluvoksamin) menghambat CYP1A2, sehingga klirens teofilin turun dan kadarnya naik ke rentang toksik. Toksisitas teofilin menimbulkan gejala GI (mual, muntah), stimulasi SSP (gelisah, kejang), dan stimulasi jantung (takiaritmia). Sebaliknya, merokok dan induktor (rifampisin, fenitoin) menurunkan kadar teofilin. Gambaran ini bukan reaksi alergi."
+  },
+  {
+    "question": "Seorang perempuan 24 tahun dirawat dengan asma akut berat. Ia mendapat nebulisasi salbutamol berulang setiap 20 menit dan infus aminofilin. Enam jam kemudian ia mengeluh lemas otot, dan EKG menunjukkan gelombang U. Kalium serum 2,7 mmol/L. Mekanisme utama kelainan elektrolit ini adalah?",
+    "options": [
+      "Kehilangan kalium melalui diare",
+      "Pergeseran kalium ke intrasel akibat stimulasi Na⁺/K⁺-ATPase oleh agonis β2, diperberat oleh teofilin",
+      "Hipoaldosteronisme akibat kortikosteroid",
+      "Asidosis respiratorik yang mendorong kalium ke ekstrasel",
+      "Gagal ginjal akut"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Agonis β2 merangsang Na⁺/K⁺-ATPase (melalui cAMP) sehingga kalium berpindah dari ekstrasel ke intrasel dan terjadi hipokalemia. Teofilin juga menyebabkan pergeseran serupa. Slide menekankan bahwa kombinasi agonis β2 dan teofilin pada asma berat harus dipantau karena dapat menimbulkan hipokalemia serius, yang tampak sebagai kelemahan otot, gelombang U, dan risiko aritmia. Asidosis justru menggeser K⁺ ke ekstrasel (hiperkalemia). Kortikosteroid tidak menyebabkan hipoaldosteronisme."
+  },
+  {
+    "question": "Seorang perempuan 30 tahun dengan asma persisten sedang menggunakan budesonid inhalasi 2 kali sehari selama 3 bulan. Ia mengeluh suara serak dan bercak putih yang dapat dikerok di lidah dan palatum. Anjuran yang paling tepat untuk mencegah keluhan ini berulang adalah?",
+    "options": [
+      "Menghentikan steroid inhalasi dan beralih ke salbutamol saja",
+      "Mengganti ke prednison oral jangka panjang",
+      "Berkumur dan membuang airnya setelah inhalasi serta memakai spacer",
+      "Menambahkan antihistamin generasi pertama",
+      "Meningkatkan dosis budesonid dua kali lipat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Efek samping lokal tersering ICS adalah disfonia (suara serak) dan kandidiasis orofaring akibat deposisi steroid di orofaring dan laring. Pencegahannya adalah berkumur dan membuang air setelah setiap inhalasi serta memakai spacer pada MDI, yang mengurangi deposisi orofaring dan meningkatkan deposisi di paru. Kandidiasis yang ada diterapi dengan antijamur topikal. Menghentikan ICS membuat asma tidak terkontrol, karena SABA saja tidak dianjurkan. Steroid oral jangka panjang menimbulkan efek samping sistemik yang jauh lebih berat."
+  },
+  {
+    "question": "Seorang laki-laki 72 tahun dengan PPOK dan riwayat pembesaran prostat jinak akan dimulai terapi maintenance tiotropium inhalasi sekali sehari. Efek samping yang perlu diwaspadai secara khusus pada pasien ini adalah?",
+    "options": [
+      "Hipoglikemia",
+      "Retensi urin",
+      "Bronkospasme paradoksal berat sebagai efek tersering",
+      "Hiperkalemia",
+      "Hepatotoksisitas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tiotropium adalah antagonis muskarinik kerja panjang (LAMA) yang memblok reseptor M3 dan menjadi pilar maintenance PPOK. Efek sampingnya bersifat antikolinergik: mulut kering (tersering), konstipasi, takikardia, retensi urin (terutama pada BPH), dan glaukoma sudut sempit bila semprotan mengenai mata. Karena pasien memiliki BPH, retensi urin perlu dipantau. Bronkospasme paradoksal jarang terjadi. Hiperkalemia, hipoglikemia, dan hepatotoksisitas bukan efek khas LAMA."
+  },
+  {
+    "question": "Seorang laki-laki 35 tahun dengan asma dan polip hidung mengalami serangan sesak hebat setiap kali minum aspirin atau ibuprofen. Dokter menambahkan obat oral yang memblok kerja leukotrien D4 pada reseptor CysLT1. Obat yang dimaksud dan cara minum yang benar adalah?",
+    "options": [
+      "Zileuton — diminum bersama makanan berlemak",
+      "Montelukast — diminum saat perut kosong",
+      "Teofilin — diminum bersama susu",
+      "Cetirizine — diminum pagi hari",
+      "Kromolin — dihirup saat serangan akut"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Asma + polip hidung + sensitivitas aspirin/NSAID adalah aspirin-exacerbated respiratory disease, yaitu penghambatan COX yang mengalihkan asam arakidonat ke jalur 5-lipoksigenase sehingga leukotrien berlebih. Antagonis reseptor leukotrien (montelukast, zafirlukast) memblok LTD4 pada reseptor CysLT1 dan sangat bermanfaat pada kondisi ini. Menurut slide, obat ini sebaiknya diminum saat perut kosong dan tidak untuk serangan akut. Zileuton bekerja menghambat enzim 5-LOX (bukan reseptor). Kromolin adalah profilaksis dan tidak berguna saat serangan akut."
+  },
+  {
+    "question": "Seorang anak 12 tahun mengalami batuk dan mengi setiap kali berolahraga di sekolah. Dokter meresepkan kromolin inhalasi yang dipakai rutin dan 15–20 menit sebelum olahraga. Pernyataan yang paling tepat mengenai obat ini adalah?",
+    "options": [
+      "Merupakan bronkodilator kuat untuk menghentikan serangan akut",
+      "Memblok reseptor H1 di otot polos bronkus",
+      "Mencegah degranulasi sel mast sehingga bersifat profilaksis, dan efek penuhnya baru tercapai setelah beberapa minggu",
+      "Bekerja dengan menghambat 5-lipoksigenase",
+      "Merupakan agonis reseptor glukokortikoid"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kromolin dan nedokromil adalah stabilisator sel mast yang menghambat reaksi antigen-antibodi pada sel mast sehingga histamin dan mediator lain tidak dilepas. Obat ini tidak bekerja pada reseptor histamin dan bukan bronkodilator, sehingga tidak berguna untuk serangan akut. Efek terbaik tercapai bila diberikan sebelum paparan pemicu (profilaksis, mis. sebelum olahraga atau paparan alergen), dan efek terapeutik penuh biasanya butuh beberapa minggu pemakaian rutin."
+  },
+  {
+    "question": "Seorang perempuan 40 tahun dengan asma persisten membeli sendiri inhaler salmeterol tunggal dan memakainya 2 kali sehari tanpa steroid inhalasi, karena merasa lebih nyaman dibanding salbutamol. Tanggapan yang paling tepat adalah?",
+    "options": [
+      "Tepat, karena salmeterol bekerja 12 jam sehingga cukup sebagai terapi tunggal",
+      "Tepat, asalkan dosisnya dinaikkan menjadi 4 kali sehari",
+      "Tidak tepat; LABA tidak boleh dipakai sebagai monoterapi pada asma dan harus dikombinasikan dengan ICS",
+      "Tidak tepat; salmeterol hanya boleh untuk serangan akut",
+      "Tepat, karena salmeterol juga mempunyai efek antiinflamasi kuat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "LABA seperti salmeterol hanya mengatasi bronkokonstriksi tanpa menekan inflamasi saluran napas. Pemakaian sebagai monoterapi menutupi gejala sementara inflamasi terus berjalan, sehingga risiko eksaserbasi berat dan kematian meningkat. Slide menegaskan salmeterol hanya dipakai pada pasien yang juga memakai ICS reguler, sehingga untuk asma LABA selalu diberikan sebagai kombinasi ICS-LABA (mis. flutikason/salmeterol, budesonid/formoterol). Salmeterol memiliki onset lambat sehingga tidak cocok untuk serangan akut, dan efek antiinflamasinya tidak bermakna klinis."
+  },
+  {
+    "question": "Seorang laki-laki 66 tahun dengan PPOK berat (FEV₁ 38% prediksi), fenotip bronkitis kronik, dan 3 kali eksaserbasi dalam setahun meski sudah memakai LABA/LAMA/ICS, diberi tambahan obat oral yang meningkatkan cAMP di sel-sel radang. Efek samping yang paling sering dikeluhkan dari obat ini adalah?",
+    "options": [
+      "Kandidiasis oral",
+      "Diare, mual, dan penurunan berat badan",
+      "Retensi urin",
+      "Hipokalemia berat",
+      "Mulut kering"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Obat yang dimaksud adalah roflumilast, inhibitor fosfodiesterase-4 (PDE4). PDE4 banyak terdapat di sel imun dan epitel, sehingga penghambatannya meningkatkan cAMP dan menekan inflamasi (menurunkan TNF-α, menghambat NF-κB dan MAPK). Roflumilast diindikasikan sebagai tambahan pada PPOK berat dengan bronkitis kronik dan eksaserbasi berulang. Efek samping tersering adalah gangguan GI (diare, mual), penurunan berat badan, sakit kepala, dan insomnia. Kandidiasis oral adalah efek ICS. Retensi urin dan mulut kering adalah efek antimuskarinik."
+  },
+  {
+    "question": "Seorang laki-laki 30 tahun dievakuasi dari kebakaran gedung. Ia sadar, bernapas spontan, RR 26x/menit, bibir merah ceri, sakit kepala, dan mual. SpO₂ oksimetri terbaca 98% tetapi kadar COHb 25%. Sambil menyiapkan rujukan, cara pemberian oksigen yang paling tepat di IGD adalah?",
+    "options": [
+      "Kanul nasal 2 L/menit",
+      "Masker sederhana 5 L/menit",
+      "Non-rebreathing mask 15 L/menit",
+      "Tidak perlu oksigen karena SpO₂ 98%",
+      "CPAP dengan oksigen 21%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pada keracunan CO, oksimetri nadi terbaca normal palsu karena tidak dapat membedakan karboksihemoglobin dari oksihemoglobin. Terapi awal adalah O₂ konsentrasi setinggi mungkin untuk mempercepat eliminasi CO (waktu paruh COHb turun dari ±5 jam menjadi ±1 jam). Pada pasien yang bernapas spontan, alat yang tepat adalah non-rebreathing mask dengan aliran hingga 15 L/menit (FiO₂ 60–80%), dengan katup satu arah yang mencegah menghirup ulang udara ekspirasi. Kanul nasal hanya memberi FiO₂ 28–44%. Oksigen hiperbarik dipertimbangkan pada keracunan berat (penurunan kesadaran, iskemia, kehamilan)."
+  }
+]

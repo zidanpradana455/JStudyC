@@ -1,0 +1,125 @@
+[
+  {
+    "question": "Seorang perempuan 72 tahun mengeluh sakit kepala hebat di pelipis kanan sejak 3 minggu, nyeri rahang saat mengunyah, dan penglihatan mata kanan kabur sejak kemarin. Arteri temporalis kanan teraba menebal dan nyeri tekan. LED 98 mm/jam. Biopsi arteri temporalis menunjukkan gambaran seperti pada gambar. Diagnosis yang paling tepat adalah?",
+    "image": "assets/materi/blok2.6/el-1-3/giant-cell-arteritis.jpg",
+    "options": [
+      "Takayasu arteritis",
+      "Poliarteritis nodosa",
+      "Giant cell (temporal) arteritis",
+      "Granulomatosis with polyangiitis",
+      "Tromboangiitis obliterans"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Usia >50 tahun, sakit kepala temporal, klaudikasio rahang, gangguan visus, LED sangat tinggi, dan biopsi a. temporalis yang menunjukkan penebalan intima dengan infiltrat mononuklear dan sel datia sesuai dengan giant cell arteritis. Penanganannya adalah steroid dosis tinggi segera untuk mencegah kebutaan. Takayasu juga merupakan vaskulitis granulomatosa pembuluh besar, tetapi terjadi pada perempuan muda dengan nadi lengan melemah. PAN mengenai arteri sedang di organ viseral tanpa sel datia. GPA mengenai saluran napas dan ginjal dengan c-ANCA. Buerger terjadi pada perokok muda di arteri ekstremitas."
+  },
+  {
+    "question": "Seorang anak laki-laki 3 tahun dibawa karena demam tinggi selama 6 hari yang tidak membaik dengan antipiretik. Pemeriksaan: mata merah bilateral tanpa sekret, bibir merah pecah-pecah, lidah stroberi, ruam makulopapular di badan, telapak tangan dan kaki edema kemerahan, serta pembesaran kelenjar getah bening leher kanan 2 cm. Komplikasi yang paling dikhawatirkan dan harus dicegah dengan terapi dini pada pasien ini adalah?",
+    "options": [
+      "Glomerulonefritis progresif cepat",
+      "Aneurisma arteri koroner",
+      "Diseksi aorta ascendens",
+      "Perdarahan alveolar difus",
+      "Gangren ujung jari"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Demam ≥5 hari ditambah ≥4 kriteria CREAM (konjungtivitis non-eksudatif, ruam polimorf, edema/eritema tangan-kaki, adenopati servikal unilateral, perubahan mukosa oral) memenuhi diagnosis penyakit Kawasaki. Vaskulitis arteri sedang ini melepaskan MMP yang merusak dinding koroner, sehingga terbentuk dilatasi atau aneurisma arteri koroner yang dapat menyebabkan trombosis, infark miokard, dan kematian. IVIG dini ditambah aspirin menurunkan risiko tersebut. Glomerulonefritis khas HSP/ANCA, perdarahan alveolar khas GPA/MPA, dan gangren jari khas Buerger."
+  },
+  {
+    "question": "Seorang laki-laki 34 tahun, perokok 2 bungkus per hari sejak usia 15 tahun, mengeluh nyeri hebat pada jari kaki kiri saat istirahat dan luka kehitaman di ujung ibu jari kaki. Ia juga sering mengalami benjolan merah nyeri sepanjang vena superfisial yang berpindah-pindah. Tidak ada riwayat diabetes, hipertensi, atau dislipidemia. Tata laksana yang paling menentukan perjalanan penyakit pasien ini adalah?",
+    "options": [
+      "Statin dosis tinggi",
+      "Kortikosteroid sistemik",
+      "Antikoagulan warfarin jangka panjang",
+      "Berhenti merokok total",
+      "Imunoglobulin intravena"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Laki-laki muda perokok berat dengan iskemia distal ekstremitas (nyeri istirahat, gangren jari), tromboflebitis superfisial migrans, dan tanpa faktor risiko aterosklerosis sesuai dengan penyakit Buerger (tromboangiitis obliterans). Penyakit ini terkait sangat kuat dengan tembakau, dan satu-satunya intervensi yang terbukti menghentikan progresi serta mencegah amputasi adalah berhenti merokok total. Statin ditujukan untuk aterosklerosis. Steroid dan IVIG tidak efektif karena ini bukan vaskulitis autoimun klasik. Antikoagulan tidak mengubah perjalanan penyakit."
+  },
+  {
+    "question": "Seorang laki-laki 45 tahun datang dengan hidung tersumbat berdarah dan berkerak sejak 2 bulan, batuk darah, serta urin berwarna seperti teh. Pemeriksaan fisik menunjukkan deformitas saddle nose. Foto toraks: nodul multipel dengan kavitas. Urinalisis: hematuria dengan silinder eritrosit. Biopsi menunjukkan vaskulitis nekrotikans dengan granuloma dan sel datia. Autoantibodi yang paling mungkin positif adalah?",
+    "options": [
+      "c-ANCA terhadap proteinase-3 (PR3)",
+      "p-ANCA terhadap myeloperoxidase (MPO)",
+      "Anti-glomerular basement membrane",
+      "Anti-double stranded DNA",
+      "Deposit IgA pada dinding pembuluh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trias saluran napas atas (rinitis destruktif, saddle nose), paru (nodul berkavitas, hemoptisis), dan ginjal (GN dengan silinder eritrosit), disertai granuloma nekrotikans, adalah granulomatosis with polyangiitis (Wegener), yang khas c-ANCA anti-PR3. p-ANCA (MPO) khas mikroskopik poliangiitis (tanpa granuloma) dan EGPA. Anti-GBM menyebabkan sindrom Goodpasture tanpa granuloma maupun keterlibatan saluran napas atas. Anti-dsDNA khas SLE. Deposit IgA khas Henoch-Schönlein purpura."
+  },
+  {
+    "question": "Seorang anak laki-laki 6 tahun dibawa karena bintik-bintik merah keunguan yang teraba menonjol di bokong dan kedua tungkai, nyeri sendi lutut, dan nyeri perut kolik. Dua minggu sebelumnya ia menderita radang tenggorokan. Trombosit 320.000/µL. Urinalisis menunjukkan hematuria mikroskopik. Biopsi kulit akan menunjukkan vaskulitis leukositoklastik dengan deposit perivaskular berupa?",
+    "options": [
+      "IgG dan C3 linear",
+      "IgM dan krioglobulin",
+      "IgE dan eosinofil",
+      "IgA",
+      "Tidak ada deposit imun (pauci-immune)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Purpura teraba di bokong dan tungkai dengan trombosit normal, artralgia, nyeri perut, dan hematuria pada anak setelah infeksi saluran napas adalah Henoch-Schönlein purpura (IgA vasculitis). Ciri khasnya adalah deposit IgA di dinding pembuluh kecil dermis dan di mesangium glomerulus, sering dengan IgA serum meningkat. Deposit linear IgG khas anti-GBM. Krioglobulin terkait hepatitis C. Pola pauci-immune khas vaskulitis ANCA (GPA/MPA)."
+  },
+  {
+    "question": "Seorang laki-laki 58 tahun dengan hipertensi tidak terkontrol datang dengan nyeri dada mendadak, sangat hebat, seperti disobek, yang menjalar ke punggung di antara kedua skapula. TD lengan kanan 180/100 mmHg dan lengan kiri 140/80 mmHg. Terdengar murmur diastolik baru di sela iga 2 kanan. CT angiografi menunjukkan intimal flap yang berawal di aorta ascendens dan meluas hingga aorta abdominalis. Klasifikasi dan tata laksana yang tepat adalah?",
+    "options": [
+      "Stanford tipe B — kontrol tekanan darah dengan β-blocker saja",
+      "Stanford tipe A — operasi darurat",
+      "Stanford tipe B — pemasangan stent elektif",
+      "Aneurisma aorta abdominal — operasi elektif bila diameter ≥5,5 cm",
+      "Stanford tipe A — trombolisis intravena"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nyeri seperti disobek yang menjalar ke punggung, perbedaan tekanan darah antar lengan, dan regurgitasi aorta akut (murmur diastolik) pada pasien hipertensi adalah diseksi aorta. Keterlibatan aorta ascendens (DeBakey I) termasuk Stanford tipe A, yang mengancam jiwa karena dapat ruptur ke perikardium (tamponade), merusak katup aorta, atau menyumbat ostium koroner, sehingga memerlukan operasi darurat. Tipe B (hanya distal a. subklavia kiri) umumnya ditangani medis. Trombolisis dikontraindikasikan dan dapat fatal."
+  },
+  {
+    "question": "Seorang laki-laki 62 tahun dirawat dengan infark miokard anterior luas tanpa reperfusi. Kondisinya stabil, tetapi pada hari ke-5 perawatan ia tiba-tiba mengalami hipotensi berat, distensi vena jugularis, bunyi jantung menjauh, lalu henti jantung dengan gambaran pulseless electrical activity. Gambaran histopatologi miokard di area infark pada saat kejadian dan penyebab kematiannya yang paling mungkin adalah?",
+    "options": [
+      "Serat bergelombang tanpa sel radang — aritmia ventrikel",
+      "Infiltrat neutrofil padat — perikarditis fibrinosa",
+      "Disintegrasi serat nekrotik dengan makrofag — ruptur dinding bebas ventrikel dengan tamponade",
+      "Jaringan granulasi matang — aneurisma ventrikel",
+      "Parut kolagen padat — sindrom Dressler"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hari ke-3 sampai ke-7 pasca infark adalah fase saat makrofag membersihkan miosit nekrotik dan jaringan granulasi belum terbentuk, sehingga dinding infark paling lunak. Inilah periode puncak ruptur jantung. Ruptur dinding bebas menyebabkan hemoperikardium dan tamponade (trias Beck: hipotensi, JVP meningkat, bunyi jantung menjauh) yang berujung pada PEA. Serat bergelombang terlihat pada 4–12 jam. Neutrofil padat terlihat pada hari 1–3. Aneurisma ventrikel adalah komplikasi lambat setelah parut terbentuk. Sindrom Dressler muncul berminggu-minggu kemudian dan jarang fatal."
+  },
+  {
+    "question": "Seorang pemain sepak bola 17 tahun pingsan lalu meninggal mendadak saat bertanding. Ayahnya juga meninggal mendadak di usia 35 tahun. Autopsi menunjukkan septum interventrikel menebal asimetris dengan rongga ventrikel kiri menyempit seperti pisang. Histologi miokard tampak seperti pada gambar: miosit sangat hipertrofi, bercabang, tersusun tidak beraturan, dengan fibrosis interstisial. Kelainan genetik yang paling sering mendasari kondisi ini adalah mutasi gen?",
+    "image": "assets/materi/blok2.6/el-1-3/kardiomiopati-hipertrofik.jpg",
+    "options": [
+      "Fibrilin-1",
+      "Distrofin",
+      "Protein desmosom (plakoglobin)",
+      "Titin",
+      "β-myosin heavy chain"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Hipertrofi septum asimetris, rongga LV berbentuk pisang, myocyte disarray, riwayat keluarga kematian mendadak, dan kematian saat aktivitas fisik pada atlet muda khas kardiomiopati hipertrofik. HCM diwariskan autosomal dominan akibat mutasi protein sarkomer, dan yang tersering (70–80% bersama gen sarkomer lain) adalah β-myosin heavy chain. Fibrilin-1 menyebabkan Marfan. Distrofin dan titin menyebabkan kardiomiopati dilatasi. Protein desmosom menyebabkan ARVC (penggantian RV oleh lemak dan fibrosis)."
+  },
+  {
+    "question": "Seorang perempuan 30 tahun dengan riwayat sering radang tenggorokan dan nyeri sendi berpindah-pindah saat kecil kini mengeluh sesak saat aktivitas dan berdebar. Auskultasi: opening snap dan murmur mid-diastolik di apeks. Ekokardiografi: katup mitral menebal, komisura menyatu, gambaran fish-mouth. Mekanisme dasar kerusakan katup pada penyakit ini adalah?",
+    "options": [
+      "Reaksi silang antibodi terhadap protein M streptokokus dengan antigen jantung (mimikri molekular)",
+      "Invasi langsung Streptococcus pyogenes ke jaringan katup",
+      "Degenerasi miksomatosa akibat mutasi fibrilin-1",
+      "Kalsifikasi distrofik akibat penuaan",
+      "Deposisi kompleks imun DNA–anti-DNA pada endokard"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Riwayat faringitis berulang dan poliartritis migrans di masa anak, diikuti stenosis mitral dengan fusi komisura dan gambaran fish-mouth, adalah penyakit jantung rematik kronik. Penyebabnya adalah antibodi dan sel T terhadap protein M Streptococcus grup A yang bereaksi silang dengan antigen jantung (mimikri molekular). Pada fase akut tampak badan Aschoff dan vegetasi verukosa kecil, sedangkan pada fase kronik terjadi fibrosis dan fusi katup. Kuman tidak menginvasi katup (berbeda dari endokarditis infektif). Degenerasi miksomatosa menyebabkan prolaps mitral. Kalsifikasi senilis khas stenosis aorta lansia. Kompleks imun anti-DNA terjadi pada Libman-Sacks (SLE)."
+  },
+  {
+    "question": "Seorang perempuan 42 tahun mengeluh sesak napas dan pernah pingsan yang terjadi terutama saat ia membungkuk atau berbaring miring ke kiri. Ia juga mengalami demam ringan dan berat badan turun. Auskultasi: bunyi 'plop' di awal diastolik. Ekokardiografi: massa bertangkai di atrium kiri yang melekat pada fossa ovalis dan prolaps ke katup mitral saat diastol. Gambaran makroskopis dan mikroskopis tumor seperti pada gambar. Diagnosis yang paling tepat adalah?",
+    "image": "assets/materi/blok2.6/el-1-3/miksoma-atrium.jpg",
+    "options": [
+      "Rabdomioma",
+      "Trombus atrium kiri akibat fibrilasi atrium",
+      "Miksoma atrium",
+      "Metastasis melanoma",
+      "Vegetasi endokarditis infektif"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Miksoma adalah tumor jantung primer tersering pada dewasa: 75–80% terletak di atrium kiri dekat fossa ovalis, bertangkai, dan pada perempuan usia 30–60 tahun. Massa ini dapat menyumbat orifisium mitral secara intermiten (ball-valve) sehingga gejalanya posisional (sinkop, dispnea) dan terdengar tumor plop, serta menimbulkan gejala konstitusional. Histologinya berupa sel stelata dalam matriks miksoid. Rabdomioma terjadi pada anak dengan tuberous sclerosis. Trombus atrium tidak bertangkai di fossa ovalis dan muncul pada AF. Vegetasi endokarditis terletak di daun katup."
+  }
+]

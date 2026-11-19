@@ -1,0 +1,123 @@
+[
+  {
+    "question": "Seorang laki-laki 23 tahun datang dengan nyeri dada tajam dan sesak sejak 2 hari. Sepuluh hari sebelumnya ia demam, nyeri tenggorokan, dan diare. EKG: ST elevasi ringan di sadapan inferolateral. Troponin I meningkat 40 kali batas atas. Angiografi koroner: arteri koroner normal. Ekokardiografi: fraksi ejeksi 45% dengan hipokinesis ringan global. Pemeriksaan non-invasif yang paling tepat untuk menegakkan diagnosis adalah?",
+    "options": [
+      "Treadmill stress test",
+      "Cardiac MRI dengan sekuens T2 dan late gadolinium enhancement",
+      "CT angiografi koroner",
+      "Ekokardiografi transesofageal",
+      "Skintigrafi perfusi miokard"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pasien muda dengan nyeri dada setelah infeksi virus, troponin naik, dan koroner normal sangat sugestif miokarditis akut. Menurut ESC 2025, CMR adalah pilar diagnosis non-invasif: T2 menunjukkan edema dan LGE berpola non-iskemik (subepikardial/mid-wall) membedakannya dari infark. Uji latih justru berbahaya pada inflamasi aktif. CT koroner tidak diperlukan karena koroner sudah terbukti normal. TEE berguna untuk endokarditis. Skintigrafi perfusi tidak spesifik untuk inflamasi."
+  },
+  {
+    "question": "Seorang atlet bola basket universitas, laki-laki 20 tahun, baru didiagnosis miokarditis akut limfositik dengan fraksi ejeksi 50%, tanpa aritmia, dan hemodinamik stabil. Ia bertanya kapan boleh kembali bertanding karena musim kompetisi dimulai 2 minggu lagi. Anjuran yang paling tepat adalah?",
+    "options": [
+      "Boleh bertanding segera bila sudah tidak nyeri dada",
+      "Boleh latihan intens asalkan minum NSAID sebelum bertanding",
+      "Berikan kortikosteroid dosis tinggi agar dapat bertanding 2 minggu lagi",
+      "Hindari olahraga intens selama fase inflamasi aktif dan kembali bertahap setelah evaluasi ulang",
+      "Tirah baring total seumur hidup"
+    ],
+    "correctAnswer": 3,
+    "explanation": "ESC 2025 menganjurkan menghindari olahraga intens selama inflamasi aktif (umumnya 3–6 bulan) karena aktivitas berat dapat memicu aritmia maligna dan kematian jantung mendadak. Kembali berolahraga dilakukan bertahap setelah evaluasi ulang gejala, EKG/Holter, biomarker, dan pencitraan. NSAID tidak dianjurkan pada miokarditis dominan. Kortikosteroid hanya untuk etiologi imun tertentu (giant cell, eosinofilik, autoimun terbukti), bukan miokarditis virus limfositik biasa. Tirah baring seumur hidup tidak beralasan."
+  },
+  {
+    "question": "Seorang perempuan 32 tahun mengeluh nyeri dada tajam sejak 2 hari, terasa lebih berat saat menarik napas dalam dan berbaring telentang, serta berkurang saat duduk membungkuk ke depan. Seminggu sebelumnya ia batuk pilek. Pada auskultasi terdengar bunyi gesekan di batas sternum kiri bawah. Gambaran EKG yang paling khas untuk kondisi ini adalah?",
+    "options": [
+      "ST elevasi konveks di V1–V4 dengan Q patologis",
+      "ST elevasi cekung difus di hampir semua sadapan disertai PR depresi",
+      "ST depresi difus dengan T inversi simetris",
+      "Gelombang delta dengan interval PR pendek",
+      "Gelombang T tinggi runcing dan QRS melebar"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nyeri dada pleuritik yang membaik saat condong ke depan, friction rub, dan riwayat infeksi virus mengarah ke perikarditis akut. EKG khasnya adalah ST elevasi cekung (saddle-shaped) yang difus, tidak mengikuti satu teritori koroner, disertai PR depresi. Inilah salah satu dari 4 kriteria diagnosis (diagnosis memerlukan ≥2). ST elevasi konveks regional dengan Q patologis menandakan STEMI. Gelombang delta khas WPW. T tinggi runcing dan QRS lebar khas hiperkalemia."
+  },
+  {
+    "question": "Seorang laki-laki 28 tahun didiagnosis perikarditis akut episode pertama, diduga virus. Tanda vital stabil, tidak demam, efusi perikard minimal (5 mm), troponin normal, CRP meningkat. Tidak ada riwayat ulkus peptikum atau gangguan ginjal. Terapi lini pertama yang paling tepat menurut panduan terbaru adalah?",
+    "options": [
+      "Prednison 1 mg/kgBB/hari selama 4 minggu",
+      "Antibiotik empiris spektrum luas",
+      "Aspirin dosis tinggi atau NSAID ditambah kolkisin selama 3 bulan, dengan PPI",
+      "Perikardiosentesis diagnostik segera",
+      "Anakinra (penghambat IL-1) sebagai terapi awal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lini pertama perikarditis akut episode pertama (ESC 2025/ACC 2025) adalah aspirin dosis tinggi atau NSAID ditambah kolkisin selama 3 bulan, dengan gastroproteksi PPI dan pemantauan CRP. Kolkisin menurunkan risiko kekambuhan secara bermakna. Steroid bukan lini pertama karena justru meningkatkan kekambuhan, dan hanya dipakai bila NSAID/kolkisin dikontraindikasikan atau gagal. Perikarditis virus tidak memerlukan antibiotik. Perikardiosentesis untuk tamponade atau kecurigaan purulen/TB/keganasan. Penghambat IL-1 untuk kasus rekuren yang refrakter."
+  },
+  {
+    "question": "Seorang laki-laki 45 tahun di Indonesia mengeluh nyeri dada pleuritik, demam 38,6°C, keringat malam, dan berat badan turun sejak 3 minggu. Ekokardiografi menunjukkan efusi perikard 25 mm tanpa tanda tamponade. Berdasarkan stratifikasi risiko perikarditis, tindakan dan pertimbangan etiologi yang paling tepat adalah?",
+    "options": [
+      "Rawat jalan dengan NSAID dan kolkisin karena kemungkinan besar virus",
+      "Rawat inap karena terdapat red flag, dan cari etiologi sekunder terutama tuberkulosis",
+      "Rawat jalan dengan prednison dosis tinggi",
+      "Pulangkan dan kontrol ulang 3 bulan lagi",
+      "Langsung perikardiektomi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pasien memiliki beberapa red flag: demam >38°C, onset subakut >2 minggu, dan efusi besar >20 mm. Red flag ini menandakan risiko tinggi dan kemungkinan penyebab spesifik, sehingga indikasi rawat inap. Gejala konstitusional (keringat malam, berat badan turun) di daerah endemis sangat mengarah ke perikarditis tuberkulosis, yang perlu dicari (analisis cairan perikard, ADA, kultur/PCR TB) karena dapat berkembang menjadi perikarditis konstriktif. Terapi empiris NSAID rawat jalan tidak tepat bila ada red flag. Steroid tanpa diagnosis pasti dapat memperburuk infeksi. Perikardiektomi untuk konstriksi kronik."
+  },
+  {
+    "question": "Seorang perempuan 50 tahun dengan kanker paru yang diketahui memiliki efusi perikard datang dengan sesak berat dan lemas. Pemeriksaan: TD 80/60 mmHg, nadi 124x/menit, JVP meningkat, bunyi jantung terdengar jauh, dan tekanan sistolik turun 18 mmHg saat inspirasi. EKG: low voltage dengan electrical alternans. Tindakan yang paling tepat segera adalah?",
+    "options": [
+      "Pemberian furosemid intravena dosis tinggi",
+      "Perikardiosentesis segera",
+      "Pemberian nitrogliserin sublingual",
+      "Kolkisin dan NSAID",
+      "Kateterisasi jantung untuk revaskularisasi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Trias Beck (hipotensi, JVP meningkat, bunyi jantung menjauh), pulsus paradoksus (>10 mmHg), takikardia, serta low voltage dengan electrical alternans menunjukkan tamponade jantung, kemungkinan akibat efusi maligna. Tamponade adalah kegawatdaruratan yang memerlukan perikardiosentesis segera untuk memulihkan pengisian ventrikel. Diuretik dan nitrat menurunkan preload sehingga memperburuk curah jantung dan dapat menyebabkan kolaps hemodinamik. NSAID/kolkisin tidak mengatasi tamponade. Revaskularisasi tidak relevan."
+  },
+  {
+    "question": "Seorang laki-laki 55 tahun dengan riwayat penggantian katup aorta mekanik 3 tahun lalu datang dengan demam naik turun sejak 3 minggu, lemas, dan berat badan turun. Terdengar murmur regurgitasi baru. Pasien belum mendapat antibiotik apa pun. Langkah pemeriksaan pertama yang paling penting sesuai ESC 2023 adalah?",
+    "options": [
+      "Segera berikan antibiotik empiris lalu ambil kultur darah keesokan harinya",
+      "Ambil beberapa set kultur darah sebelum antibiotik, lalu lakukan ekokardiografi termasuk TEE",
+      "Lakukan TTE saja; bila tidak ada vegetasi, endokarditis dapat disingkirkan",
+      "Periksa procalcitonin dan tunggu hasilnya sebelum memutuskan kultur",
+      "Langsung lakukan operasi penggantian katup"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada kecurigaan endokarditis infektif, ESC 2023 menekankan pengambilan beberapa set kultur darah sebelum antibiotik, karena antibiotik dini dapat membuat kultur negatif dan menghilangkan kriteria mayor Duke. Ekokardiografi dimulai dengan TTE, tetapi TEE diperlukan pada katup prostetik karena artefak katup membuat TTE kurang sensitif dan TEE lebih baik untuk menilai abses periannular. TTE negatif tidak menyingkirkan EI pada katup prostetik. Operasi diputuskan setelah diagnosis dan penilaian indikasi oleh Endocarditis Team."
+  },
+  {
+    "question": "Seorang laki-laki 30 tahun pengguna narkoba suntik datang dengan demam tinggi dan batuk. Pada pemeriksaan ditemukan lesi seperti pada gambar. Salah satunya adalah makula kemerahan tidak nyeri di telapak tangan dan kaki. Lesi makula tidak nyeri di telapak tersebut termasuk kategori kriteria Duke apa?",
+    "image": "assets/materi/blok2.6/el-1-4/manifestasi-endokarditis.jpg",
+    "options": [
+      "Kriteria mayor — bukti keterlibatan endokard",
+      "Kriteria minor — fenomena imunologik (nodus Osler)",
+      "Kriteria minor — fenomena vaskular (lesi Janeway)",
+      "Kriteria minor — bukti mikrobiologi",
+      "Bukan bagian dari kriteria Duke"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Makula eritematosa atau hemoragik yang tidak nyeri di telapak tangan dan kaki adalah lesi Janeway, akibat mikroemboli septik. Dalam kriteria Duke termodifikasi, lesi ini termasuk kriteria minor fenomena vaskular, bersama emboli arteri, infark paru septik, aneurisma mikotik, dan perdarahan intrakranial/konjungtiva. Nodus Osler adalah nodul nyeri di bantalan jari akibat kompleks imun, dan termasuk fenomena imunologik bersama bercak Roth dan glomerulonefritis. Kriteria mayor adalah kultur darah positif dan bukti pencitraan keterlibatan endokard."
+  },
+  {
+    "question": "Seorang laki-laki 30 tahun pengguna narkoba suntik dirawat karena demam. Ia memiliki 3 set kultur darah yang semuanya tumbuh Staphylococcus aureus. Ekokardiografi menunjukkan vegetasi 12 mm pada katup trikuspid. Ia demam 39°C dan memiliki lesi Janeway. Foto toraks menunjukkan nodul multipel di kedua paru. Berdasarkan kriteria Duke termodifikasi, kesimpulan diagnosisnya adalah?",
+    "options": [
+      "Endokarditis infektif definit",
+      "Endokarditis infektif possible",
+      "Endokarditis infektif rejected",
+      "Belum dapat disimpulkan sebelum TEE",
+      "Bukan endokarditis, melainkan pneumonia stafilokokus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pasien memenuhi 2 kriteria mayor: kultur darah positif organisme tipikal (S. aureus) pada ≥2 set, dan bukti keterlibatan endokard berupa vegetasi trikuspid. Ia juga memenuhi beberapa kriteria minor: predisposisi IVDU, demam ≥38°C, dan fenomena vaskular (lesi Janeway serta emboli paru septik yang tampak sebagai nodul multipel). EI definit ditegakkan bila terdapat 2 mayor, atau 1 mayor + 3 minor, atau 5 minor, sehingga diagnosis pasien ini definit. Nodul paru multipel adalah emboli septik khas EI sisi kanan pada IVDU, bukan pneumonia primer."
+  },
+  {
+    "question": "Seorang perempuan 48 tahun sedang dirawat dengan endokarditis infektif katup aorta akibat Streptococcus viridans dan telah mendapat antibiotik yang sesuai selama 5 hari. Tiba-tiba ia sesak berat, ortopnea, dan ronki basah di seluruh lapang paru. Ekokardiografi: perforasi kuspis aorta dengan regurgitasi aorta berat akut. Penanganan yang paling tepat adalah?",
+    "options": [
+      "Melanjutkan antibiotik yang sama hingga 6 minggu, lalu evaluasi ulang",
+      "Mengganti antibiotik ke spektrum lebih luas",
+      "Menambahkan kortikosteroid untuk mengurangi inflamasi katup",
+      "Rujuk untuk operasi katup segera, karena gagal jantung akibat disfungsi katup adalah indikasi bedah",
+      "Pemberian trombolitik untuk melarutkan vegetasi"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Gagal jantung akibat disfungsi katup (di sini regurgitasi aorta berat akut karena perforasi kuspis) adalah indikasi operasi tersering dan paling mendesak pada EI menurut ESC 2023. Antibiotik saja tidak dapat memperbaiki kerusakan struktur katup, sehingga menunda operasi meningkatkan mortalitas. Indikasi bedah lain adalah infeksi tidak terkontrol (abses, bakteremia persisten) dan pencegahan emboli pada vegetasi besar. Mengganti antibiotik tidak menyelesaikan masalah mekanis. Steroid dan trombolitik dikontraindikasikan; trombolitik dapat memicu perdarahan intrakranial dari aneurisma mikotik atau emboli."
+  }
+]

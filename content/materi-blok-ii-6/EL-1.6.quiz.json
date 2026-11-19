@@ -1,0 +1,125 @@
+[
+  {
+    "question": "Seorang perempuan 22 tahun mengeluh sesak dan mengi berulang sejak SMP, terutama dini hari dan saat terpapar debu atau udara dingin. Di antara serangan ia hampir tanpa keluhan. Spirometri: FEV₁/FVC 0,64; FEV₁ 68% prediksi. Lima belas menit setelah salbutamol 400 mcg, FEV₁ meningkat 19% (420 mL). Interpretasi yang paling tepat adalah?",
+    "options": [
+      "PPOK derajat sedang",
+      "Asma — obstruksi dengan reversibilitas bermakna",
+      "Restriksi akibat fibrosis paru",
+      "Bronkiektasis",
+      "Spirometri normal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "FEV₁/FVC rendah menunjukkan obstruksi. Kenaikan FEV₁ ≥12% dan ≥200 mL setelah bronkodilator menunjukkan reversibilitas bermakna, ciri obstruksi yang reversibel penuh pada asma, apalagi pada pasien muda dengan gejala episodik, variatif, memburuk dini hari, dan dipicu alergen/udara dingin. Obstruksi PPOK bersifat persisten (FEV₁/FVC pasca-BD tetap <0,70) dengan reversibilitas minimal, biasanya pada perokok usia >40 tahun. Restriksi ditandai FVC turun dengan rasio FEV₁/FVC normal atau tinggi."
+  },
+  {
+    "question": "Seorang laki-laki 28 tahun dengan asma mengeluh mengi 2–3 kali per minggu dan selama ini hanya memakai salbutamol inhaler bila sesak. Menurut GINA 2024 untuk dewasa dan remaja, pilihan reliever yang lebih disukai (Track 1) karena menurunkan risiko eksaserbasi adalah?",
+    "options": [
+      "Salbutamol (SABA) inhalasi saja bila perlu",
+      "Teofilin lepas lambat",
+      "Montelukast oral harian",
+      "Prednison oral bila sesak",
+      "ICS-formoterol dosis rendah bila perlu"
+    ],
+    "correctAnswer": 4,
+    "explanation": "GINA 2024 Track 1 (pilihan utama) memakai ICS-formoterol dosis rendah sebagai reliever (as-needed pada step 1–2, maintenance-and-reliever pada step 3–4). Setiap kali pasien merasa perlu pelega, ia sekaligus mendapat steroid inhalasi, sehingga risiko eksaserbasi berat turun dibanding reliever SABA. Pemakaian SABA saja tanpa ICS tidak lagi dianjurkan karena tidak mengatasi inflamasi dan dikaitkan dengan eksaserbasi serta kematian. Montelukast dan teofilin adalah pilihan lain dengan bukti lebih lemah. Steroid oral bukan reliever rutin."
+  },
+  {
+    "question": "Seorang perempuan 19 tahun dengan asma datang ke IGD dengan sesak berat, hanya bisa berbicara kata per kata, RR 30x/menit, nadi 124x/menit, SpO₂ 89%, dan mengi ekspirasi di seluruh lapang paru. Sesuai protokol eksaserbasi akut, tata laksana awal yang paling tepat adalah?",
+    "options": [
+      "Aminofilin bolus IV sebagai terapi tunggal pertama",
+      "Antibiotik spektrum luas dan observasi",
+      "O₂, inhalasi salbutamol + ipratropium bromida, dan kortikosteroid sistemik, diberikan bersamaan lalu dievaluasi tiap 1–2 jam",
+      "Sedatif untuk menenangkan pasien",
+      "β-blocker untuk menurunkan denyut jantung"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Eksaserbasi asma berat ditangani dengan oksigen (posisi Fowler), bronkodilator inhalasi SABA + SAMA (salbutamol + ipratropium), kortikosteroid sistemik (metilprednisolon oral/IV), dan steroid inhalasi, yang diberikan bersamaan (bisa kontinu 2–4 jam) dengan evaluasi tiap 1–2 jam. Bila 3 kali evaluasi tidak membaik, pasien dirujuk ke ICU (NIV bila SpO₂ <90%). Aminofilin hanya tambahan, bukan lini pertama, karena indeks terapinya sempit. Antibiotik hanya bila ada tanda infeksi bakteri. Sedatif dapat menekan napas dan berbahaya. Takikardia di sini akibat hipoksia dan β-agonis; β-blocker memicu bronkospasme."
+  },
+  {
+    "question": "Seorang laki-laki 64 tahun perokok 45 pack-years dan petani yang sering membakar jerami mengeluh batuk berdahak setiap pagi sejak 5 tahun dan sesak yang makin berat saat aktivitas. Ia tidak pernah mengalami mengi episodik di masa muda. Kriteria spirometri yang memastikan diagnosis penyakit pasien ini adalah?",
+    "options": [
+      "FEV₁/FVC pasca-bronkodilator < 0,70",
+      "FEV₁ naik ≥12% dan ≥200 mL setelah bronkodilator",
+      "FVC < 80% prediksi dengan FEV₁/FVC > 0,80",
+      "Variabilitas PEF harian > 20%",
+      "DLCO meningkat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Perokok berat dengan paparan biomassa, batuk produktif kronik, dan sesak progresif sesuai dengan PPOK. Menurut GOLD, diagnosis dipastikan dengan spirometri yang menunjukkan obstruksi persisten, yaitu FEV₁/FVC pasca-bronkodilator <0,70. Beratnya obstruksi (GOLD 1–4) dinilai dari FEV₁ % prediksi. Reversibilitas bermakna dan variabilitas PEF tinggi khas asma. FVC turun dengan rasio normal/tinggi menunjukkan restriksi. Pada emfisema, DLCO justru menurun."
+  },
+  {
+    "question": "Seorang laki-laki 38 tahun yang tidak pernah merokok mengeluh sesak progresif sejak 2 tahun. Ia juga pernah dirawat karena hepatitis dengan penyebab yang tidak jelas. Foto toraks tampak seperti pada gambar, dengan hiperinflasi dan hiperlusensi yang dominan di lapang paru bawah. Kadar α1-antitripsin serum sangat rendah. Jenis emfisema dan distribusinya yang paling sesuai adalah?",
+    "image": "assets/materi/blok2.6/el-1-6/emfisema-a1at.jpg",
+    "options": [
+      "Emfisema sentrilobular, dominan lobus atas",
+      "Emfisema panlobular (panasinar), dominan lobus bawah",
+      "Emfisema paraseptal, subpleura lobus atas",
+      "Emfisema irregular di sekitar parut",
+      "Emfisema kompensatorik pasca-lobektomi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Defisiensi α1-antitripsin (inhibitor elastase neutrofil) membuat elastase merusak seluruh asinus secara merata, sehingga terjadi emfisema panlobular (panasinar) yang dominan di lobus bawah, pada usia muda, dan bahkan pada bukan perokok. Penyakit hati (hepatitis/sirosis akibat akumulasi protein α1-AT yang salah lipat di hepatosit) mendukung diagnosis. Emfisema sentrilobular khas perokok, mengenai bronkiolus respiratorius di tengah lobulus, dan dominan lobus atas. Emfisema paraseptal berkaitan dengan pneumotoraks spontan pada dewasa muda."
+  },
+  {
+    "question": "Seorang laki-laki 58 tahun, perokok, batuk berdahak hampir setiap hari selama 3 bulan setiap tahun dalam 4 tahun terakhir. Biopsi mukosa bronkus menunjukkan gambaran seperti pada gambar: sel goblet sangat banyak di epitel dan membran basal menebal. Korelasi patologis utama yang menjelaskan produksi sputum berlebih pada kondisi ini adalah?",
+    "image": "assets/materi/blok2.6/el-1-6/bronkitis-kronik-histologi.jpg",
+    "options": [
+      "Destruksi dinding alveolus distal bronkiolus terminalis",
+      "Granuloma kaseosa di dinding bronkus",
+      "Infiltrat eosinofil dengan kristal Charcot-Leyden",
+      "Hipertrofi dan hiperplasia kelenjar mukus submukosa serta sel goblet",
+      "Dilatasi permanen bronkus dengan destruksi kartilago"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bronkitis kronik didefinisikan secara klinis sebagai batuk produktif kronik (klasik: ≥3 bulan/tahun selama ≥2 tahun berturut-turut). Korelasi patologisnya adalah hipertrofi dan hiperplasia kelenjar mukus submukosa (Reid index meningkat) disertai hiperplasia sel goblet, sehingga sekresi bronkus meningkat. Temuan lain: metaplasia skuamosa, hilangnya silia (memudahkan kolonisasi bakteri), membran basal menebal, dan infiltrat neutrofil. Destruksi alveolus adalah definisi emfisema. Eosinofil dan kristal Charcot-Leyden khas asma. Dilatasi permanen bronkus adalah bronkiektasis."
+  },
+  {
+    "question": "Seorang laki-laki 70 tahun dengan PPOK berat datang dengan eksaserbasi: sesak memberat, sputum bertambah kuning-kehijauan, SpO₂ 82% udara ruangan. AGD: pH 7,33, PaCO₂ 58 mmHg, HCO₃⁻ 30 mEq/L. Target dan cara pemberian oksigen yang paling tepat adalah?",
+    "options": [
+      "Non-rebreathing mask 15 L/menit hingga SpO₂ 100%",
+      "Tidak perlu oksigen karena pasien sudah terbiasa hipoksia",
+      "Oksigen terkontrol dosis rendah (mis. nasal kanul 2–3 L/menit) dengan target SpO₂ 88–92%",
+      "Oksigen hiperbarik",
+      "Intubasi segera tanpa mencoba terapi medis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pasien PPOK dengan retensi CO₂ kronik (HCO₃⁻ tinggi sebagai kompensasi) yang mengalami asidosis respiratorik akut harus mendapat oksigen terkontrol dosis rendah dengan target SpO₂ 88–92%, sesuai slide (O₂ 2–3 L/menit). Oksigen dosis tinggi memperburuk ketidakseimbangan V/Q dengan menghilangkan vasokonstriksi pulmonal hipoksik, mengurangi dorongan napas, dan melalui efek Haldane meningkatkan PaCO₂ sehingga memperberat asidosis dan dapat menyebabkan narkosis CO₂. Membiarkan hipoksemia berat juga berbahaya. Bila asidosis memburuk, NIV dicoba sebelum intubasi."
+  },
+  {
+    "question": "Seorang laki-laki 66 tahun dengan PPOK lama datang dengan edema tungkai, hepatomegali nyeri tekan, dan JVP meningkat. Pada pemeriksaan teraba pulsasi di epigastrium. Mekanisme utama yang mendasari kelainan jantung pada pasien ini adalah?",
+    "options": [
+      "Infark miokard ventrikel kiri akibat aterosklerosis koroner",
+      "Vasokonstriksi pulmonal hipoksik dan hilangnya kapiler alveolar yang menyebabkan hipertensi pulmonal",
+      "Regurgitasi mitral akibat demam rematik",
+      "Kardiomiopati dilatasi akibat alkohol",
+      "Perikarditis konstriktif akibat tuberkulosis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada PPOK, destruksi alveolus menghilangkan anyaman kapiler, sedangkan hipoksia alveolar menyebabkan vasokonstriksi pulmonal hipoksik. Keduanya meningkatkan resistensi vaskular paru sehingga terjadi hipertensi pulmonal, remodeling vaskular sekunder, lalu hipertrofi dan dilatasi ventrikel kanan, yaitu cor pulmonale. Hipertrofi RV teraba sebagai pulsasi epigastrium, dan kegagalan RV menyebabkan edema, hepatomegali kongestif, dan JVP meningkat. Infark LV, regurgitasi mitral, dan DCM menimbulkan gagal jantung kiri lebih dulu. Konstriksi perikard tidak berhubungan langsung dengan PPOK."
+  },
+  {
+    "question": "Seorang laki-laki 52 tahun yang menyelesaikan pengobatan TB paru 5 tahun lalu (dinyatakan sembuh) datang dengan batuk berdahak bertambah, sesak memberat, dan demam sejak 4 hari. Foto toraks: fibrosis luas, kavitas multipel di paru kiri, trakea tertarik ke kiri, dan penebalan pleura. Sebelum menangani pasien sebagai eksaserbasi sindrom obstruksi pasca-TB (SOPT), langkah yang wajib dilakukan adalah?",
+    "options": [
+      "Langsung memulai OAT kategori ulang tanpa pemeriksaan",
+      "Memastikan pemeriksaan BTA/TCM sputum negatif untuk menyingkirkan TB aktif atau kambuh",
+      "Lobektomi segera",
+      "Memberikan steroid dosis tinggi jangka panjang tanpa pemeriksaan lain",
+      "Bronkoskopi rutin pada semua pasien"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gambaran fibrosis luas, kavitas multipel, deviasi trakea, dan penebalan pleura setelah TB tuntas sesuai dengan SOPT/PTLD tipe destroyed lung. Eksaserbasinya ditangani seperti eksaserbasi PPOK (O₂, antibiotik non-OAT, steroid, bronkodilator, mukolitik, fisioterapi). Namun slide menegaskan bahwa BTA sputum harus negatif, sehingga TB aktif atau kambuh wajib disingkirkan terlebih dahulu (BTA/TCM), karena pemberian steroid pada TB aktif berbahaya dan kekambuhan TB memerlukan OAT. Memulai OAT tanpa bukti bakteriologis tidak tepat. Lobektomi dan bronkoskopi tidak rutin dilakukan."
+  },
+  {
+    "question": "Seorang perempuan 35 tahun dengan riwayat pneumonia berat berulang saat remaja mengeluh batuk dengan sputum purulen banyak setiap hari selama bertahun-tahun, kadang bercampur darah. Terdapat ronki basah kasar di basal kedua paru dan jari tabuh. CT toraks seperti pada gambar. Malam ini ia batuk darah sekitar 600 mL dalam 24 jam, dan sumber perdarahan diduga paru kanan. Langkah awal yang paling tepat sambil menyiapkan tindakan definitif adalah?",
+    "image": "assets/materi/blok2.6/el-1-6/bronkiektasis-ct.jpg",
+    "options": [
+      "Posisikan pasien berbaring miring ke kanan (sisi yang berdarah di bawah), beri O₂, dan siapkan embolisasi arteri bronkialis atau reseksi",
+      "Posisikan pasien berbaring miring ke kiri agar darah mengalir keluar dari paru kanan",
+      "Berikan antikoagulan heparin",
+      "Lakukan fisioterapi dada dan drainase postural segera",
+      "Berikan mukolitik dosis tinggi agar darah mudah dibatukkan"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sputum purulen kronik, hemoptisis, ronki basal, jari tabuh, dan bronkus melebar (signet ring) pada CT menunjukkan bronkiektasis. Hemoptisis >500 mL/24 jam termasuk masif. Langkah awal adalah melindungi paru sehat dari aspirasi darah dengan memposisikan sisi yang berdarah di bawah (lateral dekubitus kanan), memberi O₂ dan antitusif (kodein), lalu transfusi bila Hb <8 g/dL. Tindakan definitif adalah lobektomi/pneumonektomi, atau embolisasi arteri bronkialis bila operasi tidak tersedia atau dikontraindikasikan. Miring ke sisi sehat membuat darah masuk ke paru sehat. Fisioterapi dada dilakukan saat stabil, bukan saat perdarahan aktif. Antikoagulan memperberat perdarahan."
+  }
+]

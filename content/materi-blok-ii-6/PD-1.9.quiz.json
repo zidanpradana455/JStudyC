@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Seorang laki-laki 38 tahun dengan batuk berdahak 3 minggu dan berat badan turun diperiksa TCM dari dahaknya. Hasil: MTB DETECTED, Rif Resistance DETECTED. Tindak lanjut yang paling tepat menurut alur Juknis TB adalah?",
+    "options": [
+      "Mulai pengobatan TB sensitif obat 2HRZE/4HR",
+      "Ulangi pemeriksaan TCM dengan dahak baru",
+      "Masuk alur diagnosis dan pengobatan TB resistan obat",
+      "Berikan terapi pencegahan TB (TPT)",
+      "Foto toraks dulu, pengobatan ditunda sampai hasil biakan keluar"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hasil MTB detected menandakan DNA M. tuberculosis terdeteksi, dan Rif resistance detected berarti mutasi gen rpoB ditemukan sehingga kuman resistan rifampisin. Sesuai tabel interpretasi TCM, hasil ini langsung mengarahkan pasien ke alur diagnosis TB RO, bukan TB SO, dan dilanjutkan uji kepekaan untuk obat lain. Regimen 2HRZE/4HR hanya untuk TB sensitif obat. Pengulangan TCM diperlukan pada hasil invalid, error, atau no result, bukan pada hasil yang sudah jelas. TPT diberikan pada infeksi laten, bukan TB aktif."
+  },
+  {
+    "question": "Hasil TCM seorang pasien tertulis: MTB DETECTED, Rif Resistance INDETERMINATE. Langkah yang paling tepat adalah?",
+    "options": [
+      "Ulangi pemeriksaan TCM karena hasil tidak dapat dipakai",
+      "Tidak perlu diulang; pasien masuk alur diagnosis TB sensitif obat",
+      "Langsung diobati sebagai TB resistan obat",
+      "Nyatakan pasien bukan TB",
+      "Ganti pemeriksaan menjadi mikroskopis BTA saja"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada hasil MTB detected dengan Rif resistance indeterminate, DNA MTB jelas terdeteksi sehingga diagnosis TB sudah tegak, tetapi status mutasi rpoB tidak dapat ditentukan karena tidak teramplifikasi. Menurut tabel interpretasi, pemeriksaan tidak perlu diulang dan pasien mengikuti alur diagnosis TB SO. Hasil MTB trace detected dengan Rif indeterminate juga diperlakukan sama. Yang harus diulang adalah hasil invalid, error, dan no result, karena pada ketiganya keberadaan DNA MTB tidak dapat ditentukan."
+  },
+  {
+    "question": "Seorang analis membaca sediaan dahak yang diwarnai Ziehl-Neelsen. Ia menemukan rata-rata 3 batang merah di setiap lapang pandang setelah membaca 60 lapang pandang dengan objektif 100x. Penulisan hasil yang benar menurut skala IUATLD adalah?",
+    "options": [
+      "Scanty (tulis jumlah BTA)",
+      "1+",
+      "2+",
+      "3+",
+      "Negatif"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Skala IUATLD/WHO: negatif bila tidak ditemukan BTA dalam 100 lapang pandang; scanty bila 1–9 BTA dalam 100 LP (ditulis jumlahnya, bukan scanty); 1+ bila 10–99 BTA dalam 100 LP; 2+ bila 1–10 BTA per LP dengan minimal 50 LP dibaca; dan 3+ bila ≥10 BTA per LP dengan minimal 20 LP dibaca. Temuan 3 BTA per lapang pandang pada 60 LP memenuhi kriteria 2+. Catatan penting: hasil negatif ditulis dengan kata negatif, tidak boleh dengan simbol minus."
+  },
+  {
+    "question": "Pada pewarnaan Ziehl-Neelsen, sediaan digenangi carbol fuchsin lalu dipanaskan, kemudian dituangi asam alkohol 3%, dan terakhir methylene blue. Sifat dinding sel Mycobacterium tuberculosis yang membuatnya tetap berwarna merah setelah pemberian asam alkohol adalah?",
+    "options": [
+      "Lapisan peptidoglikan yang sangat tebal",
+      "Kandungan asam mikolat yang tinggi",
+      "Adanya kapsul polisakarida",
+      "Membran luar kaya lipopolisakarida",
+      "Tidak memiliki dinding sel"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dinding sel mikobakterium sangat kaya lipid, terutama asam mikolat, sehingga carbol fuchsin yang masuk dengan bantuan pemanasan tertahan dan tidak luntur oleh asam alkohol. Sifat inilah yang disebut tahan asam, sehingga kuman tampak merah dengan latar biru methylene blue. Peptidoglikan tebal adalah ciri bakteri Gram positif. Kapsul polisakarida khas pneumokokus. Lipopolisakarida adalah ciri Gram negatif. Mycoplasma yang tidak memiliki dinding sel justru tidak terwarnai."
+  },
+  {
+    "question": "Seorang anak dicurigai TB kelenjar dan dilakukan biopsi kelenjar getah bening leher untuk pemeriksaan TCM dan biakan. Instruksi penanganan spesimen yang paling tepat adalah?",
+    "options": [
+      "Rendam jaringan dalam formalin 10% agar tidak rusak",
+      "Rendam jaringan dalam alkohol 70%",
+      "Jangan masukkan ke formalin atau alkohol; rendam dalam salin steril atau akuades steril",
+      "Keringkan jaringan di suhu ruang sebelum dikirim",
+      "Bekukan jaringan pada suhu -20°C"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Untuk pemeriksaan TCM dan biakan, spesimen jaringan tidak boleh dimasukkan ke dalam formalin maupun alkohol karena keduanya merusak DNA dan mematikan kuman sehingga biakan tidak dapat tumbuh. Juknis menganjurkan jaringan direndam dalam salin steril atau akuades steril. Spesimen sebaiknya segera diperiksa; bila tertunda disimpan pada 2–8°C maksimal 7 hari. Formalin hanya dipakai bila jaringan ditujukan untuk pemeriksaan histopatologi."
+  },
+  {
+    "question": "Seorang laki-laki 45 tahun meninggal dan pada autopsi ditemukan lesi konsolidasi 1,2 cm berwarna abu-abu di bagian bawah lobus atas paru kanan dekat pleura, disertai pembesaran kelenjar getah bening hilus dengan nekrosis perkijuan. Gabungan kedua lesi ini disebut?",
+    "options": [
+      "Fokus Ghon saja",
+      "Kompleks Ghon",
+      "Kompleks Ranke",
+      "Tuberkuloma",
+      "Kavitas TB sekunder"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fokus Ghon adalah lesi parenkim paru pada infeksi primer, berupa konsolidasi 1–1,5 cm berwarna abu-abu di bagian bawah lobus atas dekat pleura. Bila lesi ini disertai keterlibatan kelenjar getah bening regional (limfangitis dan limfadenitis dengan nekrosis perkijuan), gabungannya disebut kompleks Ghon. Bila kemudian terjadi fibrosis ekstensif dan kalsifikasi yang terlihat radiologis, istilahnya menjadi kompleks Ranke, yang terjadi pada sekitar 95% kasus setelah imunitas adaptif terbentuk."
+  },
+  {
+    "question": "Seorang laki-laki 29 tahun dengan HIV dan CD4 45 sel/µL didiagnosis TB paru. Biopsi jaringan paru menunjukkan banyak basil tahan asam, tetapi granuloma tidak terbentuk baik dan tidak ditemukan nekrosis perkijuan. Penjelasan yang paling tepat untuk gambaran histologi ini adalah?",
+    "options": [
+      "Kuman penyebabnya bukan M. tuberculosis",
+      "Imunosupresi menyebabkan CD4+ tidak mampu membentuk reaksi hipersensitivitas jaringan, sehingga nekrosis perkijuan tidak terbentuk",
+      "Pasien sudah mendapat OAT sehingga granuloma hilang",
+      "Spesimen terlalu kecil untuk menilai granuloma",
+      "Nekrosis perkijuan memang tidak pernah ditemukan pada TB paru"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pembentukan granuloma dan nekrosis kaseosa bergantung pada respons Th1: APC melepas IL-12, Th1 matang dan memproduksi IFN-γ yang mengaktifkan makrofag. Pada HIV dengan CD4 sangat rendah, sel T CD4+ tidak mampu membentuk reaksi imun seluler, sehingga reaksi hipersensitivitas di jaringan menurun dan nekrosis perkijuan tidak terbentuk. Keadaan ini disebut TB non-reaktif, dengan jumlah basil justru sangat banyak karena pertumbuhan kuman tidak terkendali."
+  },
+  {
+    "question": "Seorang perempuan 26 tahun datang dengan benjolan di leher kanan yang membesar perlahan sejak 3 bulan, tidak nyeri, dan belakangan pecah membentuk saluran yang mengeluarkan cairan. Tidak ada keluhan batuk. Diagnosis yang paling mungkin dan pemeriksaan baku emasnya adalah?",
+    "options": [
+      "Limfoma Hodgkin — biopsi eksisi mencari sel Reed-Sternberg",
+      "Limfadenitis tuberkulosis (skrofula) — biakan M. tuberculosis dari aspirat atau jaringan",
+      "Limfadenitis bakterial akut — kultur darah",
+      "Metastasis karsinoma nasofaring — endoskopi nasofaring",
+      "Kista brankial — USG leher"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pembesaran kelenjar getah bening leher yang lambat, tidak nyeri, lalu membentuk fistel dan supurasi pada kulit adalah gambaran khas limfadenitis TB atau skrofula. Limfadenitis TB merupakan sekitar 25% kasus TB ekstraparu dan merupakan TB ekstraparu tersering, banyak pada perempuan, anak, dan penderita HIV. Baku emas diagnosis TB ekstraparu adalah mikrobiologi berupa biakan M. tuberculosis, didukung histopatologi dari FNAB atau biopsi eksisi, serta pemeriksaan dahak untuk menilai ada tidaknya TB paru."
+  },
+  {
+    "question": "Seorang laki-laki 52 tahun mendapat OAT kategori 1. Setelah 6 minggu ia mengeluh kesemutan dan rasa terbakar di kedua telapak kaki dan tangan. Fungsi hati normal dan penglihatan baik. Obat penyebab dan tata laksana yang tepat adalah?",
+    "options": [
+      "Etambutol — hentikan obat segera",
+      "Pirazinamid — berikan alopurinol",
+      "Isoniazid — berikan piridoksin (vitamin B6)",
+      "Rifampisin — turunkan dosis",
+      "Streptomisin — ganti dengan amikasin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Neuropati perifer dengan kesemutan di tangan dan kaki adalah efek samping khas isoniazid, karena INH mengganggu metabolisme piridoksin. Pencegahan dan penanganannya adalah pemberian piridoksin (vitamin B6), dan OAT umumnya dapat dilanjutkan. Gejala SSP lain akibat INH seperti sulit konsentrasi, gangguan daya ingat, dan kejang juga membaik dengan piridoksin. Etambutol menyebabkan neuritis optik dengan gangguan tajam penglihatan dan buta warna merah-hijau. Pirazinamid menyebabkan hiperurisemia dan artralgia. Streptomisin bersifat ototoksik dan nefrotoksik."
+  },
+  {
+    "question": "Seorang perempuan 30 tahun pengguna pil kontrasepsi oral memulai pengobatan TB dengan 2HRZE/4HR. Ia juga cemas karena urin dan air matanya berwarna kemerahan. Penjelasan yang paling tepat adalah?",
+    "options": [
+      "Warna kemerahan menandakan perdarahan saluran kemih; hentikan rifampisin",
+      "Warna kemerahan tidak berbahaya akibat rifampisin, tetapi rifampisin menginduksi CYP450 sehingga pil KB dapat gagal dan perlu kontrasepsi tambahan",
+      "Warna kemerahan akibat isoniazid dan pil KB tetap efektif",
+      "Warna kemerahan menandakan hemolisis akibat pirazinamid",
+      "Warna kemerahan akibat etambutol dan menandakan kerusakan ginjal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rifampisin menyebabkan perubahan warna merah-oranye pada sekret tubuh seperti urin, keringat, dan air mata. Perubahan ini tidak berbahaya, meski dapat mewarnai lensa kontak lunak secara permanen. Namun rifampisin adalah penginduksi kuat enzim mikrosom hati (CYP450) sehingga mempercepat eliminasi banyak obat, termasuk kontrasepsi hormonal, antikoagulan, dan antikonvulsan. Karena itu pasien perlu diberi tahu risiko kegagalan kontrasepsi dan dianjurkan memakai metode tambahan selama pengobatan."
+  }
+]

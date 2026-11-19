@@ -37,14 +37,14 @@ const server = http.createServer((req, res) => {
     });
     const page = await context.newPage();
     const errors = []; page.on('pageerror', e => errors.push(e.message));
-    await page.goto(`${origin}/dashboard.html`);
-    await page.waitForSelector('#blok26ExamContent .year-card');
-    const cards = await page.$$eval('#blok26ExamContent .year-card', els => els.map(e => [e.querySelector('.year-num').textContent, e.querySelector('.year-info').textContent, e.getAttribute('href')]));
+    await page.goto(`${origin}/blok.html?id=blok-ii-6&tab=soal`);
+    await page.waitForSelector('#examContent .year-card');
+    const cards = await page.$$eval('#examContent .year-card', els => els.map(e => [e.querySelector('.year-num').textContent, e.querySelector('.year-info').textContent, e.getAttribute('href')]));
     result.dashboard = cards;
-    await page.locator('#block-ii-6').scrollIntoViewIfNeeded();
-    await page.locator('#block-ii-6').screenshot({ path: path.join(out, 'dashboard-card.png') });
+    await page.locator('#panelSoal').scrollIntoViewIfNeeded();
+    await page.locator('#panelSoal').screenshot({ path: path.join(out, 'dashboard-card.png') });
     for (const [typeId, type] of Object.entries(block.exams['cumex-1'].types)) for (const [year, qs] of Object.entries(type.years)) {
-      assert(cards.some(c => c[2] === `quiz.html?block=blok-ii-6&exam=cumex-1&type=${typeId}&year=${year}` && c[1] === `${qs.length} soal`), `Dashboard card ${typeId} ${year}`);
+      assert(cards.some(c => c[2] === `quiz.html?block=blok-ii-6&exam=cumex-1&type=${typeId}&year=${year}` && c[1] === `${qs.length} soal`), `Block page card ${typeId} ${year}`);
       await page.goto(`${origin}/quiz.html?block=blok-ii-6&exam=cumex-1&type=${typeId}&year=${year}`);
       await page.waitForSelector('#questionText');
       const badge = await page.textContent('#questionBadge').catch(() => '');

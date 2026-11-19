@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Seorang laki-laki 66 tahun dengan gagal jantung (LVEF 30%) yang selama ini stabil dengan terapi optimal datang dengan sesak memberat, ortopnea, dan edema tungkai sejak 3 hari. Ia mengaku berdebar-debar sejak 4 hari. Ia minum obat teratur dan tidak ada perubahan diet. Pemeriksaan: nadi tidak teratur 142x/menit, TD 110/70 mmHg, ronki basah di basal paru. Faktor pencetus dekompensasi yang paling mungkin pada pasien ini adalah?",
+    "options": [
+      "Ketidakpatuhan minum obat",
+      "Asupan garam berlebih",
+      "Aritmia (fibrilasi atrium dengan respons ventrikel cepat)",
+      "Tirotoksikosis",
+      "Emboli paru"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mnemonic FAILURE merangkum pencetus dekompensasi: Failure to take medication, Arrhythmia/Afterload/Anemia, Infection/Ischemia, Lifestyle, Upregulation (hamil, tirotoksikosis), Renal, Embolism. Pasien ini patuh obat dan diet, sedangkan nadinya tidak teratur dan cepat setelah berdebar 4 hari, sehingga mengarah ke fibrilasi atrium dengan respons ventrikel cepat. AF menghilangkan kontribusi atrium dan memperpendek waktu pengisian diastolik, sehingga curah jantung turun dan kongesti memburuk. Tirotoksikosis dan emboli paru mungkin saja, tetapi tidak didukung data yang ada."
+  },
+  {
+    "question": "Seorang perempuan 70 tahun dengan gagal jantung kronik mengatakan ia nyaman saat duduk atau berbaring, tetapi sudah sesak napas saat mandi, berpakaian, atau berjalan pelan di dalam rumah sejauh 10 meter. Ia tidak sesak saat istirahat. Klasifikasi NYHA pasien ini adalah?",
+    "options": [
+      "NYHA I",
+      "NYHA II",
+      "NYHA III",
+      "NYHA IV",
+      "ACC/AHA stage B"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NYHA III berarti keterbatasan aktivitas yang nyata: pasien nyaman saat istirahat, tetapi aktivitas yang lebih ringan dari aktivitas biasa (mandi, berpakaian, berjalan pelan jarak pendek) sudah menimbulkan gejala. NYHA II berarti aktivitas biasa (mis. naik tangga, berjalan cepat) menimbulkan gejala. NYHA IV berarti gejala muncul saat istirahat. NYHA I tidak ada keterbatasan. Stage ACC/AHA adalah klasifikasi struktural; pasien bergejala minimal masuk stage C, bukan B."
+  },
+  {
+    "question": "Seorang perempuan 74 tahun dengan obesitas (IMT 34 kg/m²), hipertensi lama, dan diabetes mengeluh sesak saat aktivitas dan bengkak kedua tungkai sejak 6 bulan. Pemeriksaan: JVP meningkat, ronki basah halus di basal. NT-proBNP 1.200 pg/mL. Ekokardiografi: LVEF 62%, hipertrofi konsentrik ventrikel kiri, atrium kiri membesar, E/e' 17. Fenotip gagal jantung pada pasien ini adalah?",
+    "options": [
+      "HFrEF",
+      "HFpEF",
+      "Bukan gagal jantung karena LVEF normal",
+      "HFmrEF",
+      "Gagal jantung kanan murni akibat cor pulmonale"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pasien memiliki gejala dan tanda HF ditambah bukti objektif kelainan jantung (LVH konsentrik, atrium kiri membesar, E/e' tinggi sebagai tanda tekanan pengisian meningkat, NT-proBNP meningkat) dengan LVEF ≥50%, sehingga memenuhi kriteria HFpEF. Mekanismenya adalah disfungsi diastolik akibat ventrikel kaku, dengan faktor risiko khas: usia lanjut, perempuan, hipertensi, obesitas, dan diabetes. LVEF normal tidak menyingkirkan HF. Menurut kerangka ESC 2026 di slide, HFmrEF tidak lagi menjadi kategori tersendiri."
+  },
+  {
+    "question": "Seorang laki-laki 58 tahun dengan riwayat infark miokard anterior 6 bulan lalu didiagnosis gagal jantung dengan LVEF 30%, NYHA II. Saat ini ia hanya mendapat furosemid. TD 118/76 mmHg, nadi 82x/menit, kalium 4,3 mmol/L, eGFR 65 mL/menit. Kombinasi terapi fondasi yang paling tepat untuk menurunkan mortalitas dan rawat inap adalah?",
+    "options": [
+      "Digoksin, ivabradin, dan amlodipin",
+      "Furosemid dosis tinggi dan hidroklorotiazid",
+      "ACE-I/ARNI, β-blocker, MRA, dan SGLT2 inhibitor",
+      "Diltiazem, nitrat, dan aspirin",
+      "Hidralazin/isosorbid dinitrat saja"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Terapi fondasi HFrEF terdiri dari 4 pilar: ACE-I atau ARNI (ARB bila intoleran), β-blocker, MRA, dan SGLT2 inhibitor (dapagliflozin/empagliflozin). Semuanya rekomendasi Class I yang menurunkan rawat inap dan kematian karena memblok aktivasi neurohumoral dan menghambat remodeling. Diuretik hanya mengatasi kongesti tanpa menurunkan mortalitas. Digoksin dan ivabradin adalah terapi tambahan. Diltiazem (CCB non-dihidropiridin) dihindari pada HFrEF karena inotropik negatif. Hidralazin/ISDN adalah tambahan pada populasi tertentu, bukan pengganti 4 pilar."
+  },
+  {
+    "question": "Golongan obat yang direkomendasikan sebagai terapi fondasi pada gagal jantung di seluruh rentang fraksi ejeksi, termasuk HFpEF, serta menurunkan rawat inap baik pada pasien dengan maupun tanpa diabetes adalah?",
+    "options": [
+      "Penghambat SGLT2 (dapagliflozin/empagliflozin)",
+      "ACE inhibitor",
+      "β-blocker",
+      "Ivabradin",
+      "Digoksin"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pada skema terapi berdasarkan LVEF, SGLT2-i (dan MRA) membentang di seluruh rentang LVEF, termasuk HFpEF, sedangkan ACE-I/ARNI/ARB dan β-blocker terutama untuk LVEF <50%. SGLT2-i menurunkan rawat inap karena gagal jantung terlepas dari status diabetes, melalui efek natriuresis/diuresis ringan, perbaikan metabolisme miokard, dan nefroproteksi. Ivabradin hanya untuk irama sinus dengan HR >70 bpm pada LVEF rendah. Digoksin dipakai untuk kontrol gejala/laju dan tidak menurunkan mortalitas."
+  },
+  {
+    "question": "Seorang laki-laki 60 tahun dengan HFrEF (LVEF 28%) telah mendapat enalapril 2 x 10 mg, bisoprolol, spironolakton, dan dapagliflozin. Dokter memutuskan mengganti enalapril dengan sakubitril/valsartan. Hal yang paling penting diperhatikan saat penggantian tersebut adalah?",
+    "options": [
+      "Sakubitril/valsartan diberikan bersamaan dengan enalapril selama 1 minggu",
+      "Enalapril dihentikan minimal 36 jam sebelum dosis pertama sakubitril/valsartan",
+      "Bisoprolol harus dihentikan terlebih dahulu",
+      "Spironolakton harus diganti dengan furosemid",
+      "Dapagliflozin harus dihentikan karena interaksi obat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sakubitril adalah penghambat neprilisin. Neprilisin dan ACE sama-sama mendegradasi bradikinin, sehingga kombinasi ACE-I dengan ARNI meningkatkan bradikinin dan risiko angioedema yang bisa mengancam jiwa. Karena itu ACE-I harus dihentikan minimal 36 jam sebelum memulai ARNI dan keduanya tidak boleh diberikan bersamaan. β-blocker, MRA, dan SGLT2-i tetap dilanjutkan sebagai bagian dari 4 pilar. Saat transisi, yang perlu dipantau adalah tekanan darah, kalium, dan fungsi ginjal."
+  },
+  {
+    "question": "Seorang perempuan 55 tahun dengan HFrEF (LVEF 32%) masih NYHA II meski telah mendapat ARNI, bisoprolol dosis maksimal yang dapat ditoleransi, MRA, dan SGLT2-i. EKG: irama sinus 80x/menit, QRS 100 ms. TD 105/70 mmHg. Terapi tambahan yang paling tepat untuk menurunkan laju jantung dan rawat inap adalah?",
+    "options": [
+      "Verapamil",
+      "Ivabradin",
+      "Diltiazem",
+      "Amiodaron",
+      "Menaikkan dosis bisoprolol melebihi dosis yang dapat ditoleransi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ivabradin menghambat kanal funny current (I_f) di nodus SA sehingga menurunkan denyut jantung tanpa efek inotropik negatif atau hipotensi bermakna. Obat ini diindikasikan pada HFrEF dengan irama sinus dan HR >70 bpm meski β-blocker sudah pada dosis maksimal yang dapat ditoleransi, dan menurunkan rawat inap. Ivabradin tidak bekerja pada AF karena memerlukan irama sinus. Verapamil dan diltiazem bersifat inotropik negatif sehingga dihindari pada HFrEF. Amiodaron adalah antiaritmia, bukan obat untuk menurunkan HR sinus. Menaikkan β-blocker melebihi toleransi berisiko hipotensi dan bradikardia."
+  },
+  {
+    "question": "Seorang laki-laki 63 tahun dengan kardiomiopati dilatasi non-iskemik telah mendapat terapi medis optimal selama 3 bulan, tetapi masih NYHA III. Ekokardiografi: LVEF 25%. EKG: irama sinus, left bundle branch block dengan durasi QRS 165 ms. Terapi perangkat yang paling tepat adalah?",
+    "options": [
+      "Pacu jantung permanen satu ruang (VVI)",
+      "Cardiac resynchronization therapy (CRT-P atau CRT-D)",
+      "Tidak ada; cukup lanjutkan obat",
+      "Ablasi kateter nodus AV",
+      "Kardioversi elektrik"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada algoritma HFrEF, pasien dengan irama sinus, LVEF ≤35%, dan QRS ≥130 ms setelah terapi medis optimal adalah kandidat CRT. Bila QRS ≥150 ms (terutama LBBB) rekomendasinya Class I. LBBB membuat kontraksi septum dan dinding lateral tidak sinkron, dan CRT (pacu biventrikular) mengembalikan sinkronisasi sehingga memperbaiki LVEF, gejala, dan mortalitas. Bila disertai fungsi defibrilator (CRT-D), CRT juga mencegah kematian mendadak. Pacu VVI dapat memperburuk dissinkroni. Ablasi nodus AV dan kardioversi tidak relevan karena pasien berirama sinus."
+  },
+  {
+    "question": "Seorang perempuan 62 tahun dengan HFrEF (LVEF 35%) mengeluh lemas dan sesak saat aktivitas meski terapi fondasi sudah optimal. Hasil laboratorium: Hb 11,8 g/dL, feritin 65 µg/L, saturasi transferin 14%. Tata laksana yang direkomendasikan untuk kondisi ini adalah?",
+    "options": [
+      "Transfusi packed red cells",
+      "Suplemen besi oral jangka panjang",
+      "Besi intravena (mis. ferric carboxymaltose)",
+      "Eritropoietin subkutan",
+      "Tidak perlu terapi karena Hb >10 g/dL"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Defisiensi besi pada HF (feritin <100 µg/L, atau 100–299 µg/L dengan saturasi transferin <20%) sering ditemukan dan memperburuk kapasitas latihan, bahkan tanpa anemia berat. Besi intravena direkomendasikan pada HF dengan LVEF <50% dan defisiensi besi untuk memperbaiki gejala, kapasitas fungsional, dan menurunkan rawat inap. Besi oral tidak efektif karena absorpsi usus terganggu (hepsidin meningkat, edema usus). Transfusi tidak diperlukan pada Hb 11,8 g/dL. Eritropoietin tidak terbukti bermanfaat dan meningkatkan risiko trombosis."
+  },
+  {
+    "question": "Seorang laki-laki 70 tahun dengan gagal jantung datang dengan edema tungkai berat, asites, dan ronki basah. Ia diberi furosemid intravena dan dalam 24 jam produksi urinnya meningkat. Furosemid bekerja dengan menghambat transporter pada segmen nefron berikut?",
+    "options": [
+      "Karbonat anhidrase di tubulus proksimal",
+      "Kotransporter Na⁺-K⁺-2Cl⁻ di ansa Henle pars asendens tebal",
+      "Kotransporter Na⁺-Cl⁻ di tubulus distal",
+      "Kanal natrium epitel (ENaC) di duktus koligens",
+      "Reseptor mineralokortikoid di duktus koligens"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Diuretik loop (furosemid, bumetanid, torsemid) menghambat kotransporter Na⁺-K⁺-2Cl⁻ (NKCC2) di ansa Henle pars asendens tebal, segmen yang mereabsorpsi ±25% natrium terfiltrasi, sehingga diuretik loop adalah yang paling poten dan menjadi pilihan utama untuk kongesti (Class I). Asetazolamid menghambat karbonat anhidrase di tubulus proksimal dan dipakai sebagai tambahan. Tiazid bekerja di tubulus distal. Amilorid menghambat ENaC dan spironolakton menghambat reseptor mineralokortikoid, keduanya di duktus koligens."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Seorang laki-laki 34 tahun didiagnosis TB paru terkonfirmasi bakteriologis dan mulai OAT kategori 1. Ia tinggal serumah dengan istri dan anak balita, dan bertanya kapan ia tidak lagi menularkan penyakit ke keluarganya. Jawaban yang paling sesuai adalah?",
+    "options": [
+      "Daya penularan menghilang segera setelah dosis pertama",
+      "Daya penularan sudah sangat menurun setelah sekitar 2 minggu pengobatan teratur",
+      "Daya penularan baru menurun setelah fase lanjutan selesai pada bulan ke-6",
+      "Pasien tetap menular seumur hidup",
+      "Penularan hanya terjadi lewat alat makan bersama"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada tahap awal (intensif) pengobatan yang diberikan setiap hari selama 2 bulan, jumlah bakteri turun secara cepat dan daya penularan sudah sangat menurun setelah sekitar 2 minggu pertama pengobatan yang teratur. Meski demikian, pengobatan tetap harus dituntaskan 6 bulan untuk membunuh bakteri persister (dorman) pada fase lanjutan dan mencegah kekambuhan serta resistansi. TB menular lewat udara melalui percik renik, bukan lewat alat makan. Kontak serumah tetap perlu diinvestigasi dan dipertimbangkan untuk TPT."
+  },
+  {
+    "question": "Seorang perempuan 45 tahun yang sedang menjalani bulan ke-3 OAT mengeluh penglihatan kabur dan mulai sulit membedakan warna merah dan hijau. Fungsi hati normal. Obat yang paling mungkin menjadi penyebab dan tindakan yang tepat adalah?",
+    "options": [
+      "Isoniazid — tambahkan piridoksin",
+      "Rifampisin — cukup diberi penjelasan karena tidak berbahaya",
+      "Etambutol — hentikan obat tersebut dan evaluasi tajam penglihatan",
+      "Pirazinamid — periksa asam urat",
+      "Streptomisin — periksa fungsi ginjal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Neuritis optik atau retrobulbar dengan penurunan tajam penglihatan dan gangguan persepsi warna merah-hijau adalah efek samping khas etambutol. Pemantauan tajam penglihatan dan persepsi warna dianjurkan sebelum dan selama terapi, dan obat harus dihentikan bila muncul gangguan penglihatan agar tidak permanen. Mnemonic HHEPS menempatkan E (eye) pada etambutol. Isoniazid menyebabkan neuropati perifer yang dicegah dengan piridoksin, rifampisin menyebabkan warna oranye-kemerahan pada sekret tubuh yang tidak berbahaya, pirazinamid menimbulkan hiperurisemia, dan streptomisin bersifat ototoksik dan nefrotoksik."
+  },
+  {
+    "question": "Seorang pasien TB paru menjalani pengobatan dan hasil pemeriksaan bakteriologis pada akhir bulan ke-6 masih positif. Menurut definisi hasil akhir pengobatan TB, pasien ini dikategorikan sebagai?",
+    "options": [
+      "Sembuh",
+      "Pengobatan lengkap",
+      "Gagal",
+      "Putus obat",
+      "Tidak dievaluasi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hasil akhir pengobatan TB meliputi: sembuh bila bakteri terbukti negatif di akhir pengobatan; pengobatan lengkap bila terapi selesai tetapi status bakteri tidak diketahui; gagal bila bakteri positif di akhir pengobatan (bulan ke-5 atau ke-6); putus obat bila tidak memulai pengobatan atau berhenti minum obat 2 bulan berturut-turut; meninggal; dan tidak dievaluasi bila hasil pengobatan tidak diketahui. Pasien dengan bakteriologis positif pada bulan ke-6 masuk kategori gagal dan perlu dievaluasi kemungkinan TB resistan obat."
+  },
+  {
+    "question": "Seorang laki-laki 40 tahun pernah mendapat pengobatan TB dua tahun lalu namun berhenti sendiri setelah 3 bulan. Kini ia datang lagi dengan gejala TB dan hasil uji kepekaan menunjukkan resistansi terhadap isoniazid dan rifampisin, tetapi masih sensitif terhadap fluorokuinolon. Klasifikasi TB resistan obat pasien ini adalah?",
+    "options": [
+      "Mono-resistant TB",
+      "Poly-resistant TB",
+      "MDR-TB",
+      "Pre-XDR TB",
+      "XDR-TB"
+    ],
+    "correctAnswer": 2,
+    "explanation": "MDR-TB didefinisikan sebagai TB yang resistan minimal terhadap isoniazid dan rifampisin. Bila MDR juga resistan terhadap salah satu fluorokuinolon dan salah satu obat injeksi lini kedua, disebut pre-XDR; bila resistan terhadap semua fluorokuinolon dan minimal satu obat injeksi, disebut XDR. Mono-resistant berarti resistan satu obat selain rifampisin, dan poly-resistant berarti resistan lebih dari satu obat tetapi bukan kombinasi INH dan rifampisin. Riwayat pengobatan yang tidak tuntas adalah faktor risiko utama TB RO."
+  },
+  {
+    "question": "Seorang anak laki-laki 3 tahun tinggal serumah dengan ayahnya yang baru didiagnosis TB paru terkonfirmasi bakteriologis. Anak tidak batuk, tidak demam, berat badan naik normal, dan pemeriksaan fisik dalam batas normal. Tidak ada kontraindikasi obat. Tindakan yang paling tepat menurut alur investigasi kontak adalah?",
+    "options": [
+      "Tidak perlu tindakan apa pun karena anak sehat",
+      "Berikan terapi pencegahan TB (TPT)",
+      "Berikan OAT kategori 1 selama 6 bulan",
+      "Tunggu sampai anak bergejala baru diperiksa",
+      "Berikan vaksinasi BCG ulang"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada investigasi kontak serumah pasien TB terkonfirmasi bakteriologis, anak usia kurang dari 5 tahun yang tidak bergejala TB dan tanpa kontraindikasi langsung diberi terapi pencegahan TB tanpa harus menunggu rontgen. Anak usia 5 tahun atau lebih tanpa gejala dirontgen lebih dahulu, dan bila tidak sugestif TB atau rontgen tidak tersedia, diberikan TPT. OAT hanya diberikan bila terbukti sakit TB. Menunggu anak bergejala berbahaya karena anak kecil berisiko tinggi mengalami TB berat seperti TB milier dan meningitis TB."
+  },
+  {
+    "question": "Seorang anak perempuan 18 bulan dengan gizi buruk dibawa karena batuk 3 minggu dan demam lama. Tidak ada tanda bahaya. Spesimen respirasi diambil dan hasil Xpert MTB/RIF negatif. Ibunya sedang menjalani pengobatan TB paru BTA positif. Menurut algoritma keputusan pengobatan TB anak, langkah berikutnya adalah?",
+    "options": [
+      "Hentikan penelusuran karena Xpert negatif berarti bukan TB",
+      "Mulai pengobatan TB karena terdapat riwayat kontak erat",
+      "Ulangi Xpert tiga kali berturut-turut sebelum memutuskan",
+      "Berikan terapi pencegahan TB",
+      "Tunggu hasil biakan 8 minggu baru memulai terapi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TB pada anak bersifat pausibasiler sehingga hasil Xpert sering negatif (sensitivitas sekitar 62% pada sputum) dan hasil negatif tidak menyingkirkan TB. Dalam algoritma keputusan pengobatan, anak bergejala dengan faktor risiko (usia < 2 tahun, HIV, atau malnutrisi akut berat) yang hasil konfirmasinya negatif atau tidak dilakukan dinilai riwayat kontak eratnya; bila ada kontak erat, pengobatan TB langsung dimulai. Bila tidak ada kontak erat, dilakukan sistem skoring. TPT hanya untuk anak tanpa gejala TB, dan menunggu biakan menunda terapi pada anak berisiko tinggi."
+  },
+  {
+    "question": "Seorang anak laki-laki 6 tahun dengan HIV negatif didiagnosis TB paru klinis. Ia tidak memiliki tanda bahaya, tidak ada wheezing asimetris, tanpa malnutrisi berat maupun distres napas, dan rontgen menunjukkan gambaran non-berat dengan hasil bakteriologis negatif. Regimen pengobatan yang paling sesuai adalah?",
+    "options": [
+      "2HRZE/4HR selama 6 bulan",
+      "2HRZ(E)/2HR selama 4 bulan",
+      "2HPZM/2HPM selama 4 bulan",
+      "BPaLM selama 6 bulan",
+      "6H selama 6 bulan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regimen 4 bulan 2HRZ(E)/2HR diperuntukkan bagi anak usia 3 bulan sampai kurang dari 12 tahun dengan TB paru non-berat, HIV negatif, gambaran rontgen non-severe, dan bakteriologis negatif. Kriteria TB non-berat adalah tanpa tanda bahaya, tanpa wheezing asimetris persisten, bukan TB ekstraparu (kecuali TB kelenjar perifer), dan tanpa malnutrisi berat, distres napas, demam tinggi, pucat, atau penurunan kesadaran. Regimen 2HPZM/2HPM untuk usia ≥12 tahun dengan BB >40 kg. BPaLM untuk TB resistan obat. 6H adalah paduan terapi pencegahan, bukan pengobatan TB aktif."
+  },
+  {
+    "question": "Seorang perempuan 28 tahun dengan HIV, CD4 320 sel/µL, dinyatakan tidak sakit TB setelah penapisan. Ia akan mendapat terapi pencegahan TB dan saat ini mengonsumsi antiretroviral berbasis nevirapine. Paduan TPT yang paling aman dari sisi interaksi obat adalah?",
+    "options": [
+      "3HP (isoniazid dan rifapentin mingguan)",
+      "3HR (isoniazid dan rifampisin harian)",
+      "6H (isoniazid harian selama 6 bulan)",
+      "BPaL selama 6 bulan",
+      "2HRZE/4HR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Paduan 6H (isoniazid harian 6 bulan, 182 dosis) tidak memiliki interaksi dengan ARV sehingga direkomendasikan untuk ODHIV, termasuk yang memakai LPV-RTV, nevirapine, atau dolutegravir. Sebaliknya 3HP dan 3HR mengandung rifamisin (rifapentin dan rifampisin) yang merupakan penginduksi enzim kuat dan tidak direkomendasikan bersama protease inhibitor, nevirapine, dan sebagian besar NNRTI karena menurunkan kadar ARV. BPaL adalah paduan pengobatan TB resistan obat, dan 2HRZE/4HR adalah pengobatan TB aktif, bukan pencegahan."
+  },
+  {
+    "question": "Seorang laki-laki 32 tahun kontak serumah dengan pasien TB akan diberi terapi pencegahan. Hasil laboratorium menunjukkan SGOT 140 U/L dan SGPT 165 U/L (batas atas normal 40 U/L), serta sklera tampak ikterik. Tindakan yang paling tepat adalah?",
+    "options": [
+      "Tetap berikan 3HP karena manfaat lebih besar daripada risiko",
+      "Tunda TPT karena terdapat kontraindikasi berupa gangguan fungsi hati dan ikterus",
+      "Berikan 6H dengan dosis separuh",
+      "Berikan OAT kategori 1 sebagai pengganti",
+      "Berikan TPT disertai hepatoprotektor tanpa evaluasi lebih lanjut"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kontraindikasi TPT meliputi gangguan fungsi hati dengan SGOT/SGPT lebih dari 3 kali batas atas normal, ikterus, neuropati perifer berat, alergi terhadap obat regimen TPT, ketergantungan alkohol, dan riwayat resistansi terhadap obat regimen TPT. Pasien ini memiliki transaminase lebih dari 3 kali batas atas normal disertai ikterus, sehingga TPT tidak boleh diberikan saat ini. Yang tepat adalah mencari penyebab gangguan hati, menanganinya, lalu mengevaluasi ulang. Isoniazid, rifampisin, dan pirazinamid semuanya hepatotoksik sehingga pemberian pada gangguan hati aktif berbahaya."
+  },
+  {
+    "question": "Seorang laki-laki 55 tahun mengeluh batuk lama dan berat badan turun. Foto toraks menunjukkan nodul-nodul berukuran 1–3 mm yang tersebar merata dan acak di kedua lapang paru, disertai penebalan septum interstisial. Gambaran ini paling sesuai dengan?",
+    "options": [
+      "TB milier akibat penyebaran hematogen",
+      "Fibrosis apikal lesi lama (TB inaktif)",
+      "Kavitas TB aktif",
+      "Efusi pleura masif",
+      "Bronkiektasis traksi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TB milier terjadi akibat diseminasi hematogen basil TB sehingga terbentuk granuloma kecil tak terhitung di paru dan organ lain. Gambaran khasnya adalah nodul berukuran 1–3 mm, berbatas tegas maupun kabur, tersebar difus secara acak di kedua paru, sering disertai penebalan septum interstisial. Foto toraks dapat tampak normal pada 25–40% kasus di awal penyakit, sehingga CT terutama HRCT lebih sensitif untuk mendeteksi lebih dini. Fibrosis apikal, bronkiektasis, dan kalsifikasi adalah tanda TB inaktif, sedangkan kavitas menandakan TB aktif."
+  }
+]

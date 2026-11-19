@@ -44,6 +44,19 @@
   // ── Patch updates ──
   const PATCH_UPDATES = [
     {
+      id: 'dashboard-per-blok-materi-2026-11-19',
+      category: 'Fitur Baru',
+      date: '19 Nov 2026',
+      title: 'Dashboard per blok & Materi Blok II.6',
+      summary: 'Setiap blok kini punya halaman sendiri berisi materi per lecture, paket soal ujian, dan progres blok tersebut.',
+      highlights: [
+        'Dashboard menampilkan kartu per blok dengan progres soal dan akurasi masing-masing blok.',
+        'Halaman blok memisahkan tab Materi dan Soal Ujian (Cumex 1, Cumex 2, UAS).',
+        'Materi Blok II.6 EL 1.2–1.7, IS 1.8 Pneumonia, PS 1.1 praktikum mikrobiologi, PD 1.9 dan PD 1.10 Tuberkulosis: rangkuman bergambar, dengan 10 soal latihan tipe Cumex pada tiap lecture (praktikum tanpa soal).',
+        'Lecture Blok II.6 lainnya menyusul bertahap.'
+      ]
+    },
+    {
       id: 'blok-ii-6-cumex-1-2026-11-18',
       category: 'Paket Soal',
       date: '18 Nov 2026',
@@ -238,155 +251,49 @@
     });
   }
 
-  // ── Progress tracking ──
-  let progressCache = {};
+  // ── Block hub ──
+  const Progress = window.JStudyCProgress;
+  const progress = await Progress.load(supabase, user);
 
-  async function loadProgress() {
-    const { data, error } = await supabase
-      .from('quiz_progress')
-      .select('progress_key, answered, correct, total')
-      .eq('user_id', user.id);
-
-    if (error) {
-      console.error(error);
-      return {};
-    }
-
-    const progress = (data || []).reduce((acc, item) => {
-      acc[item.progress_key] = {
-        answered: item.answered,
-        correct: item.correct,
-        total: item.total
-      };
-      return acc;
-    }, {});
-    // Prefer current saves; otherwise reuse legacy archive progress without
-    // counting the same package twice in dashboard statistics.
-    for (const [blockId, block] of Object.entries(QUESTION_DATA)) {
-      for (const alias of block.packageAliases || []) for (const examId of alias.exams) {
-        const oldKey=`${blockId}_${examId}_${alias.from.type}_${alias.from.year}`;
-        const newKey=`${blockId}_${examId}_${alias.to.type}_${alias.to.year}`;
-        if (progress[oldKey]) {
-          progress[newKey] ||= progress[oldKey];
-          delete progress[oldKey];
-        }
-      }
-    }
-    return progress;
+  function materiInfo(entry) {
+    const materi = entry.materi && (window.MATERI_DATA || {})[entry.materi.id];
+    if (!materi) return null;
+    return { ready: materi.units.filter(u => u.available).length, total: materi.units.length };
   }
 
-  function getProgress() { return progressCache; }
-
-  const currentPackageSizes = {};
-  for (const [blockId, block] of Object.entries(QUESTION_DATA)) {
-    for (const [examId, exam] of Object.entries(block.exams || {})) {
-      for (const [typeId, type] of Object.entries(exam.types || {})) {
-        for (const [year, questions] of Object.entries(type.years || {})) {
-          currentPackageSizes[`${blockId}_${examId}_${typeId}_${year}`] = questions.length;
-        }
-      }
-    }
+  function renderBlockCard(entry) {
+    const stats = Progress.stats(Progress.blockQuestionIds(entry), progress);
+    const exams = Progress.sortedExams(entry.questionBlock)
+      .map(id => QUESTION_DATA[entry.questionBlock].exams[id].name || id);
+    const materi = materiInfo(entry);
+    const chips = [
+      materi ? `<span class="hub-chip">📖 Materi ${materi.ready}/${materi.total}</span>` : '',
+      exams.length ? `<span class="hub-chip">📝 ${exams.map(escapeHTML).join(' · ')}</span>` : ''
+    ].join('');
+    const started = stats.answered > 0;
+    return `<a class="hub-card" href="blok.html?id=${encodeURIComponent(entry.id)}">
+      <div class="hub-card-top">
+        <span class="block-badge">${escapeHTML(entry.badge)}</span>
+        ${started ? `<span class="hub-card-status">${stats.completed}/${stats.total} paket selesai</span>` : ''}
+      </div>
+      <h3 class="hub-card-title">${escapeHTML(entry.name)}</h3>
+      <p class="hub-card-desc">${escapeHTML(entry.desc)}</p>
+      <div class="hub-chips">${chips}</div>
+      <div class="hub-tracker" aria-label="Progres ${escapeHTML(entry.badge)}">
+        <div class="hub-tracker-bar"><div style="width:${stats.coverage}%"></div></div>
+        <div class="hub-tracker-stats">
+          <span><strong>${stats.answered}</strong>/${stats.totalQuestions} soal</span>
+          <span><strong>${stats.accuracy}%</strong> akurasi</span>
+        </div>
+      </div>
+      <span class="hub-card-cta">${started ? 'Lanjutkan' : 'Buka blok'} <span aria-hidden="true">→</span></span>
+    </a>`;
   }
 
-  function getAvailableQuizPackCount() {
-    let total = 0;
-    Object.values(QUESTION_DATA).forEach(block => {
-      Object.values(block.exams || {}).forEach(exam => {
-        Object.values(exam.types || {}).forEach(type => {
-          if (type.locked) return;
-          Object.values(type.years || {}).forEach(questions => {
-            if (Array.isArray(questions) && questions.length > 0) total++;
-          });
-        });
-      });
-    });
-    return total;
-  }
-
-  function updateOverallStats() {
-    const progress = getProgress();
-    let total = 0, correct = 0, completed = 0;
-    Object.entries(progress).forEach(([key, p]) => {
-      total += (p.answered || 0);
-      correct += (p.correct || 0);
-      if (p.answered > 0 && p.answered >= (currentPackageSizes[key] ?? p.total)) completed++;
-    });
-    document.getElementById('totalAnswered').textContent = total;
-    document.getElementById('totalCorrect').textContent = total > 0 ? Math.round((correct/total)*100)+'%' : '0%';
-    document.getElementById('totalPakets').textContent = completed + '/' + getAvailableQuizPackCount();
-  }
-
-  function renderPackageContent(blockId, examId, target) {
-    const block = QUESTION_DATA[blockId];
-    const exam = block?.exams?.[examId];
-    if (!block || !exam || !target) return;
-    const progress = getProgress();
-
-    let html = '';
-    Object.entries(exam.types).forEach(([typeId, typeData]) => {
-      const isLocked = typeData.locked === true;
-      html += `<div class="type-group">
-        <div class="type-label">${typeData.name}${isLocked ? ' <span style="opacity:0.5">🔒</span>' : ''}</div>
-        <div class="year-cards">`;
-      Object.entries(typeData.years).forEach(([year, questions]) => {
-        const key = `${blockId}_${examId}_${typeId}_${year}`;
-        const p = progress[key] || { answered: 0, total: questions.length };
-        const pct = questions.length > 0 ? Math.min(100, Math.round((p.answered / questions.length) * 100)) : 0;
-        const hasQuestions = questions.length > 0;
-        
-        if (isLocked || !hasQuestions) {
-          html += `<div class="year-card year-card--locked">
-            <span class="year-num">${year}</span>
-            <span class="year-info">🔒 Segera hadir</span>
-            <div class="year-progress"><div class="year-progress-bar" style="width:0%"></div></div>
-          </div>`;
-        } else {
-          html += `<a class="year-card" href="quiz.html?block=${blockId}&exam=${examId}&type=${typeId}&year=${year}">
-            <span class="year-num">${year}</span>
-            <span class="year-info">${questions.length} soal</span>
-            <div class="year-progress"><div class="year-progress-bar" style="width:${pct}%"></div></div>
-          </a>`;
-        }
-      });
-      html += `</div></div>`;
-    });
-    target.innerHTML = html;
-  }
-
-  function initPackageTabs(blockId, tabSelector, contentId, defaultExam) {
-    const packageTabs = document.querySelectorAll(tabSelector);
-    const target = document.getElementById(contentId);
-    if (!target) return;
-
-    packageTabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        packageTabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        renderPackageContent(blockId, tab.dataset.exam, target);
-      });
-    });
-
-    renderPackageContent(blockId, defaultExam, target);
-  }
-
-  // ── Dashboard Mode Tabs (Cumex / OSCE) ──
-  const modeTabs = document.querySelectorAll('.dashboard-mode-tab');
-  modeTabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      modeTabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      document.querySelectorAll('.dashboard-panel').forEach(p => p.classList.remove('active'));
-      const panel = document.getElementById(tab.dataset.panel);
-      if (panel) panel.classList.add('active');
-    });
-  });
+  document.getElementById('blockGrid').innerHTML = BLOCK_CATALOG
+    .filter(b => b.group !== 'other').map(renderBlockCard).join('');
+  document.getElementById('otherGrid').insertAdjacentHTML('afterbegin', BLOCK_CATALOG
+    .filter(b => b.group === 'other').map(renderBlockCard).join(''));
 
   initPatchUpdates();
-  progressCache = await loadProgress();
-  initPackageTabs('blok-ii-3', '#block-ii-3 .exam-tab', 'examContent', 'cumex-1');
-  initPackageTabs('blok-ii-4', '#block-ii-4 .exam-tab', 'blok24ExamContent', 'cumex-1');
-  initPackageTabs('blok-ii-5', '#block-ii-5 .exam-tab', 'blok25ExamContent', 'cumex-1');
-  initPackageTabs('blok-ii-6', '#block-ii-6 .exam-tab', 'blok26ExamContent', 'cumex-1');
-  initPackageTabs('ebm-cas-2', '.ebm-exam-tab', 'ebmCasContent', 'blok-ii-1');
-  updateOverallStats();
 })();

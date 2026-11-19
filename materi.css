@@ -1,0 +1,235 @@
+/* JStudyC — Materi page */
+
+.materi-page {
+  position: relative;
+  z-index: 1;
+  padding: 110px 0 80px;
+  min-height: 100vh;
+}
+
+/* ── Hero ── */
+.materi-hero { margin: 8px 0 32px; }
+.materi-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin: 14px 0 6px;
+}
+.materi-hero p { color: var(--text-secondary); }
+.materi-stats { margin-top: 6px; font-size: 0.875rem; color: var(--text-muted) !important; }
+
+/* ── Layout ── */
+.materi-layout {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+/* ── Sidebar ── */
+.materi-sidebar {
+  position: sticky;
+  top: 96px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-glass);
+}
+.materi-nav-group + .materi-nav-group { margin-top: 18px; }
+.materi-nav-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 8px 6px;
+}
+.materi-nav-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 4px 10px;
+  align-items: center;
+  width: 100%;
+  text-align: left;
+  padding: 9px 10px;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  transition: background var(--transition), color var(--transition);
+}
+.materi-nav-item:hover:not([disabled]) { background: var(--bg-glass-hover); color: var(--text-primary); }
+.materi-nav-item.active { background: var(--accent); color: var(--bg-primary); }
+.materi-nav-item.is-locked { opacity: 0.45; cursor: default; }
+.materi-nav-code { font-size: 0.75rem; font-weight: 700; white-space: nowrap; }
+.materi-nav-title {
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.materi-nav-state {
+  font-size: 0.65rem;
+  padding: 2px 7px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+.materi-nav-state--done { font-weight: 700; }
+
+/* ── Article ── */
+.materi-article {
+  min-width: 0;
+  padding: 36px clamp(20px, 4vw, 48px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--bg-glass);
+}
+.materi-empty { color: var(--text-muted); padding: 40px 0; text-align: center; }
+
+.materi-unit-header { padding-bottom: 20px; border-bottom: 1px solid var(--border); }
+.materi-unit-badges { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.materi-kind { font-size: 0.75rem; color: var(--text-muted); letter-spacing: 0.06em; text-transform: uppercase; }
+.materi-unit-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.5vw, 2.25rem);
+  line-height: 1.2;
+  margin: 12px 0 8px;
+}
+.materi-unit-meta { color: var(--text-secondary); font-size: 0.875rem; line-height: 1.6; }
+.materi-jump {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-hover);
+}
+
+.materi-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0 8px;
+}
+.materi-toc a {
+  font-size: 0.75rem;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  transition: border-color var(--transition), color var(--transition);
+}
+.materi-toc a:hover { border-color: var(--border-hover); color: var(--text-primary); }
+
+/* ── Content typography ── */
+.materi-content { font-size: 1rem; line-height: 1.75; color: var(--text-secondary); }
+.materi-content h2 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  color: var(--text-primary);
+  margin: 44px 0 14px;
+  scroll-margin-top: 100px;
+}
+.materi-content h3 { font-size: 1.1rem; color: var(--text-primary); margin: 28px 0 10px; scroll-margin-top: 100px; }
+.materi-content h4 { font-size: 1rem; color: var(--text-primary); margin: 20px 0 8px; }
+.materi-content p { margin: 0 0 14px; }
+.materi-content strong { color: var(--text-primary); font-weight: 700; }
+.materi-content em { font-style: italic; }
+.materi-content code { font-size: 0.875em; padding: 1px 6px; border-radius: 6px; background: var(--bg-glass-hover); }
+.materi-content ul, .materi-content ol { margin: 0 0 16px 22px; }
+.materi-content ul { list-style: disc; }
+.materi-content ol { list-style: decimal; }
+.materi-content li { margin: 4px 0; padding-left: 4px; }
+.materi-content li ul { margin: 4px 0 4px 18px; list-style: circle; }
+.materi-content hr { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
+
+.materi-table-wrap {
+  overflow-x: auto;
+  margin: 0 0 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.materi-content table { width: 100%; border-collapse: collapse; font-size: 0.875rem; line-height: 1.55; }
+.materi-content th, .materi-content td { padding: 10px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--border); }
+.materi-content th { color: var(--text-primary); background: var(--bg-glass-hover); font-weight: 600; white-space: nowrap; }
+.materi-content tr:last-child td { border-bottom: none; }
+
+.materi-callout {
+  margin: 0 0 20px;
+  padding: 14px 18px;
+  border: 1px solid var(--border-hover);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: var(--bg-glass-hover);
+}
+.materi-callout p { margin: 0; font-size: 0.9375rem; }
+.materi-callout-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-primary); margin-bottom: 6px; }
+
+.materi-figure { margin: 8px 0 24px; }
+.materi-figure-btn {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: #fff;
+  cursor: zoom-in;
+}
+.materi-figure img { width: 100%; max-height: 520px; object-fit: contain; margin: 0 auto; }
+.materi-figure figcaption { margin-top: 8px; font-size: 0.8125rem; line-height: 1.55; color: var(--text-muted); }
+
+/* ── Quiz CTA ── */
+.materi-quiz-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 44px;
+  padding: 24px 28px;
+  border: 1px solid var(--border-hover);
+  border-radius: var(--radius-md);
+  background: var(--bg-glass-hover);
+}
+.materi-quiz-kicker { font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); }
+.materi-quiz-card h3 { font-family: var(--font-display); font-size: 1.4rem; margin: 6px 0; }
+.materi-quiz-card p { color: var(--text-secondary); font-size: 0.875rem; }
+.materi-quiz-progress { height: 4px; margin: 14px 0 6px; border-radius: 999px; background: var(--border); overflow: hidden; max-width: 320px; }
+.materi-quiz-progress div { height: 100%; background: var(--accent); }
+.materi-quiz-status { font-size: 0.75rem; color: var(--text-muted); }
+.materi-quiz-card .btn-primary { flex-shrink: 0; }
+
+/* ── Lightbox ── */
+.materi-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.88);
+  cursor: zoom-out;
+}
+.materi-lightbox.show { display: flex; }
+.materi-lightbox figure { max-width: min(1100px, 100%); }
+.materi-lightbox img { max-height: 80vh; margin: 0 auto; border-radius: var(--radius-sm); background: #fff; }
+.materi-lightbox figcaption { margin-top: 12px; color: rgba(255, 255, 255, 0.8); font-size: 0.875rem; line-height: 1.55; text-align: center; }
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .materi-page { padding-top: 92px; }
+  .materi-layout { grid-template-columns: 1fr; gap: 20px; }
+  .materi-sidebar { position: static; max-height: none; padding: 12px; }
+  .materi-sidebar nav { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+  .materi-nav-group { display: contents; }
+  .materi-nav-label { display: none; }
+  .materi-nav-item { grid-template-columns: auto; flex: 0 0 auto; width: auto; max-width: 220px; border: 1px solid var(--border); }
+  .materi-nav-title, .materi-nav-state { display: none; }
+  .materi-article { padding: 24px 16px; border-radius: var(--radius-md); }
+  .materi-content th, .materi-content td { min-width: 150px; padding: 9px 12px; }
+  .materi-quiz-card { flex-direction: column; align-items: stretch; padding: 20px; }
+  .materi-quiz-card .btn-primary { text-align: center; }
+}

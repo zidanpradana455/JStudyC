@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Seorang laki-laki 74 tahun dibawa ke IGD dengan demam, batuk berdahak kuning, dan sesak sejak 3 hari. Ia tampak bingung (disorientasi waktu dan tempat). Pemeriksaan: RR 32x/menit, TD 100/70 mmHg, nadi 108x/menit. BUN 26 mg/dL. Foto toraks: konsolidasi lobus kanan bawah. Skor CURB-65 dan rekomendasi tempat perawatannya adalah?",
+    "options": [
+      "Skor 2 — rawat jalan dengan antibiotik oral",
+      "Skor 3 — rawat jalan dengan pengawasan",
+      "Skor 4 — rawat inap sebagai pneumonia berat dan pertimbangkan ICU",
+      "Skor 5 — langsung intubasi",
+      "Skor 1 — rawat jalan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hitung CURB-65: Confusion (+1), Urea/BUN >19 mg/dL (26 → +1), Respiratory rate ≥30 (32 → +1), Blood pressure sistolik <90 atau diastolik ≤60 (100/70 → 0), usia ≥65 (74 → +1). Total skor 4. Skor 0–1 rawat jalan, skor 2 pertimbangkan rawat inap, skor ≥3 rawat inap sebagai pneumonia berat dengan mortalitas sekitar 22%, dan pada skor 4–5 perawatan ICU perlu dipertimbangkan. Intubasi diputuskan dari status respirasi, bukan langsung dari skor."
+  },
+  {
+    "question": "Seorang perempuan 58 tahun dengan pneumonia komunitas dirawat di bangsal. Menurut kriteria ATS/IDSA, temuan berikut yang termasuk KRITERIA MAYOR pneumonia berat adalah?",
+    "options": [
+      "Laju napas 32x/menit",
+      "Infiltrat multilobar pada foto toraks",
+      "Syok sepsis yang memerlukan vasopresor",
+      "BUN 24 mg/dL",
+      "Rasio PaO₂/FiO₂ 230"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pneumonia berat menurut ATS/IDSA ditegakkan bila terdapat 1 kriteria mayor atau ≥3 kriteria minor. Kriteria mayor hanya dua: syok sepsis yang memerlukan vasopresor dan gagal napas yang memerlukan ventilasi mekanik. Laju napas ≥30, PaO₂/FiO₂ ≤250, infiltrat multilobar, konfusi, BUN ≥20 mg/dL, leukopenia <4.000, trombosit <100.000, hipotermia <36°C, dan hipotensi yang memerlukan resusitasi cairan agresif semuanya adalah kriteria minor."
+  },
+  {
+    "question": "Seorang laki-laki 55 tahun dengan diabetes melitus dirawat inap karena pneumonia komunitas tidak berat (CURB-65 skor 2). Ia tidak pernah dirawat atau mendapat antibiotik IV dalam 90 hari terakhir dan tidak memiliki riwayat MRSA atau Pseudomonas. Regimen antibiotik empiris yang paling tepat menurut ATS/IDSA 2019 adalah?",
+    "options": [
+      "Meropenem + vankomisin",
+      "Seftriakson + azitromisin",
+      "Amoksisilin oral saja",
+      "Piperasilin-tazobaktam + gentamisin",
+      "Metronidazol + linezolid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Untuk CAP rawat inap tidak berat tanpa faktor risiko MRSA/Pseudomonas, regimen standar ATS/IDSA 2019 adalah β-laktam (ampisilin-sulbaktam, sefotaksim, seftriakson, atau seftarolin) + makrolid (azitromisin/klaritromisin), atau monoterapi fluorokuinolon respirasi (levofloksasin 750 mg/moksifloksasin 400 mg). Makrolid ditambahkan untuk mencakup patogen atipikal. Karbapenem, vankomisin, dan anti-Pseudomonas tidak diperlukan tanpa faktor risiko karena meningkatkan resistensi. Amoksisilin oral tunggal ditujukan untuk rawat jalan tanpa komorbid."
+  },
+  {
+    "question": "Seorang perempuan 63 tahun dengan bronkiektasis yang dalam 2 bulan terakhir dua kali dirawat dan mendapat antibiotik intravena, kini datang dengan pneumonia berat. Pewarnaan Gram sputum menunjukkan banyak basil Gram negatif. Selain regimen standar, cakupan tambahan yang paling perlu diberikan secara empiris adalah?",
+    "options": [
+      "Anti-anaerob khusus (klindamisin)",
+      "Anti-Pseudomonas, misalnya piperasilin-tazobaktam, sefepim, atau meropenem",
+      "Antijamur flukonazol",
+      "Oseltamivir",
+      "Kotrimoksazol untuk Pneumocystis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Faktor risiko Pseudomonas aeruginosa meliputi penyakit paru struktural (bronkiektasis), antibiotik IV dalam 3 bulan terakhir, kolonisasi Pseudomonas sebelumnya dengan Gram sputum basil Gram negatif, PPOK dengan eksaserbasi sering, steroid >10 mg prednison/hari, dan malnutrisi. Pada pneumonia berat dengan faktor risiko ini, regimen standar langsung ditambah antibiotik anti-Pseudomonas (piperasilin-tazobaktam 4,5 g/6 jam, sefepim, seftazidim, imipenem, meropenem, atau aztreonam) disertai kultur. Cakupan anaerob khusus tidak direkomendasikan rutin karena regimen standar sudah mencakupnya."
+  },
+  {
+    "question": "Seorang laki-laki 50 tahun meninggal pada hari ke-3 perawatan karena pneumonia pneumokokus lobaris. Pada autopsi, lobus kanan bawah tampak merah, padat, tidak berisi udara, dan konsistensinya menyerupai hati. Mikroskopis: alveoli penuh eritrosit, neutrofil, dan benang fibrin. Fase patologi yang sesuai adalah?",
+    "options": [
+      "Kongesti",
+      "Hepatisasi merah",
+      "Hepatisasi kelabu",
+      "Resolusi",
+      "Organisasi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fase pneumonia lobaris: (1) kongesti/edema (hari 1–2), eksudat protein kaya bakteri; (2) hepatisasi merah (hari 3–4), alveoli berisi eritrosit, neutrofil, dan fibrin sehingga paru merah dan padat seperti hati; (3) hepatisasi kelabu (hari 5–7), tidak ada ekstravasasi eritrosit baru, eritrosit lama lisis, dominasi neutrofil dan fibrin, bakteri menghilang; (4) resolusi (hari ke-8 dst.), makrofag membersihkan debris. Temuan hari ke-3 dengan eritrosit, neutrofil, dan fibrin sesuai hepatisasi merah."
+  },
+  {
+    "question": "Seorang mahasiswa 20 tahun mengeluh batuk kering yang mengganggu sejak 10 hari, nyeri kepala, nyeri otot, dan demam ringan. Ia masih kuliah seperti biasa. Pemeriksaan fisik hanya ronki halus minimal, tetapi foto toraks menunjukkan infiltrat bilateral yang cukup luas. Ia sudah minum amoksisilin 5 hari tanpa perbaikan. Penjelasan dan terapi yang paling tepat adalah?",
+    "options": [
+      "Pneumonia pneumokokus resisten; ganti dengan seftriakson",
+      "Pneumonia atipikal (Mycoplasma pneumoniae) yang tidak memiliki dinding sel; ganti dengan makrolid",
+      "Tuberkulosis paru; mulai OAT",
+      "Pneumonia aspirasi; tambahkan metronidazol",
+      "Pneumonia virus; antibiotik dilanjutkan dengan dosis lebih tinggi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dewasa muda dengan onset gradual, batuk kering menonjol, gejala ekstraparu (nyeri kepala, mialgia), keadaan umum baik (walking pneumonia), serta diskongruensi antara klinis ringan dan foto toraks yang tampak berat merupakan gambaran khas pneumonia atipikal oleh Mycoplasma pneumoniae. Mycoplasma tidak memiliki dinding sel sehingga β-lactam (amoksisilin, seftriakson) tidak efektif dan bakteri ini tidak terwarnai Gram. Terapinya adalah makrolid (azitromisin/klaritromisin), atau fluorokuinolon respirasi/doksisiklin pada dewasa."
+  },
+  {
+    "question": "Seorang anak laki-laki 14 bulan dibawa ke puskesmas karena batuk pilek dan demam sejak 3 hari. Ia masih mau minum, tidak kejang, sadar baik. Laju napas dihitung 1 menit penuh saat tenang: 48x/menit. Tidak tampak tarikan dinding dada bagian bawah ke dalam. SpO₂ 96%. Klasifikasi dan tata laksana menurut MTBS adalah?",
+    "options": [
+      "Batuk bukan pneumonia — obat batuk saja",
+      "Pneumonia — amoksisilin oral 2 kali sehari selama 3–5 hari dan kunjungan ulang 2 hari",
+      "Pneumonia berat — rujuk segera setelah dosis pertama antibiotik",
+      "Penyakit sangat berat — oksigen dan rujuk",
+      "Pneumonia — ampisilin + gentamisin intravena"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Batas napas cepat untuk usia 1–5 tahun adalah ≥40x/menit, sehingga 48x/menit termasuk napas cepat. Tanpa tarikan dinding dada ke dalam, tanpa hipoksia (SpO₂ ≥92%), dan tanpa tanda bahaya umum, anak ini diklasifikasikan PNEUMONIA (bukan berat) menurut MTBS. Tata laksananya rawat jalan dengan amoksisilin oral 2 kali sehari selama 3–5 hari (80 mg/kgBB/hari dibagi 2 dosis), pelega tenggorokan yang aman, dan kunjungan ulang 2 hari. Pneumonia berat ditandai TDDK atau SpO₂ <92%. Ampisilin + gentamisin IV untuk pasien rawat inap."
+  },
+  {
+    "question": "Seorang bayi perempuan usia 5 minggu dibawa karena batuk dan malas menyusu sejak 2 hari. Laju napas 68x/menit, terdapat tarikan dinding dada bagian bawah ke dalam, suhu 38,4°C. Menurut MTBS untuk bayi muda <2 bulan, klasifikasi dan tindakan yang tepat adalah?",
+    "options": [
+      "Pneumonia — amoksisilin oral dan kontrol 2 hari",
+      "Batuk bukan pneumonia — ASI diteruskan",
+      "Penyakit sangat berat — berikan oksigen, dosis pertama antibiotik, cegah hipoglikemia, jaga tetap hangat, lalu rujuk segera",
+      "Bronkiolitis ringan — nebulisasi salbutamol di rumah",
+      "Pneumonia — observasi di rumah tanpa antibiotik"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pada bayi muda <2 bulan, batas napas cepat adalah ≥60x/menit. Adanya napas cepat (68x/menit) atau napas lambat ≤30x/menit, tarikan dinding dada, atau tanda bahaya (tidak mau minum, kejang, kesadaran menurun, stridor, gizi buruk) diklasifikasikan sebagai PENYAKIT SANGAT BERAT. Tindakan pra-rujukannya: oksigen (0,5 L/menit), cairan IV, 1 dosis antibiotik, penurun panas, cegah gula darah turun, jaga bayi tetap hangat, dan rujuk segera. Bayi muda tidak dikelola sebagai pneumonia rawat jalan."
+  },
+  {
+    "question": "Seorang anak 3 tahun dirawat di rumah sakit dengan pneumonia berat: SpO₂ 88% udara ruangan dan tarikan dinding dada. Ia tidak imunokompromais dan belum mendapat antibiotik sebelumnya. Menurut rekomendasi WHO 2014, antibiotik lini pertama yang tepat adalah?",
+    "options": [
+      "Amoksisilin oral 80 mg/kgBB/hari",
+      "Ampisilin 50 mg/kgBB/dosis tiap 6 jam IV ditambah gentamisin 7,5 mg/kgBB tiap 24 jam",
+      "Meropenem IV",
+      "Azitromisin oral selama 5 hari",
+      "Vankomisin IV"
+    ],
+    "correctAnswer": 1,
+    "explanation": "WHO 2014 merekomendasikan ampisilin (50 mg/kgBB/dosis tiap 6 jam) ditambah gentamisin (7,5 mg/kgBB IM/IV sekali sehari) sebagai lini pertama untuk anak rawat inap dengan pneumonia berat. Bila tidak berespons, imunokompromais, atau sangat berat, lini kedua adalah seftriakson 80 mg/kgBB/hari atau sefotaksim. Kloksasilin/oksasilin diberikan bila curiga S. aureus, dan makrolid bila curiga Mycoplasma. Amoksisilin oral untuk rawat jalan. Pasien juga mendapat O₂ karena SpO₂ <92%."
+  },
+  {
+    "question": "Dari sputum seorang laki-laki 70 tahun dengan PPOK dan pneumonia, laboratorium mikrobiologi menemukan kokobasil Gram negatif kecil yang pleomorfik. Pada agar darah, koloni kecil hanya tumbuh di sekitar goresan Staphylococcus aureus, sedangkan pada agar coklat tumbuh baik. Bakteri dan dasar fenomena tersebut adalah?",
+    "options": [
+      "Streptococcus pneumoniae — membutuhkan optokin",
+      "Haemophilus influenzae — membutuhkan faktor X (hemin) dan faktor V (NAD); S. aureus melepaskan faktor V",
+      "Moraxella catarrhalis — membutuhkan oksigen tinggi",
+      "Klebsiella pneumoniae — membutuhkan laktosa",
+      "Pseudomonas aeruginosa — membutuhkan pigmen piosianin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Haemophilus influenzae adalah kokobasil Gram negatif pleomorfik yang memerlukan faktor X (hemin) dan faktor V (NAD) untuk tumbuh. Agar coklat menyediakan keduanya karena eritrosit sudah dilisiskan. Di agar darah biasa, faktor V tidak tersedia bebas, tetapi S. aureus menghasilkan NAD (faktor V) dan melisiskan eritrosit, sehingga H. influenzae hanya tumbuh di sekitar koloni stafilokokus (fenomena satelit). H. influenzae sering menyebabkan pneumonia pada PPOK. S. pneumoniae adalah diplokokus Gram positif yang sensitif optokin. M. catarrhalis adalah diplokokus Gram negatif."
+  }
+]
