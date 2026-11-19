@@ -1,0 +1,129 @@
+[
+  {
+    "question": "Hasil analisis cairan pleura seorang pasien: protein cairan pleura 4,2 g/dL, protein serum 7,0 g/dL, LDH cairan pleura 300 U/L, LDH serum 250 U/L dengan batas atas rujukan serum 250 U/L. Berdasarkan kriteria Light, kesimpulan yang tepat adalah?",
+    "options": [
+      "Transudat, karena LDH serum masih dalam batas normal",
+      "Eksudat, karena rasio protein 0,6 dan rasio LDH 1,2 serta LDH cairan melebihi dua pertiga batas atas rujukan serum",
+      "Transudat, karena hanya satu kriteria yang terpenuhi sehingga belum cukup",
+      "Tidak dapat ditentukan tanpa pemeriksaan uji Rivalta",
+      "Eksudat, tetapi hanya bila ketiga kriteria terpenuhi bersamaan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rasio protein cairan pleura terhadap serum adalah 4,2 dibagi 7,0 sama dengan 0,6 sehingga melewati batas 0,5. Rasio LDH adalah 300 dibagi 250 sama dengan 1,2 sehingga melewati batas 0,6. LDH cairan pleura 300 U/L juga melebihi dua pertiga batas atas rujukan serum yaitu 167 U/L. Menurut kriteria Light, efusi diklasifikasikan sebagai eksudat bila satu atau lebih kriteria terpenuhi, sehingga tidak perlu menunggu ketiganya positif. Uji Rivalta hanya bersifat kualitatif dan mendukung, bukan menentukan."
+  },
+  {
+    "question": "Pada praktikum, cairan efusi jernih dihitung tanpa pengenceran menggunakan kamar hitung Improved Neubauer. Sel dihitung pada 5 kotak besar masing-masing 1 mm persegi dengan kedalaman 0,1 mm, dan diperoleh total 150 sel. Berapa jumlah leukosit per mikroliter dan apa interpretasinya?",
+    "options": [
+      "75 sel/µL, mendukung transudat",
+      "150 sel/µL, mendukung transudat",
+      "300 sel/µL, mendukung transudat",
+      "1.500 sel/µL, mendukung eksudat",
+      "3.000 sel/µL, mendukung eksudat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rumusnya adalah jumlah sel per mikroliter sama dengan sel terhitung dikali faktor pengenceran dikali faktor volume. Faktor volume adalah 1 dibagi hasil kali luas area dengan kedalaman, yaitu 1 dibagi hasil kali 5 mm persegi dengan 0,1 mm sama dengan 2. Karena tanpa pengenceran maka faktor pengencerannya 1, sehingga hasilnya 150 dikali 1 dikali 2 sama dengan 300 sel per mikroliter. Nilai ini berada di bawah 1.000 sel per mikroliter sehingga mendukung transudat. Bila sampel keruh dan perlu diencerkan 1:20, pengenceran dibuat dari 0,05 mL sampel ditambah 0,95 mL larutan Türk dan faktor pengenceran 20 harus ikut dikalikan.",
+    "image": "assets/materi/blok2.6/ps-1-4/kamar-hitung-neubauer.jpg"
+  },
+  {
+    "question": "Seorang mahasiswa meneteskan satu tetes cairan efusi ke dalam gelas beker berisi 100 mL akuades yang telah diberi satu tetes asam asetat. Tampak kekeruhan menyerupai asap yang menetap saat tetesan bergerak turun. Interpretasi dan keterbatasan pemeriksaan ini adalah?",
+    "options": [
+      "Rivalta positif, mendukung eksudat, namun spesifisitasnya terbatas dan tidak menggantikan pemeriksaan biokimia kuantitatif",
+      "Rivalta positif, memastikan diagnosis empiema tanpa perlu pemeriksaan lain",
+      "Rivalta negatif, mendukung transudat",
+      "Hasil tidak valid karena uji Rivalta memerlukan larutan basa",
+      "Rivalta positif, menunjukkan kadar glukosa cairan yang rendah"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Uji Rivalta adalah pemeriksaan kualitatif yang didasarkan pada pembentukan kekeruhan ketika cairan kaya protein diteteskan ke dalam larutan asam asetat encer. Hasil positif berupa kekeruhan menyerupai asap atau awan yang menetap selama tetesan bergerak turun dan mendukung kemungkinan eksudat, sedangkan pada transudat tetesan menyebar tanpa kekeruhan yang menetap. Asam asetat bekerja dengan menurunkan pH sehingga protein tertentu menjadi kurang larut lalu menggumpal dan mengendap. Keterbatasannya adalah spesifisitas yang terbatas sehingga uji ini tidak dapat menggantikan pemeriksaan biokimia kuantitatif seperti kriteria Light.",
+    "image": "assets/materi/blok2.6/ps-1-4/prosedur-rivalta.jpg"
+  },
+  {
+    "question": "Cairan pleura seorang pasien tampak putih seperti susu. Pemeriksaan lanjutan menunjukkan kadar trigliserida yang tinggi dengan kilomikron positif, dan pasien diketahui menderita limfoma mediastinum. Jenis efusi dan mekanismenya adalah?",
+    "options": [
+      "Pseudochylous effusion akibat kadar kolesterol tinggi pada proses kronis",
+      "True chylous effusion akibat kebocoran langsung dari ductus thoracicus",
+      "Empiema akibat proses infeksi dengan pus",
+      "Efusi hemoragik akibat traumatic tap",
+      "Efusi akibat ruptur abses hati amebik"
+    ],
+    "correctAnswer": 1,
+    "explanation": "True chylous effusion atau efusi kilus terjadi akibat kebocoran langsung dari pembuluh limfatik yaitu ductus thoracicus, yang biasanya disebabkan obstruksi, trauma, atau keganasan seperti limfoma dan karsinoma. Cairannya kaya trigliserida dan tampak seperti susu keruh akibat kandungan kilomikron. Sebaliknya pseudochylous atau chyliform effusion merupakan akumulasi cairan akibat proses kronis seperti pleuritis reumatoid, tuberkulosis, atau miksedema yang menghasilkan kadar kolesterol tinggi atau lesitin-globulin, bukan karena kerusakan saluran limfe utama. Cairan pseudokilus khas tampak seperti susu atau hijau dengan kilau metalik."
+  },
+  {
+    "question": "Seorang pasien dengan efusi pleura menjalani torakosentesis dan cairan yang keluar berwarna seperti pasta ikan teri atau chocolate sauce. Kemungkinan penyebab yang paling sesuai menurut tabel tampilan kasar cairan pleura adalah?",
+    "options": [
+      "Pleuritis reumatoid",
+      "Empiema akibat proses infeksi piogenik",
+      "Ruptur abses hati amebik",
+      "Mesotelioma",
+      "Infark paru"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tampilan kasar cairan pleura memberi petunjuk klinis yang kuat. Warna seperti pasta ikan teri atau chocolate sauce khas untuk ruptur abses hati amebik yang menembus ke rongga pleura. Cairan keruh dan purulen menandakan proses infeksi atau empiema, putih kehijauan dan turbid mengarah ke pleuritis reumatoid, cairan kental hemoragik atau justru jernih dapat ditemukan pada mesotelioma, sedangkan cairan kemerahan sampai berdarah yang bukan akibat traumatic tap mengarah ke keganasan, infark paru, atau trauma. Cairan jernih kuning jerami khas transudat dan biasanya tidak memerlukan analisis lanjutan.",
+    "image": "assets/materi/blok2.6/ps-1-4/makroskopis-cairan-efusi.jpg"
+  },
+  {
+    "question": "Seorang pasien sirosis hati dengan hipoalbuminemia berat mengalami efusi pleura. Mekanisme pembentukan cairan efusi pada pasien ini dan jenis cairannya adalah?",
+    "options": [
+      "Peningkatan permeabilitas kapiler akibat inflamasi lokal, menghasilkan eksudat",
+      "Penurunan tekanan onkotik plasma akibat hipoalbuminemia, menghasilkan transudat",
+      "Kebocoran sistem limfatik akibat obstruksi ductus thoracicus, menghasilkan efusi kilus",
+      "Peningkatan tekanan onkotik interstisial akibat infeksi, menghasilkan eksudat",
+      "Penurunan tekanan hidrostatik kapiler, menghasilkan transudat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transudat sebagian besar dipicu penyakit sistemik yang mengganggu keseimbangan tekanan cairan tubuh, melalui peningkatan tekanan hidrostatik kapiler atau penurunan tekanan onkotik plasma. Pada sirosis hati dengan hipoalbuminemia, tekanan onkotik plasma menurun sehingga gaya yang menarik cairan kembali ke dalam kapiler melemah dan cairan tertahan di ruang interstisial serta rongga serosa. Penyebab transudat lain adalah gagal jantung dan sindrom nefrotik. Sebaliknya eksudat timbul dari proses infeksi dan inflamasi lokal pada rongga pleura melalui peningkatan permeabilitas kapiler atau gangguan serta kebocoran sistem limfatik.",
+    "image": "assets/materi/blok2.6/ps-1-4/gaya-starling.jpg"
+  },
+  {
+    "question": "Apusan cairan efusi yang diwarnai Giemsa memperlihatkan dominasi sel polimorfonuklear terutama neutrofil sebanyak 80%. Interpretasi yang paling tepat adalah?",
+    "options": [
+      "Transudat pada fase akut",
+      "Eksudat pada fase akut",
+      "Transudat pada fase kronis",
+      "Hasil tidak dapat diinterpretasikan tanpa hitung leukosit total",
+      "Selalu menunjukkan efusi kilus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada hitung jenis leukosit cairan efusi, transudat umumnya didominasi sel mononuklear terutama limfosit dan monosit. Eksudat pada fase akut umumnya didominasi sel polimorfonuklear terutama neutrofil, sedangkan pada fase kronis dapat berubah menjadi didominasi sel mononuklear. Dominasi neutrofil 80% karena itu mengarah ke eksudat fase akut, yang biasanya mencerminkan proses infeksi atau inflamasi aktif di rongga pleura. Prosedurnya diawali sentrifugasi sampel pada 2.500 rpm selama 10 menit, pembuatan apusan tipis dari sedimen, pengeringan pada suhu ruang, lalu pewarnaan Giemsa.",
+    "image": "assets/materi/blok2.6/ps-1-4/sel-transudat-vs-eksudat.jpg"
+  },
+  {
+    "question": "Pada apusan cairan efusi tampak sel berukuran besar berbentuk bulat sampai poligonal dengan sitoplasma luas yang sebagian bergerombol membentuk kelompok. Sel ini paling mungkin adalah?",
+    "options": [
+      "Sel mesotelial yang terdeskuamasi dari lapisan pleura",
+      "Sel tumor metastasis yang pasti menandakan keganasan",
+      "Neutrofil yang mengalami degenerasi",
+      "Limfosit atipik akibat infeksi virus",
+      "Eritrosit berinti pada efusi hemoragik"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lapisan mesotelium melapisi tiga rongga utama tubuh yaitu pleura, peritoneum, dan perikardium. Secara morfologi sel mesotelial berbentuk bulat hingga poligonal dan sering tampak bergerombol dalam kelompok akibat deskuamasi dari lapisan pleura, sehingga wajar ditemukan pada apusan cairan efusi termasuk pada transudat seperti kasus gagal jantung. Fungsinya melicinkan permukaan pleura, mengatur transpor cairan, menyekresikan mediator inflamasi, dan membantu regenerasi epitel. Karena sel ini normal ditemukan, kehadirannya tidak boleh langsung diartikan sebagai sel ganas.",
+    "image": "assets/materi/blok2.6/ps-1-4/sel-mesotelial.jpg"
+  },
+  {
+    "question": "Seorang pria 64 tahun dengan ortopnea, paroxysmal nocturnal dyspnea, JVP meningkat, edema tungkai, kardiomegali, dan efusi pleura bilateral menjalani torakosentesis karena sesak tidak membaik setelah 3 hari terapi gagal jantung. Pertimbangan yang paling tepat mengenai indikasi tindakan tersebut adalah?",
+    "options": [
+      "Torakosentesis diagnostik rutin wajib dilakukan pada semua pasien gagal jantung dengan efusi",
+      "Torakosentesis diagnostik tidak rutin pada gagal jantung khas, tetapi dikerjakan bila ada keadaan atipikal seperti tidak membaik dengan terapi gagal jantung",
+      "Torakosentesis hanya boleh dikerjakan bila efusi bersifat unilateral",
+      "Torakosentesis dikontraindikasikan pada pasien dengan kardiomegali",
+      "Torakosentesis hanya bertujuan terapeutik dan tidak pernah untuk diagnosis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada gagal jantung dengan gambaran klinis yang khas, torakosentesis diagnostik tidak dikerjakan secara rutin karena diagnosis sudah dapat ditegakkan secara klinis dan efusinya diperkirakan transudat. Tindakan baru diindikasikan bila ada keadaan atipikal, yaitu demam atau nyeri dada pleuritik, efusi unilateral atau ukuran yang sangat berbeda antar sisi, tidak adanya kardiomegali, serta efusi yang tidak membaik dengan terapi gagal jantung seperti pada pasien ini. Gagal jantung merupakan penyebab efusi pleura tersering pada dewasa, dengan penyebab transudat lain berupa sirosis hati, sindrom nefrotik, dan hipoalbuminemia."
+  },
+  {
+    "question": "Cairan pleura pasien gagal jantung tersebut memberi hasil: protein cairan 2,1 g/dL, protein serum 6,8 g/dL, LDH cairan 110 U/L, LDH serum 240 U/L (batas atas rujukan 250 U/L), leukosit 200 sel/µL dengan mononuklear 85%, dan Rivalta negatif. Kesimpulan yang tepat adalah?",
+    "options": [
+      "Eksudat, karena LDH cairan pleura melebihi dua pertiga batas atas rujukan serum",
+      "Eksudat, karena rasio protein lebih dari 0,5",
+      "Transudat, karena tidak ada satu pun kriteria Light yang terpenuhi dan didukung seluleritas rendah, dominasi mononuklear, serta Rivalta negatif",
+      "Transudat, tetapi hanya bila kadar glukosa cairan juga diperiksa",
+      "Tidak dapat disimpulkan karena rasio protein dan LDH bernilai puluhan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rasio protein cairan terhadap serum adalah 2,1 dibagi 6,8 sama dengan 0,31 sehingga masih di bawah 0,5, dan rasio LDH adalah 110 dibagi 240 sama dengan 0,46 sehingga masih di bawah 0,6. LDH cairan 110 U/L juga masih di bawah dua pertiga batas atas rujukan serum yaitu 167 U/L. Dengan demikian tidak ada kriteria Light yang terpenuhi sehingga cairan ini transudat, didukung hitung leukosit 200 sel per mikroliter yang kurang dari 1.000, dominasi sel mononuklear 85%, dan uji Rivalta negatif. Perlu diperhatikan bahwa pada tabel slide kedua rasio tertulis sebagai 31 dan 46 karena kesalahan tanda desimal, sebab rasio cairan terhadap serum tidak mungkin bernilai puluhan.",
+    "image": "assets/materi/blok2.6/ps-1-4/kriteria-light.jpg"
+  }
+]

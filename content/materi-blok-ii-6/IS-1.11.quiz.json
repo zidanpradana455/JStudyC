@@ -1,0 +1,129 @@
+[
+  {
+    "question": "Seorang anak laki-laki 6 tahun dibawa karena mendengkur keras dan selalu bernapas lewat mulut sejak setahun terakhir. Pemeriksaan: cuping hidung tampak sempit terjepit, palatum berarkus tinggi, gigi insisivus atas prominen, dan fenomena palatal negatif. Orang tua mengeluh anak sering tidak menyahut bila dipanggil dan pernah keluar cairan dari telinga. Foto polos lateral nasofaring memperlihatkan jaringan lunak yang menyempitkan ruang udara nasofaring. Diagnosis dan tata laksana definitif yang paling tepat adalah?",
+    "options": [
+      "Tonsilitis kronik — tonsilektomi",
+      "Hipertrofi adenoid — adenoidektomi",
+      "Rinitis alergi persisten — steroid intranasal jangka panjang",
+      "Polip antrokoanal — polipektomi endoskopik",
+      "Angiofibroma nasofaring juvenil — embolisasi dilanjutkan reseksi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gabungan mouth breather, snoring, rinorea, gangguan pendengaran, dan facies adenoides (narrow pinched nostrils, palatum arkus tinggi, gigi atas prominen) dengan fenomena palatal negatif adalah gambaran klasik hipertrofi adenoid; penunjangnya foto polos lateral nasofaring dan endoskopi nasal-faring. Terapi konservatif berupa dekongestan, steroid topikal, dan antibiotik, sedangkan tindakan definitifnya adenoidektomi. Indikasi operasi pada kasus ini terpenuhi tiga-tiganya: obstruksi hidung, gangguan pendengaran, dan otitis media. Tonsilektomi ditujukan untuk tonsilitis kronik, bukan adenoid. Angiofibroma khas pada remaja laki-laki dengan epistaksis masif berulang dan massa sangat vaskular.",
+    "image": "assets/materi/blok2.6/is-1-11/histologi-hidung-normal.jpg"
+  },
+  {
+    "question": "Seorang perempuan 19 tahun datang dengan nyeri menelan dan demam sejak 3 hari. Pemeriksaan faring memperlihatkan tonsil T3-T3 hiperemis dan edema dengan bercak-bercak kekuningan pada muara kripta yang masih terpisah satu sama lain, belum menyatu menjadi lapisan. Uvula hiperemis dan edema. Bentuk tonsilitis akut yang paling sesuai adalah?",
+    "options": [
+      "Tonsilitis superfisial",
+      "Tonsilitis folikular",
+      "Tonsilitis membranosa",
+      "Tonsilitis parenkimatosa",
+      "Tonsilitis difteri"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada tonsilitis folikular infeksi menyebar ke kripta dan muara kripta terisi detritus sehingga tampak bintik-bintik kekuningan yang masih terpisah. Tonsilitis superfisial hanya mengenai permukaan tonsil. Tonsilitis membranosa adalah kelanjutan bentuk folikular ketika eksudat bergabung membentuk membran di permukaan tonsil. Tonsilitis parenkimatosa ditandai tonsil yang membesar dan hiperemis disertai edema uvula dan palatum mole. Tonsilitis difteri memberi membran putih keabuan yang sulit dikelupas, mudah berdarah, dan cepat terbentuk kembali, biasanya disertai bull neck.",
+    "image": "assets/materi/blok2.6/is-1-11/tonsilitis-folikular.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 45 tahun dengan riwayat intubasi lama 2 bulan sebelumnya datang dengan sesak yang memberat. Pemeriksaan: stridor terdengar pada fase inspirasi dan ekspirasi, tampak retraksi suprasternal, epigastrium, infraklavikula, dan interkostal, pasien sangat gelisah, namun bibir dan ujung jari belum kebiruan. Derajat sumbatan menurut kriteria Jackson dan tata laksana yang tepat adalah?",
+    "options": [
+      "Jackson 1 — cukup konservatif dengan antiinflamasi dan oksigenasi",
+      "Jackson 2 — observasi 48 jam dengan antibiotik intravena",
+      "Jackson 3 — intubasi endotrakeal atau trakeostomi",
+      "Jackson 4 — trakeostomi CITO",
+      "Jackson 4 — krikotiroidotomi darurat lalu trakeostomi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kriteria Jackson: grade 1 stridor inspirasi dengan retraksi suprasternal dan pasien tenang; grade 2 bertambah retraksi epigastrium dan pasien mulai gelisah; grade 3 stridor terdengar pada inspirasi dan ekspirasi dengan retraksi suprasternal, epigastrium, infraklavikula, dan interkostal serta pasien sangat gelisah; grade 4 seperti grade 3 tetapi disertai sianosis. Pasien ini memenuhi grade 3 karena sianosis belum muncul, sehingga tata laksananya intubasi endotrakeal atau trakeostomi. Trakeostomi CITO dan krikotiroidotomi darurat disediakan untuk grade 4. Riwayat intubasi lama mengarahkan penyebabnya ke stenosis laringotrakea.",
+    "image": "assets/materi/blok2.6/is-1-11/epiglotitis.jpg"
+  },
+  {
+    "question": "Seorang anak laki-laki 3 tahun dibawa ke IGD dengan demam 39,5 °C, nyeri tenggorok hebat, air liur menetes, dan suara berat sejak 8 jam yang lalu. Anak duduk condong ke depan, batuk hampir tidak ada, dan tampak sesak yang cepat memberat. Foto soft tissue colli lateral memperlihatkan thumb sign. Etiologi tersering kondisi ini adalah?",
+    "options": [
+      "Human parainfluenza virus",
+      "Haemophilus influenzae tipe b",
+      "Corynebacterium diphtheriae",
+      "Streptococcus beta-hemolitikus grup A",
+      "Respiratory syncytial virus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Demam tinggi, odinofagia berat, drooling, suara berat, batuk yang jarang, progresivitas dalam hitungan jam, dan thumb sign pada foto servikal lateral adalah gambaran epiglotitis akut yang disebabkan Haemophilus influenzae tipe b. Pemeriksaan laringoskopi direk memperlihatkan cherry red appearance pada epiglotis dengan pooling saliva di hipofaring, sementara plika vokalis dan subglotis normal. Parainfluenza dan RSV menyebabkan laringotrakeitis (croup) dengan batuk menggonggong dan steeple sign. Difteri memberi membran keabuan dan bull neck. Penanganan epiglotitis: atasi kegawatan, amankan jalan napas, pasang IV line, antibiotik dan antiinflamasi intravena, lalu rujuk."
+  },
+  {
+    "question": "Seorang anak perempuan 18 bulan mengalami pilek dan demam ringan selama 2 hari, lalu malam ini timbul batuk menggonggong, suara serak, dan stridor inspirasi yang muncul saat anak gelisah, disertai retraksi suprasternal ringan. Tata laksana awal yang paling tepat adalah?",
+    "options": [
+      "Seftriakson intravena segera sebagai terapi utama",
+      "Oksigen, nebulisasi epinefrin, dan kortikosteroid",
+      "Trakeostomi CITO karena ancaman gagal napas",
+      "Pemberian difteri antitoksin (DAT)",
+      "Adenoidektomi segera untuk membebaskan jalan napas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gambaran ini khas laringotrakeitis atau sindrom croup pada anak 6 bulan sampai 6 tahun dengan puncak usia 1-2 tahun, paling sering disebabkan human parainfluenza virus dan RSV. Inflamasi dan edema mukosa menyempitkan daerah subglotis sehingga timbul turbulensi aliran udara berupa stridor. Tata laksananya mengatasi obstruksi dengan oksigen yang cukup sampai edema teratasi, nebulisasi epinefrin, dan kortikosteroid; antibiotik dan antipiretik dapat diberikan bila ada indikasi. Intubasi endotrakeal atau trakeostomi baru menjadi pilihan jika semua terapi tidak memberi respons baik, sehingga bukan langkah awal pada sumbatan derajat ringan ini."
+  },
+  {
+    "question": "Seorang anak 7 tahun dengan riwayat imunisasi tidak lengkap datang dengan demam, suara serak yang memberat menjadi hampir hilang, dan stridor inspirasi. Pemeriksaan memperlihatkan membran putih keabuan di faring yang meluas ke laring, sulit dikelupas, mudah berdarah bila dilepas, dan cepat terbentuk kembali, disertai pembengkakan leher difus menyerupai bull neck. Selain mengamankan jalan napas, terapi utama yang harus segera diberikan adalah?",
+    "options": [
+      "Kortikosteroid dosis tinggi sebagai terapi tunggal",
+      "Difteri antitoksin (DAT/ADS) disertai penisilin 14 hari dan isolasi",
+      "Nebulisasi epinefrin dan deksametason",
+      "Amoksisilin-klavulanat oral 5 hari secara rawat jalan",
+      "Oseltamivir dan antipiretik"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Membran putih keabuan yang sulit dikelupas, mudah berdarah, cepat terbentuk kembali, disertai bull neck pada anak yang belum terimunisasi lengkap adalah laringitis difteri akibat Corynebacterium diphtheriae, kuman gram positif dengan masa inkubasi 2-6 hari. Eksotoksinnya menimbulkan nekrosis jaringan lokal lalu masuk sirkulasi sistemik dan terutama mengenai miokardium serta saraf tepi, sehingga netralisasi toksin dengan DAT/ADS bersifat mendesak dan tidak boleh menunggu hasil kultur. Terapi dilengkapi penisilin 14 hari, kortikosteroid, terapi simptomatik, dan isolasi; pada sumbatan Jackson 1-2 dilakukan trakeostomi."
+  },
+  {
+    "question": "Seorang laki-laki 40 tahun dengan diabetes melitus mengeluh sakit gigi geraham bawah sejak seminggu, kini disertai bengkak keras di submental dan submandibula bilateral, dasar mulut terangkat, suara bergumam, dan sulit membuka mulut. Saturasi oksigen 94% dan pasien mulai gelisah. Langkah yang paling prioritas adalah?",
+    "options": [
+      "Melakukan CT scan dengan kontras lebih dulu sebelum tindakan apa pun",
+      "Memberi antibiotik oral dan memulangkan pasien dengan kontrol 3 hari",
+      "Mengamankan jalan napas, dilanjutkan antibiotik intravena, drainase, dan eliminasi fokus infeksi gigi",
+      "Langsung melakukan insisi drainase transoral tanpa persiapan jalan napas",
+      "Observasi 48 jam dengan hidrasi karena hanya melibatkan satu ruang"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gambaran ini adalah Ludwig angina, yaitu infeksi ruang submandibula, sublingual, dan submental bilateral yang hampir selalu berasal dari fokus odontogenik. Prinsip tata laksana abses leher dalam selalu dimulai dari pengawasan dan pengamanan jalan napas, dengan intubasi sebagai pilihan pertama dan trakeostomi bila intubasi gagal, karena dasar mulut yang terangkat dapat menutup jalan napas dengan cepat. Setelah itu baru antibiotik intravena yang mencakup flora campuran gram positif, gram negatif, dan anaerob, serta drainase dengan eliminasi sumber infeksi. Observasi 48 jam hanya untuk kondisi umum baik, satu ruang, tanpa perluasan dan tanpa komorbid, sedangkan pasien ini sudah melibatkan ruang multipel dengan ancaman jalan napas.",
+    "image": "assets/materi/blok2.6/is-1-11/abses-leher-dalam.jpg"
+  },
+  {
+    "question": "Seorang perempuan 35 tahun mengeluh hidung tersumbat, rinore, dan penurunan penghidu yang menetap lebih dari 6 bulan. Endoskopi nasal memperlihatkan polip translusen bilateral yang menutupi meatus media. Ia menderita asma sejak remaja dan pernah mengalami sesak hebat beberapa jam setelah minum aspirin. Kombinasi temuan ini dikenal sebagai?",
+    "options": [
+      "Sindrom Kartagener",
+      "Granulomatosis dengan poliangiitis",
+      "Samter triad (aspirin exacerbated respiratory disease)",
+      "Nonallergic rhinitis with eosinophilia syndrome (NARES)",
+      "Cystic fibrosis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Samter triad terdiri atas intoleransi aspirin, polip sinonasal yang biasanya bilateral, dan asma. Pasien ini juga memenuhi kriteria rinosinusitis kronik karena gejala berlangsung lebih dari 12 minggu dengan dua atau lebih keluhan (obstruksi hidung, rinore, gangguan penghidu) ditambah minimal satu tanda objektif berupa polip pada endoskopi. Sindrom Kartagener berkaitan dengan primary ciliary dyskinesia disertai situs inversus dan bronkiektasis. NARES adalah rinitis nonalergi dengan eosinofilia yang dapat menjadi prekursor intoleransi aspirin, tetapi tidak mencakup trias lengkap. Cystic fibrosis merupakan penyakit sistemik yang juga dapat menimbulkan polip, umumnya pada usia lebih muda.",
+    "image": "assets/materi/blok2.6/is-1-11/endoskopi-polip-nasal.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 52 tahun mengeluh hidung buntu satu sisi disertai epistaksis berulang. Endoskopi memperlihatkan massa polipoid berwarna merah muda keabuan dengan permukaan berkelok dan opak sehingga tidak transiluminasi. Histopatologi menunjukkan sarang epitel yang tumbuh endofitik ke dalam stroma dengan kontur luar licin, epitel hiperplastik setebal 5-30 lapis sel, dan mikroabses neutrofil intraepitelial. Pernyataan yang paling tepat adalah?",
+    "options": [
+      "Lesi ini polip inflamatorik biasa dan tidak pernah berubah ganas",
+      "Lesi ini inverted papilloma dengan risiko transformasi ganas sekitar 9% dan rekurensi terutama akibat reseksi tidak lengkap",
+      "Lesi ini exophytic papilloma yang memiliki risiko karsinoma paling tinggi di antara papiloma sinonasal",
+      "Lesi ini karsinoma nasofaring tipe undifferentiated",
+      "Lesi ini angiofibroma dan terapi utamanya radioterapi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pertumbuhan endofitik sarang epitel dengan kontur luar licin, epitel hiperplastik 5-30 lapis, neutrofil bermigrasi dengan mikroabses, serta berkurangnya kelenjar seromusinosa adalah ciri inverted papilloma. Risiko transformasi ganasnya sekitar 9%, sedangkan oncocytic papilloma 4-17%, dan exophytic papilloma justru tidak meningkatkan insidens karsinoma. Penyebab utama rekurensi adalah reseksi yang tidak lengkap, dan risiko kambuh meningkat bila melibatkan sinus sfenoid, sinus frontal, dinding sinus maksila selain dinding medial, atau ada ekstensi ekstrasinus. Polip inflamatorik secara mikroskopis menunjukkan stroma edematosa dengan radang campuran, bukan sarang epitel endofitik.",
+    "image": "assets/materi/blok2.6/is-1-11/inverted-papilloma-mikroskopis.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 48 tahun datang dengan benjolan di leher kiri atas yang tidak nyeri sejak 3 bulan, disertai telinga terasa penuh dan mimisan sesekali. Biopsi nasofaring memperlihatkan sel tumor dengan pola pertumbuhan sinsisial, inti vesikuler dan anak inti prominen, bercampur infiltrat limfoplasmasitik padat; pemeriksaan EBER positif. Modalitas terapi utama untuk kasus ini adalah?",
+    "options": [
+      "Reseksi bedah luas sebagai terapi lini pertama",
+      "Radioterapi sebagai tulang punggung terapi",
+      "Kemoterapi tunggal yang diberikan seumur hidup",
+      "Observasi saja karena lesi bersifat jinak",
+      "Tonsilektomi disertai diseksi leher radikal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Keluhan limfadenopati servikal atas yang tidak nyeri disertai gejala obstruktif nasofaring seperti otitis media serosa dan epistaksis, dengan histologi sel sinsisial bercampur limfoplasmasitik reaktif dan EBER positif, adalah karsinoma nasofaring tipe nonkeratinizing undifferentiated yang merupakan subtipe tersering (lebih dari 60%). EBV terdeteksi dengan PCR atau ISH pada 75-100% kasus. Radioterapi adalah tulang punggung terapi untuk semua tipe histologik karsinoma nasofaring, sedangkan pembedahan hanya disediakan bagi pasien yang gagal merespons radioterapi. Stadium klinis merupakan faktor prognostik terpenting dengan disease specific survival 5 tahun 98% pada stadium I hingga 73% pada stadium IV.",
+    "image": "assets/materi/blok2.6/is-1-11/npc-mikroskopis.jpg"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Pada praktikum, sebuah preparat memperlihatkan tonjolan jaringan dengan stroma yang edematosa dan longgar, dilapisi epitel respiratorik, diinfiltrasi limfosit, sel plasma, eosinofil, dan neutrofil, dengan kelenjar submukosa yang berkurang. Tampak pula beberapa sel stroma besar dan pleomorfik. Interpretasi yang paling tepat adalah?",
+    "options": [
+      "Polip nasal inflamatorik; sel stroma besar dan pleomorfik merupakan bizarre stromal cells yang tidak menandakan keganasan",
+      "Polip nasal inflamatorik yang telah mengalami transformasi ganas karena ada sel pleomorfik",
+      "Inverted papilloma dengan pertumbuhan endofitik",
+      "Karsinoma sel skuamosa well differentiated",
+      "Rinosinusitis kronik tanpa pembentukan polip"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Polip nasal adalah pertumbuhan jinak non-neoplastik yang secara mikroskopis ditandai stroma edematosa, fibrotik, atau longgar miksoid yang dilapisi epitel respiratorik dan diinfiltrasi sel radang campuran berupa limfosit, sel plasma, eosinofil, neutrofil, dan sel mast. Kelenjar submukosa berkurang atau tidak ada, permukaan dapat mengalami ulserasi atau metaplasia skuamosa. Bizarre stromal cells yang besar dan pleomorfik merupakan temuan yang dapat dijumpai pada polip inflamatorik dan bukan tanda keganasan, sehingga tidak boleh menjadi alasan mendiagnosis tumor ganas.",
+    "image": "assets/materi/blok2.6/ps-1-3/polip-mikroskopis.jpg"
+  },
+  {
+    "question": "Dua preparat lesi jinak sinonasal diperbandingkan. Preparat A memperlihatkan massa epitel tebal yang tumbuh menekuk ke dalam stroma dengan membrana basalis utuh dan banyak neutrofil bermigrasi di dalam epitel. Preparat B memperlihatkan tonjolan dengan stroma edematosa dominan yang hanya dilapisi epitel tipis. Pernyataan yang paling tepat adalah?",
+    "options": [
+      "A adalah polip nasal, B adalah inverted papilloma",
+      "A adalah inverted papilloma yang khas unilateral, B adalah polip nasal yang umumnya bilateral",
+      "Keduanya adalah polip nasal pada stadium berbeda",
+      "A adalah karsinoma in situ karena ada neutrofil intraepitelial",
+      "B adalah inverted papilloma karena stromanya edematosa"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inverted papilloma ditandai pertumbuhan endofitik berupa sarang dan pita membulat yang menekuk ke dalam kelenjar seromusinosa sinonasal dengan membrana basalis yang tetap utuh, epitel kolumnar sampai skuamosa yang hiperplastik, mitosis hanya sesekali di lapisan basal, serta inflamasi neutrofilik intraepitelial yang mencolok. Lesi ini hampir selalu unilateral pada dinding lateral rongga hidung. Sebaliknya polip nasal menonjol ke luar ke dalam lumen dengan stroma edematosa yang dominan dan epitel hanya selapis tipis di permukaan, serta umumnya bilateral dan multifokal. Neutrofil transmigrasi adalah ciri khas inverted papilloma, bukan tanda keganasan.",
+    "image": "assets/materi/blok2.6/ps-1-3/inverted-papilloma-mikroskopis.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 58 tahun didiagnosis inverted papilloma. Mengenai epidemiologi dan lokasi lesi ini, pernyataan yang paling tepat adalah?",
+    "options": [
+      "Paling sering pada anak, bilateral, dan berasal dari septum nasi",
+      "Perempuan lebih sering daripada laki-laki dengan rasio 3-5 banding 1",
+      "Lesi unilateral yang hampir selalu berasal dari dinding lateral rongga hidung, dengan puncak usia dekade keenam dan laki-laki lebih sering",
+      "Insidensnya sangat tinggi, sekitar 20 per 100.000 orang-tahun",
+      "Lebih sering pada populasi Asia dibanding Kaukasia dan tidak pernah kambuh"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Inverted papilloma memiliki insidens 0,2 sampai 1,5 per 100.000 orang-tahun dengan rasio laki-laki terhadap perempuan 3 sampai 5 banding 1. Lesi ini tersering pada dewasa dengan puncak dekade keenam dan jarang ditemukan pada anak, serta lebih sering pada populasi Kaukasia dibanding Asia. Lokasinya unilateral dan hampir selalu pada dinding lateral rongga hidung, juga dapat mengenai sinus paranasal terutama etmoid atau maksila. Lesi ini dapat berulang, dan pencitraan menjadi sangat sugestif bila tampak massa unilateral di sekitar meatus media yang berasal dari dinding lateral rongga hidung."
+  },
+  {
+    "question": "Preparat karsinoma laring memperlihatkan sarang tumor ireguler yang menginvasi stroma dengan keratinisasi nyata membentuk keratin pearl berlapis konsentris, dan hitung mitosis yang rendah. Derajat diferensiasi serta kriteria yang dipakai untuk menilainya adalah?",
+    "options": [
+      "Well differentiated; dinilai dari rasio inti terhadap sitoplasma, morfologi inti, hitung mitosis, derajat atipia, reaksi stroma, dan keratinisasi",
+      "Poorly differentiated; dinilai hanya dari jumlah mitosis",
+      "Undifferentiated; dinilai dari ada tidaknya invasi stroma",
+      "Moderately differentiated; dinilai hanya dari ukuran tumor",
+      "Karsinoma in situ; dinilai dari keutuhan membrana basalis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Keratin pearl yang jelas dengan mitosis rendah menandakan karsinoma sel skuamosa well differentiated. Tumor laring digradasi berdasarkan kemiripannya dengan epitel skuamosa normal menjadi well, moderately, poorly, dan undifferentiated. Kriteria penilaiannya meliputi rasio inti terhadap sitoplasma, morfologi inti, hitung mitosis, derajat atipia, reaksi stroma, dan keratinisasi. Pada derajat moderate keratinisasi hanya tampak pada sel individual, sedangkan pada poorly differentiated sel menjadi sangat ireguler dan pleomorfik dengan keratinisasi yang sangat minimal. Karsinoma in situ justru ditandai membrana basalis yang masih utuh tanpa invasi stroma.",
+    "image": "assets/materi/blok2.6/ps-1-3/scc-well-differentiated.jpg"
+  },
+  {
+    "question": "Mengenai prognosis karsinoma laring berdasarkan lokasinya, urutan survival 5 tahun dari yang tertinggi ke terendah menurut slide praktikum adalah?",
+    "options": [
+      "Supraglotik 77%, subglotik 53%, glotik 46%",
+      "Glotik 77%, subglotik 53%, supraglotik 46%",
+      "Subglotik 77%, glotik 53%, supraglotik 46%",
+      "Glotik 46%, supraglotik 53%, subglotik 77%",
+      "Ketiganya memiliki survival yang sama sekitar 60%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Survival 5 tahun karsinoma laring berbeda menurut subsite, yaitu glotik 77%, subglotik 53%, dan supraglotik 46%. Tumor glotik memberi prognosis terbaik karena gejala suara serak muncul dini sehingga terdeteksi pada stadium awal, sedangkan tumor supraglotik lebih sering sudah bermetastasis ke kelenjar getah bening saat didiagnosis. Status kelenjar getah bening merupakan indikator prognostik yang bermakna. Karsinoma laring merupakan kanker saluran napas tersering kedua dengan puncak usia 65 tahun, dan presentasi klinisnya bervariasi menurut subsite berupa suara serak, dispnea, disfagia, nyeri tenggorok, atau massa leher."
+  },
+  {
+    "question": "Untuk memastikan diferensiasi skuamosa pada tumor laring yang poorly differentiated, pemeriksaan imunohistokimia yang paling tepat dan pola positifnya adalah?",
+    "options": [
+      "Sitokeratin positif dengan p63 dan p40 positif pada inti sel tumor",
+      "Sitokeratin negatif dengan vimentin positif pada sitoplasma",
+      "TTF-1 positif pada inti sebagai penanda diferensiasi skuamosa",
+      "CD20 positif pada membran sel tumor",
+      "S100 positif difus pada inti dan sitoplasma"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Karsinoma sel skuamosa positif untuk sitokeratin dan menunjukkan positivitas inti untuk p63 dan p40. Pewarnaan ini sangat membantu pada tumor poorly differentiated yang keratinisasi dan intercellular bridging-nya minimal sehingga diferensiasi skuamosa sulit dipastikan secara morfologi. TTF-1 justru penanda adenokarsinoma paru dan tumor tiroid, vimentin penanda tumor mesenkimal, CD20 penanda limfosit B, dan S100 penanda tumor melanositik serta neural.",
+    "image": "assets/materi/blok2.6/ps-1-3/p40-imunohistokimia.jpg"
+  },
+  {
+    "question": "Biopsi nasofaring memperlihatkan sel epitel besar dengan inti vesikuler oval sampai bulat, anak inti prominen, dan batas sel tidak jelas yang tersusun menyerupai sinsitium, bercampur limfosit matang berjumlah banyak yang didominasi sel T. Diagnosis yang paling tepat adalah?",
+    "options": [
+      "Limfoma non-Hodgkin nasofaring",
+      "Karsinoma nasofaring varian undifferentiated/basaloid",
+      "Karsinoma sel skuamosa keratinizing well differentiated",
+      "Inverted papilloma dengan transformasi ganas",
+      "Polip nasal dengan infiltrat limfositik berat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Varian undifferentiated atau basaloid karsinoma nasofaring tersusun atas sel epitel besar dengan inti vesikuler oval atau bulat, anak inti prominen, dan batas sel yang tidak jelas sehingga tampak menyerupai sinsitium. Sel tumor ini bercampur dengan limfosit matang yang tampak normal dan berjumlah banyak, didominasi sel T. Limfosit tersebut bersifat reaktif dan bukan bagian dari tumor, sehingga lesi ini tidak boleh dikira limfoma. Lesi keratinizing dan nonkeratinizing menyerupai karsinoma sel skuamosa well dan poorly differentiated di lokasi lain.",
+    "image": "assets/materi/blok2.6/ps-1-3/npc-undifferentiated.jpg"
+  },
+  {
+    "question": "Untuk membuktikan keterkaitan Epstein-Barr virus pada karsinoma nasofaring, metode yang sesuai dengan slide praktikum adalah?",
+    "options": [
+      "Kultur virus dari sekret nasofaring sebagai baku emas",
+      "Deteksi genom EBV di serum dengan PCR, EBER-1 dengan in situ hybridization, dan LMP-1 dengan imunohistokimia",
+      "Pewarnaan Giemsa pada apusan nasofaring",
+      "Pemeriksaan serologi HPV 16 dan 18",
+      "Pewarnaan Ziehl-Neelsen pada jaringan biopsi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Genom EBV dapat dideteksi di serum dengan PCR, sedangkan pada jaringan tumor EBV dibuktikan melalui EBV encoded RNA seperti EBER-1 yang diidentifikasi dengan in situ hybridization, atau melalui protein seperti LMP-1 yang diidentifikasi dengan imunohistokimia. EBER dengan in situ hybridization merupakan metode yang paling banyak dipakai karena sinyalnya kuat pada inti sel tumor. HPV berperan pada karsinoma orofaring, bukan menjadi penanda utama karsinoma nasofaring. Pewarnaan Ziehl-Neelsen dipakai untuk basil tahan asam dan Giemsa untuk morfologi sel darah, bukan untuk membuktikan infeksi EBV."
+  },
+  {
+    "question": "Seorang pasien karsinoma nasofaring memiliki tumor yang meluas ke ruang parafaring dan melibatkan otot pterygoideus medialis, tanpa invasi tulang basis kranii. Terdapat metastasis ke kelenjar getah bening servikal bilateral berukuran 4 cm yang semuanya berada di atas batas bawah kartilago krikoid, tanpa metastasis jauh. Kategori T dan N menurut AJCC edisi ke-8 adalah?",
+    "options": [
+      "pT1 pN1",
+      "pT2 pN2",
+      "pT3 pN2",
+      "pT2 pN3",
+      "pT4 pN3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Menurut AJCC edisi ke-8, pT2 adalah tumor dengan ekstensi parafaring atau keterlibatan jaringan lunak sekitar termasuk otot pterygoideus medialis atau lateralis dan otot prevertebral, sedangkan pT3 baru ditegakkan bila ada invasi tulang basis kranii, vertebra servikalis, struktur pterygoid, atau sinus paranasal. Untuk kelenjar, pN1 adalah metastasis servikal unilateral atau retrofaring unilateral maupun bilateral dengan ukuran 6 cm atau kurang di atas batas bawah krikoid, pN2 adalah metastasis servikal bilateral dengan ukuran 6 cm atau kurang di atas batas bawah krikoid, dan pN3 bila ukuran lebih dari 6 cm atau terletak di bawah batas bawah kartilago krikoid. Pasien ini memenuhi pT2 pN2."
+  },
+  {
+    "question": "Seorang pasien datang dengan benjolan leher yang pada biopsi terbukti metastasis karsinoma dan pemeriksaan menunjukkan EBV positif, namun pemeriksaan menyeluruh tidak menemukan tumor primer di nasofaring. Menurut sistem staging AJCC edisi ke-8 untuk karsinoma nasofaring, kategori tumor primer yang tepat adalah?",
+    "options": [
+      "pTX karena tumor tidak dapat dinilai",
+      "pTis karena kemungkinan masih karsinoma in situ",
+      "pT0 karena tidak ada bukti tumor primer dengan metastasis kelenjar getah bening yang terbukti EBV positif",
+      "pT1 karena secara otomatis dianggap terbatas di nasofaring",
+      "Tidak dapat distaging sama sekali sampai tumor primer ditemukan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "AJCC edisi ke-8 memberi kategori khusus pT0 untuk karsinoma nasofaring, yaitu tidak ada bukti tumor primer tetapi terdapat metastasis kelenjar getah bening yang terbukti EBV positif. Kategori ini mengakui bahwa karsinoma nasofaring sering menimbulkan metastasis kelenjar leher sebagai keluhan pertama, sementara tumor primernya dapat sangat kecil atau okult sehingga tidak terlihat secara makroskopis. pTX dipakai bila tumor primer benar-benar tidak dapat dinilai, sedangkan pTis adalah karsinoma in situ. Pada kelompok stadium, kombinasi T0 dengan N1 M0 masuk stadium II.",
+    "image": "assets/materi/blok2.6/ps-1-3/npc-metastasis-kgb.jpg"
+  }
+]

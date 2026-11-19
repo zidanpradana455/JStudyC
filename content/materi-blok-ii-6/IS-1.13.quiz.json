@@ -1,0 +1,131 @@
+[
+  {
+    "question": "Seorang laki-laki 55 tahun dengan efusi pleura kanan masif akan menjalani torakosentesis dalam posisi duduk tegak. Mengenai teknik penusukan jarum, pernyataan yang paling tepat adalah?",
+    "options": [
+      "Jarum ditusukkan tepat di bawah tepi iga agar tidak mengenai paru",
+      "Jarum ditusukkan di atas tepi superior iga, pada spatium interkostal ke-9 linea midaksilaris saat ekspirasi",
+      "Jarum ditusukkan pada spatium interkostal ke-2 linea midklavikularis saat inspirasi dalam",
+      "Jarum ditusukkan menembus sternum untuk mencapai kavum pleura",
+      "Jarum ditusukkan di linea paravertebralis setinggi vertebra torakalis 12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Jarum torakosentesis dimasukkan di atas tepi superior iga, cukup tinggi untuk menghindari cabang kolateral, karena berkas neurovaskular interkostal utama berjalan pada sulcus costae di tepi bawah iga dengan urutan vena, arteri, dan saraf dari superior ke inferior. Jarum menembus otot interkostal dan pleura parietalis kostalis menuju kavum pleura. Pada posisi duduk tegak, cairan intrapleura berkumpul di recessus costodiaphragmatica, sehingga penusukan pada spatium interkostal ke-9 linea midaksilaris saat ekspirasi akan menghindari tepi inferior paru. Spatium interkostal ke-2 linea midklavikularis adalah lokasi dekompresi jarum pada tension pneumothorax, bukan untuk mengambil cairan.",
+    "image": "assets/materi/blok2.6/is-1-13/torakosentesis.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 30 tahun mengalami kecelakaan lalu lintas dengan benturan dada. Pemeriksaan memperlihatkan segmen dinding dada kiri anterolateral yang bergerak masuk ke dalam saat inspirasi dan menonjol keluar saat ekspirasi. Kondisi ini dan dasar anatomisnya adalah?",
+    "options": [
+      "Flail chest akibat fraktur iga multipel sehingga satu segmen dinding dada bergerak bebas dan paradoksal",
+      "Separasi iga akibat dislokasi junction kostokondral tunggal",
+      "Dislokasi sendi sternokostal yang khas pada iga 8, 9, dan 10",
+      "Fraktur sternum kominutif pada angulus sterni",
+      "Pneumotoraks sederhana tanpa pergeseran mediastinum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flail chest terjadi ketika fraktur iga multipel memungkinkan satu segmen besar dinding dada anterior dan atau lateral bergerak bebas dari rangka toraks. Segmen yang lepas bergerak paradoksal, yaitu masuk ke dalam saat inspirasi dan keluar saat ekspirasi, berlawanan dengan dinding dada lainnya. Separasi iga adalah dislokasi junction kostokondral antara iga dan kartilago kostalisnya, sedangkan dislokasi iga adalah pergeseran kartilago kostalis dari sternum yang pada sendi interkondral biasanya unilateral dan melibatkan iga 8, 9, dan 10. Fraktur sternum tersering pada lansia terjadi di angulus sterni tempat sendi manubriosternal telah menyatu.",
+    "image": "assets/materi/blok2.6/is-1-13/fraktur-iga-flail-chest.jpg"
+  },
+  {
+    "question": "Seorang anak 3 tahun tersedak kacang saat bermain. Setelah batuk hebat, ia mengalami sesak dan mengi unilateral. Berdasarkan anatomi percabangan trakeobronkial, benda asing paling mungkin tersangkut di sebelah mana dan mengapa?",
+    "options": [
+      "Bronkus kiri, karena lebih panjang sehingga menahan benda asing",
+      "Bronkus kanan, karena lebih lebar, lebih pendek, dan berjalan lebih vertikal",
+      "Trakea bagian servikal, karena merupakan bagian tersempit",
+      "Bronkiolus terminalis kiri, karena diameternya paling kecil",
+      "Sama saja antara kanan dan kiri karena sudut percabangannya identik"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bronkus utama kanan lebih lebar, lebih pendek, dan berjalan lebih vertikal dibandingkan bronkus kiri, sehingga benda asing lebih mungkin masuk dan tersangkut di dalamnya atau pada salah satu cabangnya. Prinsip yang sama menjelaskan mengapa aspirasi isi lambung dan pneumonia aspirasi lebih sering mengenai paru kanan, terutama segmen posterior lobus atas dan segmen superior lobus bawah pada pasien berbaring. Bronkiolus terminalis terlalu kecil untuk dicapai benda asing berukuran kacang, dan sudut percabangan kanan-kiri justru tidak simetris."
+  },
+  {
+    "question": "Seorang laki-laki 60 tahun meninggal karena pneumonia pneumokokus. Pada autopsi, lobus bawah kanan tampak merah, keras, tidak mengandung udara, dengan konsistensi menyerupai hati. Tahap inflamasi pneumonia lobaris yang sesuai adalah?",
+    "options": [
+      "Kongesti",
+      "Red hepatization",
+      "Grey hepatization",
+      "Resolusi",
+      "Organisasi fibrotik permanen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Empat tahap inflamasi pneumonia lobaris menurut Robbins & Cotran adalah kongesti ketika paru tampak berat, lembek, dan merah; red hepatization ketika paru menjadi merah, keras, tidak mengandung udara, dengan konsistensi mirip hati; grey hepatization ketika permukaan sayatan berwarna cokelat keabu-abuan; dan resolusi. Penampakan mukoid berlendir pada tahap resolusi merupakan ciri khas Klebsiella species. Keterlibatan seragam seluruh lobus dengan peningkatan berat paru adalah gambaran makroskopis khas untuk S. pneumoniae dan K. pneumoniae, berbeda dari bronkopneumonia yang konsolidasinya berbatas kurang tegas dan berwarna merah-abu hingga kuning.",
+    "image": "assets/materi/blok2.6/is-1-13/makroskopis-pneumonia-lobaris.jpg"
+  },
+  {
+    "question": "Biopsi massa perihilar pada seorang perokok berat 62 tahun memperlihatkan sel-sel berukuran kecil sampai sedang dengan sitoplasma minimal, inti bulat-oval dengan kromatin tersebar halus tanpa anak inti yang jelas, tampak nuclear molding dan nuclear smudging, serta stroma fibrovaskular yang sedikit. Diagnosis dan asal selnya adalah?",
+    "options": [
+      "Adenokarsinoma paru, berasal dari pneumosit tipe II",
+      "Karsinoma sel skuamosa, berasal dari metaplasia skuamosa bronkus",
+      "Small cell lung cancer, tumor neuroendokrin high grade dari sel neuroendokrin epitel bronkial basal",
+      "Large cell lung cancer, tanpa diferensiasi morfologis maupun imunohistokimia",
+      "Mesotelioma maligna tipe sarkomatoid, dari sel mesotel pleura"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gambaran sel kecil sampai sedang dengan sitoplasma minimal, kromatin halus tanpa anak inti menonjol, nuclear molding, dan nuclear smudging adalah ciri khas small cell lung cancer, yaitu tumor neuroendokrin high grade yang muncul di area hilum dan berasal dari sel neuroendokrin epitel bronkial basal. Tumor ini hampir selalu terkait merokok, memiliki prognosis buruk, dan belum memiliki terapi tertarget. Adenokarsinoma menunjukkan diferensiasi glandular dengan produksi musin dan pola lepidik, karsinoma sel skuamosa menunjukkan keratinisasi dan intercellular bridging, sedangkan large cell lung cancer justru didefinisikan sebagai tumor tanpa diferensiasi ke arah ketiganya.",
+    "image": "assets/materi/blok2.6/is-1-13/sclc-mikroskopis.jpg"
+  },
+  {
+    "question": "Reseksi tumor paru sentral pada seorang perokok memperlihatkan sel tumor dengan keratin pearl yang jelas dan intercellular bridging yang mudah ditemukan, serta mitosis patologik yang rendah. Interpretasi dan kelainan genetik yang paling sering mendasari tumor jenis ini adalah?",
+    "options": [
+      "Karsinoma sel skuamosa well differentiated, dengan delesi lokus tumor suppressor 3p, 9p (CDKN2A), dan 17p (TP53)",
+      "Karsinoma sel skuamosa poorly differentiated, dengan mutasi EGFR dan ALK",
+      "Adenokarsinoma acinar, dengan mutasi KRAS di hulu reseptor tirosin kinase",
+      "Small cell carcinoma, dengan amplifikasi MYC",
+      "Large cell carcinoma, tanpa kelainan genetik yang diketahui"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Adanya keratin pearl dan intercellular bridging dengan mitosis patologik rendah menandakan karsinoma sel skuamosa well differentiated. Pada derajat moderate, keratinisasi menjadi individualized namun intercellular bridging masih ada, sedangkan pada poorly differentiated keduanya tidak ditemukan dan mitosis patologik tinggi. Karsinoma sel skuamosa paru sebagian besar muncul sentral, paling erat kaitannya dengan merokok, dan merupakan kanker paru tersering kedua. Merokok menimbulkan aberasi kromosom berupa delesi lokus tumor suppressor 3p, 9p yang memuat CDKN2A, dan 17p yang memuat TP53. EGFR dan ALK merupakan driver adenokarsinoma, dan KRAS berada di hilir, bukan hulu, reseptor tirosin kinase.",
+    "image": "assets/materi/blok2.6/is-1-13/scc-paru-diferensiasi.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 68 tahun yang bekerja di galangan kapal selama 30 tahun datang dengan sesak dan efusi pleura hemoragik berulang. Biopsi pleura memperlihatkan proliferasi ganas dengan komponen epitelioid bersebelahan dengan komponen sarkomatoid. Pernyataan yang paling tepat adalah?",
+    "options": [
+      "Mesotelioma maligna tipe bifasik, paling sering terkait paparan asbestos yang sudah lama hingga 40 tahun sebelumnya",
+      "Mesotelioma maligna tipe epitelioid murni dengan prognosis paling baik di antara semua subtipe",
+      "Metastasis adenokarsinoma paru ke pleura, tidak terkait paparan okupasi",
+      "Karsinoma sel skuamosa pleura akibat merokok",
+      "Pleuritis kronik dengan adhesi pleura akibat paparan debu"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mesotelioma maligna adalah neoplasma ganas dengan diferensiasi mesotelial yang berasal dari sel mesotel pleura, dan dapat bersitologi epitelioid, sarkomatoid, atau kombinasi keduanya yang disebut tipe bifasik. Tumor ini paling sering terkait paparan asbestos yang sudah berlangsung lama, hingga 40 tahun sebelum diagnosis, sehingga riwayat pekerjaan seperti galangan kapal sangat penting. Ketahanan hidup pasien berkisar 4 sampai 27 bulan tergantung subtipe, sehingga tidak ada subtipe yang berprognosis baik. Gambaran klinis khasnya adalah efusi pleura hemoragik berulang dengan penebalan pleura yang membungkus paru.",
+    "image": "assets/materi/blok2.6/is-1-13/mesotelioma-subtipe.jpg"
+  },
+  {
+    "question": "Foto toraks seorang pasien memperlihatkan konsolidasi homogen pada lobus atas kanan dengan batas inferior yang tajam mengikuti fisura minor, tampak air bronchogram di dalamnya, dan batas arkus aorta menjadi kabur. Pola pneumonia dan organisme prototipenya adalah?",
+    "options": [
+      "Bronkopneumonia segmental oleh Staphylococcus aureus",
+      "Pneumonia lobaris oleh Streptococcus pneumoniae",
+      "Round pneumonia oleh Haemophilus influenzae",
+      "Pneumonia interstisial oleh Mycoplasma pneumoniae",
+      "Cavitating pneumonia oleh Mycobacterium tuberculosis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pneumonia lobaris dibatasi oleh fisura interlobaris sehingga batasnya tajam, sering disertai air bronchogram karena bronkus sendiri tidak terisi eksudat, dan menimbulkan silhouette sign ketika konsolidasi bersentuhan dengan jantung, aorta, atau diafragma. Prototipenya adalah pneumonia pneumokokus oleh Streptococcus pneumoniae. Sebaliknya, bronkopneumonia segmental yang diprototipekan Staphylococcus aureus menyebar sentrifugal lewat percabangan trakeobronkial, mengisi bronkus sehingga air bronchogram biasanya tidak ada, bertepi fluffy karena segmen tidak dibatasi fisura, dan sering disertai kehilangan volume. Round pneumonia khas pada anak dan berbentuk sferis di posterior paru.",
+    "image": "assets/materi/blok2.6/is-1-13/pneumonia-lobaris-silhouette.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 65 tahun perokok berat mengeluh sesak kronik progresif. Foto toraks memperlihatkan diafragma mendatar, retrosternal clear space melebar pada proyeksi lateral, paru hiperlusen dengan corakan vaskular berkurang, dan arteri pulmonalis yang menonjol. CT toraks memperlihatkan area destruksi fokal pada bronkiolus respiratorius dan bagian sentral asinus yang paling berat di lobus atas. Jenis emfisema yang paling sesuai adalah?",
+    "options": [
+      "Emfisema panlobular dengan predominansi basal",
+      "Emfisema paraseptal dengan pembentukan bula subpleural",
+      "Emfisema sentrilobular (sentriasinar) dengan predominansi lobus atas",
+      "Emfisema kompensatorik setelah lobektomi",
+      "Emfisema interstisial akibat barotrauma ventilator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Emfisema sentrilobular atau sentriasinar adalah tipe tersering, terkait kuat dengan merokok, dan secara selektif mengenai bronkiolus respiratorius proksimal serta bagian sentral asinus sementara alveoli sentral terhindar sampai tahap lanjut, dengan predominansi di lobus atas. Emfisema panlobular mengenai seluruh asinus dan lobulus, merupakan tipe paling berat, berpredominansi basal, dan khas pada defisiensi alfa-1 antitripsin. Emfisema paraseptal mengenai alveoli di tepi lobulus secara subpleural dan dapat membentuk bula terutama di zona atas. Temuan foto toraks yang paling andal untuk emfisema adalah hiperinflasi berupa pendataran diafragma, pelebaran retrosternal clear space, hiperlusensi dengan corakan vaskular berkurang, dan prominensi arteri pulmonalis akibat hipertensi arteri pulmonal.",
+    "image": "assets/materi/blok2.6/is-1-13/emfisema-sentriasinar-ct.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 24 tahun datang dengan sesak mendadak dan nyeri dada kiri. Foto toraks memperlihatkan area radiolusen avaskular di hemitoraks kiri dengan pleural white line, disertai pergeseran struktur mediastinum ke arah kanan dan pendataran diafragma kiri. Diagnosis yang paling tepat adalah?",
+    "options": [
+      "Simple pneumothorax karena tidak ada kelainan mediastinum",
+      "Tension pneumothorax karena terdapat pergeseran mediastinum menjauhi sisi lesi",
+      "Efusi pleura masif kiri dengan meniscus sign",
+      "Emfisema lobus atas kiri dengan bula besar",
+      "Atelektasis total paru kiri dengan pergeseran mediastinum ke arah lesi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pneumotoraks memberi gambaran radiolusen avaskular pada CXR dan hipodens pada CT, dengan temuan khas berupa pleural white line sign, deep sulcus sign, pendataran diafragma, dan pada kasus tertentu pergeseran struktur mediastinum. Pembedanya adalah simple pneumothorax biasanya tidak menimbulkan pergeseran struktur mediastinum, sedangkan tension pneumothorax memperlihatkan pergeseran mediastinum menjauhi sisi pneumotoraks dan sering disertai gangguan kardiopulmonal. Efusi pleura justru radioopak dengan meniscus sign dan sudut kostofrenikus tumpul. Atelektasis menarik mediastinum ke arah lesi, bukan menjauhinya.",
+    "image": "assets/materi/blok2.6/is-1-13/pneumotoraks-simple-tension.jpg"
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "question": "Seorang laki-laki 58 tahun datang dengan demam, batuk, dan sesak sejak 5 hari. Pemeriksaan: laju napas 32x/menit, SpO2 91% dengan udara ruangan, dan foto toraks memperlihatkan infiltrat bilateral. Pasien sadar penuh, tekanan darah 125/80 mmHg, tidak ada tanda syok maupun ARDS. Menurut Protokol Tatalaksana COVID-19, derajat keparahan pasien ini adalah?",
+    "options": [
+      "Ringan",
+      "Sedang",
+      "Berat",
+      "Kritis",
+      "Tanpa gejala"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Derajat sedang ditegakkan bila ada klinis pneumonia tanpa tanda pneumonia berat dengan SpO2 lebih dari 93% udara ruangan. Derajat berat bila klinis pneumonia disertai salah satu dari laju napas lebih dari 30x/menit, distres pernapasan berat, atau SpO2 kurang dari 93% udara ruangan. Pasien ini memenuhi dua kriteria sekaligus yaitu RR 32x/menit dan SpO2 91%, sehingga tergolong berat. Derajat kritis baru ditegakkan bila sudah ada ARDS, sepsis atau syok sepsis, atau kondisi yang memerlukan penunjang hidup seperti ventilasi mekanik dan vasopresor, yang belum ditemukan pada pasien ini.",
+    "image": "assets/materi/blok2.6/pd-1-12/ggo-foto-toraks.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 70 tahun dengan demam akut dan batuk selama 4 hari meninggal di IGD sebelum sempat dilakukan pemeriksaan NAAT maupun RDT-Antigen. Gambaran klinis dan foto toraks sangat meyakinkan ke arah COVID-19. Menurut kriteria kasus Protokol Tatalaksana COVID-19 Edisi 4, kasus ini diklasifikasikan sebagai?",
+    "options": [
+      "Kasus suspek",
+      "Kasus probable",
+      "Kasus konfirmasi",
+      "Kasus discarded",
+      "Kontak erat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kasus probable adalah kasus suspek yang meninggal dengan gambaran klinis meyakinkan COVID-19 dan memenuhi salah satu dari: tidak dilakukan pemeriksaan NAAT atau RDT-Ag, atau hasil NAAT/RDT-Ag tidak memenuhi kriteria konfirmasi maupun discarded. Kasus konfirmasi membutuhkan NAAT positif atau RDT-Ag positif sesuai kriteria wilayah. Kasus discarded memerlukan hasil negatif sesuai skenario wilayah A, B, atau C. Pasien ini semasa hidup memang memenuhi kriteria suspek (demam akut dan batuk), tetapi karena meninggal tanpa pemeriksaan laboratorium, klasifikasinya naik menjadi probable."
+  },
+  {
+    "question": "Seorang pasien COVID-19 menjalani CT toraks pada hari ke-12 sejak onset gejala. Berdasarkan pola perubahan CT toraks pada COVID-19, gambaran yang paling mungkin ditemukan adalah?",
+    "options": [
+      "Ground glass opacity minimal dengan crazy paving parsial",
+      "Perluasan ground glass opacity dengan crazy paving yang bertambah",
+      "Konsolidasi",
+      "Resolusi bertahap tanpa kelainan sisa",
+      "Foto toraks dan CT sepenuhnya normal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Perubahan CT toraks pada COVID-19 mengikuti pola waktu: early stage 0-4 hari berupa GGO dengan crazy paving parsial dan lobus terlibat masih sedikit; progressive stage 5-8 hari berupa perluasan GGO dan crazy paving yang bertambah; peak stage 10-13 hari berupa konsolidasi; dan absorption stage mulai hari ke-14 ke atas berupa resolusi bertahap. Hari ke-12 jatuh pada peak stage sehingga gambaran dominannya konsolidasi. Ground glass opacity tetap merupakan gambaran radiologi paling khas COVID-19 secara umum, tetapi pada fase puncak sudah berkembang menjadi konsolidasi.",
+    "image": "assets/materi/blok2.6/pd-1-12/ct-toraks-covid.jpg"
+  },
+  {
+    "question": "Seorang perempuan 62 tahun terkonfirmasi COVID-19 dirawat dengan SpO2 90% udara ruangan dan laju napas 31x/menit sehingga memerlukan oksigen. Selain antivirus dan antikoagulan, terapi yang terbukti paling bermakna menurunkan mortalitas pada pasien ini adalah?",
+    "options": [
+      "Deksametason 6 mg/24 jam intravena selama 10 hari",
+      "Plasma konvalesen dua kantong",
+      "Ivermectin dosis tinggi selama 5 hari",
+      "Oseltamivir 2x75 mg selama 5 hari",
+      "N-asetilsistein 1200 mg/hari"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kortikosteroid merupakan terapi yang paling bermakna menurunkan mortalitas pada COVID-19 dan hanya diberikan untuk derajat berat dan kritis, dengan dosis deksametason 1x6 mg selama 10 hari yang setara metilprednisolon 32-40 mg atau hidrokortison 160 mg. Pasien ini memenuhi kriteria berat karena SpO2 kurang dari 93% dan RR lebih dari 30x/menit. Plasma konvalesen masih dalam uji klinis dan dinyatakan tidak bermanfaat untuk gejala berat dan kritis. Ivermectin tidak direkomendasikan di luar uji klinis karena hasil uji klinis tidak konsisten. Oseltamivir hanya untuk dugaan ko-infeksi influenza, dan N-asetilsistein masih dalam tahap uji klinis."
+  },
+  {
+    "question": "Seorang pasien COVID-19 berat mendapat terapi oksigen dengan High Flow Nasal Cannula. Setelah 12 jam, SpO2 92% dengan FiO2 0,8 dan laju napas 32x/menit. Berapa ROX index pasien ini dan apa maknanya?",
+    "options": [
+      "ROX 2,9 — terapi oksigen dinilai berhasil",
+      "ROX 3,6 — prediktor kuat pasien akan membutuhkan intubasi",
+      "ROX 5,2 — prediktor keberhasilan terapi oksigen",
+      "ROX 7,4 — HFNC dapat segera dilepas",
+      "ROX tidak dapat dihitung tanpa analisis gas darah"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ROX index dihitung dengan rumus (SpO2/FiO2) dibagi laju napas. Pada pasien ini: 92 dibagi 0,8 sama dengan 115, lalu 115 dibagi 32 menghasilkan sekitar 3,6. Nilai ROX kurang dari 3,85 dalam 12 jam merupakan prediktor kuat bahwa pasien akan membutuhkan intubasi, sedangkan ROX lebih dari 4,88 dalam 12 jam merupakan prediktor keberhasilan terapi oksigen. Evaluasi ROX dilakukan tiap 1-2 jam, dan prinsip pentingnya adalah jangan menunda intubasi serta ventilasi mekanik bila indikasi sudah jelas. ROX dapat dihitung di samping tempat tidur tanpa analisis gas darah."
+  },
+  {
+    "question": "Seorang laki-laki 45 tahun dengan COVID-19 kritis sudah menjalani ventilasi mekanik invasif selama 4 hari dengan ventilasi proteksi paru dan posisi prone, namun PaO2/FiO2 tetap 70 mmHg selama 8 jam terakhir. Tidak ada perdarahan aktif, tidak ada gagal organ multipel berat, dan tidak ada kontraindikasi antikoagulan. Pernyataan yang paling tepat adalah?",
+    "options": [
+      "Pasien memenuhi indikasi ECMO karena PaO2/FiO2 kurang dari 80 mmHg selama lebih dari 6 jam",
+      "Pasien tidak memenuhi indikasi ECMO karena PaO2/FiO2 harus kurang dari 50 mmHg selama lebih dari 6 jam",
+      "Pasien memiliki kontraindikasi absolut karena sudah diventilasi mekanik lebih dari 3 hari",
+      "ECMO merupakan kontraindikasi absolut pada semua pasien COVID-19",
+      "ECMO hanya boleh diberikan bila pH lebih dari 7,45"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Indikasi ECMO pada COVID-19 adalah PaO2/FiO2 kurang dari 80 mmHg selama lebih dari 6 jam, atau PaO2/FiO2 kurang dari 50 mmHg selama lebih dari 3 jam, atau pH kurang dari 7,25 dengan PaCO2 lebih dari 60 mmHg selama lebih dari 6 jam. Pasien ini memenuhi kriteria pertama. Kontraindikasi absolut meliputi Clinical Frailty Scale kategori 3 atau lebih, ventilasi mekanik lebih dari 10 hari (bukan 3 hari), gagal organ multipel berat, injuri neurologik akut berat, perdarahan tidak terkontrol, kontraindikasi antikoagulan, dan sedang dalam resusitasi jantung paru. Usia 65 tahun atau lebih dan obesitas dengan BMI 40 atau lebih termasuk kontraindikasi relatif, bukan absolut.",
+    "image": "assets/materi/blok2.6/pd-1-12/ards-covid-fenotip.jpg"
+  },
+  {
+    "question": "Seorang pasien COVID-19 kritis mengalami syok sepsis. Setelah resusitasi cairan kristaloid dengan bolus 500 mL dalam 20 menit, MAP masih 58 mmHg. Pilihan vasopresor lini pertama dan langkah berikutnya bila hipotensi tetap refrakter adalah?",
+    "options": [
+      "Dopamin lini pertama, bila refrakter ditambah dobutamin",
+      "Norepinefrin lini pertama, bila refrakter ditambah vasopresin 0,01-0,03 iu/menit atau epinefrin",
+      "Epinefrin lini pertama, bila refrakter ditambah dopamin",
+      "Dobutamin lini pertama, bila refrakter ditambah norepinefrin",
+      "Vasopresin lini pertama, bila refrakter ditambah fenilefrin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada syok sepsis, resusitasi cairan dan vasopresor harus diinisiasi dalam 1 jam pertama dengan target MAP lebih dari 65 mmHg, produksi urine lebih dari 0,5 mL/kg/jam, serta perbaikan capillary refill time, laju nadi, kesadaran, dan kadar laktat. Norepinefrin merupakan vasopresor lini pertama. Pada hipotensi refrakter dapat ditambahkan vasopresin 0,01-0,03 iu/menit atau epinefrin, dan penambahan vasopresin juga membantu menurunkan dosis norepinefrin. Dobutamin ditambahkan khusus pada pasien COVID-19 dengan disfungsi jantung dan hipotensi persisten, bukan sebagai lini pertama syok sepsis."
+  },
+  {
+    "question": "Seorang anak laki-laki 9 tahun datang dengan demam 39 °C selama 4 hari, konjungtivitis bilateral non-purulen, ruam, nyeri perut, dan muntah. Tekanan darah 80/50 mmHg. Laboratorium: CRP dan LED meningkat, D-dimer meningkat, NT-proBNP meningkat, kultur darah negatif. RT-PCR SARS-CoV-2 negatif, namun serologi SARS-CoV-2 positif dan ada riwayat kontak COVID-19 dua bulan lalu. Pernyataan yang paling tepat adalah?",
+    "options": [
+      "Diagnosis MIS-C dapat ditegakkan karena diagnosis diprioritaskan berdasarkan gejala klinis, bukan RT-PCR",
+      "MIS-C dapat disingkirkan karena RT-PCR negatif",
+      "Ini adalah COVID-19 akut derajat berat sehingga terapinya remdesivir",
+      "Diagnosis harus menunggu hasil whole genome sequencing",
+      "Demam kurang dari 5 hari sehingga kriteria MIS-C belum terpenuhi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kriteria MIS-C adalah anak usia 0-18 tahun dengan demam minimal 3 hari disertai dua dari lima kriteria: ruam non-purulen bilateral atau konjungtivitis atau inflamasi mukokutan, hipotensi atau syok, disfungsi miokard atau perikarditis atau kelainan koroner termasuk troponin/NT-proBNP meningkat, bukti koagulopati, serta gejala gastrointestinal akut. Selain itu wajib ada penanda inflamasi yang meningkat, tidak ada penyebab bakterial, dan bukti COVID-19 berupa RT-PCR, antigen, atau serologi positif, atau kemungkinan besar kontak dengan pasien COVID-19. Pasien ini memenuhi semuanya. Pada MIS-C diagnosis diprioritaskan berdasarkan gejala klinis dan bukan berdasarkan RT-PCR, karena MIS-C merupakan hiperinflamasi yang tertunda setelah infeksi.",
+    "image": "assets/materi/blok2.6/pd-1-12/manifestasi-mis-c.jpg"
+  },
+  {
+    "question": "Seorang bayi perempuan berusia 8 bulan terkonfirmasi COVID-19 dibawa dengan demam dan batuk. Pemeriksaan: laju napas 52x/menit, terdengar ronki, tidak ada napas cuping hidung, tidak ada retraksi, dan SpO2 97%. Derajat keparahan serta pemeriksaan penunjang yang tepat adalah?",
+    "options": [
+      "Ringan — tidak perlu pemeriksaan darah maupun radiologi",
+      "Sedang — darah lengkap, CRP, D-dimer, dan foto toraks",
+      "Berat — analisis gas darah, feritin, LDH, dan troponin",
+      "Kritis — perawatan di ruang isolasi PICU",
+      "Asimtomatik — cukup isolasi mandiri"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada anak, derajat sedang ditandai gejala dan tanda klinis pneumonia berupa demam, batuk, takipnea, dapat disertai ronki atau wheezing, tetapi tanpa distres napas dan hipoksemia. Batas takipnea menurut usia adalah kurang dari 2 bulan 60x/menit atau lebih, 2-11 bulan 50x/menit atau lebih, 1-5 tahun 40x/menit atau lebih, dan di atas 5 tahun 30x/menit atau lebih. Bayi 8 bulan dengan RR 52x/menit sudah takipnea. Derajat berat memerlukan tanda pneumonia berat seperti napas cuping hidung, sianosis, dan retraksi subkostal, atau tanda bahaya umum. Untuk derajat sedang, pemeriksaan yang dianjurkan adalah darah lengkap, CRP, D-dimer, dan foto toraks, dengan perawatan di ruang isolasi tekanan negatif."
+  },
+  {
+    "question": "Seorang ibu dengan COVID-19 melahirkan bayi yang kemudian terkonfirmasi COVID-19 dengan gejala ringan. Ibu sedang mendapat terapi antivirus. Pernyataan yang paling tepat mengenai tata laksana bayi ini adalah?",
+    "options": [
+      "Bayi harus segera mendapat remdesivir dosis penuh meskipun gejalanya ringan",
+      "Antivirus tidak diberikan pada neonatus dengan gejala ringan-sedang, dan ASI tetap boleh diberikan meskipun ibu mendapat antivirus",
+      "ASI dilarang karena ibu sedang mendapat terapi antivirus",
+      "Bayi cukup dirawat gabung di ruang rawat biasa tanpa isolasi",
+      "Bayi harus mendapat deksametason profilaksis selama 10 hari"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada neonatus dengan gejala ringan sampai sedang, obat antivirus tidak diberikan dan tata laksananya suportif sesuai indikasi morbiditas sistem organ. Remdesivir baru diberikan pada gejala berat dengan dosis awal 5 mg/kgBB dilanjutkan rumatan 2,5 mg/kgBB selama 9 hari, diberikan sekali sehari intravena dengan kecepatan 1 mL/menit minimal 30 menit. Tidak ada kontraindikasi pemberian ASI dari ibu yang menerima terapi antivirus. Perawatan kasus neonatus simtomatik dilakukan di NICU khusus COVID-19. Selama isolasi mandiri, orang tua diminta memantau tanda bahaya seperti saturasi kurang dari 94%, napas lebih dari 60x/menit, merintih, retraksi, malas minum, serta gangguan suhu."
+  }
+]
