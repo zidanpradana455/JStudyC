@@ -20,20 +20,6 @@
   const nl = document.getElementById('navLinks');
   mt.addEventListener('click', () => { mt.classList.toggle('active'); nl.classList.toggle('open'); });
 
-  // ── Canvas (lightweight) ──
-  const canvas = document.getElementById('particle-canvas');
-  const ctx = canvas.getContext('2d');
-  let particles = [];
-  function resize() { canvas.width = innerWidth; canvas.height = innerHeight; }
-  class P {
-    constructor() { this.x=Math.random()*canvas.width; this.y=Math.random()*canvas.height; this.s=Math.random()*1+0.3; this.sx=(Math.random()-0.5)*0.2; this.sy=(Math.random()-0.5)*0.2; this.o=Math.random()*0.2+0.05; }
-    update() { this.x+=this.sx; this.y+=this.sy; if(this.x>canvas.width)this.x=0; if(this.x<0)this.x=canvas.width; if(this.y>canvas.height)this.y=0; if(this.y<0)this.y=canvas.height; }
-    draw() { ctx.beginPath(); ctx.arc(this.x,this.y,this.s,0,Math.PI*2); const theme = document.documentElement.getAttribute('data-theme'); const rgb = theme === 'light' ? '0,0,0' : '255,255,255'; ctx.fillStyle=`rgba(${rgb},${this.o})`; ctx.fill(); }
-  }
-  resize(); for(let i=0;i<30;i++) particles.push(new P());
-  (function anim(){ ctx.clearRect(0,0,canvas.width,canvas.height); particles.forEach(p=>{p.update();p.draw();}); requestAnimationFrame(anim); })();
-  window.addEventListener('resize', ()=>{ resize(); particles=[]; for(let i=0;i<30;i++) particles.push(new P()); });
-
   // ── Parse URL params ──
   const params = new URLSearchParams(window.location.search);
   const blockId = params.get('block');

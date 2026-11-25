@@ -37,22 +37,6 @@
     nl.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { mt.classList.remove('active'); nl.classList.remove('open'); }));
   }
 
-  // ── Canvas (lightweight) ──
-  const canvas = document.getElementById('particle-canvas');
-  if (canvas) {
-    const ctx = canvas.getContext('2d');
-    let particles = [];
-    function resize() { canvas.width = innerWidth; canvas.height = innerHeight; }
-    class P {
-      constructor() { this.x = Math.random()*canvas.width; this.y = Math.random()*canvas.height; this.s = Math.random()*1+0.3; this.sx = (Math.random()-0.5)*0.3; this.sy = (Math.random()-0.5)*0.3; this.o = Math.random()*0.3+0.05; }
-      update() { this.x += this.sx; this.y += this.sy; if(this.x>canvas.width)this.x=0; if(this.x<0)this.x=canvas.width; if(this.y>canvas.height)this.y=0; if(this.y<0)this.y=canvas.height; }
-      draw() { ctx.beginPath(); ctx.arc(this.x,this.y,this.s,0,Math.PI*2); const theme = document.documentElement.getAttribute('data-theme'); const rgb = theme === 'light' ? '0,0,0' : '255,255,255'; ctx.fillStyle=`rgba(${rgb},${this.o})`; ctx.fill(); }
-    }
-    resize(); for(let i=0;i<40;i++) particles.push(new P());
-    (function anim() { ctx.clearRect(0,0,canvas.width,canvas.height); particles.forEach(p=>{p.update();p.draw();}); requestAnimationFrame(anim); })();
-    window.addEventListener('resize', () => { resize(); particles=[]; for(let i=0;i<40;i++) particles.push(new P()); });
-  }
-
   // ── Scroll Reveal ──
   const ro = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target);} }), {threshold:0.1});
   document.querySelectorAll('.reveal').forEach(el => ro.observe(el));
@@ -244,7 +228,7 @@
           <div class="station-num">${station.id}</div>
           <h3 class="station-card-title">${station.title || station.name}</h3>
           <p class="station-card-desc">${stationDescriptions[station.id] || ''}</p>
-          <div class="station-rubrik-count">📋 ${station.rubrics.length} Rubrik</div>
+          <div class="station-rubrik-count">${station.rubrics.length} Rubrik</div>
         </div>`;
     });
     stationsGrid.innerHTML = html;
@@ -434,7 +418,7 @@
           ${renderCompetencyDetail(idx, item.name)}
 
           <button class="score-detail-trigger" onclick="window.__toggleDetail(${idx})">
-            📖 Lihat Deskripsi Skor
+            Lihat Deskripsi Skor
           </button>
           <div class="score-detail-panel" id="scoreDetail${idx}">
             ${[0,1,2,3].map(s => `

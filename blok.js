@@ -56,8 +56,8 @@
 
   // ── Mode tabs: Materi / Soal Ujian ──
   const modes = [
-    { id: 'materi', label: '📖 Materi', panel: document.getElementById('panelMateri') },
-    { id: 'soal', label: '📝 Soal Ujian', panel: document.getElementById('panelSoal') }
+    { id: 'materi', label: 'Materi', panel: document.getElementById('panelMateri') },
+    { id: 'soal', label: 'Soal Ujian', panel: document.getElementById('panelSoal') }
   ];
   const tabsEl = document.getElementById('blockModeTabs');
   tabsEl.innerHTML = modes.map(m =>

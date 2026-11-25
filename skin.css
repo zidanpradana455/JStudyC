@@ -1,0 +1,167 @@
+/* ═══════════════════════════════════════════
+   JStudyC — Skin v2 for app pages
+   Loaded last on dashboard / blok / materi /
+   quiz / osce. Re-tunes the existing components
+   to the v2 design system without touching
+   their layout or behaviour.
+   ═══════════════════════════════════════════ */
+
+/* ── Page headings ── */
+.dash-title,
+.quiz-header h1,
+.block-page-header .dash-title {
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+.dash-title { font-size: clamp(2.4rem, 6vw, 4.4rem); }
+.dash-subtitle { font-size: 0.95rem; margin-top: 10px; }
+.section-title { font-weight: 500; }
+.section-hint, .block-panel-intro { color: var(--text-secondary); }
+
+.block-name, .hub-card-title, .materi-quiz-card h3, .block-empty h3 {
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+
+/* Mono micro-labels everywhere */
+.progress-label, .unit-group-title, .unit-code, .patch-kicker,
+.block-badge, .lecture-badge, .question-num-badge, .hub-chip,
+.unit-status, .patch-item-category, .patch-release-category,
+.patch-modal-label, .tracker-label, .sidebar-title, .year-card .year-info,
+.station-rubrik-count, .scenario-badge, .rubrik-item-bobot {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.hub-chip, .unit-status, .block-badge, .lecture-badge, .question-num-badge { font-size: 0.66rem; }
+
+/* ── Buttons & tabs: sharper, mono ── */
+.patch-detail-btn, .dashboard-mode-tab, .ebm-exam-tab, .exam-tab, .osce-launch-btn,
+.nav-btn, .result-actions button, .sidebar-toggle-btn, .block-mode-tab, .timer-btn,
+.scenario-toggle, .osce-btn-print, .osce-btn-reset, .osce-btn-back, .btn-finish,
+.flag-btn, .materi-toc a {
+  border-radius: var(--radius-sm);
+  font-family: var(--font-mono);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+.dashboard-mode-tabs, .block-mode-tabs { border-radius: var(--radius-md); padding: 4px; gap: 4px; }
+
+.dashboard-mode-tab.active,
+.block-mode-tab.active,
+.exam-tab.active,
+.ebm-exam-tab.active {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+}
+.btn-finish { background: var(--accent); color: var(--accent-contrast); }
+.btn-finish:hover { background: var(--text-primary); color: var(--bg-primary); opacity: 1; }
+.patch-detail-btn:hover, .osce-launch-btn:hover, .nav-btn:hover:not(:disabled) {
+  border-color: var(--accent-ink);
+  color: var(--accent-ink);
+}
+
+/* ── Cards ── */
+.hub-card, .block-card, .unit-card, .progress-card, .year-card, .question-card,
+.sidebar-card, .patch-updates, .station-card {
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--bg-elevated) 70%, transparent);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.hub-card:hover, a.unit-card:hover, .year-card:hover, .progress-card:hover {
+  border-color: var(--accent-ink);
+  background: var(--bg-elevated);
+}
+.hub-card { padding: 26px 26px 22px; gap: 14px; }
+.hub-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 28px; height: 2px;
+  background: var(--accent);
+  transition: width 0.6s var(--ease);
+}
+.hub-card:hover::after { width: 100%; }
+.hub-card--osce::before { display: none; }
+.hub-card-cta {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent-ink);
+}
+.hub-card-title { font-size: 1.6rem; line-height: 1.1; }
+
+/* Progress / trackers use the signal colour */
+.hub-tracker-bar { height: 3px; }
+.hub-tracker-bar div,
+.sidebar-progress-bar,
+.year-card .year-progress-bar,
+.materi-quiz-progress > div,
+.timer-progress-bar { background: var(--accent); }
+
+/* Overall progress tiles: no emoji, numbers lead */
+.progress-icon { display: none; }
+.progress-card { flex-direction: column; align-items: flex-start; gap: 0; padding: 20px 22px; }
+.progress-value {
+  font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.progress-label { order: 2; margin-top: 10px; font-size: 0.66rem; }
+
+.unit-status.is-done { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
+
+/* ── Quiz ── */
+.option-btn { border-radius: var(--radius-md); background: var(--bg-glass); }
+.option-btn:hover:not(.disabled) { border-color: var(--border-hover); }
+.option-btn .option-letter { border-radius: var(--radius-sm); font-family: var(--font-mono); font-weight: 500; }
+.option-btn.selected { border-color: var(--accent-ink); }
+.option-btn.selected .option-letter { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
+.num-btn { font-family: var(--font-mono); font-weight: 500; }
+.num-btn.current { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
+.num-btn.answered { background: var(--bg-glass-hover); border-color: var(--border-hover); }
+.question-text { font-size: 1.1rem; line-height: 1.65; }
+
+/* ── Back link ── */
+.back-link {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.back-link:hover { color: var(--accent-ink); }
+
+/* ── Modals ── */
+.patch-modal, .result-modal-content { border-radius: var(--radius-lg); background: var(--bg-elevated); }
+
+/* Light theme: hard-coded white tints in older rules */
+[data-theme='light'] .option-btn { background: var(--bg-glass); }
+[data-theme='light'] .num-btn.answered { background: var(--bg-glass-hover); border-color: var(--border-hover); }
+[data-theme='light'] .sidebar-progress-bar-wrap { background: var(--border); }
+
+/* Display headings: Geist reads best at medium weight */
+.osce-header .dash-title, .station-card-title, .prestart-modal h2, .scenario-title,
+.score-summary-title, .patch-updates h2, .patch-modal h2, .quiz-header-left h2,
+.result-modal-content h3, .materi-hero h1, .materi-unit-title, .materi-content h2 {
+  font-weight: 500;
+  letter-spacing: -0.035em;
+}
+.osce-header .dash-title, .materi-hero h1 { letter-spacing: -0.05em; }
+.timer-display, .score-total-value, .tracker-value, .year-card .year-num,
+.score-breakdown-item .value, .station-num {
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}
+.station-num { font-family: var(--font-mono); font-weight: 500; }

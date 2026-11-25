@@ -1,7 +1,10 @@
 /* ═══════════════════════════════════════════
    JStudyC — App Logic
-   Particles, Animations, Auth, Mobile Menu
+   Intro, Animations, Auth, Mobile Menu
    ═══════════════════════════════════════════ */
+
+// Intro reveal runs first so the page never waits on the auth SDK.
+requestAnimationFrame(() => requestAnimationFrame(() => document.body.classList.add('is-loaded')));
 
 (async function () {
   'use strict';
@@ -9,133 +12,28 @@
   const backend = window.JStudyCBackend;
   const supabase = backend.supabase;
 
-  // ─── Particle Canvas System ───
-  const canvas = document.getElementById('particle-canvas');
-  const ctx = canvas.getContext('2d');
-  let particles = [];
-  let mouse = { x: null, y: null, radius: 120 };
-  let animId;
-  const PARTICLE_COUNT_DESKTOP = 80;
-  const PARTICLE_COUNT_MOBILE = 35;
-  const CONNECTION_DIST = 140;
-
-  function resizeCanvas() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-  }
-
-  class Particle {
-    constructor() {
-      this.x = Math.random() * canvas.width;
-      this.y = Math.random() * canvas.height;
-      this.size = Math.random() * 1.5 + 0.5;
-      this.speedX = (Math.random() - 0.5) * 0.4;
-      this.speedY = (Math.random() - 0.5) * 0.4;
-      this.opacity = Math.random() * 0.5 + 0.1;
-    }
-    update() {
-      this.x += this.speedX;
-      this.y += this.speedY;
-      if (this.x > canvas.width) this.x = 0;
-      if (this.x < 0) this.x = canvas.width;
-      if (this.y > canvas.height) this.y = 0;
-      if (this.y < 0) this.y = canvas.height;
-      // Mouse interaction
-      if (mouse.x !== null) {
-        const dx = mouse.x - this.x;
-        const dy = mouse.y - this.y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < mouse.radius) {
-          const force = (mouse.radius - dist) / mouse.radius;
-          this.x -= dx * force * 0.015;
-          this.y -= dy * force * 0.015;
-        }
-      }
-    }
-    draw() {
-      ctx.beginPath();
-      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-      const theme = document.documentElement.getAttribute('data-theme');
-      const rgb = theme === 'light' ? '0, 0, 0' : '255, 255, 255';
-      ctx.fillStyle = `rgba(${rgb}, ${this.opacity})`;
-      ctx.fill();
-    }
-  }
-
-  function initParticles() {
-    particles = [];
-    const count = window.innerWidth < 640 ? PARTICLE_COUNT_MOBILE : PARTICLE_COUNT_DESKTOP;
-    for (let i = 0; i < count; i++) {
-      particles.push(new Particle());
-    }
-  }
-
-  function connectParticles() {
-    for (let i = 0; i < particles.length; i++) {
-      for (let j = i + 1; j < particles.length; j++) {
-        const dx = particles[i].x - particles[j].x;
-        const dy = particles[i].y - particles[j].y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < CONNECTION_DIST) {
-          const opacity = (1 - dist / CONNECTION_DIST) * 0.12;
-          ctx.beginPath();
-          ctx.strokeStyle = `rgba(255, 255, 255, ${opacity})`;
-          ctx.lineWidth = 0.5;
-          ctx.moveTo(particles[i].x, particles[i].y);
-          ctx.lineTo(particles[j].x, particles[j].y);
-          ctx.stroke();
-        }
-      }
-    }
-  }
-
-  function animateParticles() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    particles.forEach(p => { p.update(); p.draw(); });
-    connectParticles();
-    animId = requestAnimationFrame(animateParticles);
-  }
-
-  // Check reduced motion
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  if (!prefersReducedMotion) {
-    resizeCanvas();
-    initParticles();
-    animateParticles();
-    window.addEventListener('resize', () => {
-      resizeCanvas();
-      initParticles();
-    });
-    window.addEventListener('mousemove', e => {
-      mouse.x = e.clientX;
-      mouse.y = e.clientY;
-    });
-    window.addEventListener('mouseout', () => {
-      mouse.x = null;
-      mouse.y = null;
-    });
-  }
-
   // ─── Navbar Scroll ───
   const navbar = document.getElementById('navbar');
-  window.addEventListener('scroll', () => {
-    navbar.classList.toggle('scrolled', window.scrollY > 60);
-  });
+  const syncNav = () => navbar.classList.toggle('scrolled', window.scrollY > 60);
+  window.addEventListener('scroll', syncNav, { passive: true });
+  syncNav();
 
   // ─── Mobile Menu ───
   const menuToggle = document.getElementById('menuToggle');
   const navLinks = document.getElementById('navLinks');
 
   menuToggle.addEventListener('click', () => {
-    menuToggle.classList.toggle('active');
-    navLinks.classList.toggle('open');
+    const open = !navLinks.classList.contains('open');
+    menuToggle.classList.toggle('active', open);
+    navLinks.classList.toggle('open', open);
+    document.body.style.overflow = open ? 'hidden' : '';
   });
   // Close on link click
   navLinks.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       menuToggle.classList.remove('active');
       navLinks.classList.remove('open');
+      document.body.style.overflow = '';
     });
   });
 
@@ -354,7 +252,7 @@
     btn.textContent = 'Dashboard';
     btn.onclick = () => { window.location.href = 'dashboard.html'; };
     // Also update hero buttons to go to dashboard
-    document.getElementById('btnHeroStart').textContent = 'Ke Dashboard';
+    document.getElementById('btnHeroStart').innerHTML = 'Ke dashboard <span class="btn-arrow">→</span>';
     document.getElementById('btnHeroStart').onclick = () => { window.location.href = 'dashboard.html'; };
     document.getElementById('btnHeroLogin').textContent = 'Dashboard';
     document.getElementById('btnHeroLogin').onclick = () => { window.location.href = 'dashboard.html'; };
