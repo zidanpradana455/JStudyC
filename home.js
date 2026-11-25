@@ -40,7 +40,7 @@ document.querySelectorAll('.feature-row').forEach(row => {
 /* ── Scroll → scene states ── */
 // xf = fraction of the visible half-width; y in world units.
 const STATES = {
-  hero:     { d: { xf: 0.52, y: 0.10, s: 0.62, morph: 0, jg: 1, op: 1.00 }, m: { xf: 0, y: 1.00, s: 0.40, morph: 0, jg: 1, op: 0.90 } },
+  hero:     { d: { xf: 0.52, y: 0.10, s: 0.62, morph: 0, jg: 1, op: 1.00 }, m: { xf: 0, y: 0.98, s: 0.45, morph: 0, jg: 1, op: 0.95 } },
   features: { d: { xf: 0.92, y: 0.00, s: 0.70, morph: 0, jg: 1, op: 0.22 }, m: { xf: 0, y: 0.20, s: 0.45, morph: 0, jg: 1, op: 0.16 } },
   how:      { d: { xf: 0.50, y: -0.05, s: 0.84, morph: 1, jg: 0, op: 1.00 }, m: { xf: 0, y: 0.00, s: 0.70, morph: 1, jg: 0, op: 0.26 } },
   stats:    { d: { xf: 0.00, y: 0.00, s: 1.25, morph: 1, jg: 0, op: 0.16 }, m: { xf: 0, y: 0.00, s: 0.90, morph: 1, jg: 0, op: 0.14 } },
@@ -238,7 +238,7 @@ void main(){
 }`;
 
 /* ── Geometry ── */
-function buildGeometry(THREE, count) {
+function buildGeometry(THREE, count, glyphs) {
   const nucleusShare = 0.18;
   const K = Math.floor(count * nucleusShare); // nucleus → helix rungs
   const M = count - K;                         // membrane → helix strands
@@ -288,7 +288,7 @@ function buildGeometry(THREE, count) {
     ], i * 3);
     typ[i] = 1;
   }
-  const jog = buildJoglo(count, M);
+  const jog = buildJoglo(count, M, glyphs);
   for (let i = 0; i < count; i++) rnd.set([Math.random(), Math.random(), Math.random(), Math.random()], i * 4);
 
   const g = new THREE.BufferGeometry();
@@ -303,9 +303,10 @@ function buildGeometry(THREE, count) {
 
 /* Joglo: tiered hip roof with the characteristic concave flare
    (steep brunjung on top, wide penanggap below), mustaka on the
-   ridge, four saka guru, ten saka pengarak and a stepped bebatur.
+   ridge, four saka guru, ten saka pengarak, a stepped bebatur and
+   the J · S · C lettering on the front, as in the logo.
    Indices < M are neutral points, the rest use the accent colour. */
-function buildJoglo(count, M) {
+function buildJoglo(count, M, glyphs) {
   const out = new Float32Array(count * 3);
   const K = count - M;
   const R = (a, b) => a + Math.random() * (b - a);
@@ -357,13 +358,35 @@ function buildJoglo(count, M) {
                  [-1.85, 0], [1.85, 0]];
   const guru = [[-0.5, -0.4], [0.5, -0.4], [-0.5, 0.4], [0.5, 0.4]];
   const FLOOR = -1.58;
+  const FRONT = 1.27;
+
+  // J · S · C placed between the front saka, S larger and dropping below the rail
+  const letters = glyphs && glyphs.J && glyphs.S && glyphs.C ? [
+    { g: glyphs.J, cx: -1.235, bottom: -1.18, h: 0.5 },
+    { g: glyphs.S, cx: 0, bottom: -1.5, h: 0.86 },
+    { g: glyphs.C, cx: 1.235, bottom: -1.18, h: 0.5 }
+  ] : null;
+  const letterW = letters ? letters.map(l => l.h * l.h) : null;   // weight by area
+  const letterSum = letterW ? letterW.reduce((a, b) => a + b, 0) : 0;
+  const letter = () => {
+    let r = Math.random() * letterSum, k = 0;
+    while (k < letterW.length - 1 && r > letterW[k]) { r -= letterW[k]; k++; }
+    const L = letters[k], pts = L.g.pts;
+    const q = pts[(Math.random() * pts.length) | 0];
+    const sc = L.h / L.g.h;
+    return [L.cx + (q[0] + Math.random() - L.g.w / 2) * sc, L.bottom + (L.g.h - q[1] - Math.random()) * sc, FRONT + R(-0.01, 0.01)];
+  };
 
   for (let i = 0; i < M; i++) {
     const f = i / M;
     let p;
     if (f < 0.58) p = roofSurface();
     else if (f < 0.64) p = ring(BREAK);
-    else if (f < 0.78) { const o = outer[i % outer.length]; p = pillar(o[0], o[1], FLOOR, -0.42, 0.035); }
+    else if (f < 0.75) { const o = outer[i % outer.length]; p = pillar(o[0], o[1], FLOOR, -0.42, 0.035); }
+    else if (f < 0.78) {        // blandar + rail framing the letters (rail breaks for the S)
+      if (Math.random() < 0.5) p = [R(-1.85, 1.85), -0.5, FRONT];
+      else { const x = R(0.42, 1.85) * (Math.random() < 0.5 ? -1 : 1); p = [x, -1.3, FRONT]; }
+    }
     else if (Math.random() < 0.5) p = box(2.2, 1.5, -1.7, FLOOR);
     else p = box(2.45, 1.75, -1.85, -1.7);
     put(i, p[0], p[1], p[2]);
@@ -371,12 +394,15 @@ function buildJoglo(count, M) {
   for (let j = 0; j < K; j++) {
     const f = j / K, i = M + j;
     let p;
-    if (f < 0.38) { const g = guru[j % 4]; p = pillar(g[0], g[1], FLOOR, ry(BREAK), 0.045); }
-    else if (f < 0.62) p = ring(1);
-    else if (f < 0.82) {        // hip lines down the four corners
+    const L = letters ? 0.3 : 0;   // share of accent points spent on J · S · C
+    const g2 = v => L + v * (1 - L);
+    if (f < L) p = letter();
+    else if (f < g2(0.38)) { const g = guru[j % 4]; p = pillar(g[0], g[1], FLOOR, ry(BREAK), 0.045); }
+    else if (f < g2(0.62)) p = ring(1);
+    else if (f < g2(0.82)) {        // hip lines down the four corners
       const s = Math.random(), sx = j % 2 ? 1 : -1, sz = (j >> 1) % 2 ? 1 : -1;
       p = [sx * ex(s), ry(s), sz * ez(s)];
-    } else if (f < 0.92) p = [R(-0.45, 0.45), Y_TOP, 0];   // molo (ridge)
+    } else if (f < g2(0.92)) p = [R(-0.45, 0.45), Y_TOP, 0];   // molo (ridge)
     else {                       // mustaka: finials at the ridge ends + centre
       const c = [-0.45, 0, 0.45][j % 3], h = c === 0 ? 0.32 : 0.2, t = Math.random();
       p = [c + R(-0.04, 0.04) * (1 - t), Y_TOP + t * h, R(-0.04, 0.04) * (1 - t)];
@@ -384,6 +410,47 @@ function buildJoglo(count, M) {
     put(i, p[0], p[1], p[2]);
   }
   return out;
+}
+
+/* Rasterise J, S, C with the site's serif and keep the filled pixels. */
+async function sampleGlyphs() {
+  const family = '"Instrument Serif", Georgia, "Times New Roman", serif';
+  try {
+    if (document.fonts && document.fonts.load) {
+      await Promise.race([
+        document.fonts.load('400 200px "Instrument Serif"', 'JSC'),
+        new Promise(r => setTimeout(r, 1500))
+      ]);
+    }
+  } catch (e) { /* fall back to Georgia */ }
+  try {
+    const out = {};
+    for (const ch of ['J', 'S', 'C']) {
+      const c = document.createElement('canvas');
+      c.width = c.height = 260;
+      const x = c.getContext('2d', { willReadFrequently: true });
+      x.fillStyle = '#000';
+      x.font = `400 200px ${family}`;
+      x.textAlign = 'center';
+      x.textBaseline = 'middle';
+      x.fillText(ch, 130, 140);
+      const d = x.getImageData(0, 0, 260, 260).data;
+      const raw = [];
+      let x0 = 1e9, y0 = 1e9, x1 = -1, y1 = -1;
+      for (let y = 0; y < 260; y++) for (let xx = 0; xx < 260; xx++) {
+        if (d[(y * 260 + xx) * 4 + 3] > 140) {
+          raw.push([xx, y]);
+          if (xx < x0) x0 = xx;
+          if (xx > x1) x1 = xx;
+          if (y < y0) y0 = y;
+          if (y > y1) y1 = y;
+        }
+      }
+      if (raw.length < 50) return null;
+      out[ch] = { pts: raw.map(p => [p[0] - x0, p[1] - y0]), w: x1 - x0 + 1, h: y1 - y0 + 1 };
+    }
+    return out;
+  } catch (e) { return null; }
 }
 
 /* ── Boot ── */
@@ -425,7 +492,7 @@ async function boot() {
   camera.position.set(0, 0, 9);
 
   const count = small() || coarse ? 11000 : 26000;
-  const geometry = buildGeometry(THREE, count);
+  const geometry = buildGeometry(THREE, count, await sampleGlyphs());
 
   const uniforms = {
     uTime: { value: 0 },
