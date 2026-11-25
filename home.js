@@ -1,9 +1,11 @@
 /* ═══════════════════════════════════════════
    JStudyC — Homepage WebGL scene (three.js)
-   A point-cloud cell (membrane + nucleus) that
-   reacts to the cursor, beats at ~72 bpm, ripples
-   on click, and morphs into a DNA double helix
-   as the "Cara kerja" section scrolls into view.
+   One point cloud, three forms along the scroll:
+   a joglo (the Javanese house of the JStudyC logo)
+   in the hero → a DNA double helix for "Cara kerja"
+   → a living cell (membrane + nucleus) at the CTA.
+   It reacts to the cursor, beats at ~72 bpm and
+   ripples on click.
    ═══════════════════════════════════════════ */
 
 const THREE_URL = 'https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js';
@@ -38,11 +40,11 @@ document.querySelectorAll('.feature-row').forEach(row => {
 /* ── Scroll → scene states ── */
 // xf = fraction of the visible half-width; y in world units.
 const STATES = {
-  hero:     { d: { xf: 0.44, y: -0.12, s: 0.92, morph: 0, op: 1.00 }, m: { xf: 0, y: 1.05, s: 0.55, morph: 0, op: 0.80 } },
-  features: { d: { xf: 0.95, y: 0.00, s: 0.95, morph: 0, op: 0.20 }, m: { xf: 0, y: 0.20, s: 0.62, morph: 0, op: 0.16 } },
-  how:      { d: { xf: 0.50, y: -0.05, s: 0.84, morph: 1, op: 1.00 }, m: { xf: 0, y: 0.00, s: 0.70, morph: 1, op: 0.26 } },
-  stats:    { d: { xf: 0.00, y: 0.00, s: 2.10, morph: 0, op: 0.20 }, m: { xf: 0, y: 0.00, s: 1.20, morph: 0, op: 0.16 } },
-  cta:      { d: { xf: 0.72, y: -0.55, s: 0.72, morph: 0, op: 0.45 }, m: { xf: 0, y: 0.40, s: 0.60, morph: 0, op: 0.30 } }
+  hero:     { d: { xf: 0.52, y: 0.10, s: 0.62, morph: 0, jg: 1, op: 1.00 }, m: { xf: 0, y: 1.00, s: 0.40, morph: 0, jg: 1, op: 0.90 } },
+  features: { d: { xf: 0.92, y: 0.00, s: 0.70, morph: 0, jg: 1, op: 0.22 }, m: { xf: 0, y: 0.20, s: 0.45, morph: 0, jg: 1, op: 0.16 } },
+  how:      { d: { xf: 0.50, y: -0.05, s: 0.84, morph: 1, jg: 0, op: 1.00 }, m: { xf: 0, y: 0.00, s: 0.70, morph: 1, jg: 0, op: 0.26 } },
+  stats:    { d: { xf: 0.00, y: 0.00, s: 1.25, morph: 1, jg: 0, op: 0.16 }, m: { xf: 0, y: 0.00, s: 0.90, morph: 1, jg: 0, op: 0.14 } },
+  cta:      { d: { xf: 0.56, y: 0.00, s: 0.70, morph: 0, jg: 0, op: 1.00 }, m: { xf: 0, y: 1.20, s: 0.46, morph: 0, jg: 0, op: 0.85 } }
 };
 const sections = [...document.querySelectorAll('[data-scene]')];
 let anchors = [];
@@ -142,6 +144,7 @@ float snoise(vec3 v){
 const VERT = /* glsl */`
 uniform float uTime;
 uniform float uMorph;
+uniform float uJoglo;
 uniform float uSize;
 uniform float uPixelRatio;
 uniform float uBeat;
@@ -151,13 +154,16 @@ uniform vec3  uMouse;
 uniform float uMouseStrength;
 uniform vec3  uPulseDir;
 uniform float uPulseAge;
+uniform vec3  uPulsePoint;
 attribute vec3 aHelix;
+attribute vec3 aJoglo;
 attribute vec4 aRand;
 attribute float aType;
 varying float vAlpha;
 varying float vMix;
 ${NOISE}
 mat3 rotY(float a){float c=cos(a),s=sin(a);return mat3(c,0.,-s, 0.,1.,0., s,0.,c);}
+mat3 rotX(float a){float c=cos(a),s=sin(a);return mat3(1.,0.,0., 0.,c,s, 0.,-s,c);}
 mat3 rotZ(float a){float c=cos(a),s=sin(a);return mat3(c,s,0., -s,c,0., 0.,0.,1.);}
 void main(){
   // ── Cell: membrane + nucleus, breathing with simplex noise
@@ -184,6 +190,22 @@ void main(){
   float m = smoothstep(st, st + 0.55, uMorph);
   vec3 pos = mix(cell, hx, m);
   pos += (aRand.yzw - 0.5) * sin(m * 3.14159) * 1.1;
+
+  // ── Joglo (three-quarter view, seen slightly from above)
+  vec3 jg = aJoglo + 0.012 * vec3(sin(uTime * 1.7 + aRand.z * 50.0), cos(uTime * 1.3 + aRand.w * 50.0), sin(uTime * 1.1 + aRand.x * 50.0));
+  jg = rotX(0.26) * (rotY(-0.62) * jg);
+  jg *= 1.0 + uBeat * 0.012;
+  float st2 = aRand.w * 0.45;
+  float m2 = smoothstep(st2, st2 + 0.55, uJoglo);
+  pos = mix(pos, jg, m2);
+  pos += (aRand.zxy - 0.5) * sin(m2 * 3.14159) * 1.1;
+
+  // ── Click shockwave from the clicked point (every form)
+  vec3 pd = pos - uPulsePoint;
+  float pl = length(pd);
+  float shock = exp(-pow((pl - uPulseAge * 2.4) * 3.0, 2.0)) * exp(-uPulseAge * 1.6);
+  pos += (pd / max(pl, 1e-4)) * shock * 0.22;
+  wave = max(wave * (1.0 - m) * (1.0 - m2), shock);
 
   // ── Cursor: soft repulsion field
   vec3 d = pos - uMouse;
@@ -266,15 +288,102 @@ function buildGeometry(THREE, count) {
     ], i * 3);
     typ[i] = 1;
   }
+  const jog = buildJoglo(count, M);
   for (let i = 0; i < count; i++) rnd.set([Math.random(), Math.random(), Math.random(), Math.random()], i * 4);
 
   const g = new THREE.BufferGeometry();
   g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
   g.setAttribute('aHelix', new THREE.BufferAttribute(hel, 3));
+  g.setAttribute('aJoglo', new THREE.BufferAttribute(jog, 3));
   g.setAttribute('aRand', new THREE.BufferAttribute(rnd, 4));
   g.setAttribute('aType', new THREE.BufferAttribute(typ, 1));
   g.boundingSphere = new THREE.Sphere(new THREE.Vector3(), 4);
   return g;
+}
+
+/* Joglo: tiered hip roof with the characteristic concave flare
+   (steep brunjung on top, wide penanggap below), mustaka on the
+   ridge, four saka guru, ten saka pengarak and a stepped bebatur.
+   Indices < M are neutral points, the rest use the accent colour. */
+function buildJoglo(count, M) {
+  const out = new Float32Array(count * 3);
+  const K = count - M;
+  const R = (a, b) => a + Math.random() * (b - a);
+  const J = 0.014;
+  const put = (i, x, y, z) => out.set([x + R(-J, J), y + R(-J, J), z + R(-J, J)], i * 3);
+
+  const Y_TOP = 1.45, Y_EAVE = -0.32, BREAK = 0.42;
+  const ex = s => 0.45 + 1.85 * Math.pow(s, 1.7);
+  const ez = s => 1.58 * Math.pow(s, 1.7);
+  const ry = s => Y_TOP - (Y_TOP - Y_EAVE) * s;
+  const ring = s => {           // random point on the roof ring at level s
+    const X = ex(s), Z = ez(s), P = 4 * (X + Z);
+    let u = Math.random() * P;
+    if (u < 2 * X) return [u - X, ry(s), Z];
+    u -= 2 * X;
+    if (u < 2 * Z) return [X, ry(s), Z - u];
+    u -= 2 * Z;
+    if (u < 2 * X) return [X - u, ry(s), -Z];
+    u -= 2 * X;
+    return [-X, ry(s), -Z + u];
+  };
+  const maxPerim = 4 * (ex(1) + ez(1));
+  const roofSurface = () => {
+    for (;;) {
+      const s = Math.random();
+      if (Math.random() < (4 * (ex(s) + ez(s))) / maxPerim) return ring(s);
+    }
+  };
+  const pillar = (x, z, y0, y1, r) => {
+    const a = Math.random() * Math.PI * 2;
+    return [x + Math.cos(a) * r, R(y0, y1), z + Math.sin(a) * r];
+  };
+  const box = (hx, hz, y0, y1) => {   // top face sparse, edges dense
+    const k = Math.random();
+    if (k < 0.35) return [R(-hx, hx), y1, R(-hz, hz)];
+    const y = k < 0.7 ? y1 : (k < 0.85 ? y0 : R(y0, y1));
+    const P = 4 * (hx + hz); let u = Math.random() * P;
+    if (u < 2 * hx) return [u - hx, y, hz];
+    u -= 2 * hx;
+    if (u < 2 * hz) return [hx, y, hz - u];
+    u -= 2 * hz;
+    if (u < 2 * hx) return [hx - u, y, -hz];
+    u -= 2 * hx;
+    return [-hx, y, -hz + u];
+  };
+
+  const outer = [[-1.85, -1.25], [-0.62, -1.25], [0.62, -1.25], [1.85, -1.25],
+                 [-1.85, 1.25], [-0.62, 1.25], [0.62, 1.25], [1.85, 1.25],
+                 [-1.85, 0], [1.85, 0]];
+  const guru = [[-0.5, -0.4], [0.5, -0.4], [-0.5, 0.4], [0.5, 0.4]];
+  const FLOOR = -1.58;
+
+  for (let i = 0; i < M; i++) {
+    const f = i / M;
+    let p;
+    if (f < 0.58) p = roofSurface();
+    else if (f < 0.64) p = ring(BREAK);
+    else if (f < 0.78) { const o = outer[i % outer.length]; p = pillar(o[0], o[1], FLOOR, -0.42, 0.035); }
+    else if (Math.random() < 0.5) p = box(2.2, 1.5, -1.7, FLOOR);
+    else p = box(2.45, 1.75, -1.85, -1.7);
+    put(i, p[0], p[1], p[2]);
+  }
+  for (let j = 0; j < K; j++) {
+    const f = j / K, i = M + j;
+    let p;
+    if (f < 0.38) { const g = guru[j % 4]; p = pillar(g[0], g[1], FLOOR, ry(BREAK), 0.045); }
+    else if (f < 0.62) p = ring(1);
+    else if (f < 0.82) {        // hip lines down the four corners
+      const s = Math.random(), sx = j % 2 ? 1 : -1, sz = (j >> 1) % 2 ? 1 : -1;
+      p = [sx * ex(s), ry(s), sz * ez(s)];
+    } else if (f < 0.92) p = [R(-0.45, 0.45), Y_TOP, 0];   // molo (ridge)
+    else {                       // mustaka: finials at the ridge ends + centre
+      const c = [-0.45, 0, 0.45][j % 3], h = c === 0 ? 0.32 : 0.2, t = Math.random();
+      p = [c + R(-0.04, 0.04) * (1 - t), Y_TOP + t * h, R(-0.04, 0.04) * (1 - t)];
+    }
+    put(i, p[0], p[1], p[2]);
+  }
+  return out;
 }
 
 /* ── Boot ── */
@@ -321,6 +430,7 @@ async function boot() {
   const uniforms = {
     uTime: { value: 0 },
     uMorph: { value: 0 },
+    uJoglo: { value: 0 },
     uSize: { value: small() ? 26 : 30 },
     uPixelRatio: { value: renderer.getPixelRatio() },
     uBeat: { value: 0 },
@@ -330,6 +440,7 @@ async function boot() {
     uMouseStrength: { value: 0 },
     uPulseDir: { value: new THREE.Vector3(0, 1, 0) },
     uPulseAge: { value: 99 },
+    uPulsePoint: { value: new THREE.Vector3(0, 0, 0) },
     uColor: { value: new THREE.Color() },
     uAccent: { value: new THREE.Color() },
     uOpacity: { value: 1 }
@@ -393,6 +504,7 @@ async function boot() {
     // tilt toward the viewer so the ripple starts on the visible face
     dir.z += 0.6; dir.normalize();
     uniforms.uPulseDir.value.copy(dir);
+    uniforms.uPulsePoint.value.copy(p && p.length() < 4 ? p : new THREE.Vector3());
     uniforms.uPulseAge.value = 0;
   });
 
@@ -436,7 +548,10 @@ async function boot() {
     tilt.x += ((recent ? pointer.y * 0.25 : 0) - tilt.x) * 0.04;
     tilt.y += ((recent ? pointer.x * 0.35 : 0) - tilt.y) * 0.04;
     group.rotation.x = -tilt.x;
-    group.rotation.y = t * 0.06 + tilt.y;
+    // slow drift, eased back to a fixed three-quarter view for the joglo
+    let drift = (t * 0.06) % (Math.PI * 2);
+    if (drift > Math.PI) drift -= Math.PI * 2;
+    group.rotation.y = drift * (1 - cur.jg) + Math.sin(t * 0.25) * 0.12 * cur.jg + tilt.y;
 
     const lm = pointerLocal();
     if (lm) uniforms.uMouse.value.copy(lm);
@@ -446,6 +561,7 @@ async function boot() {
     uniforms.uAgitate.value += (agitateTarget - uniforms.uAgitate.value) * 0.05;
     uniforms.uTime.value = t;
     uniforms.uMorph.value = cur.morph;
+    uniforms.uJoglo.value = cur.jg;
     uniforms.uOpacity.value = cur.op;
     uniforms.uSpin.value = t * 0.45;
     uniforms.uBeat.value = reduceMotion ? 0 : heartbeat(dt, now / 1000);
