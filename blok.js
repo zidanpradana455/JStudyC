@@ -24,6 +24,15 @@
   const progress = await Progress.load(supabase, user);
   const materi = entry.materi ? (window.MATERI_DATA || {})[entry.materi.id] : null;
 
+  // Lectures (EL/IS/PD) are listed together in numeric order; practicals stay in their own group.
+  function groupUnits(list) {
+    const num = u => (u.code.match(/(\d+)\.(\d+)/) || [0, 0, 0]).slice(1).map(Number);
+    const sorted = [...list].sort((a, b) => { const x = num(a), y = num(b); return x[0] - y[0] || x[1] - y[1]; });
+    const isPractical = u => u.practical || /^PS\b/.test(u.code);
+    return [['Lecture', sorted.filter(u => !isPractical(u))], ['Praktikum', sorted.filter(isPractical)]]
+      .filter(([, items]) => items.length);
+  }
+
   function escapeHTML(value) {
     return String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   }
@@ -94,11 +103,9 @@
       <p>Rangkuman per lecture untuk ${escapeHTML(entry.badge)} sedang disiapkan. Sementara itu, gunakan tab Soal Ujian.</p>
     </div>`;
   } else {
-    const groups = {};
-    materi.units.forEach(u => { (groups[u.kind] = groups[u.kind] || []).push(u); });
     const ready = materi.units.filter(u => u.available).length;
     panelMateri.innerHTML = `<p class="block-panel-intro">${ready} dari ${materi.units.length} lecture sudah tersedia. Setiap materi berisi rangkuman bergambar dan 10 soal latihan tipe Cumex.</p>` +
-      Object.entries(groups).map(([kind, units]) => `
+      groupUnits(materi.units).map(([kind, units]) => `
         <div class="unit-group">
           <h2 class="unit-group-title">${escapeHTML(kind)}</h2>
           <div class="unit-grid">${units.map(u => {
