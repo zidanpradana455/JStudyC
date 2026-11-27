@@ -30,6 +30,18 @@
   // ── Patch updates ──
   const PATCH_UPDATES = [
     {
+      id: 'materi-blok-ii-6-modul-2-2026-11-27',
+      category: 'Materi',
+      date: '27 Nov 2026',
+      title: 'Materi Blok II.6 Modul 2 (2.1–2.8)',
+      summary: 'Delapan lecture Modul 2 kini tersedia: rangkuman bergambar dan 10 soal latihan tipe Cumex per lecture.',
+      highlights: [
+        'EL 2.1 Dispnea & Takipnea, IS 2.2 Hipoksemia/Hipoksia, IS 2.3 Gangguan Pertukaran Gas, EL 2.4 Kanker Paru.',
+        'IS 2.5 Gagal Napas Neurogenik Sentral, IS 2.6 Dispnea pada Penyakit Neurologis, PD 2.7 ARDS, IS 2.8 Pneumotoraks, Efusi Pleura & Hemotoraks.',
+        'Daftar materi kini dikelompokkan per modul: lecture diurutkan sesuai nomor, praktikum dipisah.'
+      ]
+    },
+    {
       id: 'dashboard-per-blok-materi-2026-11-19',
       category: 'Fitur Baru',
       date: '19 Nov 2026',

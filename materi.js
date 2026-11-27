@@ -147,13 +147,19 @@
   }
 
   // ── Sidebar ──
-  // Lectures (EL/IS/PD) are listed together in numeric order; practicals stay in their own group.
+  // Grouped per module; lectures (EL/IS/PD) in numeric order, practicals in their own group.
   function groupUnits(list) {
     const num = u => (u.code.match(/(\d+)\.(\d+)/) || [0, 0, 0]).slice(1).map(Number);
     const sorted = [...list].sort((a, b) => { const x = num(a), y = num(b); return x[0] - y[0] || x[1] - y[1]; });
     const isPractical = u => u.practical || /^PS\b/.test(u.code);
-    return [['Lecture', sorted.filter(u => !isPractical(u))], ['Praktikum', sorted.filter(isPractical)]]
-      .filter(([, items]) => items.length);
+    // Per module: its lectures first, then its practicals (sorted is module-first, so Map order follows).
+    const groups = new Map();
+    sorted.forEach(u => {
+      const m = num(u)[0];
+      [`Modul ${m} · Lecture`, `Modul ${m} · Praktikum`].forEach(k => groups.has(k) || groups.set(k, []));
+      groups.get(`Modul ${m} · ${isPractical(u) ? 'Praktikum' : 'Lecture'}`).push(u);
+    });
+    return [...groups].filter(([, items]) => items.length);
   }
   const sidebar = document.getElementById('materiNav');
   function renderSidebar(activeSlug) {

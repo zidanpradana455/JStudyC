@@ -1,0 +1,123 @@
+[
+  {
+    "question": "Seorang laki-laki 41 tahun dengan miastenia gravis berhenti minum obat selama 2 minggu, lalu batuk, demam, dan sesak. RR 26×/menit, SpO₂ 97% dengan nasal kanul 2 L/menit, sadar, ptosis bilateral. AGD: pH 7,20; PaCO₂ 66 mmHg; PaO₂ 90 mmHg; HCO₃⁻ 20 mmol/L. Penilaian yang paling tepat adalah?",
+    "options": [
+      "Tidak ada gagal napas karena SpO₂ 97%",
+      "Krisis miastenik dengan gagal napas tipe II; perlu intubasi dan ventilasi mekanik",
+      "Gagal napas tipe I akibat pneumonia",
+      "Alkalosis respiratorik akibat hiperventilasi cemas",
+      "Asidosis metabolik murni akibat sepsis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "pH 7,20 dengan PaCO₂ 66 mmHg adalah asidosis respiratorik akut (gagal napas tipe II) karena kegagalan pompa napas akibat krisis miastenik yang dipicu infeksi dan penghentian obat. SpO₂ dan PaO₂ normal karena pasien mendapat O₂; oksigen memperbaiki oksigenasi tetapi tidak mengoreksi ventilasi, sehingga saturasi normal tidak menyingkirkan hiperkapnia. Pasien juga memiliki tanda bulbar dan dugaan pneumonia, sehingga rencananya intubasi dan ventilasi mekanik. Gagal napas tipe I membutuhkan PaO₂ < 60 dengan PaCO₂ normal/rendah."
+  },
+  {
+    "question": "Seorang perempuan 66 tahun dengan perdarahan hemisfer bilateral menunjukkan pola napas yang kedalamannya meningkat bertahap lalu menurun bertahap, diikuti periode apnea, berulang secara siklik. Pola napas ini adalah?",
+    "options": [
+      "Napas apneustik",
+      "Napas ataksik (Biot)",
+      "Kussmaul",
+      "Hiperventilasi neurogenik sentral",
+      "Cheyne–Stokes"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Cheyne–Stokes adalah pola crescendo–decrescendo yang bergantian dengan apnea, khas disfungsi hemisfer bilateral atau diensefalon (stroke luas, cedera otak), tetapi juga sering pada gagal jantung dan tidur di ketinggian. Napas apneustik berupa inspirasi memanjang dengan jeda akhir inspirasi (lesi pons). Ataksik/Biot berupa frekuensi dan kedalaman ireguler tak terduga (lesi medula, prognosis buruk). Hiperventilasi neurogenik sentral adalah napas cepat-dalam menetap dengan hipokapnia. Kussmaul adalah napas dalam teratur sebagai kompensasi asidosis metabolik."
+  },
+  {
+    "question": "Seorang laki-laki 55 tahun dengan infark pons kaudal menunjukkan inspirasi yang sangat panjang dengan jeda di akhir inspirasi sebelum ekspirasi singkat. Penjelasan fisiologis yang paling tepat adalah?",
+    "options": [
+      "Kerusakan kemoreseptor perifer di badan karotis",
+      "Asidosis metabolik berat",
+      "Kerusakan nervus frenikus C3–C5",
+      "Hilangnya modulasi pontin (parabrakial/Kölliker-Fuse) yang mengakhiri inspirasi",
+      "Kerusakan korteks motorik bilateral"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Jaringan pontin (parabrakial/Kölliker-Fuse, dahulu disebut pusat pneumotaksik) memodulasi transisi fase inspirasi ke ekspirasi. Lesi pons mid–kaudal menghilangkan mekanisme yang mengakhiri inspirasi sehingga timbul napas apneustik: inspirasi memanjang dengan jeda akhir inspirasi. Kerusakan kemoreseptor perifer mengurangi respons terhadap hipoksemia. Lesi n. frenikus menyebabkan kelemahan diafragma. Asidosis metabolik menyebabkan napas Kussmaul. Lesi korteks bilateral lebih dikaitkan dengan Cheyne–Stokes."
+  },
+  {
+    "question": "Seorang laki-laki 72 tahun dengan perdarahan serebelum masif memiliki TD 210/110 mmHg, nadi 46×/menit, dan napas lambat ireguler. Kesadarannya cepat menurun. Interpretasi temuan ini dan tindakan yang tepat adalah?",
+    "options": [
+      "Krisis hipertensi primer; berikan antihipertensi oral dan observasi",
+      "Blok AV derajat tinggi; pasang pacu jantung sementara saja",
+      "Napas Kussmaul akibat asidosis metabolik; berikan bikarbonat",
+      "Hiperventilasi neurogenik sentral; berikan sedasi",
+      "Trias Cushing yang menandakan hipertensi intrakranial berat dan ancaman herniasi; amankan jalan napas dan turunkan TIK segera"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Hipertensi, bradikardia, dan napas ireguler adalah trias Cushing, tanda peringatan hipertensi intrakranial berat dan herniasi batang otak yang mengancam (bukan gangguan ritme napas primer). Tindakan harus segera: amankan jalan napas (intubasi), ventilasi terkontrol, posisi kepala, terapi osmotik, dan konsultasi bedah saraf untuk dekompresi; hipokapnia ringan singkat dapat dipakai sebagai penyelamat sementara. Menganggapnya krisis hipertensi atau blok AV murni akan melewatkan penyebabnya. Napas Kussmaul dan hiperventilasi neurogenik sentral tidak menjelaskan bradipnea ireguler ini."
+  },
+  {
+    "question": "Seorang perempuan 30 tahun ditemukan tidak sadar dengan RR 5×/menit, napas dangkal, pupil pinpoint, tetapi tampak tenang tanpa otot bantu napas. Seorang laki-laki 30 tahun lain dengan GBS bernapas 32×/menit dangkal dengan napas paradoksal dan batuk lemah. Pernyataan yang paling tepat mengenai perbedaan kedua pasien adalah?",
+    "options": [
+      "Keduanya gagal napas tipe I dengan A–a gradient melebar",
+      "Pasien kedua tidak berisiko hiperkapnia karena frekuensi napasnya tinggi",
+      "Pasien pertama mengalami disfungsi bulbar, pasien kedua kegagalan drive sentral",
+      "Pasien pertama mengalami kegagalan drive sentral (tampak nyaman, bradipnea), pasien kedua gagal pompa neuromuskular (cepat-dangkal, distres)",
+      "Keduanya cukup diberi O₂ tanpa evaluasi ventilasi"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kegagalan drive sentral (mis. toksisitas opioid, stroke medula) ditandai bradipnea/apnea atau ritme ireguler, dan pasien sering tampak nyaman tanpa distres meskipun PaCO₂ naik. Gagal napas neuromuskular (GBS, miastenia, ALS) ditandai napas cepat-dangkal dengan tanda distres seperti otot bantu dan napas paradoksal, batuk lemah, dan PaCO₂ yang sering naik terlambat. Napas cepat-dangkal tetap dapat menyebabkan hiperkapnia karena ventilasi alveolar rendah. Keduanya terutama gagal napas tipe II, sehingga O₂ saja tidak cukup; ventilasi harus dinilai dengan AGD/EtCO₂."
+  },
+  {
+    "question": "Seorang laki-laki 35 tahun dengan cedera otak traumatik berat terintubasi. AGD: PaCO₂ 58 mmHg dan monitor TIK menunjukkan peningkatan. Mekanisme hubungan PaCO₂ dengan TIK dan target ventilasi default yang tepat adalah?",
+    "options": [
+      "Hiperkapnia menyebabkan vasokonstriksi serebral; target PaCO₂ 50–60 mmHg",
+      "Hipokapnia berat jangka panjang (PaCO₂ 20–25 mmHg) adalah target rutin untuk semua cedera otak",
+      "Hiperkapnia menyebabkan vasodilatasi serebral sehingga volume darah otak dan TIK meningkat; target default normokapnia 35–45 mmHg",
+      "PaCO₂ tidak memengaruhi aliran darah otak",
+      "Hiperkapnia menurunkan TIK dengan meningkatkan drainase vena"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CO₂ adalah vasodilator serebral kuat: hiperkapnia menyebabkan vasodilatasi, menambah volume darah otak, dan meningkatkan TIK. Sebaliknya, hipokapnia menyebabkan vasokonstriksi dan penurunan aliran darah otak yang berisiko iskemia. Karena itu target default pada cedera otak akut adalah normokapnia (PaCO₂ 35–45 mmHg); hipokapnia ringan dan singkat hanya dipakai sebagai penyelamat pada ancaman herniasi atau krisis TIK. Setiap perubahan setting ventilator harus diikuti pemantauan PaCO₂/EtCO₂."
+  },
+  {
+    "question": "Seorang perempuan 45 tahun mengalami perdarahan subaraknoid. Beberapa jam kemudian ia tiba-tiba sesak, SpO₂ turun, ronki basah bilateral, dan foto toraks menunjukkan edema paru bilateral. Ekokardiografi awal tidak menunjukkan gagal jantung sebelumnya. Mekanisme yang paling mungkin adalah?",
+    "options": [
+      "Kegagalan drive napas sentral",
+      "Edema paru neurogenik akibat lonjakan katekolamin dan aktivasi simpatis",
+      "Aspirasi isi lambung pada saat kejang",
+      "Emboli paru akibat imobilisasi",
+      "Overload cairan akibat terapi osmotik"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Edema paru neurogenik terjadi setelah cedera SSP akut seperti SAH, TBI, atau kejang. Lonjakan katekolamin dan aktivasi simpatis masif meningkatkan tekanan hidrostatik pulmoner dan menyebabkan cedera endotel, sehingga timbul edema paru akut dan gangguan pertukaran gas (hipoksemia). Ini adalah komplikasi paru sekunder yang tidak boleh dikira kegagalan drive sentral, karena masalahnya ada di paru, bukan di pusat napas. Aspirasi, emboli paru, dan overload cairan mungkin terjadi, tetapi onset beberapa jam setelah SAH dengan edema bilateral paling sesuai edema paru neurogenik."
+  },
+  {
+    "question": "Perhatikan tabel perbandingan berikut. Seorang laki-laki 62 tahun dengan stroke batang otak sadar tetapi sering tersedak saat minum, suaranya sengau, dan tampak sekret menumpuk di orofaring. RR 18×/menit, PaCO₂ 42 mmHg. Mekanisme gangguan respirasi utama pasien ini adalah?",
+    "options": [
+      "Disfungsi bulbar dengan gangguan proteksi dan pembersihan jalan napas",
+      "Gagal napas neuromuskular",
+      "Kegagalan drive sentral",
+      "Hiperventilasi neurogenik sentral",
+      "Tidak ada gangguan respirasi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Disfungsi bulbar (saraf kranial IX, X, XII dan nukleus ambiguus) mengganggu menelan, batuk, dan proteksi jalan napas, ditandai tersedak, suara sengau, dan sekret yang menumpuk, dengan pola napas dan PaCO₂ yang bervariasi. Risiko utamanya adalah aspirasi dan obstruksi jalan napas, sehingga pasien perlu penilaian menelan, suction, positioning, dan intubasi bila proteksi tidak adekuat; NIV harus hati-hati pada disfungsi bulbar. Kegagalan drive sentral ditandai bradipnea/apnea, sedangkan gagal neuromuskular ditandai napas cepat-dangkal dan distres. PaCO₂ normal tidak menyingkirkan risiko aspirasi.",
+    "image": "assets/materi/blok2.6/is-2-5/sentral-vs-perifer.jpg"
+  },
+  {
+    "question": "Seorang anak laki-laki 3 bulan dengan mutasi PHOX2B mengalami episode sianosis dan hiperkapnia terutama saat tidur, sementara saat bangun ventilasinya hampir normal. Penjelasan yang paling tepat adalah?",
+    "options": [
+      "Saat tidur terjadi obstruksi jalan napas atas akibat adenoid besar",
+      "Saat tidur, otot diafragma mengalami paralisis total",
+      "Saat tidur, ventilasi bergantung sepenuhnya pada drive otomatis batang otak dan kemorefleks yang terganggu, karena wakefulness drive dan input korteks hilang",
+      "Saat tidur terjadi shunt kanan-ke-kiri akibat PFO",
+      "Saat tidur kemoreseptor perifer menjadi lebih sensitif"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Congenital central hypoventilation syndrome (CCHS) terkait mutasi PHOX2B dan ditandai respons ventilasi yang rendah terhadap hiperkapnia dan hipoksemia akibat gangguan kontrol otonom napas. Saat bangun, wakefulness drive dan input volunter korteks membantu mempertahankan ventilasi; saat tidur, ventilasi bergantung sepenuhnya pada sistem otomatis batang otak dan kemorefleks, sehingga kelainan tersingkap. Penatalaksanaannya meliputi pemantauan CO₂ malam (EtCO₂/TcCO₂), polisomnografi, dan ventilasi suportif (NIV, ventilasi via trakeostomi, pacu diafragma pada pasien terpilih)."
+  },
+  {
+    "question": "Seorang laki-laki 50 tahun dengan stroke batang otak dengan GCS 8, sekret orofaring banyak, dan PaCO₂ 60 mmHg. Residen mengusulkan NIV. Mengapa NIV kurang tepat pada pasien ini?",
+    "options": [
+      "Karena penurunan kesadaran, sekret banyak, dan keterlibatan bulbar membuat pasien tidak mampu mempertahankan jalan napas, yang merupakan kontraindikasi NIV",
+      "Karena NIV hanya untuk gagal napas tipe I",
+      "Karena PaCO₂ 60 mmHg terlalu rendah untuk NIV",
+      "Karena NIV akan menurunkan TIK secara berlebihan",
+      "Karena NIV tidak dapat memberikan PEEP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kontraindikasi NIV mencakup ketidakmampuan mempertahankan jalan napas (koma, gelisah/tidak kooperatif, sekret banyak, obstruksi jalan napas, stroke atau keterlibatan bulbar), hemodinamik tidak stabil, intoleransi masker, gejala GI berat, dan kurangnya personel pemantau. Selain itu, NIV ditujukan untuk distres yang diperkirakan membaik dalam 3 × 24 jam, sedangkan gagal napas neurogenik umumnya tidak. Pasien dengan GCS 8, sekret banyak, dan disfungsi bulbar membutuhkan intubasi endotrakeal dan ventilasi invasif. NIV justru sangat efektif untuk gagal napas hiperkapnik (tipe II) pada pasien sadar dan kooperatif, dan dapat memberikan PEEP/EPAP."
+  }
+]

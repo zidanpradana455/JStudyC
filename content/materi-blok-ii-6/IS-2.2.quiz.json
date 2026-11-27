@@ -1,0 +1,124 @@
+[
+  {
+    "question": "Seorang laki-laki 22 tahun ditemukan somnolen setelah menyuntikkan heroin. RR 6×/menit, pupil pinpoint. AGD udara ruang: pH 7,17; PaCO₂ 70 mmHg; PaO₂ 55 mmHg. Dengan PAO₂ ≈ 150 − PaCO₂/0,8, mekanisme utama hipoksemia pasien ini adalah?",
+    "options": [
+      "V/Q mismatch",
+      "Shunt kanan-ke-kiri",
+      "Penurunan tekanan O₂ inspirasi",
+      "Gangguan difusi",
+      "Hipoventilasi alveolar"
+    ],
+    "correctAnswer": 4,
+    "explanation": "PAO₂ = 150 − 70/0,8 ≈ 62,5 mmHg; A–a gradient ≈ 62,5 − 55 = 7,5 mmHg (normal). Hipoksemia dengan PaCO₂ tinggi dan A–a gradient normal adalah ciri hipoventilasi alveolar, di sini akibat depresi pusat napas oleh opioid. V/Q mismatch, shunt, dan gangguan difusi semuanya meningkatkan A–a gradient. Penurunan PiO₂ (mis. ketinggian) memberi A–a normal tetapi PaCO₂ justru turun karena hiperventilasi. Tatalaksananya adalah memperbaiki ventilasi (nalokson, bantuan napas), karena O₂ saja tidak menurunkan PaCO₂."
+  },
+  {
+    "question": "Seorang perempuan 35 tahun dengan ARDS akibat pneumonia berat sudah terintubasi. Pada FiO₂ 1,0, PaO₂ hanya 58 mmHg. Penjelasan paling tepat untuk respons yang buruk terhadap O₂ 100% adalah?",
+    "options": [
+      "Hipoventilasi alveolar",
+      "Penurunan PiO₂",
+      "Shunt intrapulmoner karena alveolus terisi cairan/kolaps tetapi masih terperfusi",
+      "Gangguan difusi karena penebalan membran",
+      "Anemia sehingga CaO₂ rendah"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pada ARDS, alveolus terisi edema kaya protein atau kolaps namun tetap mendapat aliran darah (V/Q = 0), sehingga darah tersebut melewati paru tanpa teroksigenasi (shunt intrapulmoner). Menaikkan FiO₂ tidak menolong karena O₂ tambahan tidak pernah mencapai darah yang ter-shunt; hal ini makin jelas bila fraksi shunt > 30%. Hipoventilasi, penurunan PiO₂, dan gangguan difusi semuanya membaik nyata dengan O₂ tambahan. Anemia menurunkan CaO₂ tetapi tidak menurunkan PaO₂. Terapinya adalah membuka kembali alveolus (PEEP, posisi prone)."
+  },
+  {
+    "question": "Seorang pendaki sehat 28 tahun di ketinggian 5.000 m merasa sesak. SpO₂ 78%. AGD: PaO₂ 45 mmHg, PaCO₂ 28 mmHg. Pernyataan yang paling tepat mengenai mekanisme hipoksemianya adalah?",
+    "options": [
+      "Penurunan PiO₂ akibat tekanan barometrik rendah, A–a gradient normal dan PaCO₂ turun karena hiperventilasi",
+      "A–a gradient meningkat karena edema paru",
+      "Hipoventilasi alveolar dengan PaCO₂ meningkat",
+      "Shunt anatomis kanan-ke-kiri",
+      "Hipoksia histotoksik karena mitokondria tidak dapat memakai O₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Di ketinggian, FiO₂ tetap 0,21 tetapi tekanan barometrik turun sehingga PiO₂ dan PAO₂ turun. Paru sehat sehingga A–a gradient normal; hipoksemia menstimulasi kemoreseptor perifer → hiperventilasi → PaCO₂ turun (28 mmHg). Hipoventilasi akan menaikkan PaCO₂. Edema paru ketinggian (HAPE) memang dapat terjadi, tetapi tidak ada petunjuk ke arah itu di soal. Shunt kanan-ke-kiri dan hipoksia histotoksik tidak sesuai dengan orang sehat yang membaik dengan O₂ tambahan."
+  },
+  {
+    "question": "Seorang laki-laki 45 tahun dibawa dari kebakaran ruang tertutup dalam keadaan bingung dan sakit kepala. SpO₂ pulse oximetry 99%, PaO₂ 98 mmHg, kulit kemerahan. Jenis hipoksia yang paling mungkin dan alasannya adalah?",
+    "options": [
+      "Hipoksia hipoksik karena PaO₂ turun",
+      "Hipoksia histotoksik murni tanpa perubahan Hb",
+      "Hipoksia stagnan karena curah jantung rendah",
+      "Hipoksia anemik karena karboksihemoglobin menurunkan kapasitas angkut O₂ walaupun PaO₂ normal",
+      "Bukan hipoksia karena SpO₂ dan PaO₂ normal"
+    ],
+    "correctAnswer": 3,
+    "explanation": "CO berikatan dengan Hb sekitar 200–250 kali lebih kuat daripada O₂ membentuk karboksihemoglobin dan menggeser kurva disosiasi ke kiri, sehingga kandungan dan pelepasan O₂ ke jaringan turun walaupun PaO₂ (O₂ terlarut) normal. Ini termasuk hipoksia anemik (PaO₂ normal, kapasitas Hb pembawa O₂ berkurang). Pulse oximetry standar membaca COHb sebagai oksihemoglobin sehingga SpO₂ palsu normal; diperlukan co-oximetry. Terapinya O₂ 100% atau hiperbarik. Hipoksia hipoksik ditandai PaO₂ rendah; stagnan oleh aliran darah rendah; histotoksik oleh kegagalan pemakaian O₂ di sel (mis. sianida, yang juga dapat menyertai inhalasi asap)."
+  },
+  {
+    "question": "Seorang perempuan 58 tahun dengan perdarahan saluran cerna datang dengan Hb 5,8 g/dL. SpO₂ 98%, PaO₂ 96 mmHg, tetapi ia lemas, takikardia, dan laktat meningkat. Berdasarkan rumus CaO₂ = 1,34 × Hb × SaO₂ + 0,003 × PaO₂, intervensi yang paling meningkatkan pengantaran O₂ ke jaringan adalah?",
+    "options": [
+      "Menaikkan FiO₂ sampai PaO₂ 400 mmHg",
+      "Memberikan diuretik",
+      "Memberi bronkodilator",
+      "Menurunkan frekuensi napas",
+      "Transfusi PRC untuk menaikkan Hb"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Lebih dari 98% O₂ dalam darah diangkut terikat Hb. Menaikkan PaO₂ dari 96 ke 400 mmHg hanya menambah O₂ terlarut sekitar 0,003 × 300 ≈ 0,9 mL/dL, sedangkan menaikkan Hb dari 5,8 ke 9 g/dL menambah sekitar 1,34 × 3,2 × 0,98 ≈ 4,2 mL/dL. Karena DO₂ = CO × CaO₂, koreksi Hb (dan volume) jauh lebih efektif. Pasien ini mengalami hipoksia anemik: PaO₂ dan SpO₂ normal tetapi kandungan O₂ rendah. Bronkodilator, penurunan RR, dan diuretik tidak relevan."
+  },
+  {
+    "question": "Seorang laki-laki 62 tahun dengan fibrosis paru idiopatik memiliki SpO₂ 94% saat istirahat tetapi turun menjadi 84% saat berjalan 6 menit. Mekanisme penurunan saturasi saat aktivitas ini adalah?",
+    "options": [
+      "Hipoventilasi karena kelemahan otot napas",
+      "Gangguan difusi yang tersingkap karena waktu transit eritrosit di kapiler memendek saat curah jantung meningkat",
+      "Shunt anatomis yang membuka saat olahraga",
+      "Penurunan PiO₂ saat aktivitas",
+      "Hipoksia histotoksik akibat asidosis laktat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Normalnya eritrosit sudah seimbang dengan PAO₂ dalam sekitar 0,25 detik dari waktu transit kapiler 0,75 detik, sehingga ada cadangan besar. Pada fibrosis, sawar alveolus–kapiler menebal sehingga keseimbangan butuh waktu lebih lama. Saat aktivitas, curah jantung naik dan waktu transit memendek, sehingga keseimbangan tidak tercapai dan hipoksemia muncul; gangguan difusi jarang menyebabkan hipoksemia berat saat istirahat. A–a gradient meningkat, DLCO turun, dan kondisi ini membaik dengan O₂. Tidak ada petunjuk hipoventilasi, shunt anatomis, atau penurunan PiO₂."
+  },
+  {
+    "question": "Seorang perempuan 40 tahun pascaoperasi tiba-tiba sesak dan nyeri dada pleuritik. AGD: PaO₂ 65 mmHg, PaCO₂ 30 mmHg; CT angiografi menunjukkan sumbatan cabang arteri pulmonalis. Area paru distal sumbatan tersebut paling tepat digambarkan sebagai?",
+    "options": [
+      "V/Q = 0 (shunt)",
+      "V/Q tinggi menuju ruang rugi alveolar",
+      "V/Q rendah",
+      "Ruang rugi anatomis",
+      "V/Q normal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Emboli paru menghentikan perfusi pada area yang tetap terventilasi, sehingga V/Q di area tersebut tinggi hingga tak hingga dan menjadi ruang rugi alveolar (ventilasi tanpa pertukaran gas). Hipoksemia pada emboli paru timbul karena aliran darah dialihkan ke area lain yang menjadi relatif low V/Q, penurunan O₂ vena campuran, dan kadang shunt via PFO; PaCO₂ biasanya rendah karena hiperventilasi. Shunt dan V/Q rendah khas alveolus yang tidak terventilasi (atelektasis, pneumonia). Ruang rugi anatomis adalah saluran napas konduksi."
+  },
+  {
+    "question": "Perhatikan skema klasifikasi hipoksia berikut. Seorang pekerja pelapisan logam 35 tahun tiba-tiba kejang dan tidak sadar setelah terpapar uap sianida. PaO₂ 100 mmHg, laktat sangat tinggi, dan saturasi O₂ darah vena sentral 90%. Jenis hipoksia dan temuan khasnya adalah?",
+    "options": [
+      "Hipoksia hipoksik; PvO₂ rendah",
+      "Hipoksia anemik; Hb rendah",
+      "Hipoksia histotoksik; PvO₂ dan SvO₂ tinggi karena jaringan tidak mengambil O₂",
+      "Hipoksia stagnan; selisih O₂ arteri-vena paling besar",
+      "Hipoksia hipoksik; A–a gradient meningkat"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sianida menghambat sitokrom c oksidase mitokondria sehingga sel tidak dapat memakai O₂ walaupun pasokan cukup (hipoksia histotoksik/sitopatik). Karena O₂ tidak diekstraksi, kandungan O₂ vena tetap tinggi (SvO₂ dan PvO₂ tinggi) dan selisih O₂ arteri-vena paling kecil, disertai asidosis laktat berat akibat metabolisme anaerob. Hipoksia hipoksik ditandai PaO₂ rendah; anemik ditandai Hb/CaO₂ rendah; stagnan ditandai aliran darah rendah dengan ekstraksi tinggi sehingga PvO₂ sangat rendah.",
+    "image": "assets/materi/blok2.6/is-2-2/klasifikasi-hipoksia.jpg"
+  },
+  {
+    "question": "Perhatikan diagram spektrum V/Q berikut. Seorang anak 5 tahun pascaoperasi abdomen mengalami kolaps lobus bawah kiri akibat sumbatan mukus, tetapi aliran darah ke lobus tersebut masih ada. Posisi lobus tersebut pada spektrum V/Q adalah?",
+    "options": [
+      "V/Q tak hingga (ruang rugi alveolar)",
+      "V/Q > 1",
+      "V/Q = 1 (normal)",
+      "V/Q = 0 (shunt intrapulmoner)",
+      "Tidak termasuk gangguan V/Q"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Atelektasis membuat alveolus tidak terventilasi sama sekali sementara perfusi tetap ada, sehingga V/Q = 0 dan darah melewati lobus tersebut tanpa teroksigenasi (venous admixture/shunt intrapulmoner). Hipoksemianya sulit dikoreksi dengan O₂ saja; terapinya membuka kembali alveolus (fisioterapi dada, suction, bronkoskopi bila perlu, PEEP). V/Q tak hingga dan V/Q > 1 terjadi bila perfusi hilang/berkurang (mis. emboli paru), bukan ventilasi.",
+    "image": "assets/materi/blok2.6/is-2-2/spektrum-vq.jpg"
+  },
+  {
+    "question": "Seorang perempuan 70 tahun dengan obesity hypoventilation syndrome datang dengan somnolen. SpO₂ 82% udara ruang, PaCO₂ 72 mmHg. Setelah diberi O₂ nasal 4 L/menit, SpO₂ naik menjadi 96% tetapi ia makin mengantuk. Pernyataan yang paling tepat adalah?",
+    "options": [
+      "Oksigen memperbaiki saturasi tetapi tidak memperbaiki hipoventilasi; perlu evaluasi AGD ulang dan bantuan ventilasi (NIV)",
+      "Perbaikan SpO₂ membuktikan masalah ventilasi sudah teratasi",
+      "Penurunan kesadaran disebabkan hipoksemia yang belum terkoreksi",
+      "Pasien perlu FiO₂ yang lebih tinggi agar PaCO₂ turun",
+      "Pulse oximetry cukup untuk memantau PaCO₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pada hipoventilasi, hipoksemia mudah dikoreksi dengan O₂, tetapi PaCO₂ hanya turun bila ventilasi alveolar meningkat. Pemberian O₂ tanpa bantuan ventilasi dapat menutupi (masking) kenaikan PaCO₂ dan narkosis CO₂ yang memburuk, ditandai somnolen yang makin berat. Pulse oximetry tidak dapat menilai CO₂, sehingga diperlukan AGD/EtCO₂ dan bantuan ventilasi seperti NIV. FiO₂ yang lebih tinggi tidak menurunkan PaCO₂, dan saturasi sudah 96% sehingga penurunan kesadaran bukan karena hipoksemia."
+  }
+]

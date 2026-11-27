@@ -1,0 +1,124 @@
+[
+  {
+    "question": "Seorang perempuan 24 tahun dibawa ke IGD karena sesak dan kesemutan di sekitar mulut setelah bertengkar dengan pasangannya. RR 32×/menit, SpO₂ 99% udara ruang, paru vesikuler tanpa ronki maupun wheezing. AGD: pH 7,52; PaCO₂ 26 mmHg; PaO₂ 108 mmHg; HCO₃⁻ 23 mmol/L. Istilah yang paling tepat untuk menggambarkan pola ventilasi pasien ini adalah?",
+    "options": [
+      "Hiperpnea",
+      "Bradipnea",
+      "Hiperventilasi",
+      "Pernapasan Kussmaul",
+      "Pernapasan apneustik"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hiperventilasi didefinisikan sebagai ventilasi alveolar yang melebihi kebutuhan pembuangan CO₂ sehingga PaCO₂ turun; di sini PaCO₂ 26 mmHg dengan pH 7,52 (alkalosis respiratorik akut, HCO₃⁻ belum terkompensasi), khas hiperventilasi psikogenik dengan parestesia perioral. Hiperpnea adalah peningkatan kedalaman/volume napas yang sesuai kebutuhan metabolik sehingga PaCO₂ tetap normal (mis. saat olahraga). Bradipnea adalah frekuensi napas di bawah normal. Kussmaul adalah napas cepat-dalam sebagai kompensasi asidosis metabolik (pH rendah, HCO₃⁻ rendah), bukan alkalosis. Napas apneustik berupa inspirasi memanjang akibat lesi pons."
+  },
+  {
+    "question": "Seorang laki-laki 65 tahun dengan riwayat infark miokard mengeluh sesak yang memberat saat berbaring dan sering terbangun malam karena sesak. Pemeriksaan: JVP meningkat, ronki basah halus di kedua basal paru, edema tungkai. Napasnya cepat dan dangkal. Reseptor yang paling berperan menimbulkan pola napas cepat-dangkal pada kondisi kongesti paru ini adalah?",
+    "options": [
+      "Slow-adapting pulmonary stretch receptor",
+      "J-receptor (juxtacapillary receptor)",
+      "Kemoreseptor sentral di medula ventral",
+      "Metaboreseptor otot rangka",
+      "Reseptor vagal di wajah"
+    ],
+    "correctAnswer": 1,
+    "explanation": "J-receptor (juxtacapillary) terletak di interstisium alveolar dekat kapiler dan teraktivasi oleh kongesti serta edema interstisial paru, menimbulkan napas cepat dan dangkal serta sensasi sesak; inilah mekanisme sesak pada gagal jantung kiri dengan kongesti paru. Slow-adapting stretch receptor mendeteksi peregangan/volume paru dan memperantarai refleks Hering–Breuer. Kemoreseptor sentral mendeteksi CO₂ melalui pH LCS. Metaboreseptor otot rangka mendeteksi metabolit saat aktivitas. Reseptor vagal wajah justru dapat mengurangi persepsi sesak bila diberi aliran udara sejuk."
+  },
+  {
+    "question": "Seorang perempuan 22 tahun dengan asma datang dengan keluhan dada terasa berat dan terhimpit disertai wheezing ekspirasi difus setelah terpapar debu. Kualitas sensasi 'chest tightness' pada pasien ini terutama berasal dari aktivasi?",
+    "options": [
+      "Kemoreseptor perifer akibat hipoksemia",
+      "Reseptor iritan vagal (rapidly adapting receptors dan C-fibre) akibat bronkokonstriksi",
+      "Kemoreseptor sentral akibat hiperkapnia",
+      "Slow-adapting receptors akibat inflasi paru",
+      "Reseptor sendi dinding dada akibat gerakan toraks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sensasi chest tightness (dada berat/terhimpit) dikaitkan dengan bronkokonstriksi yang menstimulasi reseptor iritan saluran napas (rapidly adapting receptors dan C-fibre) yang dibawa nervus vagus. Air hunger terutama berasal dari stimulasi kemoreseptor oleh hiperkapnia (sentral) atau hipoksia (perifer), tetapi pada serangan ringan-sedang PaO₂ dan PaCO₂ sering masih normal. Aktivasi slow-adapting receptors oleh inflasi paru justru memberi rasa lega (dyspnoea relief). Reseptor dinding dada lebih berkaitan dengan sensasi kerja/usaha bernapas."
+  },
+  {
+    "question": "Seorang laki-laki 68 tahun dengan PPOK menyatakan ia berjalan lebih lambat daripada teman sebayanya di jalan datar karena sesak dan kadang harus berhenti untuk mengambil napas saat berjalan dengan kecepatannya sendiri. Ia masih bisa berjalan lebih dari 100 meter tanpa berhenti. Derajat sesak menurut skala mMRC adalah?",
+    "options": [
+      "mMRC 0",
+      "mMRC 1",
+      "mMRC 2",
+      "mMRC 3",
+      "mMRC 4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "mMRC 2: berjalan lebih lambat dibanding orang seusianya di tempat datar karena sesak, atau harus berhenti untuk bernapas saat berjalan dengan kecepatan sendiri. mMRC 0 = sesak hanya saat aktivitas berat; mMRC 1 = sesak saat berjalan cepat di tempat datar atau sedikit menanjak; mMRC 3 = harus berhenti setelah berjalan sekitar 100 meter atau beberapa menit; mMRC 4 = terlalu sesak untuk keluar rumah atau saat berpakaian. Nilai mMRC ≥ 2 menandakan keterbatasan aktivitas yang bermakna."
+  },
+  {
+    "question": "Seorang pendaki 30 tahun tiba di ketinggian 4.000 m dan napasnya menjadi lebih cepat. SpO₂ 84%, PaO₂ diperkirakan 48 mmHg. Struktur yang terutama mendeteksi perubahan ini dan jalur aferennya adalah?",
+    "options": [
+      "Badan karotis dan badan aorta, dibawa melalui CN IX dan CN X ke nukleus traktus solitarius",
+      "Kemoreseptor sentral di medula, mendeteksi penurunan pH LCS",
+      "J-receptor interstisial paru, dibawa melalui nervus frenikus",
+      "Pusat pneumotaksik di pons, melalui traktus kortikospinal",
+      "Reseptor regang lambat di bronkus, melalui nervus interkostalis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kemoreseptor perifer di badan karotis (bifurkasio a. karotis, aferen CN IX) dan badan aorta (arkus aorta, aferen CN X) mendeteksi penurunan PaO₂, dengan aktivasi yang meningkat tajam bila PaO₂ turun di bawah sekitar 60 mmHg; sinyal diteruskan ke nukleus traktus solitarius sehingga ventilasi meningkat. Kemoreseptor sentral terutama merespons CO₂ melalui pH LCS, dan pada hipoksia ketinggian PaCO₂ justru turun. J-receptor merespons edema interstisial. Pusat pneumotaksik membatasi inspirasi dan bukan sensor hipoksia. Nervus frenikus dan interkostalis adalah jalur eferen motorik."
+  },
+  {
+    "question": "Mekanisme kemoreseptor sentral meningkatkan ventilasi saat PaCO₂ naik adalah?",
+    "options": [
+      "CO₂ berdifusi melewati sawar darah otak, bereaksi dengan H₂O membentuk H₂CO₃ yang terdisosiasi menjadi H⁺ sehingga pH LCS turun",
+      "Ion H⁺ dari darah menembus sawar darah otak dan langsung menstimulasi medula",
+      "HCO₃⁻ plasma masuk ke LCS dan menurunkan pH LCS",
+      "Penurunan PaO₂ yang menyertai hiperkapnia menstimulasi medula secara langsung",
+      "CO₂ mengikat hemoglobin dan melepaskan sinyal ke badan karotis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CO₂ larut dalam lemak dan mudah berdifusi melewati sawar darah otak, lalu bereaksi dengan H₂O menjadi H₂CO₃ yang terdisosiasi menjadi H⁺ dan HCO₃⁻; peningkatan H⁺ menurunkan pH LCS dan menstimulasi kemoreseptor sentral di permukaan ventrolateral medula (termasuk nukleus retrotrapezoid), sehingga ventilasi meningkat untuk membuang CO₂. H⁺ dan HCO₃⁻ dari darah tidak mudah menembus sawar darah otak. Kemoreseptor sentral tidak sensitif terhadap hipoksia; deteksi hipoksia adalah fungsi kemoreseptor perifer. CO₂ yang terikat hemoglobin (karbaminohemoglobin) bukan mekanisme sinyal ke badan karotis."
+  },
+  {
+    "question": "Seorang laki-laki 28 tahun dibawa setelah kecelakaan motor dengan sesak hebat. TD 80/50 mmHg, nadi 130×/menit, RR 38×/menit, SpO₂ 82%, trakea terdorong ke kiri, suara napas kanan menghilang, hipersonor di hemitoraks kanan, dan vena leher distensi. Berdasarkan red flag dispnea, langkah yang paling tepat adalah?",
+    "options": [
+      "Foto toraks PA terlebih dahulu untuk konfirmasi",
+      "Nebulisasi salbutamol dan observasi 30 menit",
+      "Ukur skala Borg dan mMRC sebelum menentukan terapi",
+      "Berikan furosemid intravena",
+      "Dekompresi jarum segera pada hemitoraks kanan"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Kombinasi hipotensi, deviasi trakea dengan suara napas unilateral menghilang, hipersonor, dan distensi vena leher adalah red flag yang mengarah ke tension pneumothorax, kondisi yang mengancam nyawa dan didiagnosis secara klinis. Tindakannya adalah dekompresi jarum segera (lalu pemasangan chest tube), tanpa menunggu foto toraks. Salbutamol untuk bronkospasme, furosemid untuk edema paru kardiogenik, dan pengukuran skala sesak tidak relevan dalam kegawatdaruratan dengan syok obstruktif."
+  },
+  {
+    "question": "Perhatikan gambar pola-pola napas berikut. Seorang laki-laki 19 tahun dengan diabetes tipe 1 datang dengan muntah, nyeri perut, dan napas berbau aseton. Gula darah 520 mg/dL, pH 7,08, HCO₃⁻ 6 mmol/L. Pola napas yang paling mungkin ditemukan adalah?",
+    "options": [
+      "Cheyne–Stokes",
+      "Biot",
+      "Kussmaul",
+      "Apneustik",
+      "Bradipnea"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pernapasan Kussmaul berupa napas cepat dan dalam yang teratur, merupakan kompensasi respiratorik terhadap asidosis metabolik berat (di sini ketoasidosis diabetik dengan pH 7,08 dan HCO₃⁻ 6) untuk menurunkan PaCO₂. Cheyne–Stokes berupa siklus crescendo–decrescendo dengan apnea, khas gagal jantung atau peningkatan TIK. Biot berupa napas tidak teratur dengan jeda, pada lesi medula. Apneustik berupa inspirasi memanjang akibat lesi pons. Bradipnea adalah frekuensi napas rendah, berlawanan dengan kebutuhan kompensasi pasien ini.",
+    "image": "assets/materi/blok2.6/el-2-1/pola-napas.jpg"
+  },
+  {
+    "question": "Perhatikan tabel red flag dispnea berikut. Manakah pasien di bawah ini yang menunjukkan red flag dispnea berat sehingga memerlukan stabilisasi segera?",
+    "options": [
+      "Perempuan 30 tahun, RR 22×/menit, SpO₂ 97%, berbicara kalimat penuh",
+      "Laki-laki 55 tahun, sesak saat naik tangga, RR 18×/menit, TD 130/80",
+      "Perempuan 45 tahun, mMRC 1, auskultasi normal",
+      "Anak 6 tahun dengan stridor, RR 44×/menit, gelisah, dan bibir sianosis",
+      "Laki-laki 70 tahun dengan PPOK stabil, SpO₂ 92% saat istirahat"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Red flag dispnea meliputi hipotensi, frekuensi napas > 40×/menit, perubahan status mental, hipoksia, sianosis, stridor, usaha napas tanpa pergerakan udara, deviasi trakea dengan suara napas unilateral, dan aritmia tidak stabil. Anak dengan stridor, RR 44×/menit, gelisah, dan sianosis memenuhi beberapa red flag sekaligus dan menandakan obstruksi jalan napas atas yang berat. Pilihan lain menggambarkan sesak ringan atau kondisi kronik stabil tanpa tanda bahaya; SpO₂ 92% pada PPOK stabil masih dapat diterima.",
+    "image": "assets/materi/blok2.6/el-2-1/red-flag-dispnea.jpg"
+  },
+  {
+    "question": "Seorang pasien dengan kanker paru stadium lanjut mengalami sesak yang tetap mengganggu meskipun penyebab yang dapat dikoreksi sudah ditangani (efusi telah didrainase, SpO₂ 95% dengan O₂ 2 L/menit). Tim paliatif menyarankan meletakkan kipas angin kecil yang diarahkan ke wajah. Dasar fisiologis intervensi ini adalah?",
+    "options": [
+      "Kipas meningkatkan FiO₂ secara bermakna",
+      "Kipas menghambat kemoreseptor perifer di badan karotis",
+      "Kipas menurunkan PaCO₂ dengan cara mengurangi ruang rugi anatomis",
+      "Aliran udara sejuk ke wajah menstimulasi reseptor vagal/trigeminal sehingga mengurangi persepsi sesak",
+      "Kipas memperbaiki V/Q mismatch di paru"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aliran udara sejuk yang diarahkan ke wajah menstimulasi reseptor di wajah dan saluran napas atas (jalur vagal/trigeminal) dan terbukti mengurangi persepsi sesak (breathlessness), sehingga dipakai sebagai pendekatan non-farmakologis pada dispnea refrakter, bersama opioid dosis rendah dan rehabilitasi. Kipas tidak meningkatkan FiO₂, tidak mengubah ruang rugi atau V/Q, dan tidak menghambat kemoreseptor perifer secara langsung; efeknya pada persepsi sensasi, bukan pada pertukaran gas."
+  }
+]

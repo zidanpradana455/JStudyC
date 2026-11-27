@@ -1,0 +1,124 @@
+[
+  {
+    "question": "Seorang perempuan 48 tahun bukan perokok datang dengan batuk kering 2 bulan dan nyeri punggung. CT toraks menunjukkan nodul 2,5 cm di perifer lobus kanan atas, dan bone scan menunjukkan lesi di vertebra torakal. Jenis histologi kanker paru yang paling mungkin adalah?",
+    "options": [
+      "Karsinoma sel skuamosa",
+      "Tumor karsinoid tipikal",
+      "Karsinoma sel kecil (SCLC)",
+      "Karsinoma sel besar",
+      "Adenokarsinoma"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Adenokarsinoma adalah tipe kanker paru tersering (±40%), paling sering ditemukan di perifer paru, merupakan subtipe tersering pada bukan perokok dan perempuan, dan sering sudah bermetastasis jauh saat didiagnosis. Karsinoma sel skuamosa dan SCLC umumnya berlokasi sentral dan sangat terkait dengan merokok. Karsinoma sel besar juga terkait merokok dengan prognosis buruk. Karsinoid tipikal biasanya lesi endobronkial sentral yang tumbuh lambat."
+  },
+  {
+    "question": "Seorang laki-laki 63 tahun perokok 40 pack-year datang dengan lemas, mual, konstipasi, dan bingung. Foto toraks menunjukkan massa hilus kanan dengan kavitas. Kalsium serum 13,8 mg/dL dengan PTH rendah. Jenis tumor dan mekanisme hiperkalsemia yang paling mungkin adalah?",
+    "options": [
+      "Adenokarsinoma; metastasis tulang osteoblastik",
+      "Karsinoma sel besar; hiperparatiroidisme primer",
+      "SCLC; sekresi ADH ektopik",
+      "SCLC; sekresi ACTH ektopik",
+      "Karsinoma sel skuamosa; sekresi PTH-related peptide (PTHrP)"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Karsinoma sel skuamosa paru khas berlokasi sentral (dekat bronkus/hilus), memiliki asosiasi terkuat dengan merokok, sering membentuk kavitas, dan diasosiasikan dengan hiperkalsemia humoral of malignancy akibat sekresi PTHrP, sehingga PTH endogen tersupresi. SCLC lebih sering menyebabkan SIADH (hiponatremia) dan sindrom Cushing (ACTH ektopik). Hiperparatiroidisme primer akan memberi PTH tinggi. Metastasis osteoblastik tidak menyebabkan hiperkalsemia berat seperti ini."
+  },
+  {
+    "question": "Seorang laki-laki 58 tahun perokok berat mengeluh nyeri bahu kanan yang menjalar ke sisi ulnar lengan dan kelemahan otot intrinsik tangan selama 3 bulan. Pemeriksaan menunjukkan ptosis ringan, pupil kanan lebih kecil, dan wajah kanan tidak berkeringat. Lokasi tumor yang paling mungkin adalah?",
+    "options": [
+      "Hilus paru kiri dengan kompresi n. laringeus rekuren",
+      "Mediastinum anterior dengan kompresi vena kava superior",
+      "Apeks paru kanan (superior sulcus/Pancoast) yang menginvasi pleksus brakialis dan rantai simpatis servikal",
+      "Lobus bawah kanan perifer dengan efusi pleura",
+      "Bronkus utama kiri dengan atelektasis total"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tumor Pancoast (superior sulcus) di apeks paru menginvasi pleksus brakialis bawah (C8–T1) sehingga menimbulkan nyeri bahu yang menjalar ke sisi ulnar dan atrofi/kelemahan otot tangan, serta menginvasi rantai simpatis servikal/ganglion stelata sehingga terjadi sindrom Horner ipsilateral: ptosis, miosis, dan anhidrosis. Kompresi n. laringeus rekuren menyebabkan suara serak; kompresi VCS menyebabkan edema wajah dan venektasi; lesi lobus bawah atau bronkus utama tidak menjelaskan defisit pleksus brakialis dan Horner."
+  },
+  {
+    "question": "Seorang laki-laki 60 tahun perokok mengeluh wajah dan kedua lengan bengkak, sakit kepala yang memberat saat membungkuk, dan sesak. Pada pemeriksaan tampak distensi vena leher dan pelebaran vena di dinding dada. Penyebab tersering kondisi ini adalah?",
+    "options": [
+      "Trombosis vena dalam tungkai",
+      "Kanker paru (terutama SCLC) yang menekan vena kava superior",
+      "Gagal jantung kanan",
+      "Tamponade jantung",
+      "Sindrom nefrotik"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gambaran edema wajah dan lengan, distensi vena leher, venektasi dinding dada, plethora, dan sakit kepala yang memberat saat membungkuk adalah sindrom vena kava superior. Penyebab tersering adalah keganasan intratoraks, terutama kanker paru (paling sering SCLC karena lokasinya sentral dan tumbuh cepat), diikuti limfoma. Gagal jantung kanan dan tamponade menyebabkan peningkatan JVP tetapi juga edema tungkai/hepatomegali dan tanda lain, tidak terbatas pada tubuh bagian atas. DVT tungkai dan sindrom nefrotik tidak menyebabkan pola edema tubuh atas ini."
+  },
+  {
+    "question": "Seorang laki-laki 60 tahun berhenti merokok 8 tahun lalu setelah merokok 1,5 bungkus per hari selama 25 tahun. Ia sehat dan tidak memiliki gejala. Berdasarkan kriteria skrining American Cancer Society pada slide kuliah, pemeriksaan yang direkomendasikan adalah?",
+    "options": [
+      "Foto toraks PA setiap tahun",
+      "Low-dose CT (LDCT) toraks setiap tahun",
+      "Sitologi sputum setiap 6 bulan",
+      "CT toraks dengan kontras dosis standar setiap tahun",
+      "Tidak perlu skrining karena sudah berhenti merokok"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Riwayat merokoknya 1,5 × 25 = 37,5 pack-year (≥ 30), usianya 60 tahun (dalam rentang 55–74), dan ia berhenti merokok dalam 15 tahun terakhir, sehingga memenuhi kriteria skrining LDCT tahunan. LDCT memakai dosis radiasi jauh lebih rendah daripada CT standar. Foto toraks dan sitologi sputum tidak terbukti menurunkan mortalitas kanker paru sebagai alat skrining. Berhenti merokok kurang dari 15 tahun tidak menggugurkan indikasi skrining."
+  },
+  {
+    "question": "Seorang perempuan 55 tahun dengan nodul paru perifer 2 cm di segmen lateral lobus kanan bawah tanpa keterlibatan bronkus pada CT. Prosedur yang paling tepat untuk mendapatkan diagnosis jaringan adalah?",
+    "options": [
+      "Bronkoskopi dengan biopsi endobronkial",
+      "Torakosentesis",
+      "Mediastinoskopi",
+      "Transthoracic needle aspiration/core biopsy dengan panduan CT",
+      "Sitologi sputum saja"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Untuk lesi perifer dan lesi medial, rekomendasi diagnosisnya adalah transthoracic fine needle aspiration (TTNA) dan/atau core biopsy dengan panduan CT atau USG toraks, idealnya dengan rapid on-site evaluation (ROSE). Bronkoskopi lebih tepat untuk lesi sentral, EBUS-TBNA untuk KGB mediastinum/regional, torakosentesis untuk efusi pleura, dan mediastinoskopi/torakoskopi bila diagnosis belum didapat secara non-invasif. Sitologi sputum memiliki sensitivitas rendah untuk lesi perifer."
+  },
+  {
+    "question": "Seorang laki-laki 57 tahun didiagnosis adenokarsinoma paru dengan tumor primer 4 cm. CT menunjukkan pembesaran KGB mediastinum ipsilateral, tanpa metastasis jauh. Sebelum diputuskan operasi, pemeriksaan yang paling tepat untuk mengonfirmasi keterlibatan KGB mediastinum secara minimal invasif adalah?",
+    "options": [
+      "Endobronchial ultrasound-guided TBNA (EBUS-TBNA)",
+      "Bronchoalveolar lavage",
+      "Torakosentesis",
+      "Sitologi sputum",
+      "Ulang CT toraks 3 bulan lagi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EBUS-TBNA memungkinkan pengambilan sampel KGB mediastinum dan hilus secara minimal invasif melalui bronkoskop dengan panduan ultrasonografi, dan merupakan pemeriksaan pilihan untuk staging N. Keterlibatan N2 (KGB mediastinum ipsilateral) mengubah stadium menjadi III dan biasanya menggeser terapi dari operasi primer ke kemoradiasi. BAL dan sitologi sputum tidak menilai KGB. Torakosentesis hanya untuk efusi. Menunda evaluasi akan menunda terapi."
+  },
+  {
+    "question": "Perhatikan tabel tatalaksana dan kesintasan NSCLC per stadium berikut. Seorang pasien NSCLC dengan efusi pleura maligna (sitologi positif) termasuk stadium dan terapi utama apa?",
+    "options": [
+      "Stadium I; pembedahan saja",
+      "Stadium II; pembedahan + kemoterapi adjuvan",
+      "Stadium IV; terapi sistemik (kemoterapi berbasis platinum/terapi target/imunoterapi)",
+      "Stadium IIIA; kemoradiasi",
+      "Stadium IIIB; pneumonektomi"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pada TNM edisi 8, efusi pleura atau perikard maligna diklasifikasikan sebagai M1a, sehingga pasien termasuk stadium IV. Terapi utamanya sistemik (kemoterapi kombinasi berbasis platinum sebagai tulang punggung, atau terapi target/imunoterapi sesuai profil molekuler dan PD-L1), dengan kesintasan 5 tahun < 5% pada data tabel. Pembedahan hanya untuk stadium awal (I–II), sedangkan stadium III umumnya kemoradiasi. Efusi juga dapat dikelola secara paliatif dengan drainase, pleurodesis, atau IPC.",
+    "image": "assets/materi/blok2.6/el-2-4/terapi-per-stadium.jpg"
+  },
+  {
+    "question": "Perhatikan gambar kasus berikut. Seorang laki-laki 52 tahun, merokok 1 bungkus/hari selama 30 tahun, mengeluh batuk 2 bulan, hemoptisis, dan sesak. Tampak pembengkakan leher, venektasi dinding dada dan perut, serta jari tabuh. Foto toraks memperlihatkan massa paru kanan dengan pelebaran mediastinum. Diagnosis kerja yang paling tepat adalah?",
+    "options": [
+      "TB paru dengan efusi pleura",
+      "Pneumonia lobaris kanan",
+      "Gagal jantung kongestif",
+      "Tumor paru dengan sindrom vena kava superior",
+      "Sirosis hepatis dengan hipertensi portal"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kombinasi faktor risiko berat (30 pack-year), batuk lama, hemoptisis, jari tabuh, massa paru dengan pelebaran mediastinum, disertai pembengkakan leher dan venektasi dinding dada adalah gambaran tumor paru sentral/mediastinal yang menekan vena kava superior. Venektasi pada sindrom VCS merupakan kolateral vena dinding dada. Sirosis dengan hipertensi portal memberi kaput medusa di sekitar umbilikus tanpa massa paru dan edema leher. Gagal jantung dan pneumonia tidak menjelaskan massa dan venektasi.",
+    "image": "assets/materi/blok2.6/el-2-4/kasus-sindrom-vcs.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 56 tahun perokok didiagnosis TB paru klinis karena foto toraks menunjukkan lesi lobus kanan atas dengan kavitas, walaupun TCM dan BTA negatif. Setelah 2 bulan OAT, berat badan terus turun, batuk darah menetap, dan lesi tidak berkurang. Langkah yang paling tepat adalah?",
+    "options": [
+      "Re-assessment dan prosedur diagnostik invasif (bronkoskopi/biopsi) untuk menyingkirkan kanker paru",
+      "Ganti ke paduan TB resistan obat tanpa pemeriksaan",
+      "Lanjutkan OAT fase lanjutan 4 bulan",
+      "Hentikan semua terapi dan observasi 6 bulan",
+      "Tambahkan antibiotik spektrum luas lalu ulang foto toraks 3 bulan lagi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Di negara endemis TB, kanker paru dapat meniru TB, terutama pada pasien yang didiagnosis TB klinis dengan bakteriologis negatif. Bila tidak ada perbaikan klinis setelah tahap awal OAT (berat badan tidak naik, keluhan menetap), pasien harus di-reassessment, termasuk prosedur diagnostik invasif dini (bronkoskopi, biopsi transtorakal) untuk mencari kanker paru. Melanjutkan OAT atau mengganti ke paduan TB RO tanpa bukti bakteriologis hanya menunda diagnosis. Observasi dan antibiotik empiris tanpa diagnosis jaringan juga tidak tepat pada perokok dengan hemoptisis dan lesi persisten."
+  }
+]

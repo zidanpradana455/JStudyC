@@ -275,6 +275,105 @@ FIGURES = {
             (53, 'npc-mikroskopis'),
         ]),
     ],
+    # ── Modul 2 ──
+    'el-2-1': ('EL 2.1 - *.pdf', [
+        (8, 'pola-napas'),
+        (23, 'kualitas-dispnea'),
+        (26, 'skala-borg'),
+        (32, 'red-flag-dispnea'),
+        (37, 'etiologi-takipnea'),
+    ]),
+    'is-2-2': [
+        ('IS 2.2 - *Juni*.pdf', [
+            (11, 'rumus-do2'),
+            (14, 'klasifikasi-hipoksia'),
+        ]),
+        ('IS 2.2 - *Siswanto*.pdf', [
+            (9, 'lima-penyebab-hipoksemia'),
+            (10, 'tabel-penyebab-hipoksia'),
+            (13, 'penyebab-hipoventilasi', (0, 0, 1270, 714)),
+            (18, 'spektrum-vq'),
+        ]),
+    ],
+    'is-2-3': [
+        ('IS 2.3 - *Arif*.pdf', [
+            (9, 'patofisiologi-sesak'),
+            (10, 'tanda-distres-napas'),
+            (29, 'setting-awal-ventilator'),
+            (31, 'pendekatan-gagal-napas-tipe-1'),
+            (32, 'pendekatan-gagal-napas-tipe-2'),
+        ]),
+        ('IS 2.3 - *Nur Rahmi*.pdf', [
+            (12, 'kurva-disosiasi-oksigen'),
+            (25, 'algoritma-hipoksemia'),
+        ]),
+    ],
+    'el-2-4': ('EL 2.4 - *.pdf', [
+        (6, 'tipe-histologi'),
+        (7, 'lokasi-nsclc'),
+        (11, 'pancoast-horner-svc'),
+        (15, 'kasus-sindrom-vcs'),
+        (16, 'kasus-adenokarsinoma'),
+        (27, 'tnm-nsclc'),
+        (31, 'terapi-per-stadium'),
+        (34, 'mimicking-tb'),
+    ]),
+    'is-2-5': [
+        ('IS 2.5 - *Halwan*.pdf', [
+            (8, 'neuroanatomi-batang-otak'),
+            (18, 'pola-napas-abnormal'),
+            (23, 'sentral-vs-perifer'),
+        ]),
+        ('IS 2.5 - *Calcarina*.pdf', [
+            (15, 'eskalasi-terapi'),
+        ]),
+    ],
+    'is-2-6': [
+        ('IS 2.6 - *Djayanti*.pdf', [
+            (5, 'aksis-neuro-respirasi', (85, 160, 1185, 722)),
+            (6, 'tiga-mekanisme', (85, 160, 1185, 722)),
+            (14, 'tanda-peringatan-awal', (85, 160, 1185, 722)),
+            (16, 'red-flag-gagal-napas', (85, 160, 1185, 722)),
+            (20, 'eskalasi-niv-intubasi', (85, 160, 1185, 722)),
+        ]),
+        ('IS 2.6 -*Indra*.pdf', [
+            (21, 'kriteria-gbs'),
+            (24, 'tatalaksana-gbs'),
+            (29, 'klasifikasi-osserman'),
+            (31, 'krisis-miastenik-kolinergik'),
+        ]),
+    ],
+    'pd-2-7': [
+        ('PD 2.7 - *Erlangga*.pdf', [
+            (9, 'baby-lung'),
+            (10, 'vili'),
+            (19, 'pplat-driving-pressure'),
+            (22, 'piramida-terapi'),
+            (29, 'langkah-tatalaksana'),
+        ]),
+        ('PD 2.7 - *Nur Rahmi*.pdf', [
+            (5, 'definisi-berlin'),
+            (17, 'cxr-ards'),
+        ]),
+        ('PD 2.7 - *Hesti*.pdf', [
+            (14, 'algoritma-stridor-anak'),
+        ]),
+    ],
+    'is-2-8': [
+        ('IS 2.8 - *Ihsanul*.pdf', [
+            (8, 'pneumotoraks-terbuka-tertutup'),
+            (9, 'tension-pneumotoraks'),
+            (13, 'cxr-pneumotoraks'),
+            (14, 'ukuran-pneumotoraks'),
+            (24, 'efusi-pleura-masif'),
+            (28, 'alur-light'),
+        ]),
+        ('IS 2.8 - *Taufik*.pdf', [
+            (26, 'analisis-cairan-pleura'),
+            (37, 'imaging-pneumotoraks', (0, 0, 1270, 714)),
+            (42, 'safe-triangle', (0, 0, 1270, 714)),
+        ]),
+    ],
 }
 
 MIN_AREA = 0.04   # ignore pictures smaller than 4% of the slide (logos, icons)

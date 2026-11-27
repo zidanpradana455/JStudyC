@@ -1,0 +1,124 @@
+[
+  {
+    "question": "Seorang laki-laki 32 tahun mengalami diare 3 minggu lalu. Sejak 5 hari ia mengeluh kesemutan di kaki, lalu kelemahan kedua tungkai yang menjalar ke lengan. Pemeriksaan: tetraparesis flaksid simetris, refleks tendon negatif di keempat ekstremitas, sensorik hampir normal. Pemeriksaan LCS yang paling mungkin ditemukan adalah?",
+    "options": [
+      "Leukosit 300/µL dominan PMN, glukosa rendah",
+      "Protein meningkat dengan jumlah sel normal (disosiasi sitoalbuminik)",
+      "Protein normal dengan leukosit limfosit 150/µL",
+      "Pita oligoklonal positif dengan protein normal",
+      "LCS keruh dengan pewarnaan Gram positif"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gambaran kelemahan flaksid, simetris, asendens dengan arefleksia setelah infeksi saluran cerna (sering Campylobacter jejuni) adalah Guillain–Barré syndrome. Temuan LCS khasnya adalah disosiasi sitoalbuminik: protein tinggi dengan jumlah sel normal, terutama setelah minggu pertama; 'konsentrasi protein LCS tinggi' termasuk kriteria pendukung kuat. Pleositosis PMN dengan glukosa rendah mengarah meningitis bakteri, pleositosis limfositik bermakna harus membuat curiga diagnosis lain (HIV, limfoma, polio), dan pita oligoklonal mengarah multiple sclerosis."
+  },
+  {
+    "question": "Seorang perempuan 40 tahun dengan GBS hari ke-4 dirawat di bangsal. Ia mulai sulit menelan, batuknya lemah, dan tidak mampu menghitung sampai 15 dalam satu napas. Kapasitas vital 14 mL/kg. SpO₂ 96% udara ruang. Langkah yang paling tepat adalah?",
+    "options": [
+      "Lanjutkan observasi di bangsal karena SpO₂ masih normal",
+      "Berikan metilprednisolon dosis tinggi",
+      "Berikan O₂ nasal 4 L/menit dan nilai ulang besok",
+      "Pindahkan ke ICU dan siapkan intubasi elektif dini",
+      "Mulai NIV di bangsal tanpa pemantauan ketat"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pasien menunjukkan tanda insufisiensi napas mengancam pada GBS: tidak mampu menghitung sampai 15 dalam satu napas, VC < 15–20 mL/kg, ditambah disfagia dan batuk lemah (disfungsi bulbar). Ini indikasi masuk ICU dan intubasi elektif dini sebelum terjadi gagal napas akut atau aspirasi. SpO₂ normal tidak menyingkirkan hipoventilasi dan perburukan klinis sering mendahului desaturasi. Kortikosteroid tidak efektif pada GBS. NIV kurang tepat pada disfungsi bulbar dan proteksi jalan napas yang buruk."
+  },
+  {
+    "question": "Seorang perempuan 28 tahun mengeluh kelopak mata turun dan penglihatan ganda yang memburuk menjelang sore dan membaik setelah istirahat. Saat diminta menatap ke atas tanpa berkedip selama 60 detik, kelopak matanya makin turun. Diagnosis dan mekanisme yang paling tepat adalah?",
+    "options": [
+      "Sindrom Horner; lesi rantai simpatis",
+      "Guillain–Barré syndrome varian Miller Fisher; demielinasi saraf perifer",
+      "Miastenia gravis; antibodi terhadap reseptor asetilkolin postsinaps di NMJ",
+      "Sindrom Lambert–Eaton; antibodi terhadap kanal kalsium presinaps",
+      "Paresis n. okulomotorius akibat aneurisma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ptosis dan diplopia yang berfluktuasi, memburuk dengan aktivitas dan membaik dengan istirahat, serta Wartenberg test positif (ptosis bertambah setelah menatap ke atas 30° selama 60 detik) khas miastenia gravis, yaitu penyakit autoimun NMJ dengan antibodi terhadap reseptor asetilkolin (atau MuSK) di membran postsinaps. Horner menyebabkan ptosis ringan dengan miosis dan anhidrosis tanpa fatigabilitas. Miller Fisher memberi oftalmoplegia, ataksia, dan arefleksia. Lambert–Eaton justru membaik dengan aktivitas berulang dan lebih sering mengenai otot proksimal. Paresis n. III biasanya disertai midriasis dan tidak berfluktuasi."
+  },
+  {
+    "question": "Seorang laki-laki 50 tahun dengan miastenia gravis datang dengan sesak, sulit menelan, dan kelemahan memberat setelah dosis piridostigmin dinaikkan sendiri. Pemeriksaan: nadi 52×/menit, pupil miosis, hipersalivasi, bronkore, kram perut, dan diare. Diagnosis yang paling mungkin adalah?",
+    "options": [
+      "Krisis kolinergik akibat kelebihan antikolinesterase",
+      "Krisis miastenik akibat dosis obat kurang",
+      "Sindrom Guillain–Barré",
+      "Botulisme",
+      "Serangan asma akut"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Krisis kolinergik terjadi karena overmedication antikolinesterase. Selain kelemahan (blokade depolarisasi), muncul efek muskarinik: bradikardia, miosis, hipersalivasi dan bronkore (sekret meningkat), kram perut, diare, dan tekanan darah menurun; gejalanya membaik dengan antikolinergik (atropin). Krisis miastenik terjadi karena undermedication atau eksaserbasi, ditandai takikardia, midriasis, distres napas, sekret normal, dan membaik sementara dengan edrofonium. Botulisme menyebabkan midriasis dan mulut kering. GBS dan asma tidak menjelaskan pola kolinergik ini."
+  },
+  {
+    "question": "Seorang laki-laki 24 tahun jatuh dari pohon dan mengalami cedera medula spinalis servikal komplet setinggi C2–C3. Ia apnea sesaat setelah kejadian. Penjelasan yang paling tepat adalah?",
+    "options": [
+      "Kerusakan pusat napas di medula oblongata",
+      "Edema paru neurogenik",
+      "Paralisis otot interkostal saja dengan diafragma utuh",
+      "Terputusnya jalur motorik ke nukleus frenikus C3–C5 sehingga diafragma lumpuh dan dibutuhkan ventilasi mekanik penuh",
+      "Obstruksi jalan napas atas akibat lidah jatuh"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Penentu terbesar gangguan napas pada cedera medula spinalis adalah tingkat dan kelengkapan cedera terhadap nukleus frenikus (C3–C5) yang mempersarafi diafragma. Lesi servikal komplet setinggi C2–C4 memutus jalur motorik napas sehingga diafragma lumpuh; tanpa ventilasi mekanik kondisi ini tidak kompatibel dengan kehidupan, dan cedera C1–C3 biasanya membutuhkan dukungan ventilasi penuh. Pusat napas batang otak tetap utuh. Cedera C5 ke bawah biasanya hanya menyebabkan gangguan parsial (VC turun, batuk lemah). Edema paru neurogenik dan obstruksi lidah tidak menjelaskan apnea ini."
+  },
+  {
+    "question": "Seorang perempuan 30 tahun dengan GBS dirawat dengan O₂ nasal 3 L/menit. Monitor menunjukkan SpO₂ 97%, RR 28×/menit, dan EtCO₂ 58 mmHg. Ia tampak mengantuk. Interpretasi yang paling tepat adalah?",
+    "options": [
+      "Oksigenasi dan ventilasi adekuat",
+      "Hipoksemia berat yang membutuhkan NRM",
+      "Oksigenasi membaik tetapi ventilasi tidak adekuat (hipoventilasi); perlu eskalasi bantuan ventilasi",
+      "Hiperventilasi karena cemas",
+      "EtCO₂ tinggi karena pemberian O₂ terlalu rendah"
+    ],
+    "correctAnswer": 2,
+    "explanation": "SpO₂ 97% menandakan oksigenasi baik karena pasien mendapat O₂, tetapi EtCO₂ 58 mmHg dan kantuk menandakan retensi CO₂ (hipoventilasi) akibat kelemahan otot napas. Oksigen memperbaiki saturasi tetapi tidak mengoreksi hipoventilasi; kenaikan PaCO₂ bahkan dapat tersamarkan bila hanya memantau SpO₂. Langkah yang tepat adalah eskalasi bantuan ventilasi (ICU, pertimbangkan intubasi pada GBS dengan perburukan) dan konfirmasi dengan AGD. Menambah O₂ tidak menurunkan CO₂. Hiperventilasi akan menurunkan EtCO₂."
+  },
+  {
+    "question": "Perhatikan klasifikasi Osserman berikut. Seorang pasien miastenia gravis datang dengan insufisiensi napas yang mengancam jiwa sehingga harus diintubasi dan diberi ventilasi mekanik. Pasien ini termasuk kelas?",
+    "options": [
+      "Kelas I",
+      "Kelas II",
+      "Kelas III",
+      "Kelas IV",
+      "Kelas V"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Pada klasifikasi Osserman modifikasi, kelas I hanya okular; kelas II kelemahan ringan yang tidak melumpuhkan; kelas III kelemahan sedang termasuk otot orofaring dan napas; kelas IV kelemahan berat yang melumpuhkan, termasuk orofaring dan napas; dan kelas V adalah insufisiensi napas yang mengancam jiwa dan membutuhkan bantuan ventilasi, yaitu krisis miastenik. Penatalaksanaannya di ICU dengan bantuan ventilasi, mencari pencetus, dan imunoterapi cepat (plasmaferesis atau IVIG).",
+    "image": "assets/materi/blok2.6/is-2-6/klasifikasi-osserman.jpg"
+  },
+  {
+    "question": "Perhatikan gambar tanda peringatan awal berikut. Seorang laki-laki 60 tahun dengan ALS mengeluh sesak yang memberat saat berbaring dan membaik bila duduk, sakit kepala tiap pagi, serta mengantuk berlebihan di siang hari. Mekanisme yang paling mungkin adalah?",
+    "options": [
+      "Gagal jantung kiri dengan ortopnea",
+      "Kelemahan diafragma dengan hipoventilasi nokturnal",
+      "Obstructive sleep apnea murni akibat obesitas",
+      "Asma nokturnal",
+      "Refluks gastroesofageal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pada penyakit neuromuskular kronik seperti ALS, kelemahan diafragma menyebabkan ortopnea (memburuk saat berbaring karena isi abdomen mendorong diafragma yang lemah, membaik saat duduk) dan hipoventilasi nokturnal, yang ditandai sakit kepala pagi dan kantuk siang berlebihan akibat retensi CO₂ malam hari. Ini merupakan tanda awal perburukan respirasi yang perlu dievaluasi dengan FVC (termasuk posisi supine), AGD/EtCO₂, dan dipertimbangkan NIV malam hari. Gagal jantung, OSA, asma, dan GERD tidak menjelaskan konteks kelemahan neuromuskular progresif ini.",
+    "image": "assets/materi/blok2.6/is-2-6/tanda-peringatan-awal.jpg"
+  },
+  {
+    "question": "Seorang laki-laki 45 tahun datang dengan status epileptikus konvulsif yang dihentikan dengan diazepam berulang dan fenitoin. Setelah kejang berhenti, ia somnolen, terdengar gurgling, dan SpO₂ turun. Pernyataan yang paling tepat mengenai komplikasi respirasi pada kondisi ini adalah?",
+    "options": [
+      "Gagal napas jarang terjadi pada status epileptikus",
+      "Pasien cukup diberi O₂ tanpa penilaian jalan napas",
+      "Gagal napas hanya disebabkan oleh fenitoin",
+      "SpO₂ turun pasti karena emboli paru",
+      "Gagal napas akut sering (sekitar 80%), disebabkan oleh penyakit dan obat antikejang, dengan risiko pneumonia aspirasi dan edema paru neurogenik"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Pada status epileptikus konvulsif, gagal napas akut merupakan komplikasi yang sering (sekitar 80%). Penyebabnya bukan hanya penyakitnya (apnea iktal, edema paru neurogenik) tetapi juga obat untuk menghentikan kejang seperti benzodiazepin yang menekan drive napas. Refleks proteksi jalan napas turun sehingga pneumonia aspirasi sering terjadi. Suara gurgling menandakan sekret di jalan napas, sehingga prioritasnya membersihkan jalan napas (suction, posisi), menilai ventilasi, dan menyiapkan intubasi bila proteksi tidak adekuat."
+  },
+  {
+    "question": "Seorang dokter di puskesmas akan merujuk pasien GBS dengan kelemahan memburuk cepat dan disfagia ke RS dengan ICU. Pasien sudah distabilkan, diberi O₂, dan dipasang monitor. Saat menelepon dokter penerima, ia menyampaikan: pasien laki-laki 35 tahun dengan ancaman gagal napas; riwayat GBS hari ke-5; kondisi saat ini RR 30, SpO₂ 95% dengan O₂ 3 L, batuk lemah, tidak bisa menghitung sampai 15; rencana ICU dan persiapan intubasi. Format komunikasi yang digunakan adalah?",
+    "options": [
+      "SBAR (Situation, Background, Assessment, Recommendation)",
+      "SOAP",
+      "AMPLE",
+      "ABCDE",
+      "AVPU"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SBAR adalah format serah terima terstruktur: Situation (siapa pasien dan masalah utama, di sini ancaman gagal napas), Background (riwayat relevan seperti GBS hari ke-5 dan terapi), Assessment (kondisi jalan napas, napas, tanda vital, SpO₂, respons terapi), dan Recommendation (rencana seperti ICU dan persiapan intubasi). SBAR menjaga kesinambungan dan keselamatan pasien saat rujukan. SOAP adalah format catatan medis, AMPLE untuk anamnesis singkat trauma, ABCDE untuk penilaian primer, dan AVPU untuk tingkat kesadaran."
+  }
+]

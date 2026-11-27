@@ -1,0 +1,123 @@
+[
+  {
+    "question": "Seorang laki-laki 50 tahun dengan pankreatitis akut berat dirawat di ICU. Pada hari ke-3 ia makin sesak; foto toraks menunjukkan opasitas bilateral difus baru. Ekokardiografi: fungsi LV normal. Ia terintubasi dengan PEEP 8 cmH₂O, FiO₂ 0,6, PaO₂ 90 mmHg. Diagnosis dan derajatnya menurut definisi Berlin adalah?",
+    "options": [
+      "Edema paru kardiogenik",
+      "ARDS ringan",
+      "ARDS berat",
+      "ARDS sedang",
+      "Acute lung injury (ALI)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pasien memenuhi kriteria ARDS: onset dalam 1 minggu setelah faktor risiko (pankreatitis, penyebab tidak langsung), opasitas bilateral, dan edema tidak dijelaskan oleh gagal jantung (LV normal). P/F = 90/0,6 = 150 dengan PEEP ≥ 5, sehingga termasuk ARDS sedang (100–200). Ringan bila 200–300, berat bila ≤ 100. Istilah ALI berasal dari definisi AECC 1994 dan sudah dihapus pada definisi Berlin 2012."
+  },
+  {
+    "question": "Seorang perempuan dengan ARDS akibat sepsis terintubasi. Tinggi badan 160 cm, berat badan aktual 85 kg. Volume tidal awal yang paling tepat adalah?",
+    "options": [
+      "Sekitar 1.000 mL (12 mL/kg PBW)",
+      "Sekitar 510 mL (6 mL/kg berat aktual)",
+      "Sekitar 680 mL (8 mL/kg berat aktual)",
+      "Sekitar 850 mL (10 mL/kg berat aktual)",
+      "Sekitar 315 mL (6 mL/kg PBW)"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Volume tidal ventilasi protektif dihitung berdasarkan predicted body weight (PBW) dari tinggi badan, bukan berat aktual, karena ukuran paru tidak bertambah dengan jaringan lemak. PBW perempuan = 45,5 + 0,91 × (160 − 152,4) ≈ 52 kg, sehingga VT 6 mL/kg ≈ 315 mL (rentang 4–8 mL/kg ≈ 210–415 mL). Menggunakan berat aktual 85 kg akan menghasilkan volume yang terlalu besar dan menyebabkan volutrauma pada 'baby lung'. Studi ARMA menunjukkan VT 6 mL/kg menurunkan mortalitas dibanding 12 mL/kg (31,0% vs 39,8%)."
+  },
+  {
+    "question": "Seorang laki-laki dengan ARDS berat terventilasi dengan PEEP 12 cmH₂O. Pada jeda akhir inspirasi 0,5 detik, tekanan plateau terbaca 32 cmH₂O. Berapa driving pressure dan apa tindakan yang tepat?",
+    "options": [
+      "20 cmH₂O; tingkatkan volume tidal",
+      "44 cmH₂O; turunkan PEEP menjadi 0",
+      "20 cmH₂O; turunkan volume tidal agar Pplat ≤ 30 dan driving pressure ≤ 15, naikkan RR dan terima hiperkapnia permisif",
+      "12 cmH₂O; tidak perlu perubahan",
+      "32 cmH₂O; berikan bronkodilator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Driving pressure = Pplat − PEEP = 32 − 12 = 20 cmH₂O, melebihi target (≤ 15; slide anestesi ≤ 14), dan Pplat 32 juga melebihi batas ≤ 30 cmH₂O. Driving pressure mencerminkan regangan siklik parenkim dan merupakan prediktor mortalitas independen terkuat. Tindakannya menurunkan VT (menuju 4–6 mL/kg PBW), menaikkan RR untuk mempertahankan ventilasi semenit, dan menerima hiperkapnia permisif selama pH masih dapat diterima, sambil waspada auto-PEEP. Menaikkan VT atau menurunkan PEEP ke 0 akan memperberat VILI dan atelektrauma."
+  },
+  {
+    "question": "Seorang laki-laki 45 tahun dengan ARDS akibat pneumonia sudah mendapat ventilasi protektif selama 12 jam. Pada FiO₂ 0,7 dan PEEP 12, PaO₂ 84 mmHg. Intervensi berikutnya yang terbukti menurunkan mortalitas adalah?",
+    "options": [
+      "Posisi prone ≥ 16 jam/hari yang dimulai dini",
+      "Manuver rekrutmen dengan tekanan tinggi berkepanjangan",
+      "Menaikkan volume tidal menjadi 10 mL/kg",
+      "Pemberian cairan liberal",
+      "Pemberian surfaktan intratrakeal"
+    ],
+    "correctAnswer": 0,
+    "explanation": "P/F = 84/0,7 = 120 (< 150) dengan FiO₂ ≥ 0,6 dan PEEP ≥ 5 memenuhi kriteria PROSEVA. Posisi prone ≥ 16 jam/hari yang dimulai dini menurunkan mortalitas 28 hari dari 32,8% menjadi 16,0%. Mekanismenya: jantung tidak lagi menekan paru, edema dan ventilasi terdistribusi lebih homogen ke regio dorsal yang tetap mendapat perfusi tinggi, sehingga V/Q membaik dan VILI berkurang. Manuver rekrutmen berkepanjangan tidak direkomendasikan, VT tinggi memperberat VILI, cairan liberal memperburuk edema (FACTT mendukung strategi konservatif), dan surfaktan tidak terbukti bermanfaat pada ARDS dewasa."
+  },
+  {
+    "question": "Mengapa hipoksemia pada ARDS sering refrakter terhadap peningkatan FiO₂ dan lebih responsif terhadap PEEP?",
+    "options": [
+      "Karena mekanisme utamanya hipoventilasi alveolar",
+      "Karena PaCO₂ yang tinggi menggeser kurva disosiasi ke kanan",
+      "Karena alveolus terisi edema atau kolaps namun tetap terperfusi (shunt), sehingga diperlukan pembukaan kembali alveolus",
+      "Karena terjadi penurunan PiO₂",
+      "Karena hemoglobin tidak mampu mengikat oksigen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pada fase eksudatif ARDS, alveolus terisi edema kaya protein atau kolaps karena surfaktan rusak, tetapi kapilernya tetap terperfusi, sehingga terjadi shunt intrapulmoner (V/Q = 0). Darah yang melewati unit tersebut tidak pernah bertemu O₂ tambahan, sehingga menaikkan FiO₂ hanya sedikit menolong. PEEP dan posisi prone merekrut (membuka kembali) alveolus dan mencegah kolaps akhir ekspirasi, sehingga mengurangi shunt. Hipoventilasi dan penurunan PiO₂ akan merespons baik terhadap O₂, dan masalahnya bukan pada kemampuan Hb mengikat O₂."
+  },
+  {
+    "question": "Seorang pasien ARDS berat sudah mendapat ventilasi protektif optimal, PEEP tinggi, NMBA, dan posisi prone. Selama 7 jam terakhir P/F ratio tetap 70 mmHg. Langkah selanjutnya yang paling tepat adalah?",
+    "options": [
+      "Lanjutkan setting yang sama dan evaluasi 24 jam kemudian",
+      "Berikan aspirin dosis tinggi",
+      "Naikkan VT menjadi 10 mL/kg untuk memperbaiki oksigenasi",
+      "Hentikan PEEP",
+      "Pertimbangkan dan rujuk dini ke pusat VV-ECMO"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Kriteria ECMO berdasarkan studi CESAR dan EOLIA (meski ventilasi optimal dan prone) meliputi P/F ≤ 50 mmHg lebih dari 3 jam, P/F < 80 mmHg lebih dari 6 jam, atau pH < 7,25 dengan PaCO₂ ≥ 60 mmHg lebih dari 6 jam. Pasien ini memenuhi kriteria kedua, sehingga harus segera dirujuk ke pusat VV-ECMO sebelum terjadi kerusakan fibrotik ireversibel atau VILI masif. ECMO mengambil alih pertukaran gas sehingga paru dapat diistirahatkan dengan setting sangat protektif. Menaikkan VT dan menghentikan PEEP memperberat cedera; aspirin tidak terbukti untuk ARDS."
+  },
+  {
+    "question": "Seorang pasien di bangsal dengan pneumonia berat mendapat HFNO 40 L/menit dengan FiO₂ 0,6. SpO₂ 90%, AGD tidak tersedia, USG paru menunjukkan B-lines bilateral dan konsolidasi, dan ekokardiografi fokus tidak menunjukkan gagal jantung. Menurut definisi Global ARDS 2023, pernyataan yang benar adalah?",
+    "options": [
+      "ARDS tidak dapat didiagnosis tanpa intubasi",
+      "Pasien memenuhi kriteria ARDS non-intubasi karena S/F = 150 (≤ 315) pada HFNO ≥ 30 L/menit dengan temuan USG bilateral",
+      "ARDS tidak dapat didiagnosis tanpa AGD dan CT",
+      "Pasien harus memiliki PEEP ≥ 10 cmH₂O untuk didiagnosis",
+      "Pasien termasuk ALI, bukan ARDS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Definisi Global 2023 menambahkan kategori ARDS non-intubasi: P/F ≤ 300 atau S/F ≤ 315 (bila SpO₂ ≤ 97%) dengan HFNO ≥ 30 L/menit atau NIV/CPAP ≥ 5 cmH₂O. SpO₂/FiO₂ = 90/0,6 = 150. Definisi ini juga menerima USG paru (B-lines bilateral dan/atau konsolidasi) sebagai pencitraan. Dengan demikian ARDS dapat dikenali sebelum intubasi dan di tempat tanpa AGD atau CT, sangat relevan untuk banyak RS di Indonesia. Istilah ALI sudah dihapus sejak Berlin 2012."
+  },
+  {
+    "question": "Perhatikan diagram 'baby lung' berikut. Implikasi klinis utama konsep ini terhadap pengaturan ventilator pada ARDS adalah?",
+    "options": [
+      "Volume tidal harus dinaikkan karena paru menjadi lebih kecil",
+      "Volume tidal normal dewasa (10–15 mL/kg) akan menyebabkan overdistensi pada sisa paru yang masih teraerasi, sehingga VT harus rendah",
+      "PEEP harus selalu nol untuk mencegah barotrauma",
+      "Paru ARDS memiliki compliance yang meningkat",
+      "Konsep ini hanya berlaku pada pasien obesitas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Menurut konsep baby lung (Gattinoni), paru ARDS terdiri dari zona edema (dependen), atelektatik (transisi), dan normal (non-dependen); bagian yang masih teraerasi hanya seukuran paru anak 5 tahun. Compliance yang rendah pada ARDS mencerminkan volume paru fungsional yang kecil, bukan paru yang 'kaku' secara merata. Memberikan VT dewasa normal ke baby lung akan menyebabkan overdistensi (volutrauma) pada jaringan sehat yang tersisa, sehingga dipakai VT rendah 4–8 mL/kg PBW. PEEP justru diperlukan untuk mencegah atelektrauma.",
+    "image": "assets/materi/blok2.6/pd-2-7/baby-lung.jpg"
+  },
+  {
+    "question": "Seorang anak 4 tahun datang dengan demam tinggi mendadak, drooling, suara muffled, duduk condong ke depan, dan stridor inspirasi. Ia gelisah, tampak retraksi suprasternal dan epigastrium, tanpa sianosis. Lokasi obstruksi dan derajat menurut kriteria Jackson adalah?",
+    "options": [
+      "Supraglotis; Jackson 2",
+      "Intratoraks; Jackson 1",
+      "Subglotis; Jackson 4",
+      "Bronkus utama; Jackson 3",
+      "Supraglotis; Jackson 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stridor inspirasi bernada tinggi berasal dari zona 1 (supraglotis, lidah, faring) karena struktur yang longgar tertarik ke dalam saat inspirasi; gambaran demam tinggi mendadak, drooling, dan posisi tripod mengarah ke epiglotitis. Kriteria Jackson: grade 1 stridor inspirasi dan retraksi suprasternal dengan pasien tenang; grade 2 ditambah retraksi epigastrium dan pasien mulai gelisah; grade 3 stridor inspirasi dan ekspirasi dengan retraksi infraklavikula dan interkostal, sangat gelisah; grade 4 ditambah sianosis. Pasien ini Jackson 2, yang ditangani dengan intubasi endotrakeal atau trakeostomi di lingkungan yang aman."
+  },
+  {
+    "question": "Seorang laki-laki 30 tahun dibawa ke IGD setelah tersedak bakso. Ia sangat gelisah, terdengar stridor inspirasi dan ekspirasi, retraksi suprasternal, epigastrium, infraklavikula, dan interkostal, serta bibirnya sianosis. Upaya manuver Heimlich gagal dan intubasi tidak berhasil. Tindakan yang paling tepat adalah?",
+    "options": [
+      "Terapi konservatif dengan kortikosteroid dan observasi",
+      "Trakeostomi elektif terjadwal esok hari",
+      "Nebulisasi epinefrin dan pulangkan",
+      "Krikotiroidotomi darurat",
+      "Foto rontgen leher lateral terlebih dahulu"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Stridor bifasik dengan retraksi luas, sangat gelisah, dan sianosis adalah sumbatan jalan napas atas Jackson grade 4, kondisi darurat yang mengancam jiwa. Bila upaya membebaskan benda asing dan intubasi gagal, tindakan penyelamatan adalah krikotiroidotomi darurat (membuka membran krikotiroidea), dilanjutkan trakeostomi bila perlu. Terapi konservatif hanya untuk grade 1, trakeostomi elektif tidak sesuai untuk keadaan darurat, dan menunda tindakan demi pemeriksaan radiologi dapat berakibat fatal."
+  }
+]

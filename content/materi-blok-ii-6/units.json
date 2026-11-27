@@ -17,6 +17,14 @@
     {"code": "PS 1.3", "title": "Upper Respiratory Tract (Anatomical Pathology Practical)", "dept": "Anatomical Pathology", "lecturers": [], "practical": true},
     {"code": "PS 1.4", "title": "Laboratory Examination of Pleural Fluid (Transudate and Exudate)", "dept": "Clinical Pathology", "lecturers": [], "practical": true},
     {"code": "PD 1.12", "title": "Clinical Approach to COVID-19", "dept": "Anaesthesiology, Internal Medicine, Child Health", "lecturers": ["dr. Ika Trisnawati, M.Sc., Sp.PD-KP", "Prof. dr. Eggi Arguni, M.Sc, Ph.D, Sp.A(K)", "dr. Erlangga Prasamya, Sp.An-TI, Subsp.An.TI(K)"]},
-    {"code": "IS 1.13", "title": "Anatomical, Radiological and Pathological Aspects of Respiratory System", "dept": "Anatomy, Anatomical Pathology, Radiology", "lecturers": ["dr. Ratih Yuniarta, Ph.D", "dr. Dwi Damar Andiyani, Sp.Rad", "dr. Hanggoro Tri Rinonce, Ph.D., Sp.P.A.(K)"]}
+    {"code": "IS 1.13", "title": "Anatomical, Radiological and Pathological Aspects of Respiratory System", "dept": "Anatomy, Anatomical Pathology, Radiology", "lecturers": ["dr. Ratih Yuniarta, Ph.D", "dr. Dwi Damar Andiyani, Sp.Rad", "dr. Hanggoro Tri Rinonce, Ph.D., Sp.P.A.(K)"]},
+    {"code": "EL 2.1", "title": "Mechanism of Dyspnoea and Tachypnoea", "dept": "Internal Medicine", "lecturers": ["dr. Harik Firman Thahadian, Sp.PD, Ph.D"]},
+    {"code": "IS 2.2", "title": "Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems", "dept": "Physiology, Anaesthesiology", "lecturers": ["Dr. dr. Juni Kurniawty, M.Sc, Sp.An-TI, Subsp.An.KV(K)", "dr. Siswanto, Sp.P(K)"]},
+    {"code": "IS 2.3", "title": "Disturbances in Gas Exchanges", "dept": "Internal Medicine, Anaesthesiology", "lecturers": ["dr. Arif Ikhwandi, Sp.An-TI, Subsp.An.O(K)", "dr. Nur Rahmi Ananda, Sp.PD-KP"]},
+    {"code": "EL 2.4", "title": "Lung Cancer", "dept": "Internal Medicine", "lecturers": ["dr. Ika Trisnawati, M.Sc., Sp.PD-KP"]},
+    {"code": "IS 2.5", "title": "Central Neurogenic Respiratory Failure", "dept": "Neurology, Anaesthesiology", "lecturers": ["dr. Calcarina Fitriani RW, Sp.An-TI, Subsp.An.TI(K)", "dr. Halwan Fuad Bayuangga, M.Sc., D.Phil"]},
+    {"code": "IS 2.6", "title": "Dyspnoea as Complication of Neurological Disease", "dept": "Neurology, Anaesthesiology", "lecturers": ["Dr. dr. Djayanti Sari, M.Kes, Sp.An-TI, Subsp.An.P(K)", "dr. Indra Sari Kusuma Harahap, Ph.D., Sp.S(K)"]},
+    {"code": "PD 2.7", "title": "Acute Respiratory Distress Syndrome (ARDS)", "dept": "ENT-HNS, Internal Medicine, Anaesthesiology", "lecturers": ["dr. Erlangga Prasamya, Sp.An-TI, Subsp.An.TI(K)", "dr. Hesti Dyah Palupi, Sp.T.H.T.B.K.L., Subsp.L.F.(K)", "dr. Nur Rahmi Ananda, Sp.PD-KP"]},
+    {"code": "IS 2.8", "title": "Pneumothorax, Pleural Effusion and Haemothorax", "dept": "Internal Medicine, Surgery", "lecturers": ["dr. Ihsanul Amal, M.Ked.Klin., Sp.BTKV", "dr. Taufik Indrawan, Sp.PD"]}
   ]
 }

@@ -1,0 +1,124 @@
+[
+  {
+    "question": "Seorang laki-laki 20 tahun, tinggi 185 cm dan kurus, perokok, tiba-tiba mengalami nyeri dada kiri dan sesak ringan saat duduk. Pemeriksaan: hemitoraks kiri hipersonor, fremitus dan suara napas melemah, hemodinamik stabil. Foto toraks menunjukkan garis pleura viseral tanpa corakan paru di distalnya dengan jarak dinding dada ke tepi paru 1 cm. Diagnosis dan tatalaksana yang paling tepat adalah?",
+    "options": [
+      "Pneumotoraks spontan sekunder; chest tube segera",
+      "Tension pneumotoraks; dekompresi jarum",
+      "Pneumotoraks spontan primer kecil; observasi dengan O₂ aliran tinggi dan foto toraks ulang",
+      "Efusi pleura; torakosentesis",
+      "Bula emfisematosa; VATS bulektomi segera"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Laki-laki muda tinggi kurus perokok tanpa penyakit paru dasar dengan pneumotoraks adalah pneumotoraks spontan primer (PSP), biasanya akibat ruptur bleb subpleura apeks. Jarak < 2 cm menandakan pneumotoraks kecil; pasien stabil dan sesak ringan, sehingga dapat ditangani konservatif: observasi, O₂ aliran tinggi (mempercepat resorpsi udara hingga empat kali), dan foto toraks serial. SSP memerlukan penyakit paru dasar. Tension ditandai syok, deviasi trakea, dan distensi vena leher. Efusi memberi perkusi pekak. VATS dipertimbangkan untuk kebocoran menetap atau rekurensi."
+  },
+  {
+    "question": "Seorang laki-laki 28 tahun korban kecelakaan motor datang dengan sesak hebat. TD 70/40 mmHg, nadi 140×/menit, SpO₂ 80%, vena leher distensi, trakea terdorong ke kiri, hemitoraks kanan hipersonor dengan suara napas hilang. Tindakan pertama yang paling tepat adalah?",
+    "options": [
+      "Foto toraks segera untuk konfirmasi",
+      "Dekompresi jarum segera pada hemitoraks kanan",
+      "CT toraks dengan kontras",
+      "Torakosentesis di sela iga 8 linea aksilaris posterior",
+      "Resusitasi cairan 2 L dan observasi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hipotensi, takikardia, vena leher distensi, trakea terdorong ke kontralateral, hipersonor, dan suara napas hilang adalah tension pneumotoraks: udara masuk melalui mekanisme katup satu arah sehingga tekanan intrapleura terus naik, mediastinum bergeser, dan venous return turun (syok obstruktif). Ini adalah diagnosis klinis yang ditangani dengan dekompresi jarum segera (kateter 14G), lalu chest tube, tanpa menunggu foto toraks atau CT. Torakosentesis ditujukan untuk cairan. Resusitasi cairan saja tidak mengatasi obstruksi venous return."
+  },
+  {
+    "question": "Seorang laki-laki 35 tahun dengan trauma tembus dada kanan datang dengan TD 80/50 mmHg, nadi 130×/menit, vena leher kolaps, perkusi hemitoraks kanan pekak, dan suara napas menurun. Setelah pemasangan chest tube, keluar darah 1.700 mL. Langkah selanjutnya yang paling tepat adalah?",
+    "options": [
+      "Klem chest tube dan observasi",
+      "Torakosentesis ulang tiap 6 jam",
+      "Pleurodesis dengan talk",
+      "Torakotomi darurat/VATS",
+      "Pulangkan setelah hemodinamik membaik"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Syok, vena leher kolaps, perkusi pekak, dan suara napas menurun setelah trauma tembus menunjukkan hemotoraks masif (berbeda dari tension pneumotoraks yang hipersonor dengan vena leher distensi). Indikasi torakotomi darurat atau VATS adalah drainase darah awal > 1.500 mL, perdarahan berlanjut > 200 mL/jam, hemodinamik tidak stabil, atau kebutuhan transfusi berulang. Pasien ini memenuhi kriteria pertama. Mengklem chest tube atau observasi berbahaya, sedangkan pleurodesis dan torakosentesis tidak menghentikan sumber perdarahan."
+  },
+  {
+    "question": "Seorang perempuan 60 tahun dengan efusi pleura kanan menjalani torakosentesis. Hasil: protein cairan pleura 4,0 g/dL, protein serum 6,5 g/dL, LDH cairan pleura 320 U/L, LDH serum 250 U/L (batas atas normal LDH serum 220 U/L). Interpretasi yang tepat adalah?",
+    "options": [
+      "Transudat karena tidak ada kriteria Light yang terpenuhi",
+      "Kilotoraks",
+      "Transudat karena protein cairan pleura < 5 g/dL",
+      "Tidak dapat ditentukan tanpa kadar glukosa",
+      "Eksudat karena memenuhi kriteria Light"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Kriteria Light: eksudat bila ≥ 1 kriteria terpenuhi: (1) rasio protein cairan pleura/serum > 0,5; (2) rasio LDH cairan pleura/serum > 0,6; (3) LDH cairan pleura > 2/3 batas atas normal LDH serum. Di sini rasio protein = 4,0/6,5 ≈ 0,62 (> 0,5), rasio LDH = 320/250 = 1,28 (> 0,6), dan LDH cairan 320 > 2/3 × 220 ≈ 147. Ketiga kriteria terpenuhi sehingga eksudat; penyebab tersering eksudat adalah pneumonia bakteri (parapneumonik), keganasan, TB, dan emboli paru. Glukosa dan trigliserida berguna setelah klasifikasi untuk mencari etiologi."
+  },
+  {
+    "question": "Seorang laki-laki 70 tahun dengan gagal jantung kronik yang mendapat furosemid dosis tinggi menjalani torakosentesis karena efusi tidak membaik. Rasio LDH cairan/serum 0,65 (memenuhi satu kriteria eksudat), tetapi gambaran klinis sangat sesuai gagal jantung. Protein serum 6,8 g/dL dan protein cairan pleura 3,3 g/dL. Langkah yang paling tepat untuk klasifikasi efusi ini adalah?",
+    "options": [
+      "Hitung gradien protein serum − cairan pleura; nilai 3,5 g/dL (> 3,1) mendukung transudat",
+      "Tetap disimpulkan eksudat, lakukan biopsi pleura",
+      "Ulang torakosentesis setelah menaikkan dosis diuretik",
+      "Simpulkan kilotoraks",
+      "Langsung lakukan torakoskopi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kriteria Light salah mengklasifikasikan sekitar 25% transudat sebagai eksudat, terutama pada pasien yang mendapat diuretik karena diuresis memekatkan protein dan LDH cairan pleura. Bila satu atau lebih kriteria eksudat terpenuhi tetapi klinis mengarah transudat, hitung gradien protein serum dikurangi cairan pleura: > 3,1 g/dL berarti hampir pasti transudat. Di sini 6,8 − 3,3 = 3,5 g/dL, sehingga efusi dikategorikan transudat akibat gagal jantung. Biopsi atau torakoskopi tidak diperlukan, dan tidak ada petunjuk kilotoraks."
+  },
+  {
+    "question": "Seorang laki-laki 33 tahun mengalami sesak progresif lambat 2 bulan disertai demam subfebris, batuk, keringat malam, dan berat badan turun. Suara napas hilang di basal kanan dengan perkusi pekak. Analisis cairan pleura: eksudat, limfosit 85%, glukosa 70 mg/dL, ADA 72 U/L, sitologi negatif. Diagnosis yang paling mungkin adalah?",
+    "options": [
+      "Efusi parapneumonik terkomplikasi",
+      "Hemotoraks",
+      "Efusi transudat akibat sindrom nefrotik",
+      "Kilotoraks",
+      "Efusi pleura tuberkulosis"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Efusi eksudat dominan limfosit (> 50%) dengan ADA > 40 U/L pada pasien dengan gejala konstitusional subakut (demam, keringat malam, berat badan turun) sangat sesuai dengan TB pleura, terutama di negara endemis seperti Indonesia; ADA memiliki sensitivitas sekitar 90%. Limfositosis juga dapat terjadi pada keganasan, tetapi sitologi negatif dan ADA tinggi lebih mengarah ke TB. Efusi parapneumonik khas dominan neutrofil dengan glukosa dan pH rendah. Sindrom nefrotik memberi transudat. Kilotoraks ditandai trigliserida > 110 mg/dL. Hemotoraks berupa darah dengan Ht ≥ 50% Ht darah."
+  },
+  {
+    "question": "Seorang laki-laki 55 tahun dengan pneumonia komunitas 7 hari tetap demam dan efusi pleura kanan membesar. Torakosentesis: cairan keruh, pH 7,05, glukosa 35 mg/dL, leukosit 25.000/mm³ dominan neutrofil, Gram menunjukkan kokus gram positif. Tatalaksana yang paling tepat adalah?",
+    "options": [
+      "Lanjutkan antibiotik oral saja",
+      "Diuretik dan restriksi cairan",
+      "Antibiotik intravena dan drainase dengan tube thoracostomy (± fibrinolitik/VATS)",
+      "Pleurodesis talk segera",
+      "Observasi tanpa terapi karena akan diserap sendiri"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cairan keruh dengan pH < 7,20, glukosa < 60 mg/dL, leukosit tinggi dominan neutrofil, dan bakteri pada pewarnaan Gram menunjukkan efusi parapneumonik terkomplikasi atau empiema. Selain antibiotik intravena, diperlukan drainase dengan tube thoracostomy, dapat ditambah fibrinolitik intrapleura atau VATS bila terdapat lokulasi. Antibiotik saja hanya cukup untuk efusi parapneumonik tidak terkomplikasi. Diuretik untuk transudat. Pleurodesis dipakai untuk efusi ganas atau pneumotoraks berulang, bukan infeksi aktif."
+  },
+  {
+    "question": "Perhatikan gambar rumus estimasi ukuran pneumotoraks berikut. Pada foto toraks, diameter hemitoraks (H) 10 cm dan diameter paru yang kolaps (L) 6 cm. Dengan rumus Light, persentase pneumotoraks adalah sekitar?",
+    "options": [
+      "40%",
+      "60%",
+      "22%",
+      "78%",
+      "94%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Rumus Light: % pneumotoraks = (1 − L³/H³) × 100%. L³ = 6³ = 216 dan H³ = 10³ = 1.000, sehingga (1 − 0,216) × 100% ≈ 78%. Rumus memakai pangkat tiga karena paru dan hemitoraks diperlakukan sebagai volume, bukan diameter linear, sehingga perbedaan diameter yang tampak kecil sebenarnya mencerminkan volume pneumotoraks yang besar. Menurut BTS, pneumotoraks besar bila jarak dinding dada ke tepi paru > 2 cm, yang menjadi indikasi objektif drainase.",
+    "image": "assets/materi/blok2.6/is-2-8/ukuran-pneumotoraks.jpg"
+  },
+  {
+    "question": "Perhatikan gambar lokasi pemasangan chest tube berikut. Seorang pasien hemotoraks akan dipasang chest tube. Lokasi dan teknik insersi yang paling aman adalah?",
+    "options": [
+      "ICS 2 linea midklavikula, di tepi bawah iga",
+      "Safe triangle (tepi anterior latissimus dorsi, tepi lateral pektoralis mayor, setinggi ICS 5) dengan insersi di tepi atas iga bawah",
+      "ICS 8 linea skapularis posterior, di tepi bawah iga",
+      "Subxifoid ke arah bahu kiri",
+      "ICS 5 parasternal kanan di tepi bawah iga"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Safe triangle dibatasi tepi anterior otot latissimus dorsi, tepi lateral otot pektoralis mayor, dan garis horizontal setinggi puting (ICS 5), dengan apeks di bawah aksila. Area ini menghindari struktur vital (pembuluh mamaria interna, jantung, hati/limpa) dan otot tebal. Insersi dilakukan di tepi atas iga bawah karena berkas neurovaskular interkostal (vena, arteri, nervus) berjalan di tepi bawah iga. ICS 2 midklavikula adalah lokasi klasik dekompresi jarum, bukan chest tube besar; lokasi rendah posterior dan subxifoid berisiko mencederai organ abdomen atau perikard.",
+    "image": "assets/materi/blok2.6/is-2-8/safe-triangle.jpg"
+  },
+  {
+    "question": "Seorang perempuan 50 tahun dengan efusi pleura masif kanan akibat keganasan menjalani torakosentesis terapeutik. Setelah 2,5 L cairan dikeluarkan dalam satu kali tindakan, ia batuk-batuk hebat, sesak memberat, dan terdengar ronki basah di paru kanan. Komplikasi yang paling mungkin dan cara pencegahannya adalah?",
+    "options": [
+      "Edema paru re-ekspansi; batasi pengeluaran < 1.500 mL per tindakan",
+      "Pneumotoraks iatrogenik; gunakan jarum yang lebih besar",
+      "Refleks vasovagal; berikan atropin sebelum tindakan",
+      "Hemotoraks akibat laserasi a. interkostal; insersi di tepi bawah iga",
+      "Empiema; berikan antibiotik profilaksis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pengeluaran cairan dalam jumlah besar sekaligus dapat menyebabkan edema paru re-ekspansi, ditandai batuk, sesak, dan ronki pada paru yang baru mengembang, akibat peningkatan permeabilitas kapiler setelah re-ekspansi cepat. Pencegahannya adalah membatasi pengeluaran kurang dari 1.500 mL per tindakan (dan menghentikan bila muncul batuk atau nyeri dada). Pneumotoraks iatrogenik memberi hipersonor, bukan ronki basah. Refleks vasovagal ditandai bradikardia dan hipotensi. Laserasi a. interkostal dicegah dengan insersi di tepi atas iga, bukan bawah. Empiema tidak timbul segera setelah tindakan."
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "question": "Seorang laki-laki 67 tahun dengan PPOK (riwayat merokok 45 pack-year) datang dengan sesak memberat 3 hari dan sputum purulen. SpO₂ 84% udara ruang. AGD: pH 7,30; PaCO₂ 62 mmHg; PaO₂ 50 mmHg. Pemberian oksigen awal yang paling tepat adalah?",
+    "options": [
+      "Non-rebreather mask 15 L/menit dengan target SpO₂ 100%",
+      "Venturi mask 24–28% dengan target SpO₂ 88–92%",
+      "Simple mask 10 L/menit dengan target SpO₂ 94–98%",
+      "Tidak diberi oksigen agar hypoxic drive tetap ada",
+      "HFNC 60 L/menit FiO₂ 100%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pasien PPOK dengan gagal napas hiperkapnik (PaCO₂ 62, pH 7,30) berisiko PaCO₂ makin naik bila diberi O₂ berlebihan, karena hilangnya vasokonstriksi pulmoner hipoksik (V/Q memburuk), efek Haldane, dan sebagian kecil penurunan hypoxic drive. Rekomendasi BTS adalah O₂ terkontrol dengan Venturi 24–28% dan target SpO₂ 88–92%, lalu ulang AGD dalam 30–60 menit. Target 94–98% atau 100% terlalu tinggi untuk kelompok ini, sedangkan menahan oksigen pada SpO₂ 84% berbahaya. Bila pH tetap ≤ 7,35 dengan PaCO₂ > 45 setelah terapi awal, mulai NIV."
+  },
+  {
+    "question": "Seorang perempuan 25 tahun dengan ketoasidosis diabetik memiliki AGD: pH 7,18; HCO₃⁻ 10 mmol/L; PaCO₂ 32 mmHg. Berdasarkan rumus Winter, interpretasi yang tepat adalah?",
+    "options": [
+      "Asidosis metabolik dengan kompensasi respiratorik yang sesuai",
+      "Alkalosis metabolik terkompensasi",
+      "Asidosis metabolik disertai alkalosis respiratorik",
+      "Asidosis respiratorik akut murni",
+      "Asidosis metabolik disertai asidosis respiratorik (kompensasi tidak adekuat)"
+    ],
+    "correctAnswer": 4,
+    "explanation": "PaCO₂ harapan menurut Winter = 1,5 × HCO₃⁻ + 8 ± 2 = 1,5 × 10 + 8 = 23 ± 2 (21–25 mmHg). PaCO₂ aktual 32 mmHg lebih tinggi dari harapan, artinya ventilasi tidak cukup membuang CO₂ sehingga terdapat asidosis respiratorik yang menyertai asidosis metabolik (gangguan campuran), misalnya karena kelelahan otot napas atau penurunan kesadaran. Bila PaCO₂ berada dalam rentang 21–25, kompensasinya sesuai; bila di bawah 21, ada alkalosis respiratorik tambahan. Ini tanda bahaya yang perlu pemantauan ketat jalan napas dan ventilasi."
+  },
+  {
+    "question": "Seorang laki-laki 53 tahun dengan pneumonia lobus kanan bawah datang dengan SpO₂ 75% udara ruang. AGD (FiO₂ 0,21): pH 7,47; PaCO₂ 32 mmHg; PaO₂ 52 mmHg; HCO₃⁻ 23,6 mmol/L. Interpretasi yang paling tepat adalah?",
+    "options": [
+      "Gagal napas tipe 2 dengan asidosis respiratorik akut",
+      "Gagal napas tipe 1 dengan alkalosis respiratorik akut dan A–a gradient melebar",
+      "Gagal napas tipe 1 dengan A–a gradient normal karena hipoventilasi",
+      "Alkalosis metabolik terkompensasi",
+      "AGD normal untuk usianya"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PaO₂ 52 mmHg (< 60) dengan PaCO₂ rendah adalah gagal napas tipe 1. pH 7,47 dengan PaCO₂ 32 adalah alkalosis respiratorik; HCO₃⁻ harapan bila akut ≈ 24 − 2 × 0,8 ≈ 22,4, sesuai nilai 23,6 sehingga akut. PAO₂ = 150 − 32/0,8 ≈ 110, A–a ≈ 110 − 52 = 58 mmHg, jauh di atas harapan (≈ 17), menunjukkan shunt dan V/Q mismatch akibat konsolidasi. Tipe 2 memerlukan PaCO₂ > 45–50. Hipoventilasi memberi A–a normal dan PaCO₂ tinggi. P/F ratio ≈ 248."
+  },
+  {
+    "question": "Seorang laki-laki 60 tahun dengan PPOK eksaserbasi akut sudah mendapat bronkodilator, steroid, dan O₂ terkontrol. Setelah 1 jam, ia sadar penuh dan kooperatif, tidak ada muntah atau sekret berlebih, hemodinamik stabil, pH 7,28 dan PaCO₂ 68 mmHg. Langkah selanjutnya yang paling tepat adalah?",
+    "options": [
+      "Naikkan O₂ menjadi NRM 15 L/menit",
+      "Intubasi segera tanpa mencoba NIV",
+      "Mulai non-invasive ventilation (BiPAP)",
+      "Pulangkan dengan bronkodilator inhalasi",
+      "Berikan bikarbonat intravena untuk mengoreksi pH"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Gagal napas hiperkapnik akut pada PPOK (pH ≤ 7,35 dan PaCO₂ > 45 meskipun terapi medis optimal) adalah indikasi kuat (Level A) NIV; NIV menurunkan kebutuhan intubasi dan mortalitas. Pasien ini memenuhi syarat karena sadar, kooperatif, mampu melindungi jalan napas, hemodinamik stabil, dan tanpa sekret berlebih. Menaikkan O₂ dapat memperberat hiperkapnia. Intubasi dipertimbangkan bila NIV gagal atau ada kontraindikasi. Bikarbonat tidak mengatasi masalah ventilasi."
+  },
+  {
+    "question": "Manakah kondisi berikut yang merupakan kontraindikasi pemberian non-invasive ventilation (NIV)?",
+    "options": [
+      "Edema paru kardiogenik dengan pasien sadar dan kooperatif",
+      "Pasien imunokompromais dengan infiltrat paru dan gagal napas akut",
+      "Pasien PPOK dengan keputusan do-not-intubate",
+      "PPOK eksaserbasi dengan pH 7,31",
+      "Pasien koma dengan sekret jalan napas berlebihan dan muntah"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Kontraindikasi NIV meliputi henti jantung/syok, iskemia atau aritmia tak terkendali, tidak kooperatif/agitasi, koma (non-hiperkapnia), sekret berlebih, obstruksi jalan napas atas, disfungsi bulbar berat, perdarahan saluran cerna atas berat, riwayat operasi esofagus/jalan napas atas, dan kelainan kraniofasial. Pasien koma dengan sekret banyak dan muntah tidak mampu melindungi jalan napas dan berisiko aspirasi, sehingga membutuhkan intubasi. Edema paru kardiogenik, imunokompromais dengan gagal napas, dan PPOK hiperkapnik adalah indikasi kuat (Level A); pasien DNI termasuk indikasi Level B."
+  },
+  {
+    "question": "Seorang anak 4 tahun tampak sianosis setelah diberi obat anestesi lokal benzokain untuk tindakan. SpO₂ tetap sekitar 85% walaupun diberi O₂ 10 L/menit, sementara PaO₂ pada AGD 210 mmHg. Darahnya berwarna coklat gelap. Pemeriksaan dan terapi yang paling tepat adalah?",
+    "options": [
+      "Ulangi pulse oximetry di jari lain; tidak perlu terapi",
+      "Foto toraks; antibiotik",
+      "Co-oximetry untuk methemoglobin; terapi metilen biru",
+      "Ekokardiografi bubble study; tutup defek septum",
+      "Spirometri; bronkodilator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Methemoglobinemia (dipicu dapson, nitrat, atau anestesi lokal seperti benzokain) membuat besi Hb dalam bentuk ferri yang tidak dapat mengikat O₂ dan menggeser kurva ke kiri. Pulse oximetry khas terpaku di sekitar 85% berapa pun PaO₂, sementara PaO₂ dapat tinggi karena O₂ terlarut tidak terpengaruh; darah tampak cokelat gelap. Diagnosis dengan co-oximetry dan terapinya metilen biru. Shunt jantung tidak akan memberi PaO₂ 210 mmHg pada O₂ 10 L/menit. Foto toraks dan spirometri tidak menjawab masalah Hb abnormal."
+  },
+  {
+    "question": "Seorang laki-laki 40 tahun dengan Guillain–Barré syndrome bernapas 30×/menit dengan volume tidal 250 mL (ventilasi semenit 7,5 L/menit). Dengan ruang rugi anatomis 150 mL, mengapa PaCO₂-nya meningkat meskipun ventilasi semenitnya tampak normal?",
+    "options": [
+      "Karena ventilasi alveolar hanya (250 − 150) × 30 = 3 L/menit sehingga eliminasi CO₂ tidak cukup",
+      "Karena produksi CO₂ meningkat akibat demam",
+      "Karena shunt kanan-ke-kiri",
+      "Karena gangguan difusi CO₂ di membran alveolus",
+      "Karena hiperventilasi menurunkan PaCO₂"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PaCO₂ ditentukan oleh ventilasi alveolar (VA = (VT − VD) × RR), bukan ventilasi semenit total. Napas cepat-dangkal membuat porsi ruang rugi dari setiap napas relatif besar: VA = (250 − 150) × 30 = 3 L/menit, lebih rendah dari VA normal sekitar 4–4,5 L/menit, sehingga CO₂ tertahan. Ini pola khas kelemahan otot napas pada penyakit neuromuskular. CO₂ sangat mudah berdifusi sehingga gangguan difusi jarang menyebabkan hiperkapnia. Shunt dan hiperventilasi tidak menaikkan PaCO₂."
+  },
+  {
+    "question": "Perhatikan tabel setting awal ventilator berikut. Seorang laki-laki tinggi 176 cm (PBW ≈ 71 kg) diintubasi karena gagal napas. Pengaturan volume tidal awal yang sesuai tabel adalah?",
+    "options": [
+      "250–300 mL",
+      "900–1.000 mL",
+      "700–850 mL",
+      "430–570 mL",
+      "Disesuaikan dengan berat badan aktual 95 kg, yaitu 950 mL"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Setting awal mode assist/control volume menggunakan volume tidal 6–8 mL/kg predicted body weight (PBW), bukan berat badan aktual. PBW laki-laki = 50 + 0,91 × (176 − 152,4) ≈ 71 kg, sehingga VT ≈ 6 × 71 = 426 sampai 8 × 71 = 568 mL. Setting lain pada tabel: rate 12–20/menit, PEEP 4–5 cmH₂O, FiO₂ awal 1,0 lalu diturunkan, plateau < 30 cmH₂O, dan driving pressure < 13 cmH₂O. Menggunakan berat aktual akan menghasilkan volume terlalu besar dan cedera paru akibat ventilator.",
+    "image": "assets/materi/blok2.6/is-2-3/setting-awal-ventilator.jpg"
+  },
+  {
+    "question": "Perhatikan algoritma pendekatan hipoksemia berikut. Seorang pasien hipoksemia memiliki A–a gradient yang melebar. Setelah diberi O₂ 100%, PaO₂ hanya naik sedikit. Kesimpulan menurut algoritma adalah?",
+    "options": [
+      "Shunt",
+      "PiO₂ rendah",
+      "V/Q mismatch",
+      "Gangguan difusi",
+      "Hipoventilasi"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algoritma: hitung A–a gradient. Bila normal, bedakan hipoventilasi (PaCO₂ tinggi) dari PiO₂ rendah (PaCO₂ normal/rendah). Bila melebar, beri O₂ tambahan: PaO₂ yang naik baik menandakan V/Q mismatch atau gangguan difusi, sedangkan kenaikan kecil dengan O₂ 100% menandakan shunt (darah melewati alveolus tanpa ventilasi). Pola campuran sering ditemukan, misalnya eksaserbasi PPOK dengan hipoventilasi dan V/Q mismatch sekaligus (PaCO₂ dan A–a sama-sama naik).",
+    "image": "assets/materi/blok2.6/is-2-3/algoritma-hipoksemia.jpg"
+  },
+  {
+    "question": "Seorang perempuan 35 tahun dengan serangan asma berat datang dengan RR 34×/menit, berbicara kata per kata, dan wheezing yang makin melemah. AGD: pH 7,36; PaCO₂ 44 mmHg; PaO₂ 62 mmHg. Interpretasi PaCO₂ pada pasien ini adalah?",
+    "options": [
+      "Normal sehingga serangan tergolong ringan",
+      "Menandakan perbaikan klinis",
+      "Menunjukkan alkalosis metabolik",
+      "Tanda bahaya kelelahan otot napas dan ancaman gagal napas, karena pada serangan asma PaCO₂ seharusnya rendah",
+      "Akibat pemberian oksigen berlebihan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pada serangan asma, pasien biasanya hiperventilasi sehingga PaCO₂ rendah (gagal napas tipe 1 dengan alkalosis respiratorik). PaCO₂ yang normal atau meningkat pada pasien yang sangat takipnea, berbicara kata per kata, dan wheezing melemah (menuju silent chest) menunjukkan kelelahan otot napas dan ventilasi alveolar yang mulai tidak adekuat, sebuah tanda bahaya yang memerlukan pemantauan ketat di ICU dan persiapan bantuan ventilasi. Nilai ini bukan perbaikan dan bukan gangguan metabolik."
+  }
+]

@@ -302,6 +302,173 @@
         "year": "Latihan",
         "count": 10
       }
+    },
+    {
+      "code": "EL 2.1",
+      "slug": "el-2-1",
+      "kind": "Expert Lecture",
+      "title": "Mechanism of Dyspnoea and Tachypnoea",
+      "dept": "Internal Medicine",
+      "lecturers": [
+        "dr. Harik Firman Thahadian, Sp.PD, Ph.D"
+      ],
+      "practical": false,
+      "available": true,
+      "markdown": "# EL 2.1 — Mekanisme Dispnea dan Takipnea\n\n## Ringkasan Cepat\n\n| Konsep | Inti | Kata kunci ujian |\n|---|---|---|\n| **Dispnea** | **Gejala SUBJEKTIF**: rasa tidak nyaman bernapas | Air hunger, chest tightness, ↑ work of breathing |\n| **Takipnea** | **Tanda OBJEKTIF**: frekuensi napas di atas normal | Dewasa **> 20×/menit** (normal 12–20) |\n| Mekanisme | Ketidaksesuaian **kebutuhan ventilasi** dengan **ventilasi yang tercapai** | Kemoreseptor, mekanoreseptor, pusat napas |\n| Pengukuran | Skala **Borg**, **mMRC**, **VAS/NRS** | **mMRC ≥ 2** = keterbatasan bermakna |\n| Red flag | Hipotensi, **RR > 40**, penurunan kesadaran, sianosis, stridor | Perlu tindakan segera |\n\n---\n\n## A. Definisi dan Terminologi\n\n### 1. Dispnea = gejala\n- **Dispnea (sesak napas)** adalah **pengalaman subjektif** berupa ketidaknyamanan dalam bernapas, terdiri atas sensasi dengan **intensitas dan karakteristik yang bervariasi**.\n- Dirasakan sebagai **kekurangan udara (air hunger)**, **dada berat/tertekan (chest tightness)**, **peningkatan usaha bernapas (increased work of breathing)**, atau sulit memasukkan/mengeluarkan udara.\n- Karena subjektif, **dispnea hanya bisa dilaporkan pasien**, tidak dapat diukur langsung dari luar.\n\n### 2. Takipnea = tanda\n- **Takipnea**: peningkatan **frekuensi napas** melebihi nilai normal sesuai usia dan kondisi fisiologis.\n- Dewasa normal **12–20×/menit**; disebut takipnea bila **> 20×/menit**.\n- Takipnea adalah **\"tanda\", bukan diagnosis** — selalu cari penyebabnya.\n\n| Kelompok usia | Frekuensi napas normal (×/menit) |\n|---|---|\n| Neonatus (0–28 hari) | **30–60** |\n| Bayi (1–12 bulan) | 30–50 |\n| Anak 1–3 tahun | 24–40 |\n| Anak 3–5 tahun | 22–34 |\n| Anak 6–12 tahun | 18–30 |\n| Remaja–dewasa | **12–20** |\n\n### 3. Terminologi lain yang sering tertukar\n| Istilah | Definisi | Catatan |\n|---|---|---|\n| **Bradipnea** | Frekuensi napas **di bawah normal** (< 12×/menit) | Opioid, cedera kepala, hipotermia |\n| **Hiperpnea** | ↑ **kedalaman/volume** napas, **sesuai kebutuhan metabolik** | Mis. saat olahraga; PaCO₂ tetap normal |\n| **Hiperventilasi** | **Ventilasi alveolar melebihi produksi CO₂** | Ciri khas: **PaCO₂ turun** |\n\n> [!HIGHYIELD] Pembeda kunci: **hiperpnea** sesuai kebutuhan metabolik sehingga **PaCO₂ normal**, sedangkan **hiperventilasi** melebihi kebutuhan sehingga **PaCO₂ turun (alkalosis respiratorik)**. Takipnea hanya bicara **frekuensi**, belum tentu ventilasi alveolar naik.\n\n![Perbedaan pola napas: eupnea, takipnea, bradipnea, apnea, hiperpnea, Cheyne-Stokes, Biot, Kussmaul, dan apneustik beserta frekuensi, kedalaman, dan polanya.](assets/materi/blok2.6/el-2-1/pola-napas.jpg)\n\n| Pola napas | Ciri | Penyebab khas |\n|---|---|---|\n| **Cheyne–Stokes** | Kedalaman naik–turun bertahap (crescendo–decrescendo) diselingi **apnea** | Gagal jantung, ↑ TIK, stroke hemisfer bilateral |\n| **Biot (ataksik)** | Napas cepat-dalam **tidak teratur**, diselingi apnea | Meningitis, lesi medula oblongata |\n| **Kussmaul** | **Cepat dan dalam, teratur** | **Asidosis metabolik** (KAD, uremia) |\n| **Apneustik** | **Inspirasi memanjang** dengan jeda, ekspirasi singkat | **Lesi pons** |\n\n---\n\n## B. Mekanisme Dispnea\n\n### 1. Alur sederhana\n**Aktivasi mekanoreseptor/kemoreseptor → pusat respirasi → n. frenikus dan n. interkostalis → otot inspirasi.** Dispnea muncul ketika terjadi **ketidaksesuaian antara kebutuhan ventilasi (drive) dan ventilasi yang berhasil dicapai** — disebut juga *neuromechanical dissociation*.\n\n> [!TAMBAHAN] Konsep **corollary discharge**: saat batang otak dan korteks motorik mengirim perintah ke otot napas, salinan perintah itu juga dikirim ke korteks sensorik. Otak lalu membandingkan \"perintah yang dikirim\" dengan \"hasil yang dilaporkan reseptor\". Bila hasil jauh lebih kecil dari perintah (mis. jalan napas menyempit atau paru kaku), muncul rasa sesak.\n\n### 2. Mekanoreseptor — mendeteksi perubahan mekanik\n| Reseptor | Respons terhadap |\n|---|---|\n| **Pulmonary stretch receptors (slow-adapting)** | **Peregangan dan volume paru**; mengatur pola dan kedalaman napas (refleks Hering–Breuer) |\n| **Irritant receptors (rapidly adapting)** | Partikel, asap, amonia, debu, mediator inflamasi → **takipnea, bronkokonstriksi, refleks batuk** |\n| **J-receptors (juxtacapillary)** | **Kongesti dan edema interstisial paru** → napas cepat dan dangkal |\n| **Reseptor otot dan sendi dinding dada** | Gerakan, tegangan, dan beban kerja otot napas |\n\n### 3. Kemoreseptor\n| | **Perifer** | **Sentral** |\n|---|---|---|\n| Lokasi | **Badan karotis** (bifurkasio a. karotis) dan **badan aorta** (arkus aorta) | **Permukaan ventrolateral medula oblongata**, nukleus retrotrapezoid |\n| Mendeteksi | **↓ PaO₂** (aktivasi bermakna bila **PaO₂ < ~60 mmHg**); sensitivitas ↑ oleh asidosis dan hiperkapnia | **↑ PaCO₂** melalui **↓ pH cairan serebrospinal** |\n| Jalur | **CN IX dan X → nukleus traktus solitarius** → ventilasi ↑ | Pemegang **sebagian besar kendali respiratory drive** |\n\n**Mekanisme kemoreseptor sentral:** ↑ PaCO₂ → CO₂ menembus sawar darah otak → CO₂ + H₂O → H₂CO₃ → **H⁺** + HCO₃⁻ → **pH LCS turun** → stimulasi kemoreseptor sentral → ventilasi ↑ untuk membuang CO₂.\n\n> [!PENTING] **H⁺ dari darah tidak mudah menembus sawar darah otak**, sedangkan **CO₂ mudah berdifusi**. Itulah sebabnya kemoreseptor sentral terutama \"membaca\" **CO₂**, bukan pH darah secara langsung.\n\n### 4. Reseptor lain\n- **Metaboreseptor** (otot rangka): mendeteksi H⁺, laktat, kalium saat aktivitas.\n- **Reseptor vagal** wajah/saluran napas atas: **aliran udara sejuk ke wajah (kipas) dapat mengurangi rasa sesak**.\n- **Chest wall receptors**: posisi, gerakan, regangan struktur muskuloskeletal.\n\n### 5. Pusat respiratorik\n| Kelompok | Fungsi |\n|---|---|\n| **Dorsal respiratory group (medula)** | **Inspirasi** |\n| **Ventral respiratory group (medula)** | **Ekspirasi** (dan inspirasi saat ventilasi meningkat) |\n| **Pusat pneumotaksik (pons)** | **Membatasi inspirasi** |\n| **Pusat apneustik (pons)** | **Memperpanjang/merangsang inspirasi** |\n\n### 6. Asal tiap kualitas sensasi\n| Stimulus | Reseptor | Kualitas sesak |\n|---|---|---|\n| Hiperkapnia | Kemoreseptor sentral | **Air hunger** |\n| Hipoksia | Kemoreseptor perifer | Air hunger |\n| Perintah motorik napas, kelelahan otot, beban mekanik | Corollary discharge, reseptor dinding dada | **Work/effort** |\n| **Bronkokonstriksi** | RARs, C-fibre receptors (vagal irritant) | **Chest tightness** |\n| Inflasi paru | SARs | **Dispnea berkurang (relief)** |\n\n![Kualitas dispnea dan mekanisme yang mendasarinya: hiperkapnia dan hipoksia memberi air hunger, beban otot memberi work/effort, bronkokonstriksi memberi chest tightness.](assets/materi/blok2.6/el-2-1/kualitas-dispnea.jpg)\n\n### 7. Patofisiologi menurut penyakit\n| Mekanisme | Perubahan fisiologis | Contoh penyakit |\n|---|---|---|\n| **Obstruksi jalan napas** | ↑ resistensi aliran udara | **Asma, PPOK** |\n| **↓ Compliance paru** | ↑ usaha inspirasi | **Fibrosis paru, ARDS** |\n| **Gangguan V/Q** | Gangguan oksigenasi | **Pneumonia, emboli paru** |\n| **Kongesti paru** | ↑ tekanan kapiler dan cairan interstisial | **Gagal jantung** |\n| ↓ Kapasitas angkut O₂ | ↓ kandungan O₂ darah | **Anemia** |\n| ↑ Kebutuhan metabolik | ↑ kebutuhan ventilasi | Sepsis, demam |\n| **Gangguan neuromuskular** | ↓ kekuatan otot napas | **Miastenia gravis, GBS** |\n\n**Lima mekanisme utama dispnea:**\n1. **Abnormalitas neuromekanik paru** — imbalans antara usaha dan hasil ventilasi.\n2. **Aktivasi amigdala** — respons emosional (cemas, takut).\n3. **Peningkatan stimulus ventilasi** — dorongan napas meningkat.\n4. **Asidosis** — stimulasi kemoreseptor.\n5. **Peningkatan tekanan kardiovaskular** — kongesti paru, ↓ compliance, ↑ usaha napas.\n\n---\n\n## C. Pengukuran Dispnea\n\nIdealnya menggabungkan **penilaian subjektif pasien + keterbatasan aktivitas fungsional + pemeriksaan objektif kardiorespirasi**.\n\n### 1. Skala Borg (CR-10)\n- Mengukur **intensitas dispnea pada suatu saat**, terutama **saat aktivitas atau uji latih**.\n- Rentang 0 (tidak sesak) sampai 10 (maksimal).\n\n![Skala Borg CR-10 dari 0 (no exertion) sampai 10 (maximal) untuk menilai intensitas sesak saat aktivitas.](assets/materi/blok2.6/el-2-1/skala-borg.jpg)\n\n### 2. Skala mMRC (modified Medical Research Council)\nMenilai dispnea berdasarkan **keterbatasan aktivitas sehari-hari**.\n\n| Derajat | Kriteria |\n|---|---|\n| **0** | Sesak hanya saat **aktivitas berat** |\n| **1** | Sesak saat **berjalan cepat** di tempat datar atau sedikit menanjak |\n| **2** | Berjalan **lebih lambat dari orang seusianya**, atau harus berhenti saat berjalan dengan kecepatan sendiri |\n| **3** | Harus berhenti setelah berjalan **sekitar 100 meter** atau beberapa menit |\n| **4** | **Terlalu sesak untuk keluar rumah** atau sesak saat berpakaian |\n\n**Interpretasi:** mMRC **0–1** = keterbatasan minimal; **mMRC ≥ 2** = keterbatasan aktivitas yang bermakna.\n\n> [!TAMBAHAN] Pada PPOK (GOLD), **mMRC ≥ 2** (atau CAT ≥ 10) menandakan **gejala berat** dan ikut menentukan kelompok terapi awal. Ini sering keluar di soal yang menghubungkan EL 2.1 dengan EL 1.6.\n\n### 3. VAS dan NRS\n- **VAS**: garis dari \"tidak sesak\" sampai \"sesak terburuk\".\n- **NRS 0–10**: **0** tidak sesak; **1–3** ringan; **4–6** sedang; **7–10** berat hingga maksimal.\n\n---\n\n## D. Diferensial Diagnosis dan Red Flag\n\n**Diferensial dispnea** dibagi menjadi **kardiak** (SKA, gagal jantung, aritmia, tamponade), **respiratorik** (obstruksi jalan napas atas/bawah, penyakit parenkim, vaskular paru, dinding dada/pleura), dan **non-kardiorespirasi** (neuromuskular, toksik/metabolik seperti asidosis dan anemia, psikogenik).\n\n| Lokasi | Contoh | Petunjuk pemeriksaan |\n|---|---|---|\n| Jalan napas atas | **Benda asing, angioedema/anafilaksis, epiglotitis** | **Stridor**, suara serak, drooling |\n| Paru | Asma, PPOK eksaserbasi, **emboli paru**, pneumonia, **pneumotoraks** | Wheezing, ronki, suara napas hilang unilateral |\n| Jantung | **Gagal jantung kongestif**, SKA | Ortopnea, PND, JVP ↑, ronki basah basal |\n| Otot | GBS, miastenia | Kelemahan progresif, arefleksia |\n| Lain | **Hiperventilasi psikogenik** | Pemeriksaan sering normal |\n\n![Red flags dispnea berat: hipotensi, RR > 40×/menit, perubahan status mental, hipoksia, sianosis, stridor, usaha napas tanpa aliran udara, deviasi trakea dengan suara napas unilateral, aritmia tidak stabil.](assets/materi/blok2.6/el-2-1/red-flag-dispnea.jpg)\n\n> [!PENTING] **Red flag dispnea**: **hipotensi**, **RR > 40×/menit**, **perubahan status mental**, **hipoksia**, **sianosis**, **stridor**, **usaha napas tanpa pergerakan udara** (silent chest), **deviasi trakea + suara napas unilateral** (curiga **tension pneumothorax**), dan **aritmia tidak stabil**.\n\n### Manajemen dispnea (prinsip)\n1. **Suplementasi oksigen** — mengubah stimulasi kemoreseptor, pola napas, dan reseptor aliran udara saluran napas atas.\n2. **Terapi farmakologis sesuai penyebab** — mis. **wheezing → SABA ± ICS**; **opioid** banyak diteliti untuk dispnea refrakter (paliatif).\n3. **Rehabilitasi pulmoner** — menurunkan dispnea saat aktivitas dan meningkatkan toleransi latihan.\n4. **Non-farmakologis lain** — posisi, teknik napas (pursed-lip), **kipas angin ke wajah**.\n\n---\n\n## E. Takipnea\n\n### 1. Mekanisme\nPerubahan kondisi fisiologis/patologis → **aktivasi kemoreseptor dan mekanoreseptor** → impuls aferen ke pusat napas → ↑ aktivitas neuron respirasi → ↑ impuls eferen ke otot napas → **RR meningkat**.\n\n### 2. Patofisiologi menurut penyebab\n| Penyebab | Mekanisme utama | Contoh |\n|---|---|---|\n| **Hipoksemia** | Stimulasi **kemoreseptor perifer** | Pneumonia, ARDS |\n| **Hiperkapnia** | Stimulasi **kemoreseptor sentral** | PPOK, hipoventilasi |\n| **Asidosis metabolik** | Kompensasi menurunkan PaCO₂ | **KAD, asidosis laktat** |\n| Demam | ↑ kebutuhan metabolik | Infeksi |\n| Obstruksi jalan napas | ↑ resistensi | Asma, PPOK |\n| ↓ Compliance | ↑ usaha ventilasi (napas cepat-dangkal lebih hemat energi) | Fibrosis, edema paru |\n| ↑ Metabolisme | ↑ kebutuhan ventilasi | Sepsis, hipertiroidisme |\n| Stimulasi neurologis | Perubahan aktivitas pusat napas | Cedera otak, perdarahan intrakranial |\n\n![Etiologi takipnea per sistem: respirasi, kardiovaskular, hematologi, saraf pusat, metabolik/endokrin, infeksi, muskuloskeletal/neuromuskular, dan toksikologi.](assets/materi/blok2.6/el-2-1/etiologi-takipnea.jpg)\n\n### 3. Red flag takipnea\n1. Frekuensi napas **meningkat progresif**.\n2. **Saturasi O₂ menurun**.\n3. **Penggunaan otot bantu napas berat**.\n4. **Penurunan kesadaran**.\n5. **Sianosis**.\n6. **Tidak mampu berbicara** satu kalimat penuh.\n7. Tanda **kelelahan otot napas** (napas paradoksal, RR justru mulai turun).\n8. **Hipotensi/syok**.\n\n> [!KLINIS] Pada pasien asma berat yang tadinya takipnea, **frekuensi napas yang \"membaik\" disertai penurunan kesadaran dan silent chest** justru tanda **kelelahan otot napas dan ancaman henti napas**, bukan perbaikan.\n\n---\n\n## F. High-Yield / Poin Ujian\n- **Dispnea = gejala subjektif; takipnea = tanda objektif (> 20×/menit pada dewasa).**\n- **Hiperventilasi** ditandai **PaCO₂ turun**; hiperpnea sesuai kebutuhan metabolik.\n- **Kemoreseptor perifer** (karotis via **CN IX**, aorta via **CN X**) → terutama **hipoksemia (PaO₂ < 60)**; **kemoreseptor sentral** (medula ventral) → **CO₂ via pH LCS**, pemegang utama drive napas.\n- **J-receptor** → edema/kongesti interstisial (gagal jantung) → napas cepat dangkal.\n- **Chest tightness** ↔ bronkokonstriksi (reseptor iritan vagal); **air hunger** ↔ kemoreseptor/hiperkapnia; **work/effort** ↔ beban otot.\n- **mMRC ≥ 2** = keterbatasan bermakna; **Borg** untuk intensitas saat aktivitas; **NRS 7–10** = berat.\n- Pola **Kussmaul** = asidosis metabolik; **Cheyne–Stokes** = gagal jantung/↑ TIK; **apneustik** = lesi pons.\n- Red flag: hipotensi, **RR > 40**, status mental berubah, sianosis, stridor, deviasi trakea.\n\n*Sumber: slide EL 2.1 (dr. Harik Firman Thahadian, Ph.D., Sp.PD, Subsp.P.M.K); StatPearls Dyspnea dan Tachypnea; Coccia et al. SAMJ 2016. Bagian bertanda \"Tambahan\" adalah pelengkap konsep di luar slide.*\n",
+      "quiz": {
+        "block": "materi-blok-ii-6",
+        "exam": "latihan",
+        "type": "el-2-1",
+        "year": "Latihan",
+        "count": 10
+      }
+    },
+    {
+      "code": "IS 2.2",
+      "slug": "is-2-2",
+      "kind": "Integrated Seminar",
+      "title": "Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+      "dept": "Physiology, Anaesthesiology",
+      "lecturers": [
+        "Dr. dr. Juni Kurniawty, M.Sc, Sp.An-TI, Subsp.An.KV(K)",
+        "dr. Siswanto, Sp.P(K)"
+      ],
+      "practical": false,
+      "available": true,
+      "markdown": "# IS 2.2 — Hipoksemia/Hipoksia pada Gangguan Ventilasi, Pertukaran Gas, dan Perfusi\n\n## Ringkasan Cepat\n\n| Konsep | Inti | Kata kunci ujian |\n|---|---|---|\n| **Hipoksemia** | ↓ **PaO₂** darah arteri (gagal napas akut: **PaO₂ < 60 mmHg**) | Masalah di **darah** |\n| **Hipoksia** | O₂ **tidak cukup di tingkat jaringan** | Bisa terjadi **tanpa** hipoksemia |\n| 5 penyebab hipoksemia | ↓ PiO₂, **hipoventilasi**, **V/Q mismatch**, **difusi**, **shunt** | Pembeda: **A–a gradient** dan respons O₂ |\n| 4 jenis hipoksia | **Hipoksik, anemik, stagnan, histotoksik** | Sianida = histotoksik |\n| Rumus | **DO₂ = CO × CaO₂**; **CaO₂ = 1,34 × Hb × SaO₂ + 0,003 × PaO₂** | Hb dan SaO₂ paling menentukan |\n\n---\n\n## A. Konsep Dasar\n\n### 1. Hipoksemia vs hipoksia\n- **Hipoksemia**: penurunan **tekanan O₂ arteri (PaO₂)**; dalam konteks gagal napas akut dipakai **PaO₂ < 60 mmHg**.\n- **Hipoksia**: **ketersediaan atau pemakaian O₂ yang tidak adekuat di jaringan**. Hipoksemia hanyalah **salah satu** penyebab hipoksia.\n- **Anemia, curah jantung rendah, syok, atau disfungsi mitokondria** dapat menyebabkan hipoksia jaringan **walaupun PaO₂ normal**.\n\n### 2. Pertukaran gas = tiga proses berkesinambungan\n1. **Ventilasi** — udara segar mencapai alveolus.\n2. **Difusi** — melewati sawar alveolus–kapiler, plus reaksi kimia O₂–Hb dan CO₂ → bikarbonat.\n3. **Perfusi** — aliran darah kapiler paru.\n\n### 3. Persamaan gas alveolar dan A–a gradient\n- **PAO₂ = FiO₂ × (Patm − PH₂O) − PaCO₂/R**\n- Permukaan laut, udara ruang: **PAO₂ ≈ 150 − PaCO₂/0,8** (≈ 100 mmHg bila PaCO₂ 40).\n- Versi praktis dr. Siswanto: **PAO₂ = (713 × FiO₂) − (PaCO₂ × 1,25)**.\n- **A–a gradient = PAO₂ − PaO₂**; normal ≈ **(usia/4) + 4** atau 5–15 mmHg pada dewasa muda.\n- **A–a normal** → masalah **di luar paru** (↓ PiO₂ atau hipoventilasi). **A–a meningkat** → masalah **pertukaran gas di paru**.\n\n### 4. PaCO₂ dan ventilasi alveolar\n- **PaCO₂ ≈ VCO₂ / VA** — CO₂ selalu seimbang antara kapiler dan alveolus, jadi **PaCO₂ = PACO₂**.\n- **PaCO₂ adalah penanda ventilasi alveolar**: PaCO₂ naik = hipoventilasi relatif terhadap produksi CO₂.\n- **Rumus penting lain:** Hypoxemic score/**PF ratio = PaO₂/FiO₂**; FiO₂ yang dibutuhkan = (PAO₂ target + 1,25 × PaCO₂)/713.\n\n---\n\n## B. Lima Mekanisme Hipoksemia\n\n![Tabel lima penyebab hipoksemia: difusi, hipoventilasi, penurunan PiO₂, V/Q rendah, dan shunt, dengan PAO₂, A–a gradient, dan respons terhadap peningkatan FiO₂.](assets/materi/blok2.6/is-2-2/lima-penyebab-hipoksemia.jpg)\n\n| Mekanisme | PaCO₂ | A–a gradient | Respons O₂ | Contoh |\n|---|---|---|---|---|\n| **↓ PiO₂** | ↓ (hiperventilasi hipoksik) | **Normal** | Baik | **Ketinggian**, ruang tertutup/kebakaran |\n| **Hipoventilasi** | **↑** | **Normal** | Baik (tapi **CO₂ tetap tinggi**) | **Opioid/sedatif**, GBS, miastenia, kifoskoliosis, OHS |\n| **V/Q mismatch** | Normal/↓ | **↑** | Baik | **PPOK, asma, pneumonia, edema paru, atelektasis** |\n| **Gangguan difusi** | Normal/↓ | ↑ (terutama saat aktivitas) | Baik | **Fibrosis/ILD**, edema interstisial, emfisema |\n| **Shunt kanan-ke-kiri** | Normal/↓ | **↑** | **Buruk** | **ARDS**, pneumonia lobar, **ASD/VSD dengan Eisenmenger**, AVM paru |\n\n> [!HIGHYIELD] **Hanya shunt yang tidak membaik dengan O₂ 100%** — darah yang melewati alveolus tanpa ventilasi (V/Q = 0) tidak pernah bertemu O₂ tambahan. **V/Q mismatch** adalah **penyebab hipoksemia tersering**.\n\n### 1. Hipoventilasi\n- Volume udara segar ke alveolus per menit berkurang.\n- Dua ciri fisiologis kardinal: **(1) selalu menaikkan PaCO₂**, **(2) hipoksemia mudah dikoreksi dengan O₂**.\n- **O₂ memperbaiki saturasi tetapi tidak memperbaiki ventilasi atau hiperkapnia** → nilai kebutuhan **bantuan ventilasi**.\n\n![Penyebab hipoventilasi sesuai tingkat gangguan: depresi pusat napas oleh obat, penyakit medula, medula spinalis, sel kornu anterior, saraf, neuromuscular junction, otot napas, dinding dada, dan obstruksi jalan napas atas.](assets/materi/blok2.6/is-2-2/penyebab-hipoventilasi.jpg)\n\n### 2. V/Q mismatch\n- **V/Q seluruh paru ≈ 0,8–1,2** (ventilasi alveolar 4–6 L/menit, aliran darah paru ≈ curah jantung 5 L/menit).\n- **V/Q tinggi** (ventilasi > perfusi) → PAO₂ naik, PACO₂ turun → menuju **ruang rugi alveolar** (mis. **emboli paru**).\n- **V/Q rendah** (perfusi > ventilasi) → PAO₂ turun, PACO₂ naik → menuju **shunt** (mis. **asma, PPOK, pneumonia, atelektasis**).\n\n![Spektrum V/Q: alveolus utuh tanpa perfusi (V/Q tak hingga, ruang rugi), perfusi menurun (V/Q > 1), normal (V/Q = 1), alveolus rusak dengan perfusi normal (V/Q < 1), dan atelektasis (V/Q = 0, shunt).](assets/materi/blok2.6/is-2-2/spektrum-vq.jpg)\n\n### 3. Ruang rugi (dead space)\n| Jenis | Definisi | Contoh |\n|---|---|---|\n| **Anatomis** | Saluran napas konduksi tanpa pertukaran gas (≈ 150 mL) | Trakea–bronkiolus terminal |\n| **Alveolar** | Alveolus **terventilasi tetapi tidak/sedikit terperfusi** | **Emboli paru**, curah jantung rendah, alveolus overdistensi (PEEP tinggi) |\n| **Fisiologis** | Anatomis + alveolar | — |\n\n### 4. Gangguan difusi\n- O₂ tidak sempat seimbang antara alveolus dan darah kapiler.\n- Penyebab: **↑ jarak difusi** (sawar menebal), **↓ luas permukaan**, atau **waktu transit kapiler memendek** (curah jantung tinggi, aktivitas).\n- Contoh: **ILD/fibrosis paru, edema paru, emfisema**. Biasanya **A–a ↑** dan **membaik dengan O₂**.\n\n### 5. Shunt\n- **Shunt fisiologis**: sekitar **2% curah jantung** normal melewati alveolus (vena bronkialis, Thebesian).\n- **Shunt kanan-ke-kiri** (defek septum, Eisenmenger) menyebabkan hipoksemia; **shunt kiri-ke-kanan lebih sering dan tidak menyebabkan hipoksemia**.\n- **Intrapulmoner**: alveolus terisi cairan/kolaps tetapi masih terperfusi (**atelektasis, pneumonia, ARDS**).\n\n---\n\n## C. Hipoksia: Pengantaran dan Pemakaian O₂\n\n### 1. Rumus pengantaran O₂\n- **CaO₂ = (1,34–1,39 × Hb × SaO₂) + (0,003 × PaO₂)** ≈ 20 mL O₂/dL; **> 98% terikat Hb**.\n- **DO₂ = CO × CaO₂** (× 10) ≈ 1.000 mL/menit.\n- **VO₂ = CO × (CaO₂ − CvO₂)**.\n- Faktor penentu hipoksia: **curah jantung**, **kandungan O₂** (jalan napas, pernapasan → SaO₂), dan **hemoglobin**.\n\n![Rumus pengantaran oksigen DO₂ = CO × [(1,39 × Hb × SaO₂) + (PaO₂ × 0,03)] beserta arti tiap komponen.](assets/materi/blok2.6/is-2-2/rumus-do2.jpg)\n\n> [!TAMBAHAN] Contoh hitungan: Hb 15, SaO₂ 98% → O₂ terikat ≈ 1,34 × 15 × 0,98 ≈ 19,7 mL/dL; O₂ terlarut pada PaO₂ 100 = 0,3 mL/dL. Menaikkan PaO₂ dari 100 ke 500 mmHg hanya menambah ≈ 1,2 mL/dL, sedangkan transfusi dari Hb 7 ke 10 menambah ≈ 4 mL/dL. Itulah sebabnya **Hb dan SaO₂ jauh lebih penting daripada PaO₂** untuk pengantaran O₂.\n\n### 2. Klasifikasi hipoksia\n| Jenis | Mekanisme | PaO₂ | Contoh |\n|---|---|---|---|\n| **Hipoksik (hipoksemik)** | PaO₂ arteri **turun** | **↓** | Ketinggian, hipoventilasi, V/Q mismatch, difusi, shunt |\n| **Anemik** | PaO₂ normal tetapi **Hb pembawa O₂ berkurang/abnormal** | Normal | **Anemia berat**, perdarahan, **keracunan CO**, MetHb |\n| **Stagnan (iskemik)** | **Aliran darah ke jaringan terlalu rendah** | Normal | **Syok, curah jantung rendah** |\n| **Histotoksik (sitopatik)** | **Sel tidak mampu memakai O₂** | Normal | **Keracunan sianida**, (sepsis) |\n\n![Skema klasifikasi hipoksia: hipoksik, anemik, stagnan, dan histotoksik beserta penyebab dan perubahan kompensasinya.](assets/materi/blok2.6/is-2-2/klasifikasi-hipoksia.jpg)\n\n![Klasifikasi penyebab hipoksia menurut PAO₂, PaO₂, CaO₂, PvO₂, CvO₂, dan apakah peningkatan FiO₂ membantu.](assets/materi/blok2.6/is-2-2/tabel-penyebab-hipoksia.jpg)\n\n> [!HIGHYIELD] Pada **hipoksia histotoksik**, jaringan tidak mengambil O₂ sehingga **PvO₂ dan SvO₂ justru tinggi** dan selisih arteriovena O₂ paling kecil. Pada **hipoksia stagnan** sebaliknya: aliran lambat → ekstraksi O₂ maksimal → **PvO₂ sangat rendah**, selisih arteriovena paling besar.\n\n### 3. Silent/happy hypoxemia\n- Pada COVID-19 banyak pasien **SpO₂ sangat rendah tetapi tidak tampak sesak**.\n- Penjelasan: **PaCO₂ tetap normal/rendah** (karena hiperventilasi dan CO₂ mudah berdifusi), sedangkan rasa sesak lebih kuat dipicu **hiperkapnia dan beban mekanik**; compliance paru pada fase awal relatif masih baik.\n\n---\n\n## D. Konsekuensi Klinis\n\n| Sistem | Akibat hipoksemia/hipoksia |\n|---|---|\n| **Seluler** | **Metabolisme anaerob**, **akumulasi laktat**, ATP ↓, disfungsi organ |\n| **Respirasi** | Stimulasi kemoreseptor perifer → **↑ drive dan kerja napas**, kelelahan, gagal ventilasi |\n| **Kardiovaskular** | **Takikardia**, ↑ TD, aritmia, iskemia miokard, ketidakstabilan hemodinamik |\n| **Saraf** | **Gelisah, agitasi, bingung**, penurunan kesadaran, kejang, cedera otak |\n\nGejala akut sering berupa **dispnea dan takipnea**; beratnya gejala sesuai beratnya hipoksia. Bila pengantaran O₂ sangat terganggu → kerusakan organ → kematian sel → **disfungsi multiorgan**.\n\n### Dispnea – distres napas – gagal napas\n- **Dispnea**: sensasi subjektif.\n- **Distres napas**: dispnea yang menimbulkan penderitaan fisik/emosional; dinilai dari **penampilan, usaha napas (kerja napas ↑, RR ↑), dan auskultasi**.\n- **Gagal napas**: **hipoksemia (gagal oksigenasi) dan/atau hiperkapnia (gagal ventilasi)**, akut atau kronik.\n\n| Tipe gagal napas | Mekanisme | Kriteria |\n|---|---|---|\n| **Tipe I (hipoksemik)** | Gangguan transfer O₂: V/Q mismatch, shunt, difusi | **PaO₂ < 60**, PaCO₂ normal/↓ |\n| **Tipe II (hiperkapnik)** | **Ventilasi alveolar tidak adekuat**: drive failure atau pump failure | **PaCO₂ > 45–50** ± hipoksemia |\n\n---\n\n## E. Penilaian dan Tatalaksana\n\n### 1. Penilaian klinis\n- **ABCDE**: patensi jalan napas, usaha napas, status mental, sirkulasi/perfusi, **tanda kelelahan**.\n- **Pulse oximetry**: tren, bentuk gelombang, perfusi, artefak.\n- **AGD**: PaO₂, PaCO₂, pH; hitung **A–a gradient** atau **P/F ratio**.\n- Cari penyebab: foto toraks, USG paru, ekokardiografi, laboratorium.\n\n### 2. Tatalaksana hipoksia hipoksik\n| Masalah | Tindakan |\n|---|---|\n| **Jalan napas** | Buka jalan napas, **triple airway maneuver**, **suction** |\n| **Ventilasi/oksigenasi** | ↑ **FiO₂**, ventilasi mekanik |\n| **Obat sesuai penyebab** | **Bronkodilator**; **diuretik** (edema paru); **steroid** (ILD) |\n| Lain | Pembedahan bila perlu |\n\n**Pilihan alat oksigen (sesuai beratnya):** nasal kanul → simple mask → rebreathing mask → **non-rebreathing mask** → **HFNC** → ventilator **non-invasif** → **invasif**.\n\n> [!KLINIS] Kasus dari kuliah: laki-laki 60 tahun **tersedak setelah makan sate**, gelisah dalam posisi lutut-dada, **stridor inspirasi**, sianosis bibir, SpO₂ 85–87%. Ini **hipoksia hipoksik akibat obstruksi jalan napas atas (benda asing)** → prioritas **membebaskan jalan napas** (bukan sekadar menaikkan O₂). Kasus lain: pneumonia lobus kanan dengan SpO₂ 90% → **V/Q mismatch/shunt** → O₂ + antibiotik. Kasus ketiga: SpO₂ 54% yang hanya naik ke 72% dengan NRM 15 L, TD 70/30, laktat 4,4 → kombinasi **hipoksemia refrakter (shunt)** dan **hipoksia stagnan (syok)**.\n\n---\n\n## F. High-Yield / Poin Ujian\n- **Hipoksemia = ↓ PaO₂; hipoksia = O₂ jaringan tidak cukup** (bisa dengan PaO₂ normal).\n- **A–a normal**: ↓ PiO₂ dan **hipoventilasi** (hipoventilasi → **PaCO₂ ↑**). **A–a ↑**: V/Q mismatch, difusi, shunt.\n- **Shunt = satu-satunya yang tidak membaik dengan O₂ 100%.** V/Q mismatch = **tersering**.\n- **Emboli paru → V/Q tinggi/ruang rugi alveolar**; **atelektasis/pneumonia → V/Q rendah/shunt**.\n- **DO₂ = CO × CaO₂; CaO₂ = 1,34 × Hb × SaO₂ + 0,003 × PaO₂.**\n- **Anemik** (anemia, **CO**), **stagnan** (syok), **histotoksik** (**sianida**, SvO₂ tinggi).\n- **Oksigen mengoreksi saturasi pada hipoventilasi tetapi tidak menurunkan PaCO₂** — perlu bantuan ventilasi.\n\n*Sumber: slide IS 2.2 (Dr. dr. Juni Kurniawty, M.Sc, Sp.An-TI, Subsp.An.KV(K); dr. Siswanto, Sp.P(K)); West's Respiratory Physiology; Costanzo Physiology; Levitzky Pulmonary Physiology; Eur Respir J 2014–2015. Bagian bertanda \"Tambahan\" adalah pelengkap konsep di luar slide.*\n",
+      "quiz": {
+        "block": "materi-blok-ii-6",
+        "exam": "latihan",
+        "type": "is-2-2",
+        "year": "Latihan",
+        "count": 10
+      }
+    },
+    {
+      "code": "IS 2.3",
+      "slug": "is-2-3",
+      "kind": "Integrated Seminar",
+      "title": "Disturbances in Gas Exchanges",
+      "dept": "Internal Medicine, Anaesthesiology",
+      "lecturers": [
+        "dr. Arif Ikhwandi, Sp.An-TI, Subsp.An.O(K)",
+        "dr. Nur Rahmi Ananda, Sp.PD-KP"
+      ],
+      "practical": false,
+      "available": true,
+      "markdown": "# IS 2.3 — Gangguan Pertukaran Gas\n\n## Ringkasan Cepat\n\n| Topik | Inti | Kata kunci ujian |\n|---|---|---|\n| Fisiologi | Ventilasi, difusi, perfusi, transpor O₂/CO₂ | **PaCO₂ = penanda ventilasi alveolar** |\n| Mekanisme hipoksemia | 5 mekanisme, dibedakan dengan **PaCO₂, A–a gradient, respons O₂** | **Shunt tidak membaik dengan O₂** |\n| Hiperkapnia | \"Won't breathe\", \"can't breathe\", \"can't breathe enough\", \"too much CO₂\" | O₂ saja **tidak** memperbaiki CO₂ |\n| AGD | Oksigenasi → pH → gangguan primer → kompensasi → anion gap | **Selalu catat FiO₂** |\n| Gagal napas | **Tipe 1**: PaO₂ < 60; **Tipe 2**: PaCO₂ > 45–50 | Target SpO₂ **94–98%** atau **88–92%** |\n| Tatalaksana | O₂ → HFNC → **NIV** → **intubasi** | Indikasi/kontraindikasi NIV |\n\n---\n\n## A. Fisiologi Singkat\n\n### 1. Jalur udara ke alveolus\n- **Zona konduksi (generasi 0–16)**: hidung → faring/laring → trakea → bronkus → bronkiolus terminal; **tanpa pertukaran gas**, ruang rugi anatomis **≈ 150 mL (≈ 2 mL/kg)**.\n- **Zona respirasi (generasi 17–23)**: bronkiolus respiratorius → duktus alveolaris → sakus; **300–500 juta alveolus**, luas **50–100 m²**, tebal membran **≈ 0,3 µm**.\n- Inspirasi: **diafragma (n. frenikus C3–C5)** dan interkostal eksterna kontraksi → volume toraks ↑ → tekanan pleura dan alveolus turun di bawah atmosfer → udara masuk (**hukum Boyle**). **Ekspirasi saat istirahat pasif** (elastic recoil).\n\n### 2. Empat tahap respirasi\n1. **Ventilasi pulmoner** — udara keluar-masuk.\n2. **Respirasi eksternal** — difusi O₂/CO₂ di membran alveolus–kapiler.\n3. **Transpor gas** — O₂ terutama oleh Hb, CO₂ kembali ke paru.\n4. **Respirasi internal** — pertukaran di kapiler jaringan.\n\nVentilasi bergantung pada **paru & saluran napas**, **sistem neuromuskular** (pusat napas, saraf, otot), serta **dinding dada & pleura**.\n\n### 3. Kaskade oksigen\nUdara kering **159** → trakea (dilembapkan) **150** → alveolus **100** → arteri **95** → vena campuran **40 mmHg**.\n\n**PAO₂ = FiO₂ × (Patm − PH₂O) − PaCO₂/R**; udara ruang di permukaan laut: 0,21 × (760 − 47) − 40/0,8 ≈ **150 − 50 = 100 mmHg**. A–a gradient normal **5–15 mmHg** (≈ usia/4 + 4).\n\n### 4. Penentu PaCO₂\n- **PaCO₂ = 0,863 × VCO₂ / VA**, dengan **VA = (VT − VD) × RR**.\n- **Napas cepat-dangkal menurunkan ventilasi alveolar** walaupun ventilasi semenit sama.\n\n| Pola | VT × RR | VE | VA |\n|---|---|---|---|\n| Lambat-dalam | 500 mL × 12 | 6,0 L/menit | (500 − 150) × 12 = **4,2 L/menit** |\n| Cepat-dangkal | 250 mL × 24 | 6,0 L/menit | (250 − 150) × 24 = **2,4 L/menit → PaCO₂ ↑** |\n\n### 5. Kandungan O₂ dan kurva disosiasi\n- **CaO₂ = 1,34 × Hb × SaO₂ + 0,003 × PaO₂** ≈ 20 mL/dL; **DO₂ = CO × CaO₂ × 10** ≈ 1.000 mL/menit.\n- **PaO₂ 60 mmHg ≈ SaO₂ 90%** — di bawah \"bahu\" kurva saturasi turun curam. **P50 ≈ 27 mmHg**.\n- **Geser kanan** (↑ H⁺, ↑ PCO₂, ↑ suhu, ↑ 2,3-DPG): O₂ lebih mudah dilepas ke jaringan.\n- **Geser kiri** (alkalosis, hipotermia, **CO**, MetHb, **HbF**): O₂ dipegang lebih erat.\n\n![Kandungan, pengantaran O₂, dan kurva disosiasi oksihemoglobin: kurva normal (P50 27), geser kanan, dan geser kiri.](assets/materi/blok2.6/is-2-3/kurva-disosiasi-oksigen.jpg)\n\n---\n\n## B. Definisi dan Mekanisme Gangguan Pertukaran Gas\n\n| Istilah | Definisi |\n|---|---|\n| **Hipoksemia** | ↓ PaO₂ arteri (**< 80 mmHg**) |\n| **Hipoksia** | O₂ tidak cukup untuk metabolisme aerob jaringan; bisa tanpa hipoksemia |\n| **Hiperkapnia** | **PaCO₂ > 45 mmHg** → asidosis respiratorik |\n| **Gagal napas** | **PaO₂ < 60** dan/atau **PaCO₂ > 45–50 mmHg** |\n\n### 1. Membedakan lima mekanisme hipoksemia\n| Mekanisme | PaCO₂ | A–a | Respons O₂ | Contoh |\n|---|---|---|---|---|\n| ↓ PiO₂ | ↓ | Normal | Baik | Ketinggian |\n| **Hipoventilasi** | **↑** | **Normal** | Baik (CO₂ tetap) | **Overdosis opioid**, neuromuskular, OHS |\n| **V/Q mismatch** | Normal/↓ | ↑ | Baik | **PPOK, asma, pneumonia, emboli paru** |\n| **Shunt** | Normal/↓ | ↑ | **Buruk** | **ARDS**, pneumonia lobar, atelektasis |\n| **Difusi** | Normal/↓ | ↑ (saat aktivitas) | Baik | **ILD**, emfisema |\n\n> [!HIGHYIELD] **PaCO₂ menilai ventilasi**, **A–a gradient** menilai apakah **parunya sendiri abnormal**, dan **respons terhadap O₂** memisahkan **shunt** dari mekanisme lainnya.\n\n![Algoritma pendekatan hipoksemia: hitung A–a gradient; bila normal, PaCO₂ tinggi berarti hipoventilasi dan PaCO₂ normal/rendah berarti PiO₂ rendah; bila melebar, beri O₂ — membaik berarti V/Q mismatch atau difusi, tidak membaik berarti shunt.](assets/materi/blok2.6/is-2-3/algoritma-hipoksemia.jpg)\n\n**Catatan mekanisme:**\n- **V/Q mismatch** — tersering. Low V/Q: obstruksi jalan napas atau alveolus terisi; high V/Q: emboli, emfisema, curah jantung rendah. **Vasokonstriksi pulmoner hipoksik** membatasi mismatch, dan **hilang dengan vasodilator atau O₂ berlebihan pada PPOK**.\n- **Difusi (hukum Fick)**: laju ∝ luas × ΔP / tebal. Eritrosit seimbang dalam 0,25 dari 0,75 detik → jarang hipoksemia saat istirahat; **tersingkap saat aktivitas**; **DLCO ↓**.\n- **Shunt**: anatomis (Eisenmenger, AVM paru; normal 2–3% dari vena bronkialis dan Thebesian) atau intrapulmoner. Terapi: **PEEP, rekrutmen, posisi prone**, atasi penyebab.\n- **Hipoksia tanpa hipoksemia**: anemia, **keracunan CO** (SpO₂ palsu normal → **co-oximetry**), **methemoglobinemia** (dapson, nitrat, anestesi lokal → **SpO₂ ≈ 85%** berapa pun PaO₂; terapi **metilen biru**), syok, sianida.\n\n### 2. Mekanisme hiperkapnia (PaCO₂ ∝ VCO₂/VA)\n| Kelompok | Contoh |\n|---|---|\n| **\"Won't breathe\"** — ↓ drive sentral | Opioid, sedatif, stroke batang otak, OHS, alkalosis metabolik berat |\n| **\"Can't breathe\"** — pompa gagal | **GBS, miastenia**, ALS, cedera servikal, kifoskoliosis, flail chest, paralisis diafragma |\n| **\"Can't breathe enough\"** — ↑ beban/ruang rugi | **PPOK, asma berat**, napas cepat-dangkal, kelelahan otot napas |\n| **\"Too much CO₂\"** — ↑ produksi | Demam, sepsis, tirotoksikosis, overfeeding karbohidrat (bermakna bila ventilasi terbatas) |\n\n### 3. Patofisiologi menurut lokasi (dr. Arif)\n| Pulmoner | Ekstrapulmoner |\n|---|---|\n| Hipoventilasi karena ↑ resistensi jalan napas (PPOK, asma) | **↓ O₂ udara inspirasi** |\n| V/Q abnormal (emboli paru, pneumonia) | **Shunt kanan-ke-kiri jantung** |\n| ↓ Kapasitas difusi (ILD, penyakit vaskular paru) | **Hipoksia anemik**, **hipoksia stagnan** |\n| **Shunt** (atelektasis) | Kelainan dinding dada/skelet, **hipoksia histotoksik** |\n\n![Patofisiologi sesak: pencetus (paru, kardiovaskular, sistemik, lain) → input sensorik (kemoreseptor, mekanoreseptor, reseptor lain) → persepsi sesak di otak → respons klinis.](assets/materi/blok2.6/is-2-3/patofisiologi-sesak.jpg)\n\n---\n\n## C. Manifestasi Klinis dan Pemeriksaan\n\n| Hipoksemia | Hiperkapnia | ↑ Kerja napas |\n|---|---|---|\n| Dispnea, **takipnea, takikardia** | **Sakit kepala pagi** | **Otot bantu napas**, retraksi |\n| Gelisah, bingung, agitasi | **Mengantuk → koma (narkosis CO₂)** | **Napas paradoksal abdomen = kelelahan** |\n| **Sianosis sentral** (butuh ≈ 5 g/dL deoksi-Hb; terlambat, tidak muncul pada anemia) | **Asterixis (flapping tremor)** | Tidak mampu bicara kalimat penuh |\n| Aritmia, hipotensi (lanjut) | **Ekstremitas hangat, nadi kuat (bounding)**, papiledema | Posisi tripod, pursed-lip |\n\n![Manifestasi distres napas: takipnea berat, stridor dan otot bantu napas, ketidakmampuan fonasi, tidak tahan berbaring datar, letargi, napas paradoksal, sianosis dengan SpO₂ turun, dan pacuan simpatis.](assets/materi/blok2.6/is-2-3/tanda-distres-napas.jpg)\n\n### Pemeriksaan penunjang\n- **Pulse oximetry** — SpO₂, rasio SpO₂/FiO₂.\n- **AGD** — PaO₂, PaCO₂, pH, HCO₃⁻, **P/F ratio**, **A–a gradient**.\n- **Kapnografi** — EtCO₂ untuk memantau ventilasi.\n- Penyebab: foto toraks, CT, USG paru; **spirometri**; **DLCO**; CTPA/V/Q scan (emboli); ekokardiografi ± bubble study; Hb, co-oximetry.\n\n### Pulse oximetry: cara kerja dan jebakan\n- Membandingkan serapan cahaya **merah (660 nm)** dan **inframerah (940 nm)** oleh oksi- vs deoksi-Hb pada darah pulsatil; akurasi **± 2–4%** bila SaO₂ > 80%.\n- **Palsu normal/tinggi**: **keracunan CO**; kulit gelap (hipoksemia tersembunyi).\n- **MetHb**: SpO₂ bergeser ke **≈ 85%**.\n- Sinyal buruk: syok, ekstremitas dingin, gerakan, cat kuku.\n- **Buta terhadap CO₂**: pada pasien dengan O₂ tambahan, SpO₂ bisa normal sementara PaCO₂ naik.\n\n---\n\n## D. Interpretasi AGD\n\n| Parameter | Mencerminkan | Normal |\n|---|---|---|\n| pH | Status asam-basa | **7,35–7,45** |\n| PaO₂ | Tekanan O₂ arteri | 80–100 mmHg (udara ruang) |\n| PaCO₂ | Ventilasi alveolar | **35–45 mmHg** |\n| HCO₃⁻ | Komponen metabolik | **22–26 mmol/L** |\n| Base excess | Komponen metabolik | −2 sampai +2 |\n| **P/F ratio** | Oksigenasi untuk FiO₂ tertentu | **> 400** |\n| A–a gradient | Efisiensi transfer gas | ≈ usia/4 + 4 |\n\n- **P/F ratio**: normal > 400 (95/0,21 ≈ 450). Cepat: PaO₂ harapan ≈ **FiO₂ (%) × 5**. **< 300** = oksigenasi terganggu; derajat ARDS ≤ 300 / ≤ 200 / ≤ 100.\n\n### Langkah sistematis\n1. **Oksigenasi** — PaO₂ vs FiO₂, P/F, A–a. **Selalu catat FiO₂.**\n2. **pH** — < 7,35 asidemia, > 7,45 alkalemia.\n3. **Gangguan primer** — PaCO₂ atau HCO₃⁻ yang menjelaskan arah pH.\n4. **Kompensasi** — sesuai harapan? Bila tidak → **gangguan campuran**.\n5. **Anion gap** (asidosis metabolik) — Na⁺ − (Cl⁻ + HCO₃⁻), normal ≈ 12 ± 2.\n6. **Konteks klinis** — akut vs kronik, tren, ulangi AGD setelah intervensi.\n\n| Gangguan primer | Kompensasi yang diharapkan |\n|---|---|\n| **Asidosis metabolik** | **PaCO₂ = 1,5 × HCO₃⁻ + 8 (± 2)** (Winter) |\n| Alkalosis metabolik | PaCO₂ ↑ 0,7 per 1 mmol/L ↑ HCO₃⁻ |\n| **Asidosis respiratorik akut** | HCO₃⁻ ↑ **1** per 10 mmHg ↑ PaCO₂ (pH ↓ ≈ 0,08) |\n| **Asidosis respiratorik kronik** | HCO₃⁻ ↑ **3,5** per 10 mmHg (pH ↓ ≈ 0,03) |\n| Alkalosis respiratorik akut | HCO₃⁻ ↓ 2 per 10 mmHg ↓ PaCO₂ |\n| Alkalosis respiratorik kronik | HCO₃⁻ ↓ 4–5 per 10 mmHg |\n\nKompensasi respiratorik butuh menit–jam; **kompensasi ginjal 3–5 hari**; kompensasi **tidak pernah mengoreksi pH secara berlebihan**.\n\n### Spirometri dan DLCO\n- **Obstruktif**: FEV₁/FVC < LLN (GOLD: **< 0,70 pascabronkodilator**). **Restriktif**: ↓ FVC, rasio normal/↑ → konfirmasi ↓ TLC. **MIP/MEP > ± 60 cmH₂O** → kelemahan otot napas tidak mungkin.\n- **DLCO ↓**: emfisema, ILD, penyakit vaskular paru, anemia. **DLCO ↑**: polisitemia, **perdarahan alveolar**, asma, shunt kiri-ke-kanan, obesitas. Selalu **koreksi terhadap Hb**.\n\n> [!TAMBAHAN] **DLCO rendah terisolasi** dengan spirometri dan volume paru normal → pikirkan **penyakit vaskular paru (hipertensi pulmonal, emboli kronik)**, ILD awal, atau anemia.\n\n---\n\n## E. Gagal Napas Akut\n\n- **Definisi**: gangguan berat pertukaran gas paru yang timbul **mendadak**; diagnosis dari **AGD (PaO₂, PaCO₂, pH)** sesuai baseline pasien; mortalitas ↑ dengan usia, komorbid, syok, dan gagal multiorgan.\n\n| | **Tipe 1 (hipoksemik)** | **Tipe 2 (hiperkapnik)** |\n|---|---|---|\n| Kriteria | **PaO₂ < 60**, PaCO₂ normal/↓ | **PaCO₂ > 45–50** ± hipoksemia |\n| Kegagalan | **Oksigenasi** (parenkim/vaskular) | **Ventilasi** (\"pump failure\") |\n| Mekanisme | V/Q mismatch, shunt, difusi | Hipoventilasi alveolar ± ↑ ruang rugi |\n| Contoh | Pneumonia, ARDS, edema paru, emboli paru, pneumotoraks | **PPOK**, overdosis opioid, neuromuskular, dinding dada |\n| Pemantauan | Pulse oximetry dapat menggantikan AGD berulang | **Pulse oximetry tidak bisa memantau CO₂** |\n\n**Akut**: pH < 7,35, HCO₃⁻ normal. **Kronik**: pH mendekati normal, HCO₃⁻ ↑. Ada juga **akut pada kronik**. Sebagian buku menambah **tipe 3** (atelektasis perioperatif) dan **tipe 4** (syok/hipoperfusi).\n\n![Pendekatan gagal napas tipe 1: PaO₂ turun → nilai PaCO₂ dan A–a gradient → bedakan hipoventilasi, PiO₂ rendah, V/Q mismatch/difusi, shunt, dan PvO₂ rendah.](assets/materi/blok2.6/is-2-3/pendekatan-gagal-napas-tipe-1.jpg)\n\n![Pendekatan gagal napas tipe 2: CO₂ meningkat karena produksi bertambah atau eliminasi berkurang (hipoventilasi sentral, gangguan neuromuskular, atau hipoventilasi dengan gangguan pertukaran gas).](assets/materi/blok2.6/is-2-3/pendekatan-gagal-napas-tipe-2.jpg)\n\n| Penyakit | Mekanisme dominan | Pola |\n|---|---|---|\n| PPOK | V/Q mismatch; hipoventilasi saat eksaserbasi | Tipe 1 → tipe 2 |\n| Asma | V/Q mismatch (low V/Q) | Tipe 1; **PaCO₂ normal/↑ = tanda bahaya** |\n| Pneumonia | Shunt + V/Q mismatch | Tipe 1 |\n| Emboli paru | V/Q mismatch (ruang rugi + redistribusi aliran) | Tipe 1, **PaCO₂ ↓** |\n| ILD | V/Q mismatch + difusi | Tipe 1, memburuk saat aktivitas |\n| **ARDS** | **Shunt** | Tipe 1, **refrakter** |\n| Edema paru kardiogenik | Shunt + V/Q mismatch | Tipe 1 |\n| Neuromuskular, opioid | Hipoventilasi | Tipe 2 |\n\n> [!KLINIS] **Kasus 1** (laki-laki 53 tahun, demam, batuk, takipnea): pH 7,47; PaCO₂ 32,4; PaO₂ 52 (udara ruang). P/F ≈ 248; PAO₂ ≈ 150 − 32,4/0,8 ≈ 109; **A–a ≈ 57 (harapan ≈ 17) → melebar**. Kesimpulan: **gagal napas tipe 1 dengan alkalosis respiratorik akut** karena shunt + V/Q mismatch akibat konsolidasi pneumonia → O₂ target 94–98%, antibiotik, HFNC bila refrakter.\n\n> [!KLINIS] **Kasus 2** (laki-laki 56 tahun, perokok 60 pack-year, batuk produktif 4 hari): pH 7,31; PaCO₂ 60; PaO₂ 57; A–a 18. HCO₃⁻ hitung ≈ 29. Bila akut, HCO₃⁻ ≈ 26 dan pH ≈ 7,24; bila kronik, HCO₃⁻ ≈ 31 dan pH ≈ 7,34 → nilai di antaranya = **akut pada kronik**. PAO₂ = 150 − 60/0,8 = 75; A–a ≈ 18 (sesuai usia) → **hipoksemia terutama karena hipoventilasi**. Diagnosis: **gagal napas tipe 2 — eksaserbasi akut PPOK** → **Venturi 24–28%, target SpO₂ 88–92%**, bronkodilator, kortikosteroid sistemik, antibiotik bila sputum purulen; **NIV bila pH ≤ 7,35 dan PaCO₂ > 45**; ulang AGD 30–60 menit.\n\n---\n\n## F. Tatalaksana Kegawatdaruratan\n\n### 1. Prinsip\n1. **Airway & ABC** — posisi, suction, amankan jalan napas bila perlu.\n2. **Koreksi hipoksemia** — O₂ terkontrol sesuai **target SpO₂**.\n3. **Dukung ventilasi** — NIV/ventilasi invasif untuk asidosis hiperkapnik, kelelahan, hipoksemia refrakter.\n4. **Atasi penyebab & pantau** — RR, SpO₂, status mental, AGD ulang.\n\n| Penyebab | Terapi spesifik |\n|---|---|\n| PPOK/asma | Bronkodilator, steroid sistemik (± antibiotik) |\n| Pneumonia | Antibiotik |\n| Emboli paru | Antikoagulan; trombolisis bila risiko tinggi |\n| Edema paru kardiogenik | Diuretik, vasodilator, **CPAP/NIV** |\n| ARDS | Ventilasi protektif, PEEP, prone |\n| Overdosis opioid | **Nalokson**, bantuan ventilasi |\n| Pneumotoraks | Dekompresi/chest drain |\n\n### 2. Algoritma distres napas (dr. Arif)\nTriase di IGD → aktifkan tim resusitasi, kepemimpinan dan komunikasi efektif → **APD** → siapkan alat dan obat → anamnesis singkat kondisi mengancam jiwa → **pasang monitor dan jalur IV** → **posisi head up**. Pengenalan distres napas mengancam jiwa melalui **triase** (level 1 resusitasi: henti napas, obstruksi jalan napas total, distres napas berat) dan **primary survey** (jalan napas, pernapasan, sirkulasi, disabilitas).\n\n### 3. Terapi oksigen: resepkan target\n- **94–98%** untuk sebagian besar pasien akut.\n- **88–92%** untuk risiko gagal napas hiperkapnik: **PPOK, OHS, neuromuskular, kelainan dinding dada, fibrosis kistik** (BTS 2017: oksigen adalah obat).\n\n| Alat | Aliran | Perkiraan FiO₂ |\n|---|---|---|\n| **Nasal kanul** | 1–4 L/menit | 24–40% |\n| **Simple face mask** | 5–10 L/menit | 40–60% |\n| **Venturi mask** | Sesuai katup | **24–60% (tetap/presisi)** |\n| **Non-rebreather (reservoir)** | 15 L/menit | 60–90% |\n| **HFNC** | Hingga 60 L/menit | 21–100% |\n\n**Mengapa O₂ berlebihan dapat menaikkan PaCO₂ pada PPOK:** **hilangnya vasokonstriksi pulmoner hipoksik** (V/Q memburuk), **efek Haldane** (Hb teroksigenasi melepas CO₂), ± penurunan hypoxic drive.\n\n### 4. Eskalasi bantuan napas\nO₂ konvensional → **HFNC** (dipanaskan dan dilembapkan, FiO₂ tinggi, sedikit PEEP, membilas ruang rugi) → **NIV (BiPAP/CPAP)** → **ventilasi invasif**.\n\n| NIV — indikasi kuat (Level A) | NIV — indikasi lebih lemah (Level B) | Kontraindikasi NIV |\n|---|---|---|\n| **Gagal napas hiperkapnik akut pada PPOK** | Asma | **Henti jantung, syok** |\n| **Edema paru kardiogenik** | Gagal ekstubasi pada PPOK | Iskemia/aritmia tak terkontrol |\n| **Imunokompromais** dengan infiltrat, demam, gagal napas akut | Gagal napas hipoksemik lain, pascaoperasi, pasien DNI | **Tidak kooperatif/agitasi**, **koma**, **sekret berlebih**, **obstruksi jalan napas atas**, disfungsi bulbar berat, **perdarahan saluran cerna atas berat**, riwayat operasi esofagus/jalan napas atas, kelainan kraniofasial |\n\n**Indikasi intubasi emergensi:** distres napas dengan **kelelahan otot napas**; gagal napas hiperkapnik berat yang **tidak memenuhi syarat/gagal NIV**; **hipoksemia refrakter**; gangguan asam-basa metabolik berat refrakter; **tidak mampu mempertahankan/melindungi jalan napas**; obstruksi jalan napas atas; **↓ respiratory drive dengan bradipnea**.\n\n![Setting awal ventilator mode assist/control volume: VT 6–8 mL/kg PBW, waktu inspirasi 0,7–1,2 detik (I:E 1:2), rate 12–20, PEEP 4–5, FiO₂ 1,0 lalu diturunkan, tekanan plateau < 30 cmH₂O, driving pressure < 13 cmH₂O.](assets/materi/blok2.6/is-2-3/setting-awal-ventilator.jpg)\n\n**Ventilasi protektif pada ARDS:** VT **6 mL/kg PBW** (4–8), **plateau ≤ 30 cmH₂O**, PEEP adekuat, **prone ≥ 12 jam/hari bila P/F < 150**, cairan konservatif setelah syok teratasi.\n\n---\n\n## G. High-Yield / Poin Ujian\n- **Napas cepat-dangkal → VA turun → PaCO₂ naik** walaupun VE sama.\n- **PaO₂ 60 ≈ SaO₂ 90%**; geser kiri: **CO, MetHb, HbF, alkalosis, hipotermia**.\n- **Shunt** respons buruk terhadap O₂; **hipoventilasi** A–a normal + PaCO₂ ↑.\n- **Keracunan CO**: SpO₂ palsu normal → **co-oximetry**; **MetHb**: SpO₂ ≈ 85% → **metilen biru**.\n- **Winter: PaCO₂ = 1,5 × HCO₃⁻ + 8 ± 2.** Asidosis respiratorik akut HCO₃⁻ +1/10; kronik +3,5/10.\n- **Tipe 2 → target SpO₂ 88–92%** (Venturi 24–28%); **NIV bila pH ≤ 7,35 dan PaCO₂ > 45**.\n- NIV indikasi kuat: **AECOPD hiperkapnik, edema paru kardiogenik, imunokompromais**; kontraindikasi: **syok, koma, tidak kooperatif, sekret banyak, obstruksi jalan napas atas**.\n- **Pulse oximetry tidak bisa menilai CO₂**; selalu catat FiO₂ pada setiap AGD.\n\n*Sumber: slide IS 2.3 (dr. Arif Ikhwandi, Sp.An-TI, Subsp.An.O(K); dr. Nur Rahmi Ananda, Sp.PD-KP); Harrison 21st ed.; West's Respiratory Physiology; BTS Oxygen Guideline 2017; ERS/ATS NIV Guideline 2017; GOLD 2025. Bagian bertanda \"Tambahan\" adalah pelengkap konsep di luar slide.*\n",
+      "quiz": {
+        "block": "materi-blok-ii-6",
+        "exam": "latihan",
+        "type": "is-2-3",
+        "year": "Latihan",
+        "count": 10
+      }
+    },
+    {
+      "code": "EL 2.4",
+      "slug": "el-2-4",
+      "kind": "Expert Lecture",
+      "title": "Lung Cancer",
+      "dept": "Internal Medicine",
+      "lecturers": [
+        "dr. Ika Trisnawati, M.Sc., Sp.PD-KP"
+      ],
+      "practical": false,
+      "available": true,
+      "markdown": "# EL 2.4 — Kanker Paru\n\n## Ringkasan Cepat\n\n| Topik | Inti | Kata kunci ujian |\n|---|---|---|\n| Epidemiologi | Insidens dan kematian kanker **tertinggi di dunia**; 5 besar di Indonesia, terutama laki-laki | Globocan |\n| Tipe | **NSCLC 85–90%** (adenokarsinoma, skuamosa, sel besar) vs **SCLC 10–15%** | Lokasi **sentral vs perifer** |\n| Faktor risiko | **Merokok** (tersering), genetik, okupasi (asbes, radon, arsen, nikel, silika) | Pack-year |\n| Klinis | Batuk persisten, hemoptisis, **Pancoast, Horner, sindrom vena kava superior** | Clubbing, limfadenopati supraklavikula |\n| Skrining | **LDCT tahunan** pada perokok berisiko tinggi | ≥ 30 pack-year (ACS) |\n| Diagnosis | **Bronkoskopi** (sentral), **TTNA/core biopsy** (perifer), **EBUS** (KGB), torakosentesis | Staging **TNM AJCC 8** |\n| Jebakan | **Kanker paru meniru TB** | Re-assessment bila OAT tidak membaik |\n\n---\n\n## A. Definisi dan Biologi\n\n- **Kanker paru**: pertumbuhan jaringan abnormal dengan **multiplikasi sel progresif dan tidak terkendali**, berasal dari **epitel percabangan trakeobronkial**.\n- **Perubahan patologis utama**: inflamasi dan destruksi jalan napas/alveolus, **produksi mukus berlebih** dan sumbatan, **obstruksi jalan napas** (oleh darah, mukus, atau tumor), **atelektasis**, **konsolidasi**, **kavitas**, dan **efusi pleura**.\n- Alveolus dilapisi **pneumosit tipe I** (skuamosa, ±90% permukaan, difusi) dan **tipe II** (kuboid, **surfaktan**, prekursor tipe I untuk perbaikan).\n- **Adenokarsinoma** dikaitkan dengan **aktivasi KRAS pada pneumosit tipe II**; **SCLC** memiliki **ekspresi neuroendokrin**.\n\n---\n\n## B. Tipe Histologi\n\n![Tipe histologi kanker paru: NSCLC 85–90% (non-skuamosa: adenokarsinoma ±40%, sel besar ±10%, NOS < 5%; skuamosa 25–30%) dan SCLC 10–15%.](assets/materi/blok2.6/el-2-4/tipe-histologi.jpg)\n\n| Tipe | Proporsi | Lokasi | Ciri khas |\n|---|---|---|---|\n| **Adenokarsinoma** | **±40%** (tersering) | **Perifer** | **Tersering pada bukan perokok** dan perempuan; sering sudah **metastasis jauh saat didiagnosis** |\n| **Karsinoma sel skuamosa** | 25–30% | **Sentral** (dekat bronkus) | **Asosiasi terkuat dengan merokok**; lebih agresif dari adenokarsinoma; **hiperkalsemia (PTHrP)**; sering kavitas |\n| **Karsinoma sel besar** | ±10% | Bisa di mana saja (sering tengah/perifer) | Asosiasi cukup kuat dengan merokok; **metastasis dini, prognosis buruk** |\n| **SCLC** | 10–15% | **Sentral** | **Sangat agresif**, proliferasi cepat, **metastasis dini**; neuroendokrin |\n\n![Lokasi khas NSCLC: karsinoma sel skuamosa di sentral dekat bronkus utama, adenokarsinoma di perifer, dan karsinoma sel besar dapat muncul di bagian mana saja.](assets/materi/blok2.6/el-2-4/lokasi-nsclc.jpg)\n\n> [!TAMBAHAN] **Sindrom paraneoplastik** sering keluar di ujian: **SCLC → SIADH (hiponatremia), sindrom Cushing (ACTH ektopik), sindrom Lambert–Eaton**; **skuamosa → hiperkalsemia (PTHrP)**; adenokarsinoma → **hypertrophic pulmonary osteoarthropathy (clubbing)** dan hiperkoagulabilitas (Trousseau). Pada adenokarsinoma, pemeriksaan **mutasi EGFR, ALK, ROS1, KRAS** dan **PD-L1** menentukan terapi target/imunoterapi.\n\n---\n\n## C. Etiologi dan Faktor Risiko\n\n1. **Merokok** — penyebab **tersering**.\n2. **Predisposisi genetik**.\n3. **Lingkungan/okupasi**: **benzopiren dan radon** (tambang uranium), radiasi dan nuclear fallout, **polisiklik aromatik hidrokarbon dan arsen**, **serat asbes**, asap diesel, gas nitrogen mustard, **nikel**, **silika**, vinil klorida, klorometil metil eter, **polusi udara**, tambang batu bara dan besi.\n\n---\n\n## D. Manifestasi Klinis\n\n**Gejala:** batuk persisten atau berat ± sputum; nyeri dada, bahu, atau punggung; **suara serak (paralisis n. laringeus rekuren)**; **stridor**; sulit bernapas dan menelan; bronkitis kronik atau **pneumonia berulang**; **hemoptisis**; takipnea, takikardia; sianosis; **sindrom Pancoast**, **sindrom Horner**, **sindrom vena kava superior**.\n\n![Sindrom Pancoast (tumor apeks menginvasi pleksus brakialis), sindrom Horner (ptosis, miosis, anhidrosis), dan sindrom vena kava superior (edema wajah dan ekstremitas atas, distensi vena leher dan dada).](assets/materi/blok2.6/el-2-4/pancoast-horner-svc.jpg)\n\n| Sindrom | Mekanisme | Temuan |\n|---|---|---|\n| **Pancoast (superior sulcus tumor)** | Tumor **apeks paru** menginvasi **pleksus brakialis (C8–T1)**, iga, ganglion simpatis | **Nyeri bahu/lengan menjalar ke sisi ulnar**, atrofi otot tangan, ± Horner |\n| **Horner** | Invasi **rantai simpatis servikal/ganglion stelata** | **Ptosis, miosis, anhidrosis** ipsilateral |\n| **Sindrom vena kava superior** | Kompresi/invasi **VCS** (tersering oleh kanker paru, terutama **SCLC**, lalu limfoma) | **Edema wajah dan lengan**, distensi vena leher, **venektasi dinding dada**, plethora, sakit kepala, sesak |\n\n> [!KLINIS] Kasus dari kuliah 1: **laki-laki 52 tahun**, batuk 2 bulan, **hemoptisis**, sesak, **merokok 1 bungkus/hari selama 30 tahun (30 pack-year)**, **leher bengkak, venektasi dada dan perut, jari tabuh** → **sindrom vena kava superior akibat tumor paru sentral/mediastinum**.\n\n![Kasus laki-laki 52 tahun perokok berat dengan venektasi dinding dada dan abdomen serta clubbing finger; foto toraks dan CT menunjukkan massa paru kanan dengan pembesaran mediastinum.](assets/materi/blok2.6/el-2-4/kasus-sindrom-vcs.jpg)\n\n> [!KLINIS] Kasus 2: **perempuan 52 tahun, bukan perokok**, batuk kering dan **nyeri bahu-punggung kanan** 1 bulan, **kejang** 2 hari lalu → CT kepala menunjukkan **metastasis otak**; CT toraks menunjukkan nodul **perifer** → profil khas **adenokarsinoma** (bukan perokok, perifer, sering datang dengan metastasis jauh).\n\n![Kasus perempuan 52 tahun bukan perokok: nyeri bahu, kejang; CT kepala dengan lesi metastasis, foto toraks, dan CT toraks dengan nodul perifer.](assets/materi/blok2.6/el-2-4/kasus-adenokarsinoma.jpg)\n\n### Kapan merujuk untuk foto toraks segera\n- **Hemoptisis yang tidak dapat dijelaskan**, ATAU\n- Salah satu gejala/tanda yang **menetap > 3 minggu** (atau **< 3 minggu pada pasien berisiko**): nyeri dada/bahu, sesak, **penurunan berat badan/nafsu makan**, tanda dada abnormal, **suara serak**, **jari tabuh**, **limfadenopati servikal/supraklavikula**, batuk, atau tanda metastasis (otak, tulang, hati).\n\n---\n\n## E. Pencitraan dan Skrining\n\n**Gambaran radiologis:** lesi **koin/oval kecil**, **massa besar ireguler**, konsolidasi alveolar, **atelektasis**, **efusi pleura**, keterlibatan mediastinum atau diafragma.\n- **Lesi sentral**: **SCLC, karsinoma skuamosa**.\n- **Lesi perifer**: **adenokarsinoma**.\n\n### Skrining LDCT (American Cancer Society)\n| Kriteria | Isi |\n|---|---|\n| Sasaran | **Perokok aktif atau mantan perokok** (berhenti **≤ 15 tahun**) |\n| Usia | **55–74 tahun**, kondisi sehat |\n| Riwayat | **≥ 30 pack-year** |\n| Syarat lain | Konseling berhenti merokok, shared decision making, akses ke pusat skrining berkualitas |\n\n- **LDCT** memakai dosis radiasi **jauh lebih rendah** dari CT standar.\n- Membatasi skrining pada kelompok **risiko tinggi** mencegah pemeriksaan yang tidak perlu.\n\n> [!TAMBAHAN] Pedoman USPSTF 2021 dan ACS 2023 kini lebih luas: **usia 50–80 tahun dengan ≥ 20 pack-year**. Slide kuliah memakai kriteria lama (55–74 tahun, ≥ 30 pack-year) — untuk ujian blok, ikuti slide.\n\n**Hitung pack-year** = (jumlah bungkus per hari) × (lama merokok dalam tahun). Contoh: 1 bungkus/hari selama 30 tahun = **30 pack-year**.\n\n---\n\n## F. Diagnosis Jaringan\n\n| Prosedur | Indikasi |\n|---|---|\n| **Bronkoskopi** (BAL, brushing, biopsi endobronkial, **TBLB**, TBNA, cryobiopsy) | **Lesi sentral** |\n| **EBUS (endobronchial ultrasound)** ± TBNA | **KGB regional/mediastinum** (staging) |\n| **TTNA dan/atau core biopsy** dipandu CT/USG ± ROSE | **Lesi perifer** dan lesi medial |\n| **Torakosentesis** | **Diagnostik (sitologi) dan paliatif** pada efusi pleura |\n| **Pembedahan**: mediastinoskopi, mediastinotomi, **torakoskopi** | Bila diagnosis belum didapat dengan cara non-invasif |\n\n> [!HIGHYIELD] Pilih alat sesuai lokasi: **sentral → bronkoskopi**, **perifer → transthoracic needle (CT-guided)**, **KGB mediastinum → EBUS-TBNA**, **efusi → torakosentesis**. **ROSE (rapid on-site evaluation)** memastikan sampel adekuat saat prosedur.\n\n---\n\n## G. Staging dan Penilaian Risiko\n\n### 1. SCLC\n- **Limited stage**: tumor primer + KGB regional dalam satu hemitoraks (dapat dicakup satu lapangan radiasi).\n- **Extensive stage**: metastasis jauh (otak, hati, tulang, kelenjar adrenal) atau melewati hemitoraks.\n\n### 2. NSCLC — TNM (AJCC/UICC edisi 8)\n![Komponen TNM NSCLC: T1 < 3 cm, T2 3–5 cm atau invasi pleura viseral/bronkus utama, T3 > 5–7 cm atau invasi dinding dada/nodul lobus sama, T4 > 7 cm atau invasi mediastinum/nodul lobus berbeda ipsilateral; N0–N3; M0–M1.](assets/materi/blok2.6/el-2-4/tnm-nsclc.jpg)\n\n| Komponen | Ringkas |\n|---|---|\n| **T1** | **≤ 3 cm** |\n| **T2** | **> 3–5 cm**, atau invasi **pleura viseral**/bronkus utama, atelektasis parsial |\n| **T3** | **> 5–7 cm**, invasi dinding dada/n. frenikus/perikard parietal, nodul terpisah di **lobus yang sama** |\n| **T4** | **> 7 cm**, invasi **mediastinum, jantung, pembuluh besar, trakea, esofagus, vertebra, karina**, nodul di **lobus berbeda ipsilateral** |\n| **N1** | KGB **peribronkial/hilus ipsilateral** |\n| **N2** | KGB **mediastinum ipsilateral/subkarina** |\n| **N3** | KGB **kontralateral** atau **supraklavikula/skalenus** |\n| **M1** | Nodul paru kontralateral, **efusi pleura/perikard maligna**, atau metastasis jauh → **stadium IV** |\n\n### 3. Rekomendasi staging dan penilaian risiko\n1. Status merokok, komorbid, **performance status**, pemeriksaan fisik dan IMT.\n2. Lab standar: darah rutin, fungsi ginjal, hati, kimia tulang.\n3. **CT toraks dan abdomen dengan kontras** termasuk hati dan adrenal.\n4. **Imaging SSP** pada semua metastasis dan kelainan neurologis — **MRI lebih sensitif dari CT**.\n5. Metastasis tulang → **PET-CT**.\n6. Metastasis soliter → **sitologi/histologi untuk memastikan stadium IV**.\n7. Evaluasi terapi sistemik dengan radiologi **sebelum dan 6–9 minggu** setelah terapi; respons dinilai dengan **RECIST v1.1** (immune checkpoint inhibitor: iRECIST, irRECIST, imRECIST).\n8. **Follow-up rutin dengan PET tidak direkomendasikan** (sensitif tetapi spesifisitas rendah).\n\n---\n\n## H. Tatalaksana dan Prognosis\n\n![Tatalaksana NSCLC per stadium patologis dan kesintasan 5 tahun: stadium I operasi (60–70%), II operasi + kemoterapi adjuvan (30–50%), IIIA/B kemoradiasi (20–30%), IV kemoterapi (< 5%).](assets/materi/blok2.6/el-2-4/terapi-per-stadium.jpg)\n\n| Stadium | Terapi utama | Kesintasan 5 tahun |\n|---|---|---|\n| **I** (lokal) | **Pembedahan (reseksi)** | 60–70% |\n| **II** (lokal) | **Pembedahan + kemoterapi adjuvan** | 30–50% |\n| **IIIA/B** (regional) | **Kemoradiasi** | 20–30% |\n| **IV** (jauh) | **Terapi sistemik** (kemoterapi berbasis **platinum**, terapi target, imunoterapi) | **< 5%** |\n\n- Kesintasan 5 tahun keseluruhan **≈ 14%**; **kemoterapi kombinasi berbasis platinum** adalah tulang punggung terapi sistemik.\n- Pada NCCN 2023, setelah operasi diberikan terapi adjuvan sesuai stadium dan margin (mis. **osimertinib** bila mutasi EGFR; **atezolizumab/pembrolizumab** pada PD-L1 tertentu).\n- **SCLC** sangat sensitif terhadap kemoterapi dan radioterapi tetapi cepat kambuh; **jarang dioperasi**.\n- **Evaluasi lanjutan**: setiap **3–4 bulan selama 2 tahun pertama**, lalu **setiap 6 bulan selama 3 tahun berikutnya**.\n\n---\n\n## I. Kanker Paru yang Meniru TB\n\n![Kanker paru yang meniru tuberkulosis paru di negara endemis TB: foto toraks dan CT dengan lesi kavitas lobus atas.](assets/materi/blok2.6/el-2-4/mimicking-tb.jpg)\n\n- Di negara endemis TB, kanker paru sering **salah didiagnosis sebagai TB**, terutama **TB klinis (BTA negatif)**, sehingga diagnosis kanker terlambat.\n- Alur: TB terdiagnosis klinis → OAT tahap awal 2 bulan dengan **evaluasi 2 minggu pertama** → bila **tidak ada perbaikan klinis** (BB tidak naik, keluhan tetap) → **re-assessment**, pertimbangkan kanker paru dan **prosedur diagnostik invasif dini** (bronkoskopi, biopsi).\n\n> [!PENTING] Pasien **BTA/TCM negatif** yang diberi OAT berdasarkan foto toraks dan **tidak membaik** harus dievaluasi ulang — **jangan terus melanjutkan OAT tanpa diagnosis jaringan**, terutama bila ada faktor risiko kanker (perokok usia > 40 tahun, hemoptisis, massa, atelektasis).\n\n---\n\n## J. High-Yield / Poin Ujian\n- **NSCLC 85–90%**; **adenokarsinoma tersering**, **perifer**, **bukan perokok**, sering metastasis jauh saat diagnosis.\n- **Skuamosa**: **sentral**, **asosiasi terkuat dengan merokok**, **hiperkalsemia**, kavitas.\n- **SCLC**: sentral, neuroendokrin, **sangat agresif**, limited vs extensive stage; **SIADH, Cushing, Lambert–Eaton**.\n- **Pancoast** → pleksus brakialis; **Horner** → ptosis, miosis, anhidrosis; **sindrom VCS** → edema wajah/lengan, venektasi dada.\n- **Hemoptisis tak terjelaskan** atau gejala menetap > 3 minggu → foto toraks segera.\n- **LDCT** tahunan untuk perokok berisiko tinggi (slide: 55–74 tahun, ≥ 30 pack-year, berhenti ≤ 15 tahun).\n- **Sentral → bronkoskopi; perifer → TTNA/core biopsy CT-guided; KGB → EBUS.**\n- **Imaging SSP: MRI lebih sensitif**; respons terapi dengan **RECIST 1.1**; PET tidak untuk follow-up rutin.\n- Stadium **I–II operasi**, **III kemoradiasi**, **IV sistemik (platinum)**.\n- **OAT tanpa perbaikan → re-assessment** kemungkinan kanker paru.\n\n*Sumber: slide EL 2.4 (dr. Ika Trisnawati, M.Sc., Sp.PD-KP); Globocan; American Cancer Society; NCCN NSCLC 2023; AJCC Cancer Staging 8th ed. Bagian bertanda \"Tambahan\" adalah pelengkap konsep di luar slide.*\n",
+      "quiz": {
+        "block": "materi-blok-ii-6",
+        "exam": "latihan",
+        "type": "el-2-4",
+        "year": "Latihan",
+        "count": 10
+      }
+    },
+    {
+      "code": "IS 2.5",
+      "slug": "is-2-5",
+      "kind": "Integrated Seminar",
+      "title": "Central Neurogenic Respiratory Failure",
+      "dept": "Neurology, Anaesthesiology",
+      "lecturers": [
+        "dr. Calcarina Fitriani RW, Sp.An-TI, Subsp.An.TI(K)",
+        "dr. Halwan Fuad Bayuangga, M.Sc., D.Phil"
+      ],
+      "practical": false,
+      "available": true,
+      "markdown": "# IS 2.5 — Gagal Napas Neurogenik Sentral\n\n## Ringkasan Cepat\n\n| Topik | Inti | Kata kunci ujian |\n|---|---|---|\n| Definisi | Gagal napas akibat gangguan **kontrol ventilasi sentral**, **kelemahan otot napas**, atau **keterlibatan bulbar** | Mayoritas **tipe II (hiperkapnik)** |\n| Pusat napas | Jaringan di **medula dan pons**: **pre-Bötzinger** (pembangkit ritme), **RTN** (kemoreseptor CO₂), NTS | Model jaringan menggantikan \"pneumotaksik/apneustik\" |\n| Pola napas | **Cheyne–Stokes, apneustik, ataksik (Biot), hiperventilasi neurogenik sentral**, apnea | Lokalisasi lesi |\n| Sentral vs perifer | Sentral: **bradipnea/apnea, tampak nyaman**; neuromuskular: **cepat-dangkal, distres** | |\n| Tatalaksana | Masalahnya **VENTILASI** → **bantuan ventilasi** (NIV/invasif) | **O₂ saja tidak cukup** |\n| Ventilator | VT **6–8 mL/kg PBW**, PEEP 5, target **normokapnia 35–45 mmHg** pada cedera otak | |\n\n---\n\n## A. Definisi dan Klasifikasi\n\n- **Gagal napas**: ketidakmampuan sistem respirasi menyediakan O₂ dan/atau membuang CO₂.\n- **Gagal napas neurogenik**: gagal napas akibat **gangguan kontrol ventilasi sentral**, **kelemahan otot napas**, atau **keterlibatan bulbar**.\n- **Gagal napas neurogenik sentral** (definisi kerja): kegagalan/disregulasi mekanisme saraf pusat untuk **ventilasi otomatis**, berakibat **drive napas tidak adekuat, ritme abnormal, hipoventilasi, atau apnea**.\n\n| Tipe gagal napas | Kriteria |\n|---|---|\n| **Tipe I** | **PaO₂ < 60 mmHg** dengan PaCO₂ normal/↓ |\n| **Tipe II** | **PaCO₂ > 45 mmHg dengan pH < 7,35**; PaO₂ normal/↓ |\n| **Campuran** | Hipoksemia + hiperkarbia |\n\n### Empat mekanisme gagal napas neurologis (sering terjadi bersamaan)\n1. **Kegagalan kontrol ventilasi sentral** — drive/pembangkitan ritme terganggu.\n2. **Disfungsi bulbar** — proteksi dan pembersihan jalan napas terganggu.\n3. **Gagal napas neuromuskular** — aktivasi otot napas terganggu.\n4. **Komplikasi paru** — pertukaran gas terganggu (pneumonia aspirasi, edema paru neurogenik).\n\n> [!PENTING] **Pola napas abnormal tidak sama dengan gagal napas.** Gangguan serebral sering memberi pola napas abnormal, tetapi **hipoventilasi menetap akibat disfungsi serebral saja relatif jarang**. Selain itu, \"neurogenik\" lebih luas daripada kegagalan drive sentral — kelemahan otot napas dan disfungsi bulbar juga termasuk.\n\n---\n\n## B. Neuroanatomi dan Fisiologi Kontrol Napas\n\n### 1. Organisasi sistem kontrol napas\n| Tingkat | Fungsi |\n|---|---|\n| **Korteks serebri dan forebrain** | Modulasi **volunter dan perilaku**: bicara, menahan napas, emosi |\n| **Batang otak (pons dan medula)** | **Pembangkitan dan modulasi ritme otomatis**; kemoresepsi |\n| **Medula spinalis dan saraf perifer** | Menghantarkan perintah motorik (**n. frenikus C3–C5**, segmen torakal) |\n| **Otot napas** | Pompa: **diafragma**, interkostal, otot bantu, otot jalan napas atas |\n\nLesi **pada tingkat mana pun** dapat menyebabkan gagal napas.\n\n### 2. Pusat napas di batang otak\n![Neuroanatomi pusat napas batang otak: kompleks parabrakial/Kölliker-Fuse, kompleks Bötzinger, pre-Bötzinger, VRG rostral dan kaudal, nukleus traktus solitarius, dan nukleus ambiguus.](assets/materi/blok2.6/is-2-5/neuroanatomi-batang-otak.jpg)\n\n| Struktur | Fungsi utama |\n|---|---|\n| **Nukleus traktus solitarius (NTS)** — dorsal | **Integrasi input sensorik** viseral dan respirasi |\n| **Kompleks pre-Bötzinger** | **Inti pembangkit ritme inspirasi** (esensial) |\n| **Kompleks Bötzinger** | Koordinasi fase; modulasi inhibisi (**ekspirasi**) |\n| **VRG rostral** | Output premotor **inspirasi** |\n| **VRG kaudal** | Output premotor **ekspirasi** |\n| **Nukleus retrotrapezoid (RTN)** | **Kemoresepsi sentral CO₂/H⁺** |\n| **Parabrakial/Kölliker-Fuse (pons)** | Modulasi pola dan **transisi fase** napas |\n\n> [!TAMBAHAN] Model jaringan ini (Moreira et al. 2025) menggantikan skema lama \"pusat pneumotaksik/apneustik\". Untuk ujian, padankan: **pusat pneumotaksik ≈ parabrakial/Kölliker-Fuse** (membatasi inspirasi), dan lesi pons menghilangkan \"rem\" inspirasi sehingga muncul **napas apneustik**.\n\n### 3. Kemoreseptor dan aferen\n- **Sentral**: merespons **CO₂** melalui pH CSS/interstisial; neuron **RTN** sensitif H⁺ (dimediasi **TASK-2 dan GPR4**).\n- **Perifer**: **badan karotis (CN IX)** dan **badan aorta (CN X)** → hipoksemia, hiperkapnia, pH → diteruskan ke **NTS**.\n- Input lain: **stretch receptor paru (vagal)**, mekanoreseptor jalan napas, aferen otot dan sendi.\n\n### 4. Jalur eferen dan regulasi lebih tinggi\n- **Motor neuron frenikus (C3–C5) → diafragma**; motor neuron torakal → interkostal; saraf kranial → otot jalan napas atas dan laring.\n- Modulator lebih tinggi: **korteks motorik** (volunter), **korteks insular** (interosepsi, rasa sesak), **sistem limbik/amigdala** (emosi), **hipotalamus** (status metabolik dan suhu), **periaqueductal gray** (integrasi perilaku dan vokal).\n\n**Tiga lokasi kegagalan yang berbeda:** (1) **jaringan batang otak** → drive dan ritme; (2) **jalur desendens** → transmisi perintah; (3) **pompa perifer** → saraf, NMJ, otot.\n\n### 5. Siklus napas\n- **Istirahat**: otot inspirasi relaks, tekanan trakeobronkial = atmosfer, tidak ada aliran udara.\n- **Inspirasi**: impuls SSP → **diafragma dan interkostal kontraksi** → rongga toraks melebar → tekanan intrapleura/intratoraks turun → udara masuk.\n- **Ekspirasi**: impuls SSP berkurang, diafragma relaks → udara keluar sampai tekanan seimbang (**pasif**, elastic recoil).\n\n---\n\n## C. Patofisiologi dan Pola Napas Abnormal\n\n| Lokasi disfungsi | Konsekuensi fisiologis |\n|---|---|\n| Jaringan pembangkit ritme medula | **Ritme tidak stabil, apnea sentral** |\n| Jaringan kemoreseptor medula ventral | **Respons CO₂ terganggu, hipoventilasi** |\n| Jaringan respirasi pons | **Transisi fase abnormal** |\n| Korteks dan forebrain | Pola napas **periodik/disregulasi** |\n| Jalur desendens | Aktivasi motor neuron napas terganggu |\n\n![Pola napas abnormal: Cheyne–Stokes, apneustik, ataksik (Biot), hiperventilasi neurogenik sentral, napas ireguler pada peningkatan TIK, dan apnea sentral.](assets/materi/blok2.6/is-2-5/pola-napas-abnormal.jpg)\n\n| Pola | Gambaran | Lokasi/penyebab klasik |\n|---|---|---|\n| **Cheyne–Stokes** | **Crescendo–decrescendo** bergantian dengan **apnea** | **Disfungsi hemisfer bilateral/diensefalon**; stroke, cedera otak, **gagal jantung** |\n| **Apneustik** | **Inspirasi memanjang dengan jeda akhir inspirasi** | **Pons (mid–kaudal)** |\n| **Ataksik (Biot-like)** | Frekuensi dan kedalaman **tidak teratur**, jeda tak terduga | **Medula dorsomedial** — **tanda buruk (ominous)** |\n| **Hiperventilasi neurogenik sentral** | Napas cepat dan dalam **menetap** dengan **hipokapnia** | Lesi **mesensefalon–pons**, tumor intrakranial (mis. limfoma) — jarang |\n| **Napas ireguler pada ↑ TIK** | Melambat dan ireguler (bagian **respons Cushing**) | **Hipertensi intrakranial berat — ancaman herniasi** |\n| **Apnea sentral** | Hilangnya usaha napas | Disfungsi batang otak, kejang, **depresi napas akibat obat** |\n\n### Empat \"pearls\" interpretasi pola napas\n1. **Cheyne–Stokes tidak eksklusif neurologis** — sering pada **gagal jantung** dan tidur di ketinggian.\n2. **Hiperventilasi neurogenik sentral = diagnosis eksklusi** — singkirkan hipoksemia, asidosis metabolik, sepsis, edema paru, nyeri, cemas; konfirmasi AGD: **PaCO₂ rendah dengan PaO₂ normal/tinggi**.\n3. **Trias Cushing (hipertensi, bradikardia, napas ireguler) = tanda bahaya**, bukan gangguan ritme — **hipertensi intrakranial berat, ancaman herniasi; bertindak segera**.\n4. **Napas Kussmaul bukan hiperventilasi sentral** — napas dalam teratur sebagai **kompensasi asidosis metabolik** (KAD, uremia); periksa pH dan bikarbonat.\n\n### Penyebab neurologis\n| Kelompok | Contoh mekanisme |\n|---|---|\n| **Cedera otak traumatik** | **Impact apnea**, gangguan kontrol napas, ARDS sekunder, **edema paru neurogenik** |\n| **Stroke dan perdarahan intrakranial** | Infark/perdarahan **batang otak**, periodic breathing, disregulasi pada SAH, ↑ TIK dan herniasi |\n| **Tumor otak** | Kompresi batang otak, lesi fossa posterior, **hidrosefalus**, ↑ TIK |\n| **Kejang** | **Apnea iktal/pascaiktal**, mekanisme respirasi pada **SUDEP** |\n| Lain | Infeksi/inflamasi SSP, **sedatif, opioid**, hipoventilasi sentral didapat pascacedera batang otak |\n\nPenyebab dari sisi anestesi: **overdosis/keracunan obat**, **pelumpuh otot**, penyakit neurologis, trauma otak, medula spinalis, atau kepala-tulang belakang.\n\n### Manifestasi klinis\n- **Respirasi**: bradipnea atau takipnea, ritme ireguler, napas dangkal, **apnea**, hipoventilasi saat tidur.\n- **Akibat ventilasi tidak adekuat**: **hiperkapnia**, **asidosis respiratorik**, hipoksemia, **penurunan kesadaran** → makin menekan drive → **lingkaran setan**.\n- Temuan neurologis: gangguan kesadaran, kelainan saraf kranial, **disfungsi bulbar**, tanda ↑ TIK.\n- Tanda lain (dr. Calcarina): **napas abdominal (lesi C3–C5)**, **hilangnya refleks batuk dan menelan**, kelemahan otot, defisit sensorik segmental, **desaturasi bila terjadi tipe campuran**, perubahan hemodinamik.\n- **Gejala**: batuk, sesak, **demam bila terjadi pneumonia**. Sebagian besar **tipe II**; sebagian campuran karena komplikasi pneumonia.\n- **Lab/radiologi**: AGD **hiperkarbia ± hipoksemia**; foto toraks **normal atau infiltrat** (bila pneumonia); temuan penyakit dasar.\n\n---\n\n## D. Membedakan Sentral, Neuromuskular, dan Bulbar\n\n![Perbandingan gagal napas karena kegagalan drive sentral, kelemahan neuromuskular, dan disfungsi bulbar.](assets/materi/blok2.6/is-2-5/sentral-vs-perifer.jpg)\n\n| Ciri | **Kegagalan drive sentral** | **Gagal neuromuskular** | **Disfungsi bulbar** |\n|---|---|---|---|\n| Masalah utama | **↓ drive napas** | **Kelemahan otot napas** | **Proteksi jalan napas terganggu** |\n| Pola napas | **Bradipnea, apnea, ireguler** | **Cepat dan dangkal** | Bervariasi |\n| Distres napas | **Sering tidak ada — tampak nyaman** | **Ada**: otot bantu, **napas paradoksal** | **Tersedak, sekret menumpuk** |\n| PaCO₂ | Meningkat | Meningkat (**sering terlambat**) | Bervariasi |\n| Batuk | Bisa tetap ada | **Lemah** | **Tidak efektif** |\n| Contoh | **Stroke medula, toksisitas opioid** | **GBS, miastenia gravis, ALS** | Stroke batang otak, ALS bulbar |\n\n> [!HIGHYIELD] Pasien dengan **kegagalan drive sentral bisa tampak tenang** walaupun PaCO₂ terus naik, sedangkan pasien neuromuskular tampak **berjuang** (napas cepat-dangkal, paradoksal). Pada keduanya, **SpO₂ normal tidak menyingkirkan hiperkapnia**.\n\n### Pendekatan diagnostik\n1. **Penilaian klinis** — RR, ritme, kedalaman; kesadaran dan pemeriksaan batang otak; saraf kranial dan bulbar; proteksi jalan napas.\n2. **Pertukaran gas** — **AGD (PaCO₂, pH)**, PaO₂/SpO₂, **EtCO₂ atau transkutan CO₂**.\n3. **Neurologis** — **CT** untuk patologi intrakranial akut, **MRI batang otak** untuk lesi struktural, **EEG** bila curiga disfungsi iktal/pascaiktal.\n4. **Respirasi** — **kapasitas vital, MIP** bila curiga kelemahan; oksimetri malam, kapnografi, polisomnografi untuk hipoventilasi saat tidur.\n\n---\n\n## E. Tatalaksana\n\n### 1. Prinsip ABC\n- **A — Airway**: nilai proteksi dan risiko aspirasi, kenali disfungsi bulbar, **intubasi bila proteksi tidak adekuat**.\n- **B — Breathing**: nilai kecukupan ventilasi spontan, koreksi hipoksemia dan hipoventilasi, NIV/invasif sesuai kondisi.\n- **C — Sirkulasi dan stabilisasi neuro**: pertahankan perfusi otak, atasi ↑ TIK, koreksi gangguan metabolik, **atasi patologi neurologis dasar** (antidotum, operasi, plasmaferesis, dll.).\n\n> [!PENTING] **Oksigen saja tidak dapat mengoreksi ventilasi yang tidak adekuat atau retensi CO₂** — bahkan dapat **menutupi PaCO₂ yang naik** pada pulse oximetry. Masalah utama gagal napas neurogenik adalah **VENTILASI → bantuan ventilasi**.\n\n### 2. Eskalasi terapi\n![Strategi eskalasi pada gagal napas akut: terapi O₂ dan etiologi → HFNO → NIV → ventilasi invasif → ECCO₂R/ECMO, dengan dukungan bronkoskopi, cough-assist, pemantauan, dan keputusan akhir hidup.](assets/materi/blok2.6/is-2-5/eskalasi-terapi.jpg)\n\n| Modalitas | Kapan | Catatan |\n|---|---|---|\n| **NIV** | Pasien **sadar, kooperatif**, hipoventilasi hiperkapnik dengan **jalan napas terlindungi** | Hati-hati bila **bulbar**, sekret banyak, kesadaran turun |\n| **Intubasi endotrakeal** | **Tidak mampu melindungi jalan napas**, apnea, **kesadaran turun**, hipoksemia/hiperkapnia refrakter | Juga untuk **ancaman herniasi** yang butuh ventilasi terkontrol |\n| **Ventilasi mekanik invasif** | Apnea/hipoventilasi menetap, **NIV gagal**, perlu kontrol PaCO₂ presisi | Target proteksi otak dan paru |\n| **Dukungan jangka panjang** | Hipoventilasi sentral menetap pascacedera batang otak, **CCHS** | **NIV di rumah, ventilasi via trakeostomi, pacu diafragma** |\n\n**Indikasi NIV (ALTEM 2023):** distres napas sedang–berat, **takipnea > 25×/menit**, otot bantu/napas paradoksal, **pH < 7,35**, **PaCO₂ > 45**, P/F < 300 atau SpO₂ < 92% pada FiO₂ 0,5, **dan distres diperkirakan membaik dalam 3 × 24 jam**.\n→ **Sebagian besar gagal napas neurogenik tidak diharapkan membaik dalam 3 × 24 jam.**\n\n**Kontraindikasi NIV:** tidak mampu mempertahankan jalan napas (**koma**, gelisah/tidak kooperatif, agresif, **sekret banyak**, **stroke atau keterlibatan bulbar**), hemodinamik tidak stabil, intoleransi atau masker tidak rapat, gejala GI berat (muntah, ileus, pascaoperasi GI, perdarahan GI atas), kurang tenaga untuk memantau.\n→ **Sebagian besar pasien datang dengan penurunan kesadaran**, sehingga **ventilasi invasif** lebih sering diperlukan.\n\n### 3. Setting awal ventilator (penyakit neuromuskular tanpa patologi paru)\n- **Mode**: **controlled**, ubah ke **synchronized** bila napas spontan kembali.\n- **PBW** laki-laki = **50 + 0,91 × (TB cm − 152,4)**; perempuan = **45,5 + 0,91 × (TB cm − 152,4)**.\n- **VT 6–8 mL/kg PBW**, **ventilasi semenit 100 mL/kg**, **PEEP 5**, **FiO₂ 100%** lalu diturunkan bila **SpO₂ mencapai 95%**.\n\n### 4. Ventilasi mekanik pada cedera otak akut\n- **Target default: normokapnia PaCO₂ 35–45 mmHg.**\n- **Hiperkapnia** → vasodilatasi serebral → ↑ volume darah otak → **↑ TIK**.\n- **Hipokapnia** → vasokonstriksi serebral → ↓ aliran darah otak → **iskemia serebral**.\n- **Hipokapnia ringan singkat hanya sebagai penyelamat** pada ancaman herniasi/krisis TIK.\n- Terapkan ventilasi protektif paru dengan memperhatikan efek serebral; individualisasi PEEP; pantau PaCO₂/EtCO₂ setiap perubahan setting.\n\n### 5. Komplikasi paru sekunder (jangan dikira kegagalan drive)\n| Komplikasi | Mekanisme |\n|---|---|\n| **Edema paru neurogenik** | Setelah cedera SSP akut (**SAH, TBI, kejang**): **lonjakan katekolamin**, aktivasi simpatis → ↑ tekanan hidrostatik paru dan cedera endotel |\n| **ARDS** | Inflamasi sistemik/paru, ↑ permeabilitas, hipoksemia berat; menyulitkan target ventilasi otak |\n| Lain | **Pneumonia aspirasi**, VAP, atelektasis, **neurogenic stunned myocardium** |\n\n### 6. Perawatan suportif jangka panjang\n- **Fisioterapi**: ekstremitas, dada, positioning, terapi wicara, latihan refleks batuk dan menelan.\n- **Nutrisi enteral**: NGT atau **PEG**; makro- dan mikronutrien serta serat.\n- **Pengendalian infeksi**: banyak selang → ISK, infeksi kulit, **ulkus dekubitus**, sinusitis; tirah baring dan tidak mampu batuk → **pneumonia**.\n- Pasien yang penyakit dasarnya tidak memungkinkan pemulihan pompa napas akan **bergantung ventilator** (bisa seumur hidup), bergantung pada pengasuh, dan rentan infeksi berulang.\n\n### 7. Hipoventilasi sentral dan tidur\n- **CCHS (congenital central hypoventilation syndrome)** — mutasi **PHOX2B**; respons terhadap hiperkapnia dan hipoksemia menurun.\n- **Didapat**: infark/perdarahan batang otak, tumor, TBI.\n- **Mengapa lebih buruk saat tidur?** Saat bangun ada **\"wakefulness drive\"** dan input korteks volunter; saat tidur ventilasi bergantung sepenuhnya pada **sistem otomatis batang otak dan kemorefleks**, sehingga kerusakan tersingkap (\"Ondine's curse\").\n\n---\n\n## F. Kasus Klinis\n\n> [!KLINIS] **Kasus dr. Calcarina**: laki-laki 41 tahun dengan **miastenia gravis** berhenti minum obat 2 minggu, batuk dan demam 3 hari, sesak. RR 26, **SpO₂ 97% dengan nasal kanul 2 L/menit**, sadar. Ptosis; foto toraks **infiltrat parakardial kanan**; leukosit 16.000. **AGD: pH 7,2; PaCO₂ 66; PaO₂ 90; HCO₃⁻ 20.** Assessment: **krisis miastenik**, **gagal napas tipe II**, curiga **pneumonia**. Rencana: **intubasi** (sedasi, hipnotik, analgetik, pelumpuh otot) dan **ventilasi mekanik** — TB 176 cm → PBW ≈ 71 kg → VT ≈ 430–570 mL, PEEP 5, FiO₂ 100% lalu turunkan. Pelajaran: **SpO₂ 97% tidak menyingkirkan gagal ventilasi**.\n\n> [!KLINIS] **Kasus dr. Halwan**: laki-laki 58 tahun dengan vertigo, disfagia, disartria mendadak, lalu kesadaran menurun, **napas ireguler → apnea**, PaCO₂ naik; MRI **infark medula lateral**. Struktur terlibat: **jaringan pembangkit ritme dan kemoreseptor medula ventral, nukleus ambiguus (bulbar)**. Mekanisme: **kegagalan drive sentral + disfungsi bulbar**. Prioritas: **amankan jalan napas (intubasi)**, ventilasi terkontrol dengan target normokapnia, MRI/CT, atasi stroke.\n\n---\n\n## G. High-Yield / Poin Ujian\n- Gagal napas neurogenik **mayoritas tipe II**: masalahnya **pompa/drive**, terapinya **bantuan ventilasi**.\n- **Pre-Bötzinger** = pembangkit ritme inspirasi; **RTN** = kemoreseptor sentral CO₂; **NTS** = integrasi sensorik; pons (parabrakial/Kölliker-Fuse) = transisi fase.\n- **Cheyne–Stokes** → hemisfer bilateral/diensefalon (juga gagal jantung); **apneustik** → **pons**; **ataksik** → **medula** (buruk); **hiperventilasi neurogenik sentral** → mesensefalon–pons (diagnosis eksklusi).\n- **Trias Cushing** = hipertensi + bradikardia + napas ireguler → **ancaman herniasi**.\n- Drive sentral gagal → **tampak nyaman, bradipnea/apnea**; neuromuskular → **cepat-dangkal, distres, batuk lemah**.\n- **SpO₂ normal tidak menyingkirkan hiperkapnia**; **O₂ saja tidak mengoreksi CO₂**.\n- NIV butuh pasien **sadar, kooperatif, jalan napas terlindungi, diperkirakan membaik ≤ 3 × 24 jam** — kebanyakan gagal napas neurogenik **tidak** memenuhi.\n- Cedera otak: target **PaCO₂ 35–45**; hiperkapnia ↑ TIK, hipokapnia → iskemia.\n- **Edema paru neurogenik** pasca-SAH/TBI/kejang akibat lonjakan katekolamin.\n- **CCHS (PHOX2B)** — hipoventilasi memburuk saat **tidur**.\n\n*Sumber: slide IS 2.5 (dr. Calcarina Fitriani RW, Sp.An-TI, Subsp.An.TI(K); dr. Halwan Fuad Bayuangga, M.Sc., D.Phil); Hind 2013 Handbook of Clinical Neurology; Moreira et al. J Neurophysiol 2025; Goldman et al. 2023; Racca et al. Neurol Sci 2020; ALTEM 2023. Bagian bertanda \"Tambahan\" adalah pelengkap konsep di luar slide.*\n",
+      "quiz": {
+        "block": "materi-blok-ii-6",
+        "exam": "latihan",
+        "type": "is-2-5",
+        "year": "Latihan",
+        "count": 10
+      }
+    },
+    {
+      "code": "IS 2.6",
+      "slug": "is-2-6",
+      "kind": "Integrated Seminar",
+      "title": "Dyspnoea as Complication of Neurological Disease",
+      "dept": "Neurology, Anaesthesiology",
+      "lecturers": [
+        "Dr. dr. Djayanti Sari, M.Kes, Sp.An-TI, Subsp.An.P(K)",
+        "dr. Indra Sari Kusuma Harahap, Ph.D., Sp.S(K)"
+      ],
+      "practical": false,
+      "available": true,
+      "markdown": "# IS 2.6 — Dispnea sebagai Komplikasi Penyakit Neurologis\n\n## Ringkasan Cepat\n\n| Topik | Inti | Kata kunci ujian |\n|---|---|---|\n| Konsep | Penyakit neurologis dapat menyebabkan gagal napas **tanpa penyakit paru primer** | Aksis neuro-respirasi |\n| 3 mekanisme | **Kelemahan pompa ventilasi**, **disfungsi bulbar**, **batuk lemah** | Saling memperberat |\n| Tanda bahaya | **Batuk lemah dan gejala bulbar** = peringatan utama | **SpO₂ normal tidak menyingkirkan hipoventilasi** |\n| GBS | Kelemahan **flaksid, simetris, asendens**, **arefleksia**; 10–30% butuh ventilator | **VC < 15–20 mL/kg**, tidak bisa hitung sampai 15 |\n| MG | Kelemahan **fluktuatif**, antibodi **anti-AChR/MuSK** | **Osserman V = krisis** |\n| Krisis miastenik vs kolinergik | Undermedication vs **overmedication** | Pupil **midriasis vs miosis** |\n| Respons awal | **ABCDE → eskalasi (NIV/intubasi) → rujuk dengan SBAR** | Bertindak dini |\n\n---\n\n## A. Dispnea, Distres Napas, dan Gagal Napas\n\n| Konsep | Ciri | Contoh |\n|---|---|---|\n| **Dispnea** | **Sensasi subjektif** tidak nyaman bernapas | \"Sesak\", air hunger, usaha napas |\n| **Distres napas** | **Tanda yang dapat diamati** dari ↑ kerja napas (WOB) | Takipnea, otot bantu, retraksi interkostal |\n| **Gagal napas** | **Oksigenasi dan/atau pembuangan CO₂ tidak adekuat** | **Hipoksemia (SpO₂ < 90%)**, **hiperkapnia (PaCO₂ > 45 mmHg)** |\n\n- Dispnea adalah **gejala, bukan penyakit**; dirasakan seperti **kehabisan udara** atau tidak bisa bernapas cukup cepat/dalam.\n- Pada kondisi yang mengancam nyawa: semua pasien diberi **O₂ suplementasi, pulse oximetry, dan monitor jantung**; mulai terapi sesuai etiologi; **ambang intubasi rendah bila gagal napas mengancam**; workup diagnostik dilakukan **setelah pasien stabil**.\n\n---\n\n## B. Kontrol Saraf Pernapasan dan Lokasi Gangguan\n\n**Alur**: batang otak (drive napas, medula & pons) → jalur desendens medula spinalis → **n. frenikus (C3–C5)** dan **n. interkostal (T1–T12)** → neuromuscular junction → **diafragma dan otot interkostal**. **Fungsi bulbar (CN IX, X, XII)** menjaga patensi jalan napas: menelan, batuk, refleks muntah.\n\n![Aksis neuro-respirasi dan lokasi gangguan: drive sentral (batang otak), bulbar/proteksi jalan napas, konduksi spinal, saraf perifer, neuromuscular junction, dan otot napas beserta contoh penyakitnya.](assets/materi/blok2.6/is-2-6/aksis-neuro-respirasi.jpg)\n\n| Tingkat lesi | Fungsi | Contoh penyakit |\n|---|---|---|\n| **Drive sentral (batang otak)** | Membangkitkan dan mengatur ritme napas | **Stroke batang otak**, tumor |\n| **Bulbar/proteksi jalan napas** | Menelan, batuk, refleks muntah | **ALS, miastenia gravis (bulbar)** |\n| **Konduksi spinal** | Menghantarkan perintah ke C3–C5, T1–T12 | **Cedera medula spinalis servikal**, mielitis transversa |\n| **Saraf perifer** | Membawa sinyal ke otot napas | **Guillain–Barré syndrome**, CIDP |\n| **Neuromuscular junction** | Transmisi saraf → otot | **Miastenia gravis**, **botulisme** |\n| **Otot napas** | Kontraksi untuk ventilasi | **Miopati** (Duchenne MD, Pompe) |\n\nBanyak penyakit neurologis menyebabkan **gagal napas akut (ARF)** melalui keterlibatan pusat napas bulbar, medula spinalis, motor neuron, saraf perifer, NMJ, atau otot. Dua kategori ARF:\n1. **Eksaserbasi akut dari gagal napas kronik** — pada penyakit progresif lambat (gangguan gerak, sebagian besar penyakit neuromuskular).\n2. **Gagal napas onset mendadak** — pada penyakit progresif cepat: **stroke, status epileptikus konvulsif, TBI, cedera medula spinalis, neuropati frenikus, miastenia gravis, GBS**.\n\n---\n\n## C. Tiga Mekanisme Gangguan Napas\n\n![Tiga mekanisme gangguan respirasi: kelemahan pompa ventilasi (hipoventilasi/hiperkapnia), disfungsi bulbar (aspirasi/obstruksi jalan napas), dan batuk lemah (retensi sekret, atelektasis ± pneumonia).](assets/materi/blok2.6/is-2-6/tiga-mekanisme.jpg)\n\n| Mekanisme | Masalah | Akibat |\n|---|---|---|\n| **1. Kelemahan pompa ventilasi** | Kontraksi diafragma/interkostal melemah | **Hipoventilasi/hiperkapnia** |\n| **2. Disfungsi bulbar** | Koordinasi menelan dan refleks proteksi terganggu | **Aspirasi/obstruksi jalan napas** |\n| **3. Batuk lemah** | Kekuatan ekspirasi turun, pembersihan sekret tidak efektif | **Retensi sekret, atelektasis ± pneumonia** |\n\nKetiganya dapat terjadi **bersamaan dan saling memperberat** → gagal napas progresif.\n\n### Oksigenasi vs ventilasi\n| | **Oksigenasi** | **Ventilasi** |\n|---|---|---|\n| Arti | Transfer O₂ dari paru ke darah | Udara keluar-masuk dan **pembuangan CO₂** |\n| Indikator | **SpO₂, PaO₂** | **RR & pola napas, PaCO₂ (± EtCO₂)** |\n| Masalah pada penyakit neurologis | Atelektasis (imobilitas), pneumonia aspirasi, V/Q mismatch | **Kelemahan otot napas (MG, GBS)**, drive sentral turun, obstruksi jalan napas (bulbar) |\n\n> [!PENTING] **SpO₂ normal TIDAK menyingkirkan hipoventilasi (PaCO₂ tinggi)** — hal ini sering terjadi pada penyakit neurologis, terutama bila pasien sudah mendapat oksigen.\n\n### Mengapa pasien memburuk: rangkaian progresif\n1. **Kelemahan progresif** (diafragma) → ↓ VT.\n2. **VT rendah** (hipoventilasi alveolar, **< 6 mL/kg**).\n3. **Batuk tidak efektif** (peak cough flow **< 270 L/menit**).\n4. **Atelektasis/aspirasi** → infiltrat/kolaps.\n5. **Kelelahan → gagal napas**: **PaCO₂ > 45 mmHg**, **pH < 7,35**.\n\n**Perburukan klinis dapat mendahului desaturasi**, terutama pada kelemahan neuromuskular.\n\n---\n\n## D. Penyakit Neurologis Penyebab Dispnea\n\n### 1. Stroke\n- Kelemahan juga mengenai otot napas: **kontrol napas berubah**, kekuatan dan ketahanan otot inspirasi/ekspirasi turun, kinematik dinding dada berubah.\n- Risiko gangguan napas pada **stroke hemisfer luas meningkat setelah beberapa hari** seiring **edema serebral**; **hiperventilasi menetap** dengan efek massa bisa tanda **herniasi diensefalon**.\n- **Pola napas ataksik/cluster** bagian dari sindrom batang otak; **apnea berulang** adalah tanda bahaya pada **oklusi arteri basilaris**.\n- **Cheyne–Stokes** sering setelah stroke hemisfer masif.\n- **Infeksi dada (pneumonia) adalah komplikasi tersering** stroke.\n\n### 2. Status epileptikus konvulsif\n- **ARF sering (sekitar 80%)** — akibat penyakitnya **dan** obat yang dipakai untuk menghentikan kejang (benzodiazepin, dll.).\n- **Pneumonia aspirasi** sering karena refleks proteksi turun; dapat terjadi **edema paru neurogenik**.\n\n### 3. Cedera otak traumatik (TBI)\n- Gagal napas karena **refleks proteksi jalan napas turun, batuk lemah, kontrol napas berubah**, sesuai beratnya penurunan kesadaran.\n- Insidens gagal napas residual pada akhir perawatan akut **≈ 32%**.\n\n### 4. Cedera medula spinalis (SCI)\n- Komplikasi respirasi adalah **penyebab utama morbiditas dan mortalitas** (insidens **36–83%**).\n- Penentu terbesar: **tingkat dan kelengkapan cedera nukleus frenikus C3–C5** dengan paralisis diafragma.\n- **Lesi servikal komplet C2–C4 tanpa ventilasi mekanik tidak kompatibel dengan kehidupan**.\n- Komplikasi tersering: **atelektasis (36,4%)**, **pneumonia (31,4%)**, **gagal ventilasi (22,6%)**; juga edema paru dan pneumohemotoraks.\n\n| Tingkat cedera | Implikasi napas |\n|---|---|\n| **C1–C3** | Sering butuh **dukungan ventilasi penuh** |\n| **C4** | Bervariasi; **sering butuh dukungan** (terutama awal) |\n| **C5 atau lebih rendah** | Biasanya gangguan parsial (↓ VC, batuk lemah) dengan pemantauan ketat |\n\n**Perbedaan stroke batang otak vs SCI servikal tinggi**: stroke batang otak mengganggu **drive napas dan proteksi jalan napas**, sedangkan SCI servikal tinggi memutus **jalur motorik napas** ke otot.\n\n### 5. Penyakit inflamasi/infeksi SSP\n- **Multiple sclerosis** lanjut: gagal napas kronik (disfungsi bulbar, drive sentral, lesi kortikospinal, gangguan napas saat tidur) dan akut (relaps spinal/bulbar, edema paru neurogenik, ARF setelah sepsis).\n- **Ensefalitis**: refleks muntah lemah, sekret menumpuk, sulit menelan → **pneumonia aspirasi** dan gagal napas.\n\n### 6. Penyakit Parkinson\n- **Rigiditas dan hipokinesia** saluran napas atas dan dinding dada → **obstruksi saluran napas atas**.\n- **Pola restriktif** karena compliance dinding dada turun.\n- **Respons ventilasi terhadap hipoksia/hiperkapnia menurun** (kemosensitivitas rendah, disfungsi otonom).\n- **Gangguan menelan + batuk lemah** → **risiko tinggi pneumonia aspirasi**.\n\n### 7. Penyakit neuromuskular kronik (ALS, distrofi muskular, SMA, miopati)\n- Kelemahan otot napas **kronik progresif** (↓ kapasitas vital), **batuk lemah**, **hipoventilasi nokturnal** (sering tanda awal), sering diperberat **skoliosis berat**.\n- Komplikasi: **pola restriktif**, retensi sekret, **pneumonia aspirasi berulang**, **hipoventilasi nokturnal ± hiperkapnia siang**.\n- **Petunjuk perburukan akut**: sesak memberat **terutama saat berbaring**, batuk makin lemah dengan sekret bertambah, **sakit kepala pagi dan kantuk siang berlebih** (hipoventilasi), SpO₂ turun atau PaCO₂ naik.\n- Lintasan **akut-pada-kronik** sering dipicu infeksi atau operasi.\n\n---\n\n## E. Guillain–Barré Syndrome (GBS)\n\n- **Neuropati perifer akut yang dimediasi imun** dengan **kelemahan progresif cepat, simetris, asendens** dan **refleks tendon menurun/hilang**.\n- **Patofisiologi**: infeksi seperti **Campylobacter jejuni** mengekspresikan lipooligosakarida yang **mirip gangliosida** (molecular mimicry) → antibodi antigangliosida menyerang saraf dan **merusak selubung mielin** (± cedera aksonal).\n- Ciri klinis: **tetraparesis flaksid, simetris, asendens**; arefleksia; bisa **keterlibatan bulbar** (disfagia, disartria); **disfungsi otonom** (TD labil, aritmia).\n- Gejala memuncak **sekitar 4 minggu** setelah onset; **10–30% butuh ventilasi mekanik** (22% dalam minggu pertama perawatan).\n\n![Kriteria diagnosis GBS: wajib kelemahan progresif kedua lengan dan tungkai serta arefleksia; pendukung kuat progresi hingga 4 minggu, relatif simetris, gejala sensorik ringan, keterlibatan saraf kranial, disfungsi otonom, tanpa demam saat onset, protein LCS tinggi, gambaran elektrodiagnostik khas.](assets/materi/blok2.6/is-2-6/kriteria-gbs.jpg)\n\n> [!TAMBAHAN] Temuan khas LCS pada GBS adalah **disosiasi sitoalbuminik**: **protein tinggi dengan jumlah sel normal** (biasanya < 10/µL), terutama setelah minggu pertama. Pleositosis bermakna (> 50 sel) harus membuat curiga diagnosis lain (HIV, limfoma, polio).\n\n### Kapan masuk ICU\n**Tanda insufisiensi napas mengancam:** sesak saat istirahat/bicara, **tidak mampu menghitung sampai 15 dalam satu napas**, otot bantu napas, ↑ RR/HR, **kapasitas vital < 15–20 mL/kg atau < 1 L**, AGD atau pulse oximetry abnormal.\n\n**Alasan masuk ICU:** distres napas yang berkembang dengan insufisiensi mengancam, **disfungsi otonom kardiovaskular berat** (aritmia, variasi TD nyata), **disfagia berat**, **refleks batuk menurun**, **progresi kelemahan cepat**.\n\n### Tatalaksana GBS\n![Algoritma tatalaksana GBS: skor disabilitas < 3 rawat inap dan observasi; skor ≥ 3 dengan kriteria gagal napas (VC 15–18 mL/kgBB, paralisis bulbar, VC 12–15 mL/kgBB, kelemahan otot orofaring, dispnea, tekanan ekspirasi maksimal < 40 cmH₂O, inspirasi < 30 cmH₂O, pCO₂ > 48, pO₂ < 56) diintubasi di ICU; IVIG 0,4 g/kgBB/hari selama 5 hari atau plasmaferesis 200–250 mL/kgBB 5 kali dalam 2 minggu; evaluasi 4–8 minggu.](assets/materi/blok2.6/is-2-6/tatalaksana-gbs.jpg)\n\n- **Imunoterapi**: **IVIG 0,4 g/kgBB/hari selama 5 hari** ATAU **plasmaferesis 200–250 mL/kgBB (5 kali dalam 2 minggu)** — keduanya setara; **kortikosteroid tidak efektif** pada GBS.\n- **Suportif**: pemantauan respirasi serial (**VC, NIF/MIP**), pemantauan jantung dan TD, cegah DVT, nutrisi, fisioterapi.\n- **Eskalasi dini** ke HDU/ICU; pertimbangkan **intubasi dini** — fungsi napas pada GBS dapat **memburuk cepat**.\n\n---\n\n## F. Miastenia Gravis (MG)\n\n- **Penyakit autoimun neuromuscular junction** dengan **kelemahan motorik yang berfluktuasi** pada otot okular, bulbar, ekstremitas, dan/atau napas.\n- Kelemahan akibat **serangan antibodi terhadap protein membran postsinaps NMJ** — **reseptor asetilkolin (anti-AChR)** atau protein terkait reseptor (**anti-MuSK**).\n- **Gangguan transmisi neuromuskular tersering.**\n- Gejala awal biasanya **otot gerak mata dan kelopak** → **diplopia dan ptosis**; gejala **memburuk dengan stres atau aktivitas berulang** dan membaik dengan istirahat. Gejala lain: ekspresi wajah berubah, sulit mengunyah, bicara, menelan, berjalan, dan **sesak napas**.\n\n### Klasifikasi Osserman (modifikasi)\n![Klasifikasi Osserman modifikasi: kelas I okular saja, II kelemahan ringan, III sedang termasuk orofaring dan napas, IV berat, V insufisiensi napas mengancam jiwa yang membutuhkan bantuan ventilasi (krisis).](assets/materi/blok2.6/is-2-6/klasifikasi-osserman.jpg)\n\n| Kelas | Gambaran |\n|---|---|\n| **I** | **Okular saja** |\n| **II** | Kelemahan otot ringan, tidak melumpuhkan |\n| **III** | Kelemahan sedang, termasuk **orofaring dan otot napas** |\n| **IV** | Kelemahan berat semua sistem otot, termasuk orofaring dan napas |\n| **V** | **Insufisiensi napas mengancam jiwa yang butuh bantuan ventilasi (krisis)** |\n\n### Pemeriksaan: Wartenberg test\n- Pasien diminta **menatap tanpa berkedip ke benda di atas setinggi 30°** selama **60 detik**.\n- **Positif** bila kelopak mata yang terkena menunjukkan **ptosis** (fatigabilitas).\n\n> [!TAMBAHAN] Pemeriksaan lain yang sering ditanyakan: **ice pack test** (ptosis membaik setelah es 2 menit), **tes neostigmin/edrofonium**, **antibodi anti-AChR**, **repetitive nerve stimulation (respons dekremental)**, **single-fiber EMG** (paling sensitif), dan **CT toraks untuk timoma**.\n\n### Krisis miastenik\n- **Perburukan akut MG dengan kelemahan bulbar dan/atau otot napas**. **Red flag bulbar**: ptosis, **disartria**, **disfagia**, **batuk lemah**, **napas memburuk**.\n- Pikirkan krisis miastenik pada pasien dengan MG diketahui/dicurigai yang datang dengan **perburukan akut fungsi bulbar dan/atau napas**. Pemicu: **infeksi**, operasi, **penghentian obat**, obat tertentu (aminoglikosida, fluorokuinolon, magnesium, beta-blocker).\n- **Keputusan intubasi**: berdasarkan **penilaian klinis keseluruhan, bukan satu angka** — lintasan klinis, keterlibatan bulbar (disfagia, risiko aspirasi), kemampuan membersihkan sekret, **tanda kelelahan** (otot bantu, napas paradoksal, hiperkapnia).\n- Tatalaksana: rawat **ICU**, **hentikan sementara antikolinesterase** (bila terintubasi, untuk mengurangi sekret), lanjutkan imunosupresan, cari pencetus, **bantuan ventilasi**, imunoterapi cepat **plasmaferesis atau IVIG** + kortikosteroid.\n\n![Perbedaan krisis miastenik dan krisis kolinergik.](assets/materi/blok2.6/is-2-6/krisis-miastenik-kolinergik.jpg)\n\n| | **Krisis miastenik** | **Krisis kolinergik** |\n|---|---|---|\n| Penyebab | **Undermedication** (kurang obat) / eksaserbasi | **Overmedication** antikolinesterase |\n| Edrofonium | **Membaik sementara** | Membaik dengan **antikolinergik (atropin)** |\n| Denyut jantung | **Meningkat** | **Menurun** |\n| Gejala khas | **Distres napas** | **Kram perut** (diare, muntah) |\n| Pupil | **Midriasis** | **Miosis** |\n| Tekanan darah | Meningkat | Menurun |\n| Sekret | Normal | **Meningkat** (salivasi, bronkore) |\n\n**Algoritma terapi MG**: antikolinesterase (piridostigmin) → steroid → imunosupresan; **timektomi** bila ada indikasi (timoma, MG generalisata AChR+); **TPE/IVIG** untuk krisis atau perburukan klinis; MG refrakter → terapi baru (inhibitor komplemen eculizumab, rituximab, dll.).\n\n---\n\n## G. Pengenalan Dini dan Penilaian di Bedside\n\n![Tanda peringatan klinis awal pada penyakit neuromuskular: takipnea, otot bantu napas, napas paradoksal, tanda bulbar, batuk lemah, tidak mampu bicara kalimat penuh, dan ortopnea.](assets/materi/blok2.6/is-2-6/tanda-peringatan-awal.jpg)\n\n**Tanda peringatan awal:** **takipnea**, **otot bantu napas** (leher, interkostal), **napas paradoksal** (abdomen bergerak ke dalam saat inspirasi), **tanda bulbar** (disfagia, disartria, risiko aspirasi), **batuk lemah**, **tidak mampu bicara kalimat penuh**, **ortopnea** (memburuk saat berbaring, membaik saat duduk — tanda kelemahan diafragma). Kombinasi **batuk lemah dan gejala bulbar** menandakan risiko tinggi perburukan dini.\n\n### Penilaian terfokus di bedside\n1. **Primary assessment ABCDE** — jalan napas (patensi, risiko obstruksi), pernapasan (rate, pola, usaha), sirkulasi, disabilitas (kesadaran), exposure (pencetus seperti infeksi).\n2. **Evaluasi respirasi dan bulbar** — bicara (kalimat penuh?), **kekuatan batuk**, penanganan sekret, fungsi bulbar.\n3. **Penilaian otot napas** (bila tersedia):\n   - **FVC/VC** — tren; **< 15–20 mL/kg mengkhawatirkan**.\n   - **NIF/MIP** — tren; **lebih positif dari −30 cmH₂O (mis. −20) mengkhawatirkan**.\n4. **Pantau dan interpretasi dalam konteks** — lihat **tren** (RR naik, kerja napas naik, FVC/NIF turun, desaturasi berulang); **eskalasi dini bila jelas memburuk — jangan menunda demi tes tambahan**.\n\n> [!TAMBAHAN] Aturan praktis **\"20/30/40\"** pada GBS: risiko intubasi tinggi bila **VC < 20 mL/kg**, **MIP lebih positif dari −30 cmH₂O**, atau **MEP < 40 cmH₂O**. Tes **menghitung dalam satu napas** di bedside: tiap hitungan ≈ 100 mL VC; tidak mampu menghitung sampai 15 menandakan VC sekitar < 1,5 L.\n\n![Red flag gagal napas mengancam: progresi cepat, batuk tidak efektif, tidak mampu membersihkan sekret, disfungsi bulbar bermakna, kelelahan/napas paradoksal, kesadaran menurun, dan ventilasi memburuk.](assets/materi/blok2.6/is-2-6/red-flag-gagal-napas.jpg)\n\n**Red flag gagal napas mengancam**: **progresi cepat** (jam–hari), **batuk tidak efektif**, **tidak mampu membersihkan sekret**, **disfungsi bulbar bermakna**, **kelelahan/napas paradoksal**, **kesadaran menurun** (hiperkapnia), **ventilasi memburuk** (PaCO₂ naik, VC/NIF turun). **ACT EARLY** — eskalasi berdasarkan **kombinasi temuan klinis dan lintasan**, bukan SpO₂ saja.\n\n---\n\n## H. Respons Awal, Eskalasi, dan Rujukan\n\n### 1. Respons awal ABCDE (5 menit pertama)\n- **Panggil bantuan senior/critical care lebih awal**; lakukan ABCDE terstruktur.\n- **A** — cari obstruksi, disfungsi bulbar, risiko aspirasi; bersihkan sekret, siapkan alat jalan napas lanjut.\n- **B** — nilai napas (rate, pola, usaha, VT); **O₂ dengan target SpO₂ 92–94%**; mulai bantuan ventilasi (NIV atau bag-valve-mask) bila tidak adekuat.\n- **C** — HR, TD, perfusi; atasi hipotensi/aritmia.\n- **D** — kesadaran (AVPU/GCS), perburukan kelemahan/bulbar.\n- **E** — cari dan koreksi pencetus (infeksi, obat, elektrolit, gangguan metabolik).\n- Pasang **monitor (SpO₂, EKG, TD, RR)**, akses IV, ambil lab kunci (**AGD**, elektrolit).\n\n### 2. Proteksi jalan napas dan manajemen sekret\n- Nilai fungsi menelan, kekuatan batuk, beban sekret, risiko aspirasi.\n- **Posisi head-up 30–45°**, ubah posisi berkala; **suction** bila sekret ada; siapkan **jalan napas lanjut** bila proteksi tidak adekuat; bantuan ventilasi sesuai kebutuhan.\n\n### 3. Oksigen, ventilasi, dan pemantauan\n- **\"Oksigenasi membaik tetapi ventilasi tidak adekuat\"**: SpO₂ 97% tetapi EtCO₂ 58 mmHg → **hipoventilasi**.\n- **O₂ untuk hipoksemia** (SpO₂ < 92–94%), titrasi ke target **92–96%**; **O₂ saja tidak memperbaiki hipoventilasi (↑ CO₂)**.\n- Pantau tren: kerja napas, **SpO₂ kontinu**, **CO₂ (EtCO₂ atau AGD)**.\n\n### 4. Kapan eskalasi\n![Kapan eskalasi bantuan napas: NIV pada pasien kooperatif dengan proteksi jalan napas baik, sekret terkendali, dan tanpa kebutuhan intubasi segera; intubasi dini bila proteksi jalan napas gagal, ventilasi tidak adekuat atau memburuk, atau NIV dikontraindikasikan/gagal.](assets/materi/blok2.6/is-2-6/eskalasi-niv-intubasi.jpg)\n\n| **NIV** — pertimbangkan bila | **Intubasi dini** — bila |\n|---|---|\n| Pasien **kooperatif** dan toleran interface | **Proteksi jalan napas gagal** (disfungsi bulbar bermakna, aspirasi berulang) |\n| **Proteksi jalan napas baik** (menelan/batuk adekuat) | **Ventilasi tidak adekuat/memburuk** (CO₂ naik, kelelahan, distres) |\n| **Sekret terkendali** | NIV **kontraindikasi, tidak ditoleransi, atau tidak efektif** |\n| Tidak perlu intubasi segera (tidak memburuk cepat, tanpa gagal bulbar) | |\n\nKeputusan mengintegrasikan temuan klinis, kecepatan progresi, penyebab dasar, dan keahlian lokal — **bukan cut-off universal yang kaku**.\n\n### 5. Rujukan\n- **Indikasi rujukan segera/eskalasi**: kelemahan **progresif cepat**, **gangguan bulbar**, **kelelahan napas**, **pertukaran gas memburuk** (PaCO₂ naik, asidosis), gagal ventilasi.\n- **Ke mana**: **IGD atau layanan berkemampuan ICU**.\n- **Transfer aman**: stabilkan sebelum transport, jalan napas dan ventilasi aman/terencana, O₂ siap, suction siap, monitor (SpO₂, EKG, TD ± EtCO₂), pendamping terlatih.\n- **Serah terima SBAR**: **S**ituation (siapa pasien, masalah utama), **B**ackground (riwayat: penyakit neuromuskular, perjalanan, terapi), **A**ssessment (kondisi jalan napas, napas, tanda vital, SpO₂, CO₂/AGD, respons terapi), **R**ecommendation (rencana: lanjut NIV, siapkan intubasi, ICU).\n\n> [!KLINIS] **Kasus 10 menit pertama (GBS)**: kelemahan progresif, batuk makin lemah, disfagia, usaha napas meningkat dan lelah. Keputusan kunci: **ada risiko gagal napas mengancam (proteksi jalan napas atau ventilasi)?** Ya → (1) kenali red flag, (2) panggil bantuan, (3) ABCDE dan pantau, (4) evaluasi jalan napas/ventilasi, (5) siapkan rujukan ICU dan transport — pertimbangkan intubasi.\n\n---\n\n## I. High-Yield / Poin Ujian\n- Penyakit neurologis menyebabkan gagal napas **tanpa penyakit paru primer** — lewat **pompa lemah, bulbar, batuk lemah**.\n- **Batuk lemah dan disfungsi bulbar** = peringatan utama; **SpO₂ normal tidak menyingkirkan hipoventilasi**.\n- **VC < 15–20 mL/kg**, **NIF lebih positif dari −30 cmH₂O**, tidak bisa menghitung sampai 15 → risiko intubasi.\n- **GBS**: pasca-*C. jejuni*, molecular mimicry antigangliosida, **asendens, simetris, flaksid, arefleksia**, **disosiasi sitoalbuminik**; terapi **IVIG atau plasmaferesis** (bukan steroid).\n- **MG**: anti-AChR/MuSK, fluktuatif, ptosis/diplopia; **Wartenberg test**; **Osserman V = krisis**.\n- **Krisis miastenik** (undermedication, takikardia, midriasis, distres napas) vs **kolinergik** (overmedication, bradikardia, **miosis**, kram perut, sekret ↑).\n- **SCI C3–C5** menentukan fungsi diafragma; **C2–C4 komplet** butuh ventilator.\n- **Status epileptikus → ARF ±80%**; **stroke → pneumonia** komplikasi tersering.\n- **Recognize early, stabilize, escalate, refer safely (SBAR).**\n\n*Sumber: slide IS 2.6 (Dr. dr. Djayanti Sari, M.Kes, Sp.An-TI, Subsp.An.P(K); dr. Indra Sari Kusuma Harahap, Ph.D., Sp.S(K)); Racca et al. Neurol Sci 2020; Yuki N. NEJM 2012; Narayanaswami et al. Neurology 2021; Marino's ICU Book 2024; ALTEM 2023. Bagian bertanda \"Tambahan\" adalah pelengkap konsep di luar slide.*\n",
+      "quiz": {
+        "block": "materi-blok-ii-6",
+        "exam": "latihan",
+        "type": "is-2-6",
+        "year": "Latihan",
+        "count": 10
+      }
+    },
+    {
+      "code": "PD 2.7",
+      "slug": "pd-2-7",
+      "kind": "Panel Discussion",
+      "title": "Acute Respiratory Distress Syndrome (ARDS)",
+      "dept": "ENT-HNS, Internal Medicine, Anaesthesiology",
+      "lecturers": [
+        "dr. Erlangga Prasamya, Sp.An-TI, Subsp.An.TI(K)",
+        "dr. Hesti Dyah Palupi, Sp.T.H.T.B.K.L., Subsp.L.F.(K)",
+        "dr. Nur Rahmi Ananda, Sp.PD-KP"
+      ],
+      "practical": false,
+      "available": true,
+      "markdown": "# PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)\n\n## Ringkasan Cepat\n\n| Topik | Inti | Kata kunci ujian |\n|---|---|---|\n| Definisi | Gagal napas hipoksemik akut akibat **cedera paru inflamasi difus** → **edema kaya protein** | **Bukan** karena gagal jantung/overload |\n| Kriteria | Onset **≤ 1 minggu**, **opasitas bilateral**, bukan kardiogenik, **P/F ≤ 300** | Berlin 2012 → **Global 2023** (HFNO, S/F, USG) |\n| Derajat | Ringan **200–300**, sedang **100–200**, berat **≤ 100** (PEEP ≥ 5) | Mortalitas ≈ 35 / 40 / 46% |\n| Patofisiologi | Fase **eksudatif → proliferatif → fibrotik**; **shunt**, \"**baby lung**\", ↑ ruang rugi | Hipoksemia **refrakter O₂** |\n| Ventilasi protektif | **VT 6 mL/kg PBW**, **Pplat ≤ 30**, **ΔP ≤ 15** | PBW dari **tinggi badan** |\n| Adjuvan | **Prone ≥ 12–16 jam bila P/F < 150**, PEEP tinggi, NMBA, steroid, **VV-ECMO** | PROSEVA, ARMA |\n| THT | **Sumbatan jalan napas atas**, **kriteria Jackson**, krikotiroidotomi/trakeostomi | Stridor inspirasi = supraglotis |\n\n---\n\n## A. Definisi dan Evolusinya\n\n**ARDS** adalah bentuk **gagal napas hipoksemik akut yang mengancam nyawa** akibat **cedera paru inflamasi yang difus**: **↑ permeabilitas alveolus–kapiler → edema kaya protein → opasitas bilateral, hipoksemia, ↓ compliance, dan ↑ ruang rugi** — **tidak terutama dijelaskan oleh gagal jantung atau kelebihan cairan**.\n\n| Tahun | Definisi | Isi utama |\n|---|---|---|\n| 1967 | **Ashbaugh** | 12 dewasa: takipnea akut, **hipoksemia refrakter**, paru kaku, infiltrat difus |\n| 1988 | Murray | **Lung Injury Score** 0–4 (hipoksemia, compliance, PEEP, luas foto toraks) |\n| 1994 | **AECC** | **ALI: P/F ≤ 300**, **ARDS: P/F ≤ 200**, infiltrat bilateral, **PAWP ≤ 18** |\n| 2012 | **Berlin** | Onset ≤ 1 minggu, **ringan/sedang/berat**, **PEEP/CPAP ≥ 5** |\n| 2023 | **Global** | Menambah **HFNO, SpO₂/FiO₂, USG paru**; pasien non-intubasi dan setting terbatas |\n\n**Perubahan AECC → Berlin**: **ALI dihapus**; **PAWP (kateter arteri pulmonal) dihapus** diganti **ekokardiografi/penilaian objektif**; ditambah **PEEP minimal ≥ 5 cmH₂O** untuk menstandarkan P/F. Hasil: **validitas prediktif mortalitas ICU lebih baik**.\n\n![Definisi Berlin ARDS: timing dalam 1 minggu, opasitas bilateral pada foto toraks/CT, edema tidak sepenuhnya dijelaskan gagal jantung atau overload cairan, dan oksigenasi ringan/sedang/berat dengan PEEP ≥ 5 cmH₂O.](assets/materi/blok2.6/pd-2-7/definisi-berlin.jpg)\n\n### Definisi Global 2023\n**Kriteria semua kategori:** onset akut atau memburuk **dalam 1 minggu** dari faktor risiko (pneumonia, sepsis, trauma, aspirasi, pankreatitis, transfusi); **opasitas bilateral** pada foto toraks/CT **atau B-lines bilateral dan/atau konsolidasi pada USG paru**; edema **tidak terutama kardiogenik/overload**.\n\n| Non-intubasi | Intubasi | Setting sumber daya terbatas |\n|---|---|---|\n| **P/F ≤ 300 atau S/F ≤ 315** (bila SpO₂ ≤ 97%) dengan **HFNO ≥ 30 L/menit** atau **NIV/CPAP ≥ 5 cmH₂O** | Ringan P/F 200–300 (S/F 235–315); sedang 100–200 (S/F 148–235); berat **≤ 100** (S/F ≤ 148) | **S/F ≤ 315**, tanpa syarat PEEP/aliran O₂ minimal; **USG boleh** untuk imaging |\n\nARDS kini dapat dikenali **sebelum intubasi** dan **di tempat tanpa AGD atau CT** — relevan untuk banyak RS di Indonesia.\n\n---\n\n## B. Epidemiologi dan Penyebab\n\n- **10,4% admisi ICU** dan **23,4% pasien terventilasi** memenuhi kriteria ARDS (LUNG SAFE, 50 negara).\n- **Kurang dikenali**: klinisi hanya mengidentifikasi **60%** kasus (51% ringan, 79% berat).\n- **Mortalitas RS ≈ 40%**, naik dengan derajat: **ringan 34,9%, sedang 40,3%, berat 46,1%**.\n- Penyintas: kelemahan jangka panjang, gangguan kognitif, depresi/PTSD.\n\n| **Cedera langsung (pulmoner)** | **Cedera tidak langsung (ekstrapulmoner)** |\n|---|---|\n| **Pneumonia** (tersering), **aspirasi isi lambung**, cedera inhalasi, kontusio paru, tenggelam | **Sepsis** (penyebab tidak langsung tersering), **trauma** berat, **pankreatitis**, **transfusi masif (TRALI)**, luka bakar, obat |\n\n---\n\n## C. Patogenesis dan Patofisiologi\n\n### 1. Tiga fase\n| Fase | Waktu | Proses |\n|---|---|---|\n| **Eksudatif** | **Hari 1–7** | Cedera **epitel alveolus (tipe I & II)** dan **endotel kapiler**; influks **neutrofil**, sitokin, NETs; ↑ permeabilitas; **edema kaya protein**, **hilangnya surfaktan**, **membran hialin**, mikrotrombus → shunt, ↓ compliance, ↑ ruang rugi. **Puncak kerentanan mekanik.** |\n| **Proliferatif** | **≈ Hari 7–21** | **Pneumosit tipe II berproliferasi** memperbaiki epitel; edema dibersihkan |\n| **Fibrotik** | **> 3 minggu** (sebagian pasien) | Proliferasi fibroblas, deposisi kolagen; ventilasi lama, **mortalitas lebih tinggi** |\n\n**Tujuan klinis**: menjaga pasien tetap hidup **dengan kerusakan iatrogenik minimal selama fase 1**, agar perbaikan biologis di fase 2 dapat terjadi.\n\n### 2. Dari cedera ke temuan klinis\n| Proses | Manifestasi fisiologis | Temuan klinis |\n|---|---|---|\n| Cedera sawar alveolus–kapiler, edema interstisial/alveolar | **↓ compliance paru** | ↑ kerja napas |\n| Pengisian alveolus difus | **V/Q mismatch dan shunt** | **Hipoksemia berat**, opasitas difus bilateral |\n| Inaktivasi/↓ produksi surfaktan | **Kolaps alveolus akhir ekspirasi** | **Respons baik terhadap PEEP** |\n| Aktivasi trombosit dan endotel, mikrotrombosis | **↑ ruang rugi**, hipertensi pulmonal | **Ventilasi semenit tinggi, hiperkapnia**, gagal jantung kanan |\n| Mediator inflamasi bocor ke sirkulasi | SIRS | **Disfungsi multiorgan** |\n\n### 3. Mengapa pasien ARDS hipoksemik dan sulit diventilasi\n- **Shunt & V/Q mismatch**: alveolus terisi cairan/kolaps tetap terperfusi (V/Q = 0) → **hipoksemia refrakter O₂** → rekrut alveolus dengan **PEEP dan posisi prone**.\n- **↓ Compliance — \"baby lung\"** (Gattinoni): paru ARDS terdiri dari zona **edema (dependen)**, **atelektatik (transisi)**, dan **normal (non-dependen)**; bagian yang masih teraerasi **seukuran paru anak 5 tahun** → volume normal dewasa (10–15 mL/kg) menyebabkan **overdistensi katastrofik**.\n- **↑ Ruang rugi**: mikrotrombus dan destruksi kapiler → terventilasi tetapi tidak terperfusi → **hiperkapnia**, ventilasi semenit tinggi; **fraksi ruang rugi tinggi = mortalitas tinggi**.\n\n![Konsep baby lung: paru ARDS terdiri dari zona edema dependen, atelektatik, dan normal; jaringan yang masih teraerasi seukuran paru anak 5 tahun.](assets/materi/blok2.6/pd-2-7/baby-lung.jpg)\n\n### 4. Ventilator-induced lung injury (VILI)\n![Mekanisme VILI: volutrauma (overdistensi karena volume tidal berlebih), barotrauma (tekanan jalan napas tinggi), dan atelektrauma (buka-tutup alveolus siklik yang memicu biotrauma).](assets/materi/blok2.6/pd-2-7/vili.jpg)\n\n| Jenis | Mekanisme |\n|---|---|\n| **Volutrauma** | **Volume tidal berlebih** meregangkan sisa baby lung (overdistensi) |\n| **Barotrauma** | **Tekanan jalan napas tinggi** merobek arsitektur alveolus (pneumotoraks) |\n| **Atelektrauma** | **Buka-tutup alveolus siklik** tiap napas → stres geser → inflamasi |\n| **Biotrauma** | Pelepasan mediator inflamasi akibat cedera mekanik → cedera organ lain |\n\n**Prinsip inti**: ventilasi mekanik harus **meminimalkan progresi cedera paru sambil mendukung pertukaran gas**. Persamaan gerak: **P_mus + P_aw = V/C + (aliran × R)** — ARDS **menurunkan compliance (C)**, sehingga butuh tekanan eksternal jauh lebih besar untuk volume yang sama.\n\n### 5. P-SILI\n**Patient self-inflicted lung injury**: usaha inspirasi spontan yang sangat kuat menghasilkan **ayunan tekanan transpulmoner besar** → memperburuk edema dan cedera mekanik. Karena itu **jangan menunda intubasi** bila ada instabilitas hemodinamik persisten, sekret banyak, atau dispnea berat. HFNC/CPAP boleh dicoba pada kasus ringan–sedang terpilih (ESICM tidak merekomendasikan HFNC rutin pada ARDS yang tidak diseleksi).\n\n---\n\n## D. Diagnosis\n\n### Pendekatan\n1. **Curigai** — hipoksemia akut dalam 1 minggu setelah faktor risiko.\n2. **Kuantifikasi** — **P/F ratio** pada PEEP/CPAP atau HFNO; **S/F** bila tanpa AGD.\n3. **Pencitraan** — **opasitas bilateral** foto toraks/CT atau USG paru.\n4. **Singkirkan edema kardiogenik** — **ekokardiografi**, BNP, keseimbangan cairan.\n5. **Cari penyebab** — kultur, tes virus; **tanpa faktor risiko → pikirkan mimik**.\n\n**Catatan praktis:** ukur oksigenasi pada **FiO₂ dan PEEP yang diketahui** — pasien yang sama bisa berpindah kategori dengan setting berbeda. Ekokardiografi membantu menyingkirkan gagal LV (keduanya bisa bersamaan). **P/F < 150 → prone**; refrakter → pertimbangkan **VV-ECMO**.\n\n![Foto toraks ARDS: opasitas bilateral difus yang tidak sepenuhnya dijelaskan efusi, kolaps lobus, atau nodul.](assets/materi/blok2.6/pd-2-7/cxr-ards.jpg)\n\n### Pencitraan\n- **Foto toraks**: opasitas alveolar **bilateral, difus**, sering perifer; **tanpa kardiomegali** dan **tanpa garis Kerley/efusi dominan** (membedakan dari edema kardiogenik).\n- **CT**: **ground-glass dan konsolidasi** terutama di **area dependen (dorsal)**; area non-dependen relatif normal.\n- **Fenotipe**: **hiperinflamasi vs hipoinflamasi** (respons berbeda terhadap PEEP dan cairan); **ARDS fokal vs difus** (LIVE trial — potensi rekrutmen berbeda).\n\n### Diagnosis banding (ARDS mimics)\n**Gagal jantung kongestif**; **ILD** (AIP, NSIP, organizing pneumonia, pneumonia eosinofilik akut, hipersensitivitas, proteinosis alveolar); penyakit jaringan ikat (polimiositis/antisintetase); **perdarahan alveolar difus** (vaskulitis, Goodpasture); **paru akibat obat** (bleomisin, amiodaron); kanker (limfoma, karsinoma metastasis); **TB endobronkial**.\n\n---\n\n## E. Skrining dan Pencegahan\n\n- **Identifikasi risiko**: **Lung Injury Prediction Score (LIPS) ≥ 4**; kondisi predisposisi (sepsis, syok, pneumonia, aspirasi, trauma, pankreatitis, operasi risiko tinggi, transfusi multipel); modifier (alkohol, obesitas, hipoalbuminemia, kemoterapi, takipnea, SpO₂ < 95%, FiO₂ > 0,35).\n- **Hindari \"second hit\"**: **ventilasi protektif pada semua pasien terventilasi (VT 6–8 mL/kg PBW)**, hindari overload cairan, **transfusi restriktif**, **head-up 30–45°** (cegah aspirasi), antibiotik dini dan source control pada sepsis.\n- **Belum ada obat pencegah ARDS** — aspirin (LIPS-A, JAMA 2016) **tidak** menurunkan ARDS.\n\n---\n\n## F. Tatalaksana\n\n### 1. Prinsip\n1. **Atasi penyebab** — antibiotik, source control, hentikan obat penyebab, atasi pankreatitis/trauma.\n2. **Dukung pertukaran gas** — **HFNO lebih dipilih daripada O₂ konvensional** pada pasien non-intubasi; **intubasi tepat waktu**; **ventilasi protektif**.\n3. **Adjuvan sesuai derajat** — **P/F < 150: prone ≥ 12–16 jam/hari**; PEEP lebih tinggi (tanpa manuver rekrutmen lama); **NMBA** (berat dini), **kortikosteroid**, **VV-ECMO**.\n4. **Suportif** — **cairan konservatif setelah syok teratasi**, sedasi ringan, mobilisasi dini, profilaksis VTE dan stress ulcer, nutrisi.\n\n### 2. Ventilasi protektif paru (LTVV)\n**Predicted body weight (PBW)** — gunakan **tinggi badan, bukan berat aktual**:\n- **Laki-laki: 50 + 0,91 × (TB cm − 152,4)**\n- **Perempuan: 45,5 + 0,91 × (TB cm − 152,4)**\n\nContoh: perempuan TB 160 cm → PBW = 45,5 + 0,91 × 7,6 ≈ **52 kg** → VT 6 mL/kg ≈ **315 mL (bukan 500 mL!)**. Paru tidak tumbuh bersama jaringan lemak — pasien 150 kg dan 70 kg dengan tinggi sama punya \"baby lung\" seukuran sama.\n\n| Parameter | Target |\n|---|---|\n| **Volume tidal** | **6 mL/kg PBW** (rentang 4–8) |\n| **Plateau pressure** | **≤ 30 cmH₂O** |\n| **Driving pressure (Pplat − PEEP)** | Serendah mungkin, idealnya **≤ 15** (slide dr. Erlangga: ≤ 14) |\n| PEEP | **Lebih tinggi pada ARDS sedang–berat**; tanpa manuver rekrutmen lama |\n| Oksigenasi | **SpO₂ 88–95%** · PaO₂ 55–80 mmHg |\n| RR/pH | RR sampai 35; **terima hiperkapnia permisif** (pH > 7,15–7,20) |\n\n**ARMA/ARDSNet 2000**: VT 6 vs 12 mL/kg → mortalitas **31,0% vs 39,8%**.\n\n![Analisis gelombang ventilator: plateau pressure diukur dengan jeda akhir inspirasi 0,5 detik (batas < 30 cmH₂O), driving pressure = Pplat − PEEP (batas ≤ 14 cmH₂O, prediktor mortalitas independen terkuat).](assets/materi/blok2.6/pd-2-7/pplat-driving-pressure.jpg)\n\n- **Plateau pressure**: diukur dengan **jeda akhir inspirasi 0,5 detik**; mencerminkan **distensi alveolus**.\n- **Driving pressure (ΔP = Pplat − PEEP)**: regangan siklik parenkim; **prediktor mortalitas independen terkuat** (Amato, NEJM 2015).\n- **Hiperkapnia permisif**: VT rendah menurunkan ventilasi alveolar → PaCO₂ naik; terima asidosis ringan, **naikkan RR untuk kompensasi**, waspadai **auto-PEEP** bila waktu ekspirasi terlalu pendek.\n- **PEEP**: \"tarik tambang\" antara **rekrutmen** (membuka alveolus atelektatik, mencegah atelektrauma) dan **overdistensi + gangguan hemodinamik** (menekan kapiler paru, menurunkan venous return). Bedside: **tabel PEEP/FiO₂**; lanjutan: manometri esofagus.\n\n### 3. Adjuvan bertingkat\n![Piramida terapi ARDS: tier 1 deresusitasi (FACTT), tier 2 paralisis (NMBA untuk disinkroni berat), tier 3 posisi prone (PROSEVA), tier 4 VV-ECMO untuk gagal refrakter.](assets/materi/blok2.6/pd-2-7/piramida-terapi.jpg)\n\n| Terapi | Bukti/indikasi |\n|---|---|\n| **Posisi prone** | **PROSEVA (NEJM 2013)**: P/F **< 150** pada FiO₂ ≥ 0,6 dan PEEP ≥ 5; **prone ≥ 16 jam/hari, mulai dini** → mortalitas 28 hari **16,0% vs 32,8%**. Mekanisme: jantung bertumpu pada sternum, edema berpindah ke ventral sementara perfusi tetap dorsal → **V/Q lebih baik**, ventilasi lebih homogen, **↓ VILI**. Waspadai cedera tekan dan selang terlepas. |\n| **NMBA** | ACURASYS 2010 (cisatracurium 48 jam) bermanfaat; ROSE/PETAL 2019 tidak. **Tidak rutin** — untuk **disinkroni berat, hipoksemia refrakter**, atau bila LTVV tidak tercapai dengan sedasi. |\n| **Cairan konservatif** | **FACTT**: setelah keluar dari syok, **restriksi + diuresis aktif** → ↓ air ekstravaskular paru, oksigenasi membaik, **↑ hari bebas ventilator**, tanpa memperburuk organ lain. |\n| **Kortikosteroid** | Direkomendasikan bersyarat (ATS 2024). |\n| **VV-ECMO** | Bila refrakter **meski ventilasi optimal dan prone** (CESAR, EOLIA): **P/F ≤ 50 > 3 jam**, **P/F < 80 > 6 jam**, atau **pH < 7,25 dengan PaCO₂ ≥ 60 > 6 jam**. ECMO mengambil alih pertukaran gas sehingga ventilator dapat di-set \"istirahat\" (Pplat < 20). **Rujuk dini** sebelum fase fibrotik. |\n\n![Lima langkah tatalaksana ARDS: identifikasi opasitas bilateral ≤ 7 hari dan singkirkan gagal jantung; mulai LTVV 4–8 mL/kg PBW dengan Pplat < 30, ΔP ≤ 14, SpO₂ 90–93%; optimalkan PEEP dan cairan konservatif; prone ≥ 16 jam/hari ± NMBA; evaluasi VV-ECMO.](assets/materi/blok2.6/pd-2-7/langkah-tatalaksana.jpg)\n\n> [!KLINIS] **Kasus dr. Nur Rahmi**: laki-laki 45 tahun (TB 170 cm), pneumonia komunitas berat, diintubasi hari ke-2; foto toraks opasitas bilateral baru; ekokardiografi LV normal. Ventilator: **VT 600 mL, FiO₂ 0,8, PEEP 10, Pplat 33**; AGD pH 7,31, PaCO₂ 48, PaO₂ 72.\n> **P/F = 72/0,8 = 90 → ARDS berat** (penyebab langsung: pneumonia). **PBW = 50 + 0,91 × 17,6 ≈ 66 kg → VT 6 mL/kg ≈ 400 mL**; VT saat ini ≈ 9 mL/kg → **terlalu tinggi**. **ΔP = 33 − 10 = 23 (tinggi)** → turunkan VT agar Pplat ≤ 30 dan ΔP ≤ 15, naikkan RR, terima hiperkapnia permisif. **P/F < 150 → prone ≥ 12–16 jam/hari**; PEEP lebih tinggi, pertimbangkan NMBA dan kortikosteroid; refrakter (P/F < 80 > 6 jam) → **rujuk VV-ECMO**. Tetap **atasi penyebab** (kultur, antibiotik) dan cairan konservatif setelah syok teratasi.\n\n---\n\n## G. Sumbatan Jalan Napas Atas (dr. Hesti — THT-KL)\n\nDistres napas dapat juga berasal dari **sumbatan jalan napas atas (SJNA)**, yang harus dibedakan dari ARDS karena tatalaksananya berbeda total.\n\n### 1. Fisika aliran udara\n- **Hukum Poiseuille**: aliran ∝ **jari-jari pangkat empat** → penyempitan kecil sangat bermakna, **terutama pada anak**.\n- **Hukum Bernoulli**: saat kecepatan aliran meningkat melalui penyempitan, **tekanan pada dinding lumen turun** → area sempit cenderung **kolaps dinamis** dengan aliran turbulen → stridor.\n\n### 2. Lokasi stridor\n| Zona | Lokasi | Stridor |\n|---|---|---|\n| **Zona 1** | **Supraglotis**, lidah, faring (struktur longgar, tertarik saat inspirasi) | **Inspirasi**, nada tinggi |\n| **Zona 2** | **Trakea ekstratoraks** (glotis, subglotis) | **Bifasik**, nada sedang |\n| **Zona 3** | **Trakea intratoraks/bronkus** | **Ekspirasi** (lebih mirip **wheeze**) |\n\n**Stridor** = bunyi nada tinggi akibat obstruksi setinggi laring; **tanda distres napas yang tidak ambigu**; kongenital atau didapat.\n\n### 3. Klasifikasi dan etiologi SJNA\n- Menurut **waktu** (akut/kronik), **derajat** (parsial/total), **kejadian** (kongenital/didapat).\n- **Etiologi**: kongenital (**laringomalasia**, web/kista/laringokel, stenosis subglotis), trauma (tumpul/tembus, **pasca-ETT**), tumor (jinak/ganas), **infeksi** (laringitis, abses), **benda asing**, **paralisis pita suara**.\n\n| Petunjuk klinis | Pikirkan |\n|---|---|\n| **Onset mendadak** | **Benda asing**, **reaksi anafilaksis** |\n| Low stridor | Epiglotitis, trakeitis, benda asing |\n| Sesak + **demam tinggi** | Epiglotitis, trakeitis, abses retro/parafaring |\n| **Suara muffled (\"hot potato\")**, odinofagia | **Abses peritonsil** |\n| Epistaksis, **bercak keputihan, bullneck** | **Difteri** |\n| Perdarahan aktif, hematoma, emfisema subkutan | Trauma tumpul/tembus |\n| Riwayat intubasi | **Stenosis laring-trakea** |\n| Stridor intermiten membaik dengan perubahan posisi | **Airway malacia** |\n\n### 4. Kriteria Jackson dan tatalaksana\n| Grade | Temuan | Tatalaksana |\n|---|---|---|\n| **1** | Stridor inspirasi, **retraksi suprasternal**, pasien **tenang** | **Konservatif** (antiinflamasi, antialergi, antibiotik, oksigen); intubasi/trakeostomi **elektif** |\n| **2** | Stridor inspirasi, retraksi suprasternal + **epigastrium**, mulai **gelisah** | **Intubasi endotrakeal/trakeostomi** |\n| **3** | Stridor **inspirasi & ekspirasi**, retraksi suprasternal, epigastrium, **infraklavikula, interkostal**, **sangat gelisah** | Intubasi/**trakeostomi** |\n| **4** | Seperti grade 3 + **sianosis** | **Darurat: krikotiroidotomi → trakeostomi (cito)** |\n\n**Pemeriksaan penunjang**: laringoskopi direk/indirek, **FOL (fiberoptic laryngoscopy)**, rontgen servikal AP/lateral, CT scan, laboratorium.\n\n![Algoritma tatalaksana stridor pada anak: nilai beratnya; bila darurat stabilkan jalan napas (intubasi, trakeostomi); bila stabil, bedakan stridor akut (croup, benda asing, epiglotitis, laringotrakeobronkitis membranosa) dan kronik (laringomalasia).](assets/materi/blok2.6/pd-2-7/algoritma-stridor-anak.jpg)\n\n- **Krikotiroidotomi**: tindakan **darurat** dengan membuka/melubangi **membran krikotiroidea**; dapat dilakukan dengan/tanpa analgesia topikal (xylocaine 10%).\n- **Trakeostomi**: tindakan bedah membuat lubang pada **trakea**, dengan atau tanpa kanul.\n\n> [!TAMBAHAN] Pada **epiglotitis**, jangan memeriksa tenggorok dengan spatel atau membaringkan anak — dapat memicu obstruksi total. Amankan jalan napas di kamar operasi dengan tim siap trakeostomi. Gambaran rontgen lateral: **thumb sign**; croup: **steeple sign** (AP).\n\n---\n\n## H. High-Yield / Poin Ujian\n- **ARDS** = onset **≤ 1 minggu**, **opasitas bilateral**, **bukan kardiogenik** (ekokardiografi), **P/F ≤ 300 dengan PEEP ≥ 5**.\n- **Ringan 200–300, sedang 100–200, berat ≤ 100**; Global 2023 menambah **HFNO ≥ 30 L/menit, S/F ≤ 315, USG**.\n- Berlin **menghapus ALI dan PAWP**, menambah **PEEP ≥ 5**.\n- Penyebab langsung tersering **pneumonia**; tidak langsung **sepsis**.\n- Fase **eksudatif (membran hialin, 1–7 hari)** → proliferatif → fibrotik.\n- Hipoksemia ARDS = **shunt → refrakter O₂**, diatasi **PEEP dan prone**.\n- **VT 6 mL/kg PBW** (rumus pakai **tinggi badan**), **Pplat ≤ 30**, **ΔP ≤ 15** (prediktor mortalitas terkuat), **hiperkapnia permisif**.\n- **Prone ≥ 16 jam bila P/F < 150** (PROSEVA); **cairan konservatif** setelah syok (FACTT); **ECMO bila P/F < 80 > 6 jam** meski optimal.\n- **Aspirin tidak mencegah ARDS.**\n- **SJNA**: stridor **inspirasi = supraglotis**, **bifasik = glotis/subglotis**, **ekspirasi = intratoraks**; **Jackson 4 (sianosis) → krikotiroidotomi**.\n\n*Sumber: slide PD 2.7 (dr. Erlangga Prasamya, Sp.An-TI, Subsp.An.TI(K); dr. Hesti Dyah Palupi, Sp.T.H.T.B.K.L., Subsp.L.F.(K); dr. Nur Rahmi Ananda, Sp.PD-KP); Matthay et al. AJRCCM 2024; ARDS Definition Task Force JAMA 2012; Bellani et al. JAMA 2016; Qadir et al. ATS 2024; Grotberg et al. Crit Care 2023. Bagian bertanda \"Tambahan\" adalah pelengkap konsep di luar slide.*\n",
+      "quiz": {
+        "block": "materi-blok-ii-6",
+        "exam": "latihan",
+        "type": "pd-2-7",
+        "year": "Latihan",
+        "count": 10
+      }
+    },
+    {
+      "code": "IS 2.8",
+      "slug": "is-2-8",
+      "kind": "Integrated Seminar",
+      "title": "Pneumothorax, Pleural Effusion and Haemothorax",
+      "dept": "Internal Medicine, Surgery",
+      "lecturers": [
+        "dr. Ihsanul Amal, M.Ked.Klin., Sp.BTKV",
+        "dr. Taufik Indrawan, Sp.PD"
+      ],
+      "practical": false,
+      "available": true,
+      "markdown": "# IS 2.8 — Pneumotoraks, Efusi Pleura, dan Hemotoraks\n\n## Ringkasan Cepat\n\n| Kondisi | Inti | Kata kunci ujian |\n|---|---|---|\n| **Pneumotoraks** | Udara di rongga pleura → paru kolaps | **Hipersonor**, suara napas ↓, garis pleura viseral |\n| **Tension pneumotoraks** | Katup satu arah → tekanan ↑ → **syok obstruktif** | **Dekompresi jarum segera** (diagnosis klinis) |\n| **Efusi pleura** | Cairan berlebih di rongga pleura | **Pekak**, fremitus ↓; **kriteria Light** |\n| Transudat vs eksudat | Sistemik vs lokal | **Protein PF/serum > 0,5; LDH > 0,6; LDH > 2/3 ULN** |\n| **Hemotoraks** | Darah di pleura; **Ht cairan ≥ 50% Ht darah** | **> 1.500 mL atau > 200 mL/jam → torakotomi** |\n| Chest tube | **Safe triangle**: lipatan aksila, latissimus dorsi, pektoralis mayor, **ICS 5** | |\n\n---\n\n## A. Anatomi Singkat\n\n- **Pleura parietal** melapisi dinding dada, diafragma, mediastinum; **pleura viseral** melapisi paru. Di antaranya **rongga pleura (potential space)** berisi cairan tipis.\n- **Vaskularisasi dinding dada**: a./v. interkostal berjalan di **tepi bawah iga** (berkas neurovaskular: **vena, arteri, nervus — dari atas ke bawah**) → jarum/tube dimasukkan **di tepi atas iga bawah**.\n- Cairan pleura normal **5–10 mL (3,5–7 mL)**, jernih, **protein rendah**, sedikit sel mononuklear; disekresi terutama dari **pleura parietal (0,01 mL/kg/jam)** dan diserap **limfatik pleura parietal**.\n- **Tekanan pleura negatif** (≈ −4 sampai −7 mmHg) mempertahankan paru tetap mengembang; penyebab dasarnya adalah **pemompaan cairan oleh limfatik**.\n\n---\n\n## B. Pneumotoraks\n\n### 1. Definisi dan klasifikasi\n**Pneumotoraks**: paru kolaps akibat **udara masuk ke rongga pleura** di antara pleura parietal dan viseral, **spontan atau traumatik**. Udara bisa masuk karena (1) komunikasi alveolus–pleura, (2) komunikasi langsung/tidak langsung atmosfer–pleura, atau (3) organisme penghasil gas.\n\n| Jenis | Ciri | Contoh |\n|---|---|---|\n| **Spontan primer (PSP)** | **Tanpa penyakit paru yang jelas** | **Ruptur bleb subpleura apeks**; laki-laki **tinggi kurus**, **perokok** |\n| **Spontan sekunder (SSP)** | **Ada penyakit paru dasar** | **PPOK/emfisema, TB**, fibrosis kistik, PCP pada AIDS, pneumonia nekrotikans |\n| Katamenial | Bersamaan menstruasi | Endometriosis toraks |\n| **Iatrogenik** | Akibat tindakan | **Biopsi transtorakal/transbronkial, pemasangan CVC, torakosentesis**, biopsi pleura |\n| **Traumatik** | Trauma tembus atau tumpul | Luka tusuk, fraktur iga |\n\n### 2. Patofisiologi\n- **Terbuka (open/sucking chest wound)**: defek dinding dada → udara keluar-masuk sesuai napas.\n- **Tertutup**: dinding dada utuh, udara berasal dari paru (mis. fragmen tulang melukai paru).\n- **Tension**: mekanisme **katup satu arah** — udara masuk saat inspirasi tetapi **tidak bisa keluar** saat ekspirasi → tekanan intrapleura naik progresif → paru kolaps total, **mediastinum terdorong ke kontralateral**, **venous return turun → syok obstruktif**.\n\n![Pneumotoraks terbuka (udara masuk melalui defek dinding dada) dan tertutup (udara masuk dari paru, misalnya akibat fragmen tulang).](assets/materi/blok2.6/is-2-8/pneumotoraks-terbuka-tertutup.jpg)\n\n![Tension pneumotoraks: mekanisme katup — udara masuk saat inspirasi (katup terbuka) dan tidak bisa keluar saat ekspirasi (katup tertutup), sehingga mediastinum terdorong ke sisi kontralateral.](assets/materi/blok2.6/is-2-8/tension-pneumotoraks.jpg)\n\n**Patogenesis PSP**: ruptur spontan **bleb/bulla subpleura**; berkaitan dengan inflamasi saluran napas distal, predisposisi herediter, **habitus ektomorf dengan tekanan intrapleura lebih negatif di apeks**, iskemia apikal, IMT rendah, kelainan jaringan ikat. Pencetus: **perubahan tekanan atmosfer**, **paparan musik keras**.\n\n**SSP** lebih berbahaya karena **fungsi paru sudah terganggu**: mekanisme ruptur alveolus langsung (emfisema, pneumonia nekrotikans), lewat interstisium, atau mundur via berkas bronkovaskular (pneumomediastinum); **angka rekurensi tinggi (sampai 80%)**. **TB** adalah penyebab SSP yang sering (insidens 1,3–5% pasien TB) akibat **nekrosis pleura dan adhesi fibrotik (pleural porosity)**; risikonya ↑ pada ko-infeksi, TB lanjut (adhesi, bula), dan merokok.\n\n### 3. Manifestasi klinis\n- **Gejala**: **sesak (80–100%)**, **nyeri dada (75–90%)** pleuritik ipsilateral mendadak, batuk (25–35%); **5–10% tanpa gejala**, terutama PSP.\n- **Pemeriksaan fisik** (sisi sakit):\n  - **Inspeksi**: hemitoraks **cembung**, **tertinggal** saat bernapas.\n  - **Palpasi**: sela iga normal/**melebar**, **fremitus melemah/hilang**; **JVP meningkat (tension)**.\n  - **Perkusi**: **hipersonor**.\n  - **Auskultasi**: suara napas **menurun/hilang**, suara vokal lemah, bronkofoni negatif; **suara amforik** bila ada fistula.\n  - **Takikardia, hipotensi**, sianosis bila berat.\n\n> [!PENTING] **Tension pneumotoraks adalah diagnosis klinis**: sesak berat, **hipotensi, takikardia**, **trakea terdorong ke kontralateral**, **distensi vena leher**, hipersonor dan suara napas hilang di sisi sakit, sianosis. **Jangan menunggu foto toraks** → **dekompresi jarum segera**.\n\n### 4. Pencitraan\n- **Foto toraks PA tegak**: **garis pleura viseral tipis (lung edge)** **tanpa corakan paru di distalnya**; partial (paru kolaps hitam dengan garis abu-abu) atau total (paru kolaps seperti massa putih menempel di hilus); **mediastinal shift dan sela iga melebar** pada tension.\n- Waspada pneumotoraks **terlokulasi** pada pasien dengan penyakit paru dasar.\n- **CT/HRCT**: bila foto toraks meragukan; **indikasi utama: membedakan bula emfisematosa dari pneumotoraks**.\n- **USG paru (BLUE protocol)**: **hilangnya lung sliding**, **barcode/stratosphere sign** pada M-mode, **lung point** (spesifik).\n\n![Foto toraks pneumotoraks kanan: panah menunjukkan garis pleura viseral tanpa corakan paru di distalnya; garis putus-putus menandai tepi paru yang kolaps.](assets/materi/blok2.6/is-2-8/cxr-pneumotoraks.jpg)\n\n![Imaging pneumotoraks: garis pleura viseral tanpa corakan paru distal; CT membedakan bula emfisematosa dari pneumotoraks; pneumotoraks besar bila jarak pleura ke tepi paru > 2 cm.](assets/materi/blok2.6/is-2-8/imaging-pneumotoraks.jpg)\n\n### 5. Estimasi ukuran\n- **BTS**: pneumotoraks **besar bila jarak dari dinding dada ke tepi paru > 2 cm** (setinggi hilus) — **indikasi objektif drainase**; ≈ 50% volume hemitoraks.\n- **Rumus Light**: **% pneumotoraks = (1 − L³/H³) × 100%** (L = diameter paru kolaps, H = diameter hemitoraks). Contoh: H 10 cm, L 6 cm → 100 × (1 − 216/1.000) ≈ **78%**.\n- **Rhea**: rata-rata tiga jarak interpleura (apeks, tengah atas, tengah bawah) lalu dibaca pada nomogram.\n\n![Estimasi ukuran pneumotoraks: rumus Light %PTX = 100 × (1 − L³/H³) dan metode Rhea dengan rata-rata tiga pengukuran jarak interpleura.](assets/materi/blok2.6/is-2-8/ukuran-pneumotoraks.jpg)\n\n### 6. Tatalaksana\n**Tujuan**: perbaiki kondisi klinis, **kembangkan paru**, **cegah rekurensi**.\n\n| Situasi | Tatalaksana |\n|---|---|\n| **Tension** | **Dekompresi jarum segera** (kateter IV **14G** di **ICS 2 linea midklavikula**; ATLS terbaru: ICS 4–5 linea aksilaris anterior/media pada dewasa) → lanjut **chest tube** |\n| **Traumatik** | **Chest tube** |\n| **PSP kecil**, stabil, tanpa penyakit paru dasar | **Konservatif**: observasi, **O₂ aliran tinggi** (mempercepat resorpsi udara hingga **4 kali**), foto toraks serial; dapat rawat jalan dengan edukasi bila asimtomatik |\n| **PSP besar (> 2 cm/> 50%) atau sesak** | **Aspirasi jarum** (sama efektif dengan chest tube untuk mengurangi ukuran, rawat lebih singkat) |\n| **PSP gagal aspirasi**, **SSP besar**, tension, AIDS/PCP | **Chest tube (WSD)** — tatalaksana awal paling definitif |\n| **SSP** | Konservatif hanya bila **sangat kecil (< 1 cm)**; sebagian besar dirawat inap + drainase |\n| **Kebocoran udara menetap > 2–4 hari**, rekurensi | **Pleurodesis** (talk, tetrasiklin, doksisiklin), **VATS** (blebektomi, pleurektomi, abrasi pleura) atau torakotomi (rekurensi ≈ 1%) |\n\n- Chest tube dipertahankan sampai **tidak ada gelembung udara** (≤ 2 hari) dan **foto toraks** menunjukkan paru mengembang; bila **2–4 hari masih bocor → pertimbangkan bedah**.\n- Tren saat ini: **pendekatan konservatif** — 80% pneumotoraks kecil (< 15%) tidak memiliki kebocoran udara menetap.\n\n![Lokasi pemasangan chest tube pada \"safe triangle\": batas lipatan aksila, tepi lateral pektoralis mayor, tepi anterior latissimus dorsi, dan garis setinggi puting/ICS 5.](assets/materi/blok2.6/is-2-8/safe-triangle.jpg)\n\n> [!HIGHYIELD] **Safe triangle**: dibatasi **tepi anterior latissimus dorsi**, **tepi lateral pektoralis mayor**, **garis horizontal setinggi puting (ICS 5)**, dengan apeks di bawah aksila. Insersi **di tepi atas iga** untuk menghindari berkas neurovaskular interkostal.\n\n---\n\n## C. Efusi Pleura\n\n### 1. Definisi dan patofisiologi\n**Efusi pleura**: akumulasi cairan berlebih di rongga pleura, terjadi bila **pembentukan cairan berlebih** (dari interstisium paru, pleura parietal, atau rongga peritoneum) atau **pengeluaran limfatik berkurang**.\n\n| Mekanisme | Contoh |\n|---|---|\n| ↑ Tekanan kapiler paru | **Gagal jantung kongestif** |\n| ↑ Permeabilitas kapiler | **Pneumonia** |\n| ↓ Tekanan intrapleura | **Atelektasis** |\n| ↓ Tekanan onkotik plasma | **Hipoalbuminemia** (sindrom nefrotik, sirosis) |\n| ↑ Permeabilitas membran pleura | **Keganasan** |\n| Obstruksi limfatik | Keganasan |\n| Defek diafragma | **Hidrotoraks hepatik** |\n| Ruptur duktus torasikus | **Kilotoraks** |\n\n**Lima tipe utama**: **transudat, eksudat, empiema, efusi hemoragik/hemotoraks, kilotoraks/kiliform**.\n\n### 2. Manifestasi klinis\n- **Gejala**: asimtomatik (efusi kecil), **sesak**, **trepopnea** (sesak pada posisi lateral tertentu), **nyeri dada pleuritik**, batuk kering, hemoptisis, gejala penyakit dasar.\n- **Pemeriksaan fisik**: **fremitus menurun/hilang**, **perkusi pekak/flat**, **suara napas menurun/hilang**; **pleural rub** dapat muncul saat efusi kecil lalu hilang saat efusi membesar; efusi masif → **mediastinal shift menjauhi efusi**.\n\n> [!TAMBAHAN] Pembeda di pemeriksaan fisik: **efusi → pekak, fremitus ↓, trakea terdorong menjauh** (bila masif); **pneumotoraks → hipersonor, fremitus ↓, trakea menjauh** (tension); **atelektasis → pekak, fremitus ↓, trakea tertarik MENDEKAT**; **konsolidasi → pekak, fremitus ↑, suara napas bronkial**.\n\n### 3. Pencitraan\n- **Foto toraks tegak**: cairan mula-mula berkumpul di resesus posterior; **foto PA baru terlihat bila ≥ 250 mL** (**sudut kostofrenikus tumpul** = tanda paling awal); **foto lateral** sudah dapat melihat **> 50 mL**; gambaran **meniskus (Ellis S-line)**; efusi masif → **opasitas hemitoraks dengan mediastinum terdorong ke kontralateral**.\n- **USG toraks (TUS)**: dapat mendeteksi **5–50 mL**, **sensitivitas ±100%**; menggantikan foto lateral dekubitus; **memandu torakosentesis**, mengidentifikasi lokulasi/septasi (anekoik, kompleks bersepta, kompleks tanpa septa, homogen ekogenik).\n- **CT toraks**: membedakan cairan vs massa, lokulasi, kelainan parenkim, **empiema vs abses paru**, penebalan pleura; **curiga ganas bila nodularitas pleura, pleural rind, keterlibatan pleura mediastinal, penebalan pleura > 1 cm**.\n\n![Efusi pleura masif kiri: opasitas hemitoraks dengan mediastinal shift ke kanan dan distensi hemitoraks.](assets/materi/blok2.6/is-2-8/efusi-pleura-masif.jpg)\n\n### 4. Torakosentesis\n- **Indikasi diagnostik**: efusi **> 1 cm (> 10 mm)** pada dekubitus/USG/CT yang **penyebabnya tidak jelas**. Tidak perlu pada penyebab jelas (mis. **gagal jantung dengan efusi bilateral**), **kecuali**: unilateral atau ukuran tidak sebanding, **demam**, **nyeri pleuritik**, tanpa kardiomegali, **tidak respons diuretik**.\n- **Volume**: diagnostik **300–500 mL**; terapeutik **< 1.500 mL sekali tindakan** untuk mencegah **edema paru re-ekspansi**.\n- **Kontraindikasi**: **diatesis hemoragik** (target INR < 2, trombosit > 50.000/µL; hentikan antikoagulan/klopidogrel), infeksi kulit lokal (pioderma, herpes zoster).\n- **Komplikasi**: **pneumotoraks**, batuk, nyeri, **refleks vasovagal**, infeksi pleura, **hemotoraks (laserasi a. interkostal)**, laserasi limpa/hati, seeding tumor. Foto toraks pascatindakan hanya bila aspirasi udara, muncul gejala, atau fremitus hilang.\n\n### 5. Penampilan cairan\n| Penampilan | Interpretasi |\n|---|---|\n| **Kemerahan** | Darah (**keganasan, trauma, emboli paru**) |\n| Kecokelatan | Darah sudah lama |\n| **Darah nyata** | **Hemotoraks bila Ht > ½ Ht darah** |\n| Hitam | Aspergillus niger, Rhizopus, perdarahan masif metastasis/melanoma |\n| **Keruh** | ↑ sel (**piotoraks**) atau ↑ lipid (**kilotoraks**); disentrifugasi → supernatan jernih pada piotoraks |\n| **Berbau busuk** | **Infeksi anaerob** |\n| Berbau urin | **Urinotoraks** |\n| Seperti air | Transudat (hanya 13% transudat tampak watery) |\n\n### 6. Transudat vs eksudat — kriteria Light\n**Eksudat bila memenuhi ≥ 1 kriteria:**\n1. **Protein cairan pleura / protein serum > 0,5**\n2. **LDH cairan pleura / LDH serum > 0,6**\n3. **LDH cairan pleura > 2/3 batas atas normal LDH serum**\n\n![Alur kriteria Light: bila tidak ada kriteria terpenuhi → transudat (CHF, penyakit hati, ESRD, sindrom nefrotik, emboli paru); bila ≥ 1 → eksudat (infeksi, kanker, autoimun, obat, emboli paru; jarang kilotoraks, asbes).](assets/materi/blok2.6/is-2-8/alur-light.jpg)\n\n| | **Transudat** | **Eksudat** |\n|---|---|---|\n| Mekanisme | **Faktor sistemik** (tekanan hidrostatik/onkotik) | **Faktor lokal** (permeabilitas, obstruksi limfatik) |\n| Penyebab utama | **Gagal jantung** (tersering), **sirosis**, sindrom nefrotik, dialisis peritoneal | **Pneumonia bakteri (parapneumonik)**, **keganasan**, **TB**, infeksi virus, **emboli paru**, autoimun |\n\n- Kriteria Light **salah mengklasifikasikan ±25% transudat sebagai eksudat**, terutama pada pasien yang **mendapat diuretik** → bila klinis mengarah transudat, hitung **gradien protein serum − cairan pleura**: **> 3,1 g/dL → tetap transudat**.\n- Pada eksudat, periksa: penampilan, **glukosa**, **hitung jenis sel**, mikrobiologi (Gram, kultur), **sitologi**.\n\n![Pemeriksaan rutin cairan pleura: ADA > 40 U/L (TB), sitologi (keganasan), glukosa < 60 mg/dL (parapneumonik terkomplikasi, empiema, TB, keganasan, artritis reumatoid), LDH, rasio protein dan LDH, sel darah merah > 100.000/mm³, leukosit > 10.000/mm³ (empiema), eosinofil > 10%, limfosit > 50% (keganasan, TB), neutrofil > 50% (parapneumonik, emboli paru).](assets/materi/blok2.6/is-2-8/analisis-cairan-pleura.jpg)\n\n| Pemeriksaan | Nilai | Mengarah ke |\n|---|---|---|\n| **ADA** | **> 40 U/L** | **TB pleura** (sensitif ±90%) |\n| **Glukosa** | **< 60 mg/dL** | **Parapneumonik terkomplikasi/empiema**, TB, keganasan, **artritis reumatoid** |\n| **pH** | **< 7,20** | **Parapneumonik terkomplikasi/empiema → perlu drainase** |\n| **Limfosit** | **> 50%** | **TB, keganasan** |\n| Neutrofil | > 50% | Parapneumonik, emboli paru |\n| Leukosit | > 10.000/mm³ | Empiema |\n| Eritrosit | > 100.000/mm³ | Keganasan, trauma, emboli paru (**efusi hemoragik**) |\n| **Trigliserida** | **> 110 mg/dL** | **Kilotoraks** |\n| Amilase | > batas atas | Pankreatitis, **ruptur esofagus**, keganasan |\n| NT-proBNP | > 1.500 pg/mL | Gagal jantung |\n\n### 7. Langkah diagnosis dan tatalaksana\n**Langkah**: penilaian klinis → **foto toraks dan USG** → **torakosentesis** → **kriteria Light** → analisis cairan (kultur, sitologi, tes spesifik) → **CT toraks** → **bronkoskopi atau torakoskopi**.\n\n- **Efusi yang belum terdiagnosis**: observasi bila membaik (mis. viral); **reakumulasi cepat 24–72 jam → pikirkan transudat**; eksudat yang cepat berulang: angiosarkoma, kilotoraks, paru terperangkap keganasan, parapneumonik.\n- **Bronkoskopi** bila ada infiltrat paru, **hemoptisis**, efusi masif > ¾ hemitoraks, atau **mediastinum tertarik ke sisi efusi** (curiga obstruksi bronkus).\n- **Biopsi pleura buta** hanya diagnostik ±20% pada efusi ganas sitologi negatif; **biopsi dengan panduan CT** lebih baik; **torakoskopi** memungkinkan visualisasi, biopsi, drainase, dan **pleurodesis talk** sekaligus — dilakukan bila cara kurang invasif tidak diagnostik.\n- **Curiga efusi ganas** bila: gejala **> 1 bulan**, **tanpa demam**, cairan **kemerahan/berdarah**, CT mendukung keganasan.\n\n**Prinsip**: efusi adalah **cerminan penyakit dasar** — redakan gejala, **drainase**, pastikan diagnosis, **obati penyebab**.\n\n| Kondisi | Tatalaksana |\n|---|---|\n| Efusi parapneumonik tidak terkomplikasi | **Antibiotik** |\n| **Empiema**/parapneumonik terkomplikasi | **Tube thoracostomy** ± fibrinolitik intrapleura ± **VATS** |\n| **Efusi ganas/hemoragik berulang** | Chest tube ± **pleurodesis (sklerosan)** ± VATS; **indwelling pleural catheter (IPC)** |\n| Transudat | Atasi penyebab (diuretik pada gagal jantung, dll.) |\n\n> [!KLINIS] Kasus dr. Taufik: laki-laki 33 tahun, **sesak progresif lambat 2 bulan**, demam, batuk, **hemoptisis**, **penurunan berat badan**, perokok 8 pack-year. SpO₂ 95%, **suara napas hilang di infraskapula dan infraaksila kanan**. Diagnosis: **efusi pleura**. Pemeriksaan lanjut pertama: **foto toraks (± USG toraks)**. Untuk mencari penyebab: **analisis cairan pleura** (Light, ADA, sitologi) — di Indonesia, curigai **TB pleura** atau keganasan.\n\n---\n\n## D. Hemotoraks\n\n- **Definisi**: **darah dalam jumlah bermakna** di rongga pleura; **Ht cairan pleura ≥ 50% Ht darah perifer** (bandingkan: **efusi hemoragik** bila eritrosit > 100.000/µL).\n- **Penyebab**: **trauma** (tembus, tumpul, iatrogenik — tersering); medis: emboli paru, **ruptur aneurisma aorta**, tumor, dll.\n- **Sumber darah**: dinding dada (a. interkostal, a. mamaria interna), paru, mediastinum (pembuluh besar, jantung), diafragma.\n- **Patogenesis**: darah menumpuk → menghambat ekspansi paru; **kehilangan darah akut → kompensasi (takikardia, vasokonstriksi perifer)** → syok hemoragik.\n\n### Manifestasi\n- **Gejala**: sesak, nyeri dada pleuritik, **kepala terasa ringan**.\n- **Pemeriksaan**: **hipotensi dan takikardia**, suara napas menurun/hilang, **perkusi pekak**, **vena leher kolaps** (berbeda dari tension pneumotoraks yang **distensi**), sianosis bila perdarahan besar.\n\n### Diagnosis\n- **Foto toraks**: dapat **melewatkan 21%** hemotoraks kecil — **≥ 250 mL** diperlukan untuk menumpulkan sudut kostofrenikus (foto supine pada trauma hanya menunjukkan opasitas difus hemitoraks).\n- **USG (eFAST)**: menunjukkan **\"hematocrit sign\"**.\n- **CT dengan kontras**: **atenuasi tinggi (> 35 HU; > 15,6 HU sebagai batas)** membedakan hemotoraks dari efusi dan empiema.\n\n### Tatalaksana\n- **Awal**: stabilisasi (oksigen) dan **resusitasi cairan/darah** dengan pemantauan ketat.\n- **Hemotoraks kecil**: stabilisasi dan **ekspektatif**.\n- **Sedang–besar**: **drainase dengan tube thoracostomy besar (large-bore)** + resusitasi.\n- **Indikasi torakotomi darurat/VATS**: **darah awal > 1.500 mL**, atau **> 200 mL/jam** (selama 2–4 jam), **hemodinamik tidak stabil**, atau **butuh transfusi berulang**.\n- **Lini kedua**: torakotomi/VATS bila perdarahan berlanjut atau **retained clot**.\n- Bila perdarahan > 200 mL/jam juga dapat dipertimbangkan **embolisasi koil angiografik**.\n\n> [!HIGHYIELD] **Tension pneumotoraks vs hemotoraks masif** — keduanya syok dan suara napas hilang, tetapi: **tension → hipersonor + vena leher distensi**; **hemotoraks masif → pekak + vena leher kolaps**.\n\n---\n\n## E. High-Yield / Poin Ujian\n- **PSP**: laki-laki **tinggi kurus perokok**, **bleb apeks**; **SSP**: PPOK, **TB** — rekurensi tinggi.\n- **Tension** = diagnosis klinis → **dekompresi jarum 14G** segera → chest tube.\n- Foto toraks: **garis pleura viseral tanpa corakan distal**; **> 2 cm = besar** (BTS); **Light: (1 − L³/H³) × 100%**; CT untuk membedakan **bula vs pneumotoraks**.\n- **O₂ aliran tinggi** mempercepat resorpsi pneumotoraks hingga 4×.\n- Efusi: **≥ 250 mL** di foto PA (sudut kostofrenikus tumpul), **> 50 mL** di lateral, **USG 5–50 mL**.\n- **Kriteria Light** (≥ 1 → eksudat): protein PF/S > 0,5; LDH PF/S > 0,6; LDH PF > 2/3 ULN. Pada diuretik → **gradien protein > 3,1 g/dL → transudat**.\n- Transudat tersering **gagal jantung**; eksudat: **pneumonia, keganasan, TB**.\n- **ADA > 40 → TB**; **glukosa < 60, pH < 7,20 → empiema/drainase**; **trigliserida > 110 → kilotoraks**.\n- Torakosentesis **≤ 1.500 mL** sekali (cegah edema re-ekspansi); masuk **tepi atas iga**.\n- **Hemotoraks**: Ht ≥ 50% Ht darah; **> 1.500 mL atau > 200 mL/jam → torakotomi/VATS**.\n- **Safe triangle**: latissimus dorsi, pektoralis mayor, ICS 5, aksila.\n\n*Sumber: slide IS 2.8 (dr. Ihsanul Amal, M.Ked.Klin., Sp.BTKV; dr. Taufik Indrawan, Sp.PD); Light RW, Harrison 20th ed.; Na MJ, Tuberc Respir Dis 2014; BTS Pleural Disease Guideline 2010; Eur Respir Rev 2010; J Thorac Dis 2014. Bagian bertanda \"Tambahan\" adalah pelengkap konsep di luar slide.*\n",
+      "quiz": {
+        "block": "materi-blok-ii-6",
+        "exam": "latihan",
+        "type": "is-2-8",
+        "year": "Latihan",
+        "count": 10
+      }
     }
   ]
 };
@@ -2829,6 +2996,1436 @@
                 "explanation": "Pneumotoraks memberi gambaran radiolusen avaskular pada CXR dan hipodens pada CT, dengan temuan khas berupa pleural white line sign, deep sulcus sign, pendataran diafragma, dan pada kasus tertentu pergeseran struktur mediastinum. Pembedanya adalah simple pneumothorax biasanya tidak menimbulkan pergeseran struktur mediastinum, sedangkan tension pneumothorax memperlihatkan pergeseran mediastinum menjauhi sisi pneumotoraks dan sering disertai gangguan kardiopulmonal. Efusi pleura justru radioopak dengan meniscus sign dan sudut kostofrenikus tumpul. Atelektasis menarik mediastinum ke arah lesi, bukan menjauhinya.",
                 "answerProvenance": "ai-generated",
                 "image": "assets/materi/blok2.6/is-1-13/pneumotoraks-simple-tension.jpg"
+              }
+            ]
+          }
+        },
+        "el-2-1": {
+          "name": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+          "years": {
+            "Latihan": [
+              {
+                "id": 1,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Seorang perempuan 24 tahun dibawa ke IGD karena sesak dan kesemutan di sekitar mulut setelah bertengkar dengan pasangannya. RR 32×/menit, SpO₂ 99% udara ruang, paru vesikuler tanpa ronki maupun wheezing. AGD: pH 7,52; PaCO₂ 26 mmHg; PaO₂ 108 mmHg; HCO₃⁻ 23 mmol/L. Istilah yang paling tepat untuk menggambarkan pola ventilasi pasien ini adalah?",
+                "options": [
+                  "Hiperpnea",
+                  "Bradipnea",
+                  "Hiperventilasi",
+                  "Pernapasan Kussmaul",
+                  "Pernapasan apneustik"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Hiperventilasi didefinisikan sebagai ventilasi alveolar yang melebihi kebutuhan pembuangan CO₂ sehingga PaCO₂ turun; di sini PaCO₂ 26 mmHg dengan pH 7,52 (alkalosis respiratorik akut, HCO₃⁻ belum terkompensasi), khas hiperventilasi psikogenik dengan parestesia perioral. Hiperpnea adalah peningkatan kedalaman/volume napas yang sesuai kebutuhan metabolik sehingga PaCO₂ tetap normal (mis. saat olahraga). Bradipnea adalah frekuensi napas di bawah normal. Kussmaul adalah napas cepat-dalam sebagai kompensasi asidosis metabolik (pH rendah, HCO₃⁻ rendah), bukan alkalosis. Napas apneustik berupa inspirasi memanjang akibat lesi pons.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 2,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Seorang laki-laki 65 tahun dengan riwayat infark miokard mengeluh sesak yang memberat saat berbaring dan sering terbangun malam karena sesak. Pemeriksaan: JVP meningkat, ronki basah halus di kedua basal paru, edema tungkai. Napasnya cepat dan dangkal. Reseptor yang paling berperan menimbulkan pola napas cepat-dangkal pada kondisi kongesti paru ini adalah?",
+                "options": [
+                  "Slow-adapting pulmonary stretch receptor",
+                  "J-receptor (juxtacapillary receptor)",
+                  "Kemoreseptor sentral di medula ventral",
+                  "Metaboreseptor otot rangka",
+                  "Reseptor vagal di wajah"
+                ],
+                "correctAnswer": 1,
+                "explanation": "J-receptor (juxtacapillary) terletak di interstisium alveolar dekat kapiler dan teraktivasi oleh kongesti serta edema interstisial paru, menimbulkan napas cepat dan dangkal serta sensasi sesak; inilah mekanisme sesak pada gagal jantung kiri dengan kongesti paru. Slow-adapting stretch receptor mendeteksi peregangan/volume paru dan memperantarai refleks Hering–Breuer. Kemoreseptor sentral mendeteksi CO₂ melalui pH LCS. Metaboreseptor otot rangka mendeteksi metabolit saat aktivitas. Reseptor vagal wajah justru dapat mengurangi persepsi sesak bila diberi aliran udara sejuk.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 3,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Seorang perempuan 22 tahun dengan asma datang dengan keluhan dada terasa berat dan terhimpit disertai wheezing ekspirasi difus setelah terpapar debu. Kualitas sensasi 'chest tightness' pada pasien ini terutama berasal dari aktivasi?",
+                "options": [
+                  "Kemoreseptor perifer akibat hipoksemia",
+                  "Reseptor iritan vagal (rapidly adapting receptors dan C-fibre) akibat bronkokonstriksi",
+                  "Kemoreseptor sentral akibat hiperkapnia",
+                  "Slow-adapting receptors akibat inflasi paru",
+                  "Reseptor sendi dinding dada akibat gerakan toraks"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sensasi chest tightness (dada berat/terhimpit) dikaitkan dengan bronkokonstriksi yang menstimulasi reseptor iritan saluran napas (rapidly adapting receptors dan C-fibre) yang dibawa nervus vagus. Air hunger terutama berasal dari stimulasi kemoreseptor oleh hiperkapnia (sentral) atau hipoksia (perifer), tetapi pada serangan ringan-sedang PaO₂ dan PaCO₂ sering masih normal. Aktivasi slow-adapting receptors oleh inflasi paru justru memberi rasa lega (dyspnoea relief). Reseptor dinding dada lebih berkaitan dengan sensasi kerja/usaha bernapas.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 4,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Seorang laki-laki 68 tahun dengan PPOK menyatakan ia berjalan lebih lambat daripada teman sebayanya di jalan datar karena sesak dan kadang harus berhenti untuk mengambil napas saat berjalan dengan kecepatannya sendiri. Ia masih bisa berjalan lebih dari 100 meter tanpa berhenti. Derajat sesak menurut skala mMRC adalah?",
+                "options": [
+                  "mMRC 0",
+                  "mMRC 1",
+                  "mMRC 2",
+                  "mMRC 3",
+                  "mMRC 4"
+                ],
+                "correctAnswer": 2,
+                "explanation": "mMRC 2: berjalan lebih lambat dibanding orang seusianya di tempat datar karena sesak, atau harus berhenti untuk bernapas saat berjalan dengan kecepatan sendiri. mMRC 0 = sesak hanya saat aktivitas berat; mMRC 1 = sesak saat berjalan cepat di tempat datar atau sedikit menanjak; mMRC 3 = harus berhenti setelah berjalan sekitar 100 meter atau beberapa menit; mMRC 4 = terlalu sesak untuk keluar rumah atau saat berpakaian. Nilai mMRC ≥ 2 menandakan keterbatasan aktivitas yang bermakna.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 5,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Seorang pendaki 30 tahun tiba di ketinggian 4.000 m dan napasnya menjadi lebih cepat. SpO₂ 84%, PaO₂ diperkirakan 48 mmHg. Struktur yang terutama mendeteksi perubahan ini dan jalur aferennya adalah?",
+                "options": [
+                  "Badan karotis dan badan aorta, dibawa melalui CN IX dan CN X ke nukleus traktus solitarius",
+                  "Kemoreseptor sentral di medula, mendeteksi penurunan pH LCS",
+                  "J-receptor interstisial paru, dibawa melalui nervus frenikus",
+                  "Pusat pneumotaksik di pons, melalui traktus kortikospinal",
+                  "Reseptor regang lambat di bronkus, melalui nervus interkostalis"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kemoreseptor perifer di badan karotis (bifurkasio a. karotis, aferen CN IX) dan badan aorta (arkus aorta, aferen CN X) mendeteksi penurunan PaO₂, dengan aktivasi yang meningkat tajam bila PaO₂ turun di bawah sekitar 60 mmHg; sinyal diteruskan ke nukleus traktus solitarius sehingga ventilasi meningkat. Kemoreseptor sentral terutama merespons CO₂ melalui pH LCS, dan pada hipoksia ketinggian PaCO₂ justru turun. J-receptor merespons edema interstisial. Pusat pneumotaksik membatasi inspirasi dan bukan sensor hipoksia. Nervus frenikus dan interkostalis adalah jalur eferen motorik.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 6,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Mekanisme kemoreseptor sentral meningkatkan ventilasi saat PaCO₂ naik adalah?",
+                "options": [
+                  "CO₂ berdifusi melewati sawar darah otak, bereaksi dengan H₂O membentuk H₂CO₃ yang terdisosiasi menjadi H⁺ sehingga pH LCS turun",
+                  "Ion H⁺ dari darah menembus sawar darah otak dan langsung menstimulasi medula",
+                  "HCO₃⁻ plasma masuk ke LCS dan menurunkan pH LCS",
+                  "Penurunan PaO₂ yang menyertai hiperkapnia menstimulasi medula secara langsung",
+                  "CO₂ mengikat hemoglobin dan melepaskan sinyal ke badan karotis"
+                ],
+                "correctAnswer": 0,
+                "explanation": "CO₂ larut dalam lemak dan mudah berdifusi melewati sawar darah otak, lalu bereaksi dengan H₂O menjadi H₂CO₃ yang terdisosiasi menjadi H⁺ dan HCO₃⁻; peningkatan H⁺ menurunkan pH LCS dan menstimulasi kemoreseptor sentral di permukaan ventrolateral medula (termasuk nukleus retrotrapezoid), sehingga ventilasi meningkat untuk membuang CO₂. H⁺ dan HCO₃⁻ dari darah tidak mudah menembus sawar darah otak. Kemoreseptor sentral tidak sensitif terhadap hipoksia; deteksi hipoksia adalah fungsi kemoreseptor perifer. CO₂ yang terikat hemoglobin (karbaminohemoglobin) bukan mekanisme sinyal ke badan karotis.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 7,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Seorang laki-laki 28 tahun dibawa setelah kecelakaan motor dengan sesak hebat. TD 80/50 mmHg, nadi 130×/menit, RR 38×/menit, SpO₂ 82%, trakea terdorong ke kiri, suara napas kanan menghilang, hipersonor di hemitoraks kanan, dan vena leher distensi. Berdasarkan red flag dispnea, langkah yang paling tepat adalah?",
+                "options": [
+                  "Foto toraks PA terlebih dahulu untuk konfirmasi",
+                  "Nebulisasi salbutamol dan observasi 30 menit",
+                  "Ukur skala Borg dan mMRC sebelum menentukan terapi",
+                  "Berikan furosemid intravena",
+                  "Dekompresi jarum segera pada hemitoraks kanan"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Kombinasi hipotensi, deviasi trakea dengan suara napas unilateral menghilang, hipersonor, dan distensi vena leher adalah red flag yang mengarah ke tension pneumothorax, kondisi yang mengancam nyawa dan didiagnosis secara klinis. Tindakannya adalah dekompresi jarum segera (lalu pemasangan chest tube), tanpa menunggu foto toraks. Salbutamol untuk bronkospasme, furosemid untuk edema paru kardiogenik, dan pengukuran skala sesak tidak relevan dalam kegawatdaruratan dengan syok obstruktif.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 8,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Perhatikan gambar pola-pola napas berikut. Seorang laki-laki 19 tahun dengan diabetes tipe 1 datang dengan muntah, nyeri perut, dan napas berbau aseton. Gula darah 520 mg/dL, pH 7,08, HCO₃⁻ 6 mmol/L. Pola napas yang paling mungkin ditemukan adalah?",
+                "options": [
+                  "Cheyne–Stokes",
+                  "Biot",
+                  "Kussmaul",
+                  "Apneustik",
+                  "Bradipnea"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pernapasan Kussmaul berupa napas cepat dan dalam yang teratur, merupakan kompensasi respiratorik terhadap asidosis metabolik berat (di sini ketoasidosis diabetik dengan pH 7,08 dan HCO₃⁻ 6) untuk menurunkan PaCO₂. Cheyne–Stokes berupa siklus crescendo–decrescendo dengan apnea, khas gagal jantung atau peningkatan TIK. Biot berupa napas tidak teratur dengan jeda, pada lesi medula. Apneustik berupa inspirasi memanjang akibat lesi pons. Bradipnea adalah frekuensi napas rendah, berlawanan dengan kebutuhan kompensasi pasien ini.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/el-2-1/pola-napas.jpg"
+              },
+              {
+                "id": 9,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Perhatikan tabel red flag dispnea berikut. Manakah pasien di bawah ini yang menunjukkan red flag dispnea berat sehingga memerlukan stabilisasi segera?",
+                "options": [
+                  "Perempuan 30 tahun, RR 22×/menit, SpO₂ 97%, berbicara kalimat penuh",
+                  "Laki-laki 55 tahun, sesak saat naik tangga, RR 18×/menit, TD 130/80",
+                  "Perempuan 45 tahun, mMRC 1, auskultasi normal",
+                  "Anak 6 tahun dengan stridor, RR 44×/menit, gelisah, dan bibir sianosis",
+                  "Laki-laki 70 tahun dengan PPOK stabil, SpO₂ 92% saat istirahat"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Red flag dispnea meliputi hipotensi, frekuensi napas > 40×/menit, perubahan status mental, hipoksia, sianosis, stridor, usaha napas tanpa pergerakan udara, deviasi trakea dengan suara napas unilateral, dan aritmia tidak stabil. Anak dengan stridor, RR 44×/menit, gelisah, dan sianosis memenuhi beberapa red flag sekaligus dan menandakan obstruksi jalan napas atas yang berat. Pilihan lain menggambarkan sesak ringan atau kondisi kronik stabil tanpa tanda bahaya; SpO₂ 92% pada PPOK stabil masih dapat diterima.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/el-2-1/red-flag-dispnea.jpg"
+              },
+              {
+                "id": 10,
+                "source": "Latihan Materi EL 2.1",
+                "lecture": "EL 2.1 — Mechanism of Dyspnoea and Tachypnoea",
+                "lectureCode": "EL 2.1",
+                "question": "Seorang pasien dengan kanker paru stadium lanjut mengalami sesak yang tetap mengganggu meskipun penyebab yang dapat dikoreksi sudah ditangani (efusi telah didrainase, SpO₂ 95% dengan O₂ 2 L/menit). Tim paliatif menyarankan meletakkan kipas angin kecil yang diarahkan ke wajah. Dasar fisiologis intervensi ini adalah?",
+                "options": [
+                  "Kipas meningkatkan FiO₂ secara bermakna",
+                  "Kipas menghambat kemoreseptor perifer di badan karotis",
+                  "Kipas menurunkan PaCO₂ dengan cara mengurangi ruang rugi anatomis",
+                  "Aliran udara sejuk ke wajah menstimulasi reseptor vagal/trigeminal sehingga mengurangi persepsi sesak",
+                  "Kipas memperbaiki V/Q mismatch di paru"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Aliran udara sejuk yang diarahkan ke wajah menstimulasi reseptor di wajah dan saluran napas atas (jalur vagal/trigeminal) dan terbukti mengurangi persepsi sesak (breathlessness), sehingga dipakai sebagai pendekatan non-farmakologis pada dispnea refrakter, bersama opioid dosis rendah dan rehabilitasi. Kipas tidak meningkatkan FiO₂, tidak mengubah ruang rugi atau V/Q, dan tidak menghambat kemoreseptor perifer secara langsung; efeknya pada persepsi sensasi, bukan pada pertukaran gas.",
+                "answerProvenance": "ai-generated"
+              }
+            ]
+          }
+        },
+        "is-2-2": {
+          "name": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+          "years": {
+            "Latihan": [
+              {
+                "id": 1,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Seorang laki-laki 22 tahun ditemukan somnolen setelah menyuntikkan heroin. RR 6×/menit, pupil pinpoint. AGD udara ruang: pH 7,17; PaCO₂ 70 mmHg; PaO₂ 55 mmHg. Dengan PAO₂ ≈ 150 − PaCO₂/0,8, mekanisme utama hipoksemia pasien ini adalah?",
+                "options": [
+                  "V/Q mismatch",
+                  "Shunt kanan-ke-kiri",
+                  "Penurunan tekanan O₂ inspirasi",
+                  "Gangguan difusi",
+                  "Hipoventilasi alveolar"
+                ],
+                "correctAnswer": 4,
+                "explanation": "PAO₂ = 150 − 70/0,8 ≈ 62,5 mmHg; A–a gradient ≈ 62,5 − 55 = 7,5 mmHg (normal). Hipoksemia dengan PaCO₂ tinggi dan A–a gradient normal adalah ciri hipoventilasi alveolar, di sini akibat depresi pusat napas oleh opioid. V/Q mismatch, shunt, dan gangguan difusi semuanya meningkatkan A–a gradient. Penurunan PiO₂ (mis. ketinggian) memberi A–a normal tetapi PaCO₂ justru turun karena hiperventilasi. Tatalaksananya adalah memperbaiki ventilasi (nalokson, bantuan napas), karena O₂ saja tidak menurunkan PaCO₂.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 2,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Seorang perempuan 35 tahun dengan ARDS akibat pneumonia berat sudah terintubasi. Pada FiO₂ 1,0, PaO₂ hanya 58 mmHg. Penjelasan paling tepat untuk respons yang buruk terhadap O₂ 100% adalah?",
+                "options": [
+                  "Hipoventilasi alveolar",
+                  "Penurunan PiO₂",
+                  "Shunt intrapulmoner karena alveolus terisi cairan/kolaps tetapi masih terperfusi",
+                  "Gangguan difusi karena penebalan membran",
+                  "Anemia sehingga CaO₂ rendah"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pada ARDS, alveolus terisi edema kaya protein atau kolaps namun tetap mendapat aliran darah (V/Q = 0), sehingga darah tersebut melewati paru tanpa teroksigenasi (shunt intrapulmoner). Menaikkan FiO₂ tidak menolong karena O₂ tambahan tidak pernah mencapai darah yang ter-shunt; hal ini makin jelas bila fraksi shunt > 30%. Hipoventilasi, penurunan PiO₂, dan gangguan difusi semuanya membaik nyata dengan O₂ tambahan. Anemia menurunkan CaO₂ tetapi tidak menurunkan PaO₂. Terapinya adalah membuka kembali alveolus (PEEP, posisi prone).",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 3,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Seorang pendaki sehat 28 tahun di ketinggian 5.000 m merasa sesak. SpO₂ 78%. AGD: PaO₂ 45 mmHg, PaCO₂ 28 mmHg. Pernyataan yang paling tepat mengenai mekanisme hipoksemianya adalah?",
+                "options": [
+                  "Penurunan PiO₂ akibat tekanan barometrik rendah, A–a gradient normal dan PaCO₂ turun karena hiperventilasi",
+                  "A–a gradient meningkat karena edema paru",
+                  "Hipoventilasi alveolar dengan PaCO₂ meningkat",
+                  "Shunt anatomis kanan-ke-kiri",
+                  "Hipoksia histotoksik karena mitokondria tidak dapat memakai O₂"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Di ketinggian, FiO₂ tetap 0,21 tetapi tekanan barometrik turun sehingga PiO₂ dan PAO₂ turun. Paru sehat sehingga A–a gradient normal; hipoksemia menstimulasi kemoreseptor perifer → hiperventilasi → PaCO₂ turun (28 mmHg). Hipoventilasi akan menaikkan PaCO₂. Edema paru ketinggian (HAPE) memang dapat terjadi, tetapi tidak ada petunjuk ke arah itu di soal. Shunt kanan-ke-kiri dan hipoksia histotoksik tidak sesuai dengan orang sehat yang membaik dengan O₂ tambahan.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 4,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Seorang laki-laki 45 tahun dibawa dari kebakaran ruang tertutup dalam keadaan bingung dan sakit kepala. SpO₂ pulse oximetry 99%, PaO₂ 98 mmHg, kulit kemerahan. Jenis hipoksia yang paling mungkin dan alasannya adalah?",
+                "options": [
+                  "Hipoksia hipoksik karena PaO₂ turun",
+                  "Hipoksia histotoksik murni tanpa perubahan Hb",
+                  "Hipoksia stagnan karena curah jantung rendah",
+                  "Hipoksia anemik karena karboksihemoglobin menurunkan kapasitas angkut O₂ walaupun PaO₂ normal",
+                  "Bukan hipoksia karena SpO₂ dan PaO₂ normal"
+                ],
+                "correctAnswer": 3,
+                "explanation": "CO berikatan dengan Hb sekitar 200–250 kali lebih kuat daripada O₂ membentuk karboksihemoglobin dan menggeser kurva disosiasi ke kiri, sehingga kandungan dan pelepasan O₂ ke jaringan turun walaupun PaO₂ (O₂ terlarut) normal. Ini termasuk hipoksia anemik (PaO₂ normal, kapasitas Hb pembawa O₂ berkurang). Pulse oximetry standar membaca COHb sebagai oksihemoglobin sehingga SpO₂ palsu normal; diperlukan co-oximetry. Terapinya O₂ 100% atau hiperbarik. Hipoksia hipoksik ditandai PaO₂ rendah; stagnan oleh aliran darah rendah; histotoksik oleh kegagalan pemakaian O₂ di sel (mis. sianida, yang juga dapat menyertai inhalasi asap).",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 5,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Seorang perempuan 58 tahun dengan perdarahan saluran cerna datang dengan Hb 5,8 g/dL. SpO₂ 98%, PaO₂ 96 mmHg, tetapi ia lemas, takikardia, dan laktat meningkat. Berdasarkan rumus CaO₂ = 1,34 × Hb × SaO₂ + 0,003 × PaO₂, intervensi yang paling meningkatkan pengantaran O₂ ke jaringan adalah?",
+                "options": [
+                  "Menaikkan FiO₂ sampai PaO₂ 400 mmHg",
+                  "Memberikan diuretik",
+                  "Memberi bronkodilator",
+                  "Menurunkan frekuensi napas",
+                  "Transfusi PRC untuk menaikkan Hb"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Lebih dari 98% O₂ dalam darah diangkut terikat Hb. Menaikkan PaO₂ dari 96 ke 400 mmHg hanya menambah O₂ terlarut sekitar 0,003 × 300 ≈ 0,9 mL/dL, sedangkan menaikkan Hb dari 5,8 ke 9 g/dL menambah sekitar 1,34 × 3,2 × 0,98 ≈ 4,2 mL/dL. Karena DO₂ = CO × CaO₂, koreksi Hb (dan volume) jauh lebih efektif. Pasien ini mengalami hipoksia anemik: PaO₂ dan SpO₂ normal tetapi kandungan O₂ rendah. Bronkodilator, penurunan RR, dan diuretik tidak relevan.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 6,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Seorang laki-laki 62 tahun dengan fibrosis paru idiopatik memiliki SpO₂ 94% saat istirahat tetapi turun menjadi 84% saat berjalan 6 menit. Mekanisme penurunan saturasi saat aktivitas ini adalah?",
+                "options": [
+                  "Hipoventilasi karena kelemahan otot napas",
+                  "Gangguan difusi yang tersingkap karena waktu transit eritrosit di kapiler memendek saat curah jantung meningkat",
+                  "Shunt anatomis yang membuka saat olahraga",
+                  "Penurunan PiO₂ saat aktivitas",
+                  "Hipoksia histotoksik akibat asidosis laktat"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Normalnya eritrosit sudah seimbang dengan PAO₂ dalam sekitar 0,25 detik dari waktu transit kapiler 0,75 detik, sehingga ada cadangan besar. Pada fibrosis, sawar alveolus–kapiler menebal sehingga keseimbangan butuh waktu lebih lama. Saat aktivitas, curah jantung naik dan waktu transit memendek, sehingga keseimbangan tidak tercapai dan hipoksemia muncul; gangguan difusi jarang menyebabkan hipoksemia berat saat istirahat. A–a gradient meningkat, DLCO turun, dan kondisi ini membaik dengan O₂. Tidak ada petunjuk hipoventilasi, shunt anatomis, atau penurunan PiO₂.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 7,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Seorang perempuan 40 tahun pascaoperasi tiba-tiba sesak dan nyeri dada pleuritik. AGD: PaO₂ 65 mmHg, PaCO₂ 30 mmHg; CT angiografi menunjukkan sumbatan cabang arteri pulmonalis. Area paru distal sumbatan tersebut paling tepat digambarkan sebagai?",
+                "options": [
+                  "V/Q = 0 (shunt)",
+                  "V/Q tinggi menuju ruang rugi alveolar",
+                  "V/Q rendah",
+                  "Ruang rugi anatomis",
+                  "V/Q normal"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Emboli paru menghentikan perfusi pada area yang tetap terventilasi, sehingga V/Q di area tersebut tinggi hingga tak hingga dan menjadi ruang rugi alveolar (ventilasi tanpa pertukaran gas). Hipoksemia pada emboli paru timbul karena aliran darah dialihkan ke area lain yang menjadi relatif low V/Q, penurunan O₂ vena campuran, dan kadang shunt via PFO; PaCO₂ biasanya rendah karena hiperventilasi. Shunt dan V/Q rendah khas alveolus yang tidak terventilasi (atelektasis, pneumonia). Ruang rugi anatomis adalah saluran napas konduksi.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 8,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Perhatikan skema klasifikasi hipoksia berikut. Seorang pekerja pelapisan logam 35 tahun tiba-tiba kejang dan tidak sadar setelah terpapar uap sianida. PaO₂ 100 mmHg, laktat sangat tinggi, dan saturasi O₂ darah vena sentral 90%. Jenis hipoksia dan temuan khasnya adalah?",
+                "options": [
+                  "Hipoksia hipoksik; PvO₂ rendah",
+                  "Hipoksia anemik; Hb rendah",
+                  "Hipoksia histotoksik; PvO₂ dan SvO₂ tinggi karena jaringan tidak mengambil O₂",
+                  "Hipoksia stagnan; selisih O₂ arteri-vena paling besar",
+                  "Hipoksia hipoksik; A–a gradient meningkat"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sianida menghambat sitokrom c oksidase mitokondria sehingga sel tidak dapat memakai O₂ walaupun pasokan cukup (hipoksia histotoksik/sitopatik). Karena O₂ tidak diekstraksi, kandungan O₂ vena tetap tinggi (SvO₂ dan PvO₂ tinggi) dan selisih O₂ arteri-vena paling kecil, disertai asidosis laktat berat akibat metabolisme anaerob. Hipoksia hipoksik ditandai PaO₂ rendah; anemik ditandai Hb/CaO₂ rendah; stagnan ditandai aliran darah rendah dengan ekstraksi tinggi sehingga PvO₂ sangat rendah.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-2/klasifikasi-hipoksia.jpg"
+              },
+              {
+                "id": 9,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Perhatikan diagram spektrum V/Q berikut. Seorang anak 5 tahun pascaoperasi abdomen mengalami kolaps lobus bawah kiri akibat sumbatan mukus, tetapi aliran darah ke lobus tersebut masih ada. Posisi lobus tersebut pada spektrum V/Q adalah?",
+                "options": [
+                  "V/Q tak hingga (ruang rugi alveolar)",
+                  "V/Q > 1",
+                  "V/Q = 1 (normal)",
+                  "V/Q = 0 (shunt intrapulmoner)",
+                  "Tidak termasuk gangguan V/Q"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Atelektasis membuat alveolus tidak terventilasi sama sekali sementara perfusi tetap ada, sehingga V/Q = 0 dan darah melewati lobus tersebut tanpa teroksigenasi (venous admixture/shunt intrapulmoner). Hipoksemianya sulit dikoreksi dengan O₂ saja; terapinya membuka kembali alveolus (fisioterapi dada, suction, bronkoskopi bila perlu, PEEP). V/Q tak hingga dan V/Q > 1 terjadi bila perfusi hilang/berkurang (mis. emboli paru), bukan ventilasi.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-2/spektrum-vq.jpg"
+              },
+              {
+                "id": 10,
+                "source": "Latihan Materi IS 2.2",
+                "lecture": "IS 2.2 — Hypoxaemia/Hypoxia with Ventilation, Gas Exchange, and Perfusion Problems",
+                "lectureCode": "IS 2.2",
+                "question": "Seorang perempuan 70 tahun dengan obesity hypoventilation syndrome datang dengan somnolen. SpO₂ 82% udara ruang, PaCO₂ 72 mmHg. Setelah diberi O₂ nasal 4 L/menit, SpO₂ naik menjadi 96% tetapi ia makin mengantuk. Pernyataan yang paling tepat adalah?",
+                "options": [
+                  "Oksigen memperbaiki saturasi tetapi tidak memperbaiki hipoventilasi; perlu evaluasi AGD ulang dan bantuan ventilasi (NIV)",
+                  "Perbaikan SpO₂ membuktikan masalah ventilasi sudah teratasi",
+                  "Penurunan kesadaran disebabkan hipoksemia yang belum terkoreksi",
+                  "Pasien perlu FiO₂ yang lebih tinggi agar PaCO₂ turun",
+                  "Pulse oximetry cukup untuk memantau PaCO₂"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Pada hipoventilasi, hipoksemia mudah dikoreksi dengan O₂, tetapi PaCO₂ hanya turun bila ventilasi alveolar meningkat. Pemberian O₂ tanpa bantuan ventilasi dapat menutupi (masking) kenaikan PaCO₂ dan narkosis CO₂ yang memburuk, ditandai somnolen yang makin berat. Pulse oximetry tidak dapat menilai CO₂, sehingga diperlukan AGD/EtCO₂ dan bantuan ventilasi seperti NIV. FiO₂ yang lebih tinggi tidak menurunkan PaCO₂, dan saturasi sudah 96% sehingga penurunan kesadaran bukan karena hipoksemia.",
+                "answerProvenance": "ai-generated"
+              }
+            ]
+          }
+        },
+        "is-2-3": {
+          "name": "IS 2.3 — Disturbances in Gas Exchanges",
+          "years": {
+            "Latihan": [
+              {
+                "id": 1,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Seorang laki-laki 67 tahun dengan PPOK (riwayat merokok 45 pack-year) datang dengan sesak memberat 3 hari dan sputum purulen. SpO₂ 84% udara ruang. AGD: pH 7,30; PaCO₂ 62 mmHg; PaO₂ 50 mmHg. Pemberian oksigen awal yang paling tepat adalah?",
+                "options": [
+                  "Non-rebreather mask 15 L/menit dengan target SpO₂ 100%",
+                  "Venturi mask 24–28% dengan target SpO₂ 88–92%",
+                  "Simple mask 10 L/menit dengan target SpO₂ 94–98%",
+                  "Tidak diberi oksigen agar hypoxic drive tetap ada",
+                  "HFNC 60 L/menit FiO₂ 100%"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Pasien PPOK dengan gagal napas hiperkapnik (PaCO₂ 62, pH 7,30) berisiko PaCO₂ makin naik bila diberi O₂ berlebihan, karena hilangnya vasokonstriksi pulmoner hipoksik (V/Q memburuk), efek Haldane, dan sebagian kecil penurunan hypoxic drive. Rekomendasi BTS adalah O₂ terkontrol dengan Venturi 24–28% dan target SpO₂ 88–92%, lalu ulang AGD dalam 30–60 menit. Target 94–98% atau 100% terlalu tinggi untuk kelompok ini, sedangkan menahan oksigen pada SpO₂ 84% berbahaya. Bila pH tetap ≤ 7,35 dengan PaCO₂ > 45 setelah terapi awal, mulai NIV.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 2,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Seorang perempuan 25 tahun dengan ketoasidosis diabetik memiliki AGD: pH 7,18; HCO₃⁻ 10 mmol/L; PaCO₂ 32 mmHg. Berdasarkan rumus Winter, interpretasi yang tepat adalah?",
+                "options": [
+                  "Asidosis metabolik dengan kompensasi respiratorik yang sesuai",
+                  "Alkalosis metabolik terkompensasi",
+                  "Asidosis metabolik disertai alkalosis respiratorik",
+                  "Asidosis respiratorik akut murni",
+                  "Asidosis metabolik disertai asidosis respiratorik (kompensasi tidak adekuat)"
+                ],
+                "correctAnswer": 4,
+                "explanation": "PaCO₂ harapan menurut Winter = 1,5 × HCO₃⁻ + 8 ± 2 = 1,5 × 10 + 8 = 23 ± 2 (21–25 mmHg). PaCO₂ aktual 32 mmHg lebih tinggi dari harapan, artinya ventilasi tidak cukup membuang CO₂ sehingga terdapat asidosis respiratorik yang menyertai asidosis metabolik (gangguan campuran), misalnya karena kelelahan otot napas atau penurunan kesadaran. Bila PaCO₂ berada dalam rentang 21–25, kompensasinya sesuai; bila di bawah 21, ada alkalosis respiratorik tambahan. Ini tanda bahaya yang perlu pemantauan ketat jalan napas dan ventilasi.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 3,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Seorang laki-laki 53 tahun dengan pneumonia lobus kanan bawah datang dengan SpO₂ 75% udara ruang. AGD (FiO₂ 0,21): pH 7,47; PaCO₂ 32 mmHg; PaO₂ 52 mmHg; HCO₃⁻ 23,6 mmol/L. Interpretasi yang paling tepat adalah?",
+                "options": [
+                  "Gagal napas tipe 2 dengan asidosis respiratorik akut",
+                  "Gagal napas tipe 1 dengan alkalosis respiratorik akut dan A–a gradient melebar",
+                  "Gagal napas tipe 1 dengan A–a gradient normal karena hipoventilasi",
+                  "Alkalosis metabolik terkompensasi",
+                  "AGD normal untuk usianya"
+                ],
+                "correctAnswer": 1,
+                "explanation": "PaO₂ 52 mmHg (< 60) dengan PaCO₂ rendah adalah gagal napas tipe 1. pH 7,47 dengan PaCO₂ 32 adalah alkalosis respiratorik; HCO₃⁻ harapan bila akut ≈ 24 − 2 × 0,8 ≈ 22,4, sesuai nilai 23,6 sehingga akut. PAO₂ = 150 − 32/0,8 ≈ 110, A–a ≈ 110 − 52 = 58 mmHg, jauh di atas harapan (≈ 17), menunjukkan shunt dan V/Q mismatch akibat konsolidasi. Tipe 2 memerlukan PaCO₂ > 45–50. Hipoventilasi memberi A–a normal dan PaCO₂ tinggi. P/F ratio ≈ 248.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 4,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Seorang laki-laki 60 tahun dengan PPOK eksaserbasi akut sudah mendapat bronkodilator, steroid, dan O₂ terkontrol. Setelah 1 jam, ia sadar penuh dan kooperatif, tidak ada muntah atau sekret berlebih, hemodinamik stabil, pH 7,28 dan PaCO₂ 68 mmHg. Langkah selanjutnya yang paling tepat adalah?",
+                "options": [
+                  "Naikkan O₂ menjadi NRM 15 L/menit",
+                  "Intubasi segera tanpa mencoba NIV",
+                  "Mulai non-invasive ventilation (BiPAP)",
+                  "Pulangkan dengan bronkodilator inhalasi",
+                  "Berikan bikarbonat intravena untuk mengoreksi pH"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Gagal napas hiperkapnik akut pada PPOK (pH ≤ 7,35 dan PaCO₂ > 45 meskipun terapi medis optimal) adalah indikasi kuat (Level A) NIV; NIV menurunkan kebutuhan intubasi dan mortalitas. Pasien ini memenuhi syarat karena sadar, kooperatif, mampu melindungi jalan napas, hemodinamik stabil, dan tanpa sekret berlebih. Menaikkan O₂ dapat memperberat hiperkapnia. Intubasi dipertimbangkan bila NIV gagal atau ada kontraindikasi. Bikarbonat tidak mengatasi masalah ventilasi.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 5,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Manakah kondisi berikut yang merupakan kontraindikasi pemberian non-invasive ventilation (NIV)?",
+                "options": [
+                  "Edema paru kardiogenik dengan pasien sadar dan kooperatif",
+                  "Pasien imunokompromais dengan infiltrat paru dan gagal napas akut",
+                  "Pasien PPOK dengan keputusan do-not-intubate",
+                  "PPOK eksaserbasi dengan pH 7,31",
+                  "Pasien koma dengan sekret jalan napas berlebihan dan muntah"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Kontraindikasi NIV meliputi henti jantung/syok, iskemia atau aritmia tak terkendali, tidak kooperatif/agitasi, koma (non-hiperkapnia), sekret berlebih, obstruksi jalan napas atas, disfungsi bulbar berat, perdarahan saluran cerna atas berat, riwayat operasi esofagus/jalan napas atas, dan kelainan kraniofasial. Pasien koma dengan sekret banyak dan muntah tidak mampu melindungi jalan napas dan berisiko aspirasi, sehingga membutuhkan intubasi. Edema paru kardiogenik, imunokompromais dengan gagal napas, dan PPOK hiperkapnik adalah indikasi kuat (Level A); pasien DNI termasuk indikasi Level B.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 6,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Seorang anak 4 tahun tampak sianosis setelah diberi obat anestesi lokal benzokain untuk tindakan. SpO₂ tetap sekitar 85% walaupun diberi O₂ 10 L/menit, sementara PaO₂ pada AGD 210 mmHg. Darahnya berwarna coklat gelap. Pemeriksaan dan terapi yang paling tepat adalah?",
+                "options": [
+                  "Ulangi pulse oximetry di jari lain; tidak perlu terapi",
+                  "Foto toraks; antibiotik",
+                  "Co-oximetry untuk methemoglobin; terapi metilen biru",
+                  "Ekokardiografi bubble study; tutup defek septum",
+                  "Spirometri; bronkodilator"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Methemoglobinemia (dipicu dapson, nitrat, atau anestesi lokal seperti benzokain) membuat besi Hb dalam bentuk ferri yang tidak dapat mengikat O₂ dan menggeser kurva ke kiri. Pulse oximetry khas terpaku di sekitar 85% berapa pun PaO₂, sementara PaO₂ dapat tinggi karena O₂ terlarut tidak terpengaruh; darah tampak cokelat gelap. Diagnosis dengan co-oximetry dan terapinya metilen biru. Shunt jantung tidak akan memberi PaO₂ 210 mmHg pada O₂ 10 L/menit. Foto toraks dan spirometri tidak menjawab masalah Hb abnormal.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 7,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Seorang laki-laki 40 tahun dengan Guillain–Barré syndrome bernapas 30×/menit dengan volume tidal 250 mL (ventilasi semenit 7,5 L/menit). Dengan ruang rugi anatomis 150 mL, mengapa PaCO₂-nya meningkat meskipun ventilasi semenitnya tampak normal?",
+                "options": [
+                  "Karena ventilasi alveolar hanya (250 − 150) × 30 = 3 L/menit sehingga eliminasi CO₂ tidak cukup",
+                  "Karena produksi CO₂ meningkat akibat demam",
+                  "Karena shunt kanan-ke-kiri",
+                  "Karena gangguan difusi CO₂ di membran alveolus",
+                  "Karena hiperventilasi menurunkan PaCO₂"
+                ],
+                "correctAnswer": 0,
+                "explanation": "PaCO₂ ditentukan oleh ventilasi alveolar (VA = (VT − VD) × RR), bukan ventilasi semenit total. Napas cepat-dangkal membuat porsi ruang rugi dari setiap napas relatif besar: VA = (250 − 150) × 30 = 3 L/menit, lebih rendah dari VA normal sekitar 4–4,5 L/menit, sehingga CO₂ tertahan. Ini pola khas kelemahan otot napas pada penyakit neuromuskular. CO₂ sangat mudah berdifusi sehingga gangguan difusi jarang menyebabkan hiperkapnia. Shunt dan hiperventilasi tidak menaikkan PaCO₂.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 8,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Perhatikan tabel setting awal ventilator berikut. Seorang laki-laki tinggi 176 cm (PBW ≈ 71 kg) diintubasi karena gagal napas. Pengaturan volume tidal awal yang sesuai tabel adalah?",
+                "options": [
+                  "250–300 mL",
+                  "900–1.000 mL",
+                  "700–850 mL",
+                  "430–570 mL",
+                  "Disesuaikan dengan berat badan aktual 95 kg, yaitu 950 mL"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Setting awal mode assist/control volume menggunakan volume tidal 6–8 mL/kg predicted body weight (PBW), bukan berat badan aktual. PBW laki-laki = 50 + 0,91 × (176 − 152,4) ≈ 71 kg, sehingga VT ≈ 6 × 71 = 426 sampai 8 × 71 = 568 mL. Setting lain pada tabel: rate 12–20/menit, PEEP 4–5 cmH₂O, FiO₂ awal 1,0 lalu diturunkan, plateau < 30 cmH₂O, dan driving pressure < 13 cmH₂O. Menggunakan berat aktual akan menghasilkan volume terlalu besar dan cedera paru akibat ventilator.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-3/setting-awal-ventilator.jpg"
+              },
+              {
+                "id": 9,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Perhatikan algoritma pendekatan hipoksemia berikut. Seorang pasien hipoksemia memiliki A–a gradient yang melebar. Setelah diberi O₂ 100%, PaO₂ hanya naik sedikit. Kesimpulan menurut algoritma adalah?",
+                "options": [
+                  "Shunt",
+                  "PiO₂ rendah",
+                  "V/Q mismatch",
+                  "Gangguan difusi",
+                  "Hipoventilasi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Algoritma: hitung A–a gradient. Bila normal, bedakan hipoventilasi (PaCO₂ tinggi) dari PiO₂ rendah (PaCO₂ normal/rendah). Bila melebar, beri O₂ tambahan: PaO₂ yang naik baik menandakan V/Q mismatch atau gangguan difusi, sedangkan kenaikan kecil dengan O₂ 100% menandakan shunt (darah melewati alveolus tanpa ventilasi). Pola campuran sering ditemukan, misalnya eksaserbasi PPOK dengan hipoventilasi dan V/Q mismatch sekaligus (PaCO₂ dan A–a sama-sama naik).",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-3/algoritma-hipoksemia.jpg"
+              },
+              {
+                "id": 10,
+                "source": "Latihan Materi IS 2.3",
+                "lecture": "IS 2.3 — Disturbances in Gas Exchanges",
+                "lectureCode": "IS 2.3",
+                "question": "Seorang perempuan 35 tahun dengan serangan asma berat datang dengan RR 34×/menit, berbicara kata per kata, dan wheezing yang makin melemah. AGD: pH 7,36; PaCO₂ 44 mmHg; PaO₂ 62 mmHg. Interpretasi PaCO₂ pada pasien ini adalah?",
+                "options": [
+                  "Normal sehingga serangan tergolong ringan",
+                  "Menandakan perbaikan klinis",
+                  "Menunjukkan alkalosis metabolik",
+                  "Tanda bahaya kelelahan otot napas dan ancaman gagal napas, karena pada serangan asma PaCO₂ seharusnya rendah",
+                  "Akibat pemberian oksigen berlebihan"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Pada serangan asma, pasien biasanya hiperventilasi sehingga PaCO₂ rendah (gagal napas tipe 1 dengan alkalosis respiratorik). PaCO₂ yang normal atau meningkat pada pasien yang sangat takipnea, berbicara kata per kata, dan wheezing melemah (menuju silent chest) menunjukkan kelelahan otot napas dan ventilasi alveolar yang mulai tidak adekuat, sebuah tanda bahaya yang memerlukan pemantauan ketat di ICU dan persiapan bantuan ventilasi. Nilai ini bukan perbaikan dan bukan gangguan metabolik.",
+                "answerProvenance": "ai-generated"
+              }
+            ]
+          }
+        },
+        "el-2-4": {
+          "name": "EL 2.4 — Lung Cancer",
+          "years": {
+            "Latihan": [
+              {
+                "id": 1,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Seorang perempuan 48 tahun bukan perokok datang dengan batuk kering 2 bulan dan nyeri punggung. CT toraks menunjukkan nodul 2,5 cm di perifer lobus kanan atas, dan bone scan menunjukkan lesi di vertebra torakal. Jenis histologi kanker paru yang paling mungkin adalah?",
+                "options": [
+                  "Karsinoma sel skuamosa",
+                  "Tumor karsinoid tipikal",
+                  "Karsinoma sel kecil (SCLC)",
+                  "Karsinoma sel besar",
+                  "Adenokarsinoma"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Adenokarsinoma adalah tipe kanker paru tersering (±40%), paling sering ditemukan di perifer paru, merupakan subtipe tersering pada bukan perokok dan perempuan, dan sering sudah bermetastasis jauh saat didiagnosis. Karsinoma sel skuamosa dan SCLC umumnya berlokasi sentral dan sangat terkait dengan merokok. Karsinoma sel besar juga terkait merokok dengan prognosis buruk. Karsinoid tipikal biasanya lesi endobronkial sentral yang tumbuh lambat.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 2,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Seorang laki-laki 63 tahun perokok 40 pack-year datang dengan lemas, mual, konstipasi, dan bingung. Foto toraks menunjukkan massa hilus kanan dengan kavitas. Kalsium serum 13,8 mg/dL dengan PTH rendah. Jenis tumor dan mekanisme hiperkalsemia yang paling mungkin adalah?",
+                "options": [
+                  "Adenokarsinoma; metastasis tulang osteoblastik",
+                  "Karsinoma sel besar; hiperparatiroidisme primer",
+                  "SCLC; sekresi ADH ektopik",
+                  "SCLC; sekresi ACTH ektopik",
+                  "Karsinoma sel skuamosa; sekresi PTH-related peptide (PTHrP)"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Karsinoma sel skuamosa paru khas berlokasi sentral (dekat bronkus/hilus), memiliki asosiasi terkuat dengan merokok, sering membentuk kavitas, dan diasosiasikan dengan hiperkalsemia humoral of malignancy akibat sekresi PTHrP, sehingga PTH endogen tersupresi. SCLC lebih sering menyebabkan SIADH (hiponatremia) dan sindrom Cushing (ACTH ektopik). Hiperparatiroidisme primer akan memberi PTH tinggi. Metastasis osteoblastik tidak menyebabkan hiperkalsemia berat seperti ini.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 3,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Seorang laki-laki 58 tahun perokok berat mengeluh nyeri bahu kanan yang menjalar ke sisi ulnar lengan dan kelemahan otot intrinsik tangan selama 3 bulan. Pemeriksaan menunjukkan ptosis ringan, pupil kanan lebih kecil, dan wajah kanan tidak berkeringat. Lokasi tumor yang paling mungkin adalah?",
+                "options": [
+                  "Hilus paru kiri dengan kompresi n. laringeus rekuren",
+                  "Mediastinum anterior dengan kompresi vena kava superior",
+                  "Apeks paru kanan (superior sulcus/Pancoast) yang menginvasi pleksus brakialis dan rantai simpatis servikal",
+                  "Lobus bawah kanan perifer dengan efusi pleura",
+                  "Bronkus utama kiri dengan atelektasis total"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Tumor Pancoast (superior sulcus) di apeks paru menginvasi pleksus brakialis bawah (C8–T1) sehingga menimbulkan nyeri bahu yang menjalar ke sisi ulnar dan atrofi/kelemahan otot tangan, serta menginvasi rantai simpatis servikal/ganglion stelata sehingga terjadi sindrom Horner ipsilateral: ptosis, miosis, dan anhidrosis. Kompresi n. laringeus rekuren menyebabkan suara serak; kompresi VCS menyebabkan edema wajah dan venektasi; lesi lobus bawah atau bronkus utama tidak menjelaskan defisit pleksus brakialis dan Horner.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 4,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Seorang laki-laki 60 tahun perokok mengeluh wajah dan kedua lengan bengkak, sakit kepala yang memberat saat membungkuk, dan sesak. Pada pemeriksaan tampak distensi vena leher dan pelebaran vena di dinding dada. Penyebab tersering kondisi ini adalah?",
+                "options": [
+                  "Trombosis vena dalam tungkai",
+                  "Kanker paru (terutama SCLC) yang menekan vena kava superior",
+                  "Gagal jantung kanan",
+                  "Tamponade jantung",
+                  "Sindrom nefrotik"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Gambaran edema wajah dan lengan, distensi vena leher, venektasi dinding dada, plethora, dan sakit kepala yang memberat saat membungkuk adalah sindrom vena kava superior. Penyebab tersering adalah keganasan intratoraks, terutama kanker paru (paling sering SCLC karena lokasinya sentral dan tumbuh cepat), diikuti limfoma. Gagal jantung kanan dan tamponade menyebabkan peningkatan JVP tetapi juga edema tungkai/hepatomegali dan tanda lain, tidak terbatas pada tubuh bagian atas. DVT tungkai dan sindrom nefrotik tidak menyebabkan pola edema tubuh atas ini.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 5,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Seorang laki-laki 60 tahun berhenti merokok 8 tahun lalu setelah merokok 1,5 bungkus per hari selama 25 tahun. Ia sehat dan tidak memiliki gejala. Berdasarkan kriteria skrining American Cancer Society pada slide kuliah, pemeriksaan yang direkomendasikan adalah?",
+                "options": [
+                  "Foto toraks PA setiap tahun",
+                  "Low-dose CT (LDCT) toraks setiap tahun",
+                  "Sitologi sputum setiap 6 bulan",
+                  "CT toraks dengan kontras dosis standar setiap tahun",
+                  "Tidak perlu skrining karena sudah berhenti merokok"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Riwayat merokoknya 1,5 × 25 = 37,5 pack-year (≥ 30), usianya 60 tahun (dalam rentang 55–74), dan ia berhenti merokok dalam 15 tahun terakhir, sehingga memenuhi kriteria skrining LDCT tahunan. LDCT memakai dosis radiasi jauh lebih rendah daripada CT standar. Foto toraks dan sitologi sputum tidak terbukti menurunkan mortalitas kanker paru sebagai alat skrining. Berhenti merokok kurang dari 15 tahun tidak menggugurkan indikasi skrining.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 6,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Seorang perempuan 55 tahun dengan nodul paru perifer 2 cm di segmen lateral lobus kanan bawah tanpa keterlibatan bronkus pada CT. Prosedur yang paling tepat untuk mendapatkan diagnosis jaringan adalah?",
+                "options": [
+                  "Bronkoskopi dengan biopsi endobronkial",
+                  "Torakosentesis",
+                  "Mediastinoskopi",
+                  "Transthoracic needle aspiration/core biopsy dengan panduan CT",
+                  "Sitologi sputum saja"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Untuk lesi perifer dan lesi medial, rekomendasi diagnosisnya adalah transthoracic fine needle aspiration (TTNA) dan/atau core biopsy dengan panduan CT atau USG toraks, idealnya dengan rapid on-site evaluation (ROSE). Bronkoskopi lebih tepat untuk lesi sentral, EBUS-TBNA untuk KGB mediastinum/regional, torakosentesis untuk efusi pleura, dan mediastinoskopi/torakoskopi bila diagnosis belum didapat secara non-invasif. Sitologi sputum memiliki sensitivitas rendah untuk lesi perifer.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 7,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Seorang laki-laki 57 tahun didiagnosis adenokarsinoma paru dengan tumor primer 4 cm. CT menunjukkan pembesaran KGB mediastinum ipsilateral, tanpa metastasis jauh. Sebelum diputuskan operasi, pemeriksaan yang paling tepat untuk mengonfirmasi keterlibatan KGB mediastinum secara minimal invasif adalah?",
+                "options": [
+                  "Endobronchial ultrasound-guided TBNA (EBUS-TBNA)",
+                  "Bronchoalveolar lavage",
+                  "Torakosentesis",
+                  "Sitologi sputum",
+                  "Ulang CT toraks 3 bulan lagi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "EBUS-TBNA memungkinkan pengambilan sampel KGB mediastinum dan hilus secara minimal invasif melalui bronkoskop dengan panduan ultrasonografi, dan merupakan pemeriksaan pilihan untuk staging N. Keterlibatan N2 (KGB mediastinum ipsilateral) mengubah stadium menjadi III dan biasanya menggeser terapi dari operasi primer ke kemoradiasi. BAL dan sitologi sputum tidak menilai KGB. Torakosentesis hanya untuk efusi. Menunda evaluasi akan menunda terapi.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 8,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Perhatikan tabel tatalaksana dan kesintasan NSCLC per stadium berikut. Seorang pasien NSCLC dengan efusi pleura maligna (sitologi positif) termasuk stadium dan terapi utama apa?",
+                "options": [
+                  "Stadium I; pembedahan saja",
+                  "Stadium II; pembedahan + kemoterapi adjuvan",
+                  "Stadium IV; terapi sistemik (kemoterapi berbasis platinum/terapi target/imunoterapi)",
+                  "Stadium IIIA; kemoradiasi",
+                  "Stadium IIIB; pneumonektomi"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pada TNM edisi 8, efusi pleura atau perikard maligna diklasifikasikan sebagai M1a, sehingga pasien termasuk stadium IV. Terapi utamanya sistemik (kemoterapi kombinasi berbasis platinum sebagai tulang punggung, atau terapi target/imunoterapi sesuai profil molekuler dan PD-L1), dengan kesintasan 5 tahun < 5% pada data tabel. Pembedahan hanya untuk stadium awal (I–II), sedangkan stadium III umumnya kemoradiasi. Efusi juga dapat dikelola secara paliatif dengan drainase, pleurodesis, atau IPC.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/el-2-4/terapi-per-stadium.jpg"
+              },
+              {
+                "id": 9,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Perhatikan gambar kasus berikut. Seorang laki-laki 52 tahun, merokok 1 bungkus/hari selama 30 tahun, mengeluh batuk 2 bulan, hemoptisis, dan sesak. Tampak pembengkakan leher, venektasi dinding dada dan perut, serta jari tabuh. Foto toraks memperlihatkan massa paru kanan dengan pelebaran mediastinum. Diagnosis kerja yang paling tepat adalah?",
+                "options": [
+                  "TB paru dengan efusi pleura",
+                  "Pneumonia lobaris kanan",
+                  "Gagal jantung kongestif",
+                  "Tumor paru dengan sindrom vena kava superior",
+                  "Sirosis hepatis dengan hipertensi portal"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Kombinasi faktor risiko berat (30 pack-year), batuk lama, hemoptisis, jari tabuh, massa paru dengan pelebaran mediastinum, disertai pembengkakan leher dan venektasi dinding dada adalah gambaran tumor paru sentral/mediastinal yang menekan vena kava superior. Venektasi pada sindrom VCS merupakan kolateral vena dinding dada. Sirosis dengan hipertensi portal memberi kaput medusa di sekitar umbilikus tanpa massa paru dan edema leher. Gagal jantung dan pneumonia tidak menjelaskan massa dan venektasi.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/el-2-4/kasus-sindrom-vcs.jpg"
+              },
+              {
+                "id": 10,
+                "source": "Latihan Materi EL 2.4",
+                "lecture": "EL 2.4 — Lung Cancer",
+                "lectureCode": "EL 2.4",
+                "question": "Seorang laki-laki 56 tahun perokok didiagnosis TB paru klinis karena foto toraks menunjukkan lesi lobus kanan atas dengan kavitas, walaupun TCM dan BTA negatif. Setelah 2 bulan OAT, berat badan terus turun, batuk darah menetap, dan lesi tidak berkurang. Langkah yang paling tepat adalah?",
+                "options": [
+                  "Re-assessment dan prosedur diagnostik invasif (bronkoskopi/biopsi) untuk menyingkirkan kanker paru",
+                  "Ganti ke paduan TB resistan obat tanpa pemeriksaan",
+                  "Lanjutkan OAT fase lanjutan 4 bulan",
+                  "Hentikan semua terapi dan observasi 6 bulan",
+                  "Tambahkan antibiotik spektrum luas lalu ulang foto toraks 3 bulan lagi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Di negara endemis TB, kanker paru dapat meniru TB, terutama pada pasien yang didiagnosis TB klinis dengan bakteriologis negatif. Bila tidak ada perbaikan klinis setelah tahap awal OAT (berat badan tidak naik, keluhan menetap), pasien harus di-reassessment, termasuk prosedur diagnostik invasif dini (bronkoskopi, biopsi transtorakal) untuk mencari kanker paru. Melanjutkan OAT atau mengganti ke paduan TB RO tanpa bukti bakteriologis hanya menunda diagnosis. Observasi dan antibiotik empiris tanpa diagnosis jaringan juga tidak tepat pada perokok dengan hemoptisis dan lesi persisten.",
+                "answerProvenance": "ai-generated"
+              }
+            ]
+          }
+        },
+        "is-2-5": {
+          "name": "IS 2.5 — Central Neurogenic Respiratory Failure",
+          "years": {
+            "Latihan": [
+              {
+                "id": 1,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang laki-laki 41 tahun dengan miastenia gravis berhenti minum obat selama 2 minggu, lalu batuk, demam, dan sesak. RR 26×/menit, SpO₂ 97% dengan nasal kanul 2 L/menit, sadar, ptosis bilateral. AGD: pH 7,20; PaCO₂ 66 mmHg; PaO₂ 90 mmHg; HCO₃⁻ 20 mmol/L. Penilaian yang paling tepat adalah?",
+                "options": [
+                  "Tidak ada gagal napas karena SpO₂ 97%",
+                  "Krisis miastenik dengan gagal napas tipe II; perlu intubasi dan ventilasi mekanik",
+                  "Gagal napas tipe I akibat pneumonia",
+                  "Alkalosis respiratorik akibat hiperventilasi cemas",
+                  "Asidosis metabolik murni akibat sepsis"
+                ],
+                "correctAnswer": 1,
+                "explanation": "pH 7,20 dengan PaCO₂ 66 mmHg adalah asidosis respiratorik akut (gagal napas tipe II) karena kegagalan pompa napas akibat krisis miastenik yang dipicu infeksi dan penghentian obat. SpO₂ dan PaO₂ normal karena pasien mendapat O₂; oksigen memperbaiki oksigenasi tetapi tidak mengoreksi ventilasi, sehingga saturasi normal tidak menyingkirkan hiperkapnia. Pasien juga memiliki tanda bulbar dan dugaan pneumonia, sehingga rencananya intubasi dan ventilasi mekanik. Gagal napas tipe I membutuhkan PaO₂ < 60 dengan PaCO₂ normal/rendah.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 2,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang perempuan 66 tahun dengan perdarahan hemisfer bilateral menunjukkan pola napas yang kedalamannya meningkat bertahap lalu menurun bertahap, diikuti periode apnea, berulang secara siklik. Pola napas ini adalah?",
+                "options": [
+                  "Napas apneustik",
+                  "Napas ataksik (Biot)",
+                  "Kussmaul",
+                  "Hiperventilasi neurogenik sentral",
+                  "Cheyne–Stokes"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Cheyne–Stokes adalah pola crescendo–decrescendo yang bergantian dengan apnea, khas disfungsi hemisfer bilateral atau diensefalon (stroke luas, cedera otak), tetapi juga sering pada gagal jantung dan tidur di ketinggian. Napas apneustik berupa inspirasi memanjang dengan jeda akhir inspirasi (lesi pons). Ataksik/Biot berupa frekuensi dan kedalaman ireguler tak terduga (lesi medula, prognosis buruk). Hiperventilasi neurogenik sentral adalah napas cepat-dalam menetap dengan hipokapnia. Kussmaul adalah napas dalam teratur sebagai kompensasi asidosis metabolik.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 3,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang laki-laki 55 tahun dengan infark pons kaudal menunjukkan inspirasi yang sangat panjang dengan jeda di akhir inspirasi sebelum ekspirasi singkat. Penjelasan fisiologis yang paling tepat adalah?",
+                "options": [
+                  "Kerusakan kemoreseptor perifer di badan karotis",
+                  "Asidosis metabolik berat",
+                  "Kerusakan nervus frenikus C3–C5",
+                  "Hilangnya modulasi pontin (parabrakial/Kölliker-Fuse) yang mengakhiri inspirasi",
+                  "Kerusakan korteks motorik bilateral"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Jaringan pontin (parabrakial/Kölliker-Fuse, dahulu disebut pusat pneumotaksik) memodulasi transisi fase inspirasi ke ekspirasi. Lesi pons mid–kaudal menghilangkan mekanisme yang mengakhiri inspirasi sehingga timbul napas apneustik: inspirasi memanjang dengan jeda akhir inspirasi. Kerusakan kemoreseptor perifer mengurangi respons terhadap hipoksemia. Lesi n. frenikus menyebabkan kelemahan diafragma. Asidosis metabolik menyebabkan napas Kussmaul. Lesi korteks bilateral lebih dikaitkan dengan Cheyne–Stokes.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 4,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang laki-laki 72 tahun dengan perdarahan serebelum masif memiliki TD 210/110 mmHg, nadi 46×/menit, dan napas lambat ireguler. Kesadarannya cepat menurun. Interpretasi temuan ini dan tindakan yang tepat adalah?",
+                "options": [
+                  "Krisis hipertensi primer; berikan antihipertensi oral dan observasi",
+                  "Blok AV derajat tinggi; pasang pacu jantung sementara saja",
+                  "Napas Kussmaul akibat asidosis metabolik; berikan bikarbonat",
+                  "Hiperventilasi neurogenik sentral; berikan sedasi",
+                  "Trias Cushing yang menandakan hipertensi intrakranial berat dan ancaman herniasi; amankan jalan napas dan turunkan TIK segera"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Hipertensi, bradikardia, dan napas ireguler adalah trias Cushing, tanda peringatan hipertensi intrakranial berat dan herniasi batang otak yang mengancam (bukan gangguan ritme napas primer). Tindakan harus segera: amankan jalan napas (intubasi), ventilasi terkontrol, posisi kepala, terapi osmotik, dan konsultasi bedah saraf untuk dekompresi; hipokapnia ringan singkat dapat dipakai sebagai penyelamat sementara. Menganggapnya krisis hipertensi atau blok AV murni akan melewatkan penyebabnya. Napas Kussmaul dan hiperventilasi neurogenik sentral tidak menjelaskan bradipnea ireguler ini.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 5,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang perempuan 30 tahun ditemukan tidak sadar dengan RR 5×/menit, napas dangkal, pupil pinpoint, tetapi tampak tenang tanpa otot bantu napas. Seorang laki-laki 30 tahun lain dengan GBS bernapas 32×/menit dangkal dengan napas paradoksal dan batuk lemah. Pernyataan yang paling tepat mengenai perbedaan kedua pasien adalah?",
+                "options": [
+                  "Keduanya gagal napas tipe I dengan A–a gradient melebar",
+                  "Pasien kedua tidak berisiko hiperkapnia karena frekuensi napasnya tinggi",
+                  "Pasien pertama mengalami disfungsi bulbar, pasien kedua kegagalan drive sentral",
+                  "Pasien pertama mengalami kegagalan drive sentral (tampak nyaman, bradipnea), pasien kedua gagal pompa neuromuskular (cepat-dangkal, distres)",
+                  "Keduanya cukup diberi O₂ tanpa evaluasi ventilasi"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Kegagalan drive sentral (mis. toksisitas opioid, stroke medula) ditandai bradipnea/apnea atau ritme ireguler, dan pasien sering tampak nyaman tanpa distres meskipun PaCO₂ naik. Gagal napas neuromuskular (GBS, miastenia, ALS) ditandai napas cepat-dangkal dengan tanda distres seperti otot bantu dan napas paradoksal, batuk lemah, dan PaCO₂ yang sering naik terlambat. Napas cepat-dangkal tetap dapat menyebabkan hiperkapnia karena ventilasi alveolar rendah. Keduanya terutama gagal napas tipe II, sehingga O₂ saja tidak cukup; ventilasi harus dinilai dengan AGD/EtCO₂.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 6,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang laki-laki 35 tahun dengan cedera otak traumatik berat terintubasi. AGD: PaCO₂ 58 mmHg dan monitor TIK menunjukkan peningkatan. Mekanisme hubungan PaCO₂ dengan TIK dan target ventilasi default yang tepat adalah?",
+                "options": [
+                  "Hiperkapnia menyebabkan vasokonstriksi serebral; target PaCO₂ 50–60 mmHg",
+                  "Hipokapnia berat jangka panjang (PaCO₂ 20–25 mmHg) adalah target rutin untuk semua cedera otak",
+                  "Hiperkapnia menyebabkan vasodilatasi serebral sehingga volume darah otak dan TIK meningkat; target default normokapnia 35–45 mmHg",
+                  "PaCO₂ tidak memengaruhi aliran darah otak",
+                  "Hiperkapnia menurunkan TIK dengan meningkatkan drainase vena"
+                ],
+                "correctAnswer": 2,
+                "explanation": "CO₂ adalah vasodilator serebral kuat: hiperkapnia menyebabkan vasodilatasi, menambah volume darah otak, dan meningkatkan TIK. Sebaliknya, hipokapnia menyebabkan vasokonstriksi dan penurunan aliran darah otak yang berisiko iskemia. Karena itu target default pada cedera otak akut adalah normokapnia (PaCO₂ 35–45 mmHg); hipokapnia ringan dan singkat hanya dipakai sebagai penyelamat pada ancaman herniasi atau krisis TIK. Setiap perubahan setting ventilator harus diikuti pemantauan PaCO₂/EtCO₂.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 7,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang perempuan 45 tahun mengalami perdarahan subaraknoid. Beberapa jam kemudian ia tiba-tiba sesak, SpO₂ turun, ronki basah bilateral, dan foto toraks menunjukkan edema paru bilateral. Ekokardiografi awal tidak menunjukkan gagal jantung sebelumnya. Mekanisme yang paling mungkin adalah?",
+                "options": [
+                  "Kegagalan drive napas sentral",
+                  "Edema paru neurogenik akibat lonjakan katekolamin dan aktivasi simpatis",
+                  "Aspirasi isi lambung pada saat kejang",
+                  "Emboli paru akibat imobilisasi",
+                  "Overload cairan akibat terapi osmotik"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Edema paru neurogenik terjadi setelah cedera SSP akut seperti SAH, TBI, atau kejang. Lonjakan katekolamin dan aktivasi simpatis masif meningkatkan tekanan hidrostatik pulmoner dan menyebabkan cedera endotel, sehingga timbul edema paru akut dan gangguan pertukaran gas (hipoksemia). Ini adalah komplikasi paru sekunder yang tidak boleh dikira kegagalan drive sentral, karena masalahnya ada di paru, bukan di pusat napas. Aspirasi, emboli paru, dan overload cairan mungkin terjadi, tetapi onset beberapa jam setelah SAH dengan edema bilateral paling sesuai edema paru neurogenik.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 8,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Perhatikan tabel perbandingan berikut. Seorang laki-laki 62 tahun dengan stroke batang otak sadar tetapi sering tersedak saat minum, suaranya sengau, dan tampak sekret menumpuk di orofaring. RR 18×/menit, PaCO₂ 42 mmHg. Mekanisme gangguan respirasi utama pasien ini adalah?",
+                "options": [
+                  "Disfungsi bulbar dengan gangguan proteksi dan pembersihan jalan napas",
+                  "Gagal napas neuromuskular",
+                  "Kegagalan drive sentral",
+                  "Hiperventilasi neurogenik sentral",
+                  "Tidak ada gangguan respirasi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Disfungsi bulbar (saraf kranial IX, X, XII dan nukleus ambiguus) mengganggu menelan, batuk, dan proteksi jalan napas, ditandai tersedak, suara sengau, dan sekret yang menumpuk, dengan pola napas dan PaCO₂ yang bervariasi. Risiko utamanya adalah aspirasi dan obstruksi jalan napas, sehingga pasien perlu penilaian menelan, suction, positioning, dan intubasi bila proteksi tidak adekuat; NIV harus hati-hati pada disfungsi bulbar. Kegagalan drive sentral ditandai bradipnea/apnea, sedangkan gagal neuromuskular ditandai napas cepat-dangkal dan distres. PaCO₂ normal tidak menyingkirkan risiko aspirasi.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-5/sentral-vs-perifer.jpg"
+              },
+              {
+                "id": 9,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang anak laki-laki 3 bulan dengan mutasi PHOX2B mengalami episode sianosis dan hiperkapnia terutama saat tidur, sementara saat bangun ventilasinya hampir normal. Penjelasan yang paling tepat adalah?",
+                "options": [
+                  "Saat tidur terjadi obstruksi jalan napas atas akibat adenoid besar",
+                  "Saat tidur, otot diafragma mengalami paralisis total",
+                  "Saat tidur, ventilasi bergantung sepenuhnya pada drive otomatis batang otak dan kemorefleks yang terganggu, karena wakefulness drive dan input korteks hilang",
+                  "Saat tidur terjadi shunt kanan-ke-kiri akibat PFO",
+                  "Saat tidur kemoreseptor perifer menjadi lebih sensitif"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Congenital central hypoventilation syndrome (CCHS) terkait mutasi PHOX2B dan ditandai respons ventilasi yang rendah terhadap hiperkapnia dan hipoksemia akibat gangguan kontrol otonom napas. Saat bangun, wakefulness drive dan input volunter korteks membantu mempertahankan ventilasi; saat tidur, ventilasi bergantung sepenuhnya pada sistem otomatis batang otak dan kemorefleks, sehingga kelainan tersingkap. Penatalaksanaannya meliputi pemantauan CO₂ malam (EtCO₂/TcCO₂), polisomnografi, dan ventilasi suportif (NIV, ventilasi via trakeostomi, pacu diafragma pada pasien terpilih).",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 10,
+                "source": "Latihan Materi IS 2.5",
+                "lecture": "IS 2.5 — Central Neurogenic Respiratory Failure",
+                "lectureCode": "IS 2.5",
+                "question": "Seorang laki-laki 50 tahun dengan stroke batang otak dengan GCS 8, sekret orofaring banyak, dan PaCO₂ 60 mmHg. Residen mengusulkan NIV. Mengapa NIV kurang tepat pada pasien ini?",
+                "options": [
+                  "Karena penurunan kesadaran, sekret banyak, dan keterlibatan bulbar membuat pasien tidak mampu mempertahankan jalan napas, yang merupakan kontraindikasi NIV",
+                  "Karena NIV hanya untuk gagal napas tipe I",
+                  "Karena PaCO₂ 60 mmHg terlalu rendah untuk NIV",
+                  "Karena NIV akan menurunkan TIK secara berlebihan",
+                  "Karena NIV tidak dapat memberikan PEEP"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kontraindikasi NIV mencakup ketidakmampuan mempertahankan jalan napas (koma, gelisah/tidak kooperatif, sekret banyak, obstruksi jalan napas, stroke atau keterlibatan bulbar), hemodinamik tidak stabil, intoleransi masker, gejala GI berat, dan kurangnya personel pemantau. Selain itu, NIV ditujukan untuk distres yang diperkirakan membaik dalam 3 × 24 jam, sedangkan gagal napas neurogenik umumnya tidak. Pasien dengan GCS 8, sekret banyak, dan disfungsi bulbar membutuhkan intubasi endotrakeal dan ventilasi invasif. NIV justru sangat efektif untuk gagal napas hiperkapnik (tipe II) pada pasien sadar dan kooperatif, dan dapat memberikan PEEP/EPAP.",
+                "answerProvenance": "ai-generated"
+              }
+            ]
+          }
+        },
+        "is-2-6": {
+          "name": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+          "years": {
+            "Latihan": [
+              {
+                "id": 1,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Seorang laki-laki 32 tahun mengalami diare 3 minggu lalu. Sejak 5 hari ia mengeluh kesemutan di kaki, lalu kelemahan kedua tungkai yang menjalar ke lengan. Pemeriksaan: tetraparesis flaksid simetris, refleks tendon negatif di keempat ekstremitas, sensorik hampir normal. Pemeriksaan LCS yang paling mungkin ditemukan adalah?",
+                "options": [
+                  "Leukosit 300/µL dominan PMN, glukosa rendah",
+                  "Protein meningkat dengan jumlah sel normal (disosiasi sitoalbuminik)",
+                  "Protein normal dengan leukosit limfosit 150/µL",
+                  "Pita oligoklonal positif dengan protein normal",
+                  "LCS keruh dengan pewarnaan Gram positif"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Gambaran kelemahan flaksid, simetris, asendens dengan arefleksia setelah infeksi saluran cerna (sering Campylobacter jejuni) adalah Guillain–Barré syndrome. Temuan LCS khasnya adalah disosiasi sitoalbuminik: protein tinggi dengan jumlah sel normal, terutama setelah minggu pertama; 'konsentrasi protein LCS tinggi' termasuk kriteria pendukung kuat. Pleositosis PMN dengan glukosa rendah mengarah meningitis bakteri, pleositosis limfositik bermakna harus membuat curiga diagnosis lain (HIV, limfoma, polio), dan pita oligoklonal mengarah multiple sclerosis.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 2,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Seorang perempuan 40 tahun dengan GBS hari ke-4 dirawat di bangsal. Ia mulai sulit menelan, batuknya lemah, dan tidak mampu menghitung sampai 15 dalam satu napas. Kapasitas vital 14 mL/kg. SpO₂ 96% udara ruang. Langkah yang paling tepat adalah?",
+                "options": [
+                  "Lanjutkan observasi di bangsal karena SpO₂ masih normal",
+                  "Berikan metilprednisolon dosis tinggi",
+                  "Berikan O₂ nasal 4 L/menit dan nilai ulang besok",
+                  "Pindahkan ke ICU dan siapkan intubasi elektif dini",
+                  "Mulai NIV di bangsal tanpa pemantauan ketat"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Pasien menunjukkan tanda insufisiensi napas mengancam pada GBS: tidak mampu menghitung sampai 15 dalam satu napas, VC < 15–20 mL/kg, ditambah disfagia dan batuk lemah (disfungsi bulbar). Ini indikasi masuk ICU dan intubasi elektif dini sebelum terjadi gagal napas akut atau aspirasi. SpO₂ normal tidak menyingkirkan hipoventilasi dan perburukan klinis sering mendahului desaturasi. Kortikosteroid tidak efektif pada GBS. NIV kurang tepat pada disfungsi bulbar dan proteksi jalan napas yang buruk.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 3,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Seorang perempuan 28 tahun mengeluh kelopak mata turun dan penglihatan ganda yang memburuk menjelang sore dan membaik setelah istirahat. Saat diminta menatap ke atas tanpa berkedip selama 60 detik, kelopak matanya makin turun. Diagnosis dan mekanisme yang paling tepat adalah?",
+                "options": [
+                  "Sindrom Horner; lesi rantai simpatis",
+                  "Guillain–Barré syndrome varian Miller Fisher; demielinasi saraf perifer",
+                  "Miastenia gravis; antibodi terhadap reseptor asetilkolin postsinaps di NMJ",
+                  "Sindrom Lambert–Eaton; antibodi terhadap kanal kalsium presinaps",
+                  "Paresis n. okulomotorius akibat aneurisma"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ptosis dan diplopia yang berfluktuasi, memburuk dengan aktivitas dan membaik dengan istirahat, serta Wartenberg test positif (ptosis bertambah setelah menatap ke atas 30° selama 60 detik) khas miastenia gravis, yaitu penyakit autoimun NMJ dengan antibodi terhadap reseptor asetilkolin (atau MuSK) di membran postsinaps. Horner menyebabkan ptosis ringan dengan miosis dan anhidrosis tanpa fatigabilitas. Miller Fisher memberi oftalmoplegia, ataksia, dan arefleksia. Lambert–Eaton justru membaik dengan aktivitas berulang dan lebih sering mengenai otot proksimal. Paresis n. III biasanya disertai midriasis dan tidak berfluktuasi.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 4,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Seorang laki-laki 50 tahun dengan miastenia gravis datang dengan sesak, sulit menelan, dan kelemahan memberat setelah dosis piridostigmin dinaikkan sendiri. Pemeriksaan: nadi 52×/menit, pupil miosis, hipersalivasi, bronkore, kram perut, dan diare. Diagnosis yang paling mungkin adalah?",
+                "options": [
+                  "Krisis kolinergik akibat kelebihan antikolinesterase",
+                  "Krisis miastenik akibat dosis obat kurang",
+                  "Sindrom Guillain–Barré",
+                  "Botulisme",
+                  "Serangan asma akut"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Krisis kolinergik terjadi karena overmedication antikolinesterase. Selain kelemahan (blokade depolarisasi), muncul efek muskarinik: bradikardia, miosis, hipersalivasi dan bronkore (sekret meningkat), kram perut, diare, dan tekanan darah menurun; gejalanya membaik dengan antikolinergik (atropin). Krisis miastenik terjadi karena undermedication atau eksaserbasi, ditandai takikardia, midriasis, distres napas, sekret normal, dan membaik sementara dengan edrofonium. Botulisme menyebabkan midriasis dan mulut kering. GBS dan asma tidak menjelaskan pola kolinergik ini.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 5,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Seorang laki-laki 24 tahun jatuh dari pohon dan mengalami cedera medula spinalis servikal komplet setinggi C2–C3. Ia apnea sesaat setelah kejadian. Penjelasan yang paling tepat adalah?",
+                "options": [
+                  "Kerusakan pusat napas di medula oblongata",
+                  "Edema paru neurogenik",
+                  "Paralisis otot interkostal saja dengan diafragma utuh",
+                  "Terputusnya jalur motorik ke nukleus frenikus C3–C5 sehingga diafragma lumpuh dan dibutuhkan ventilasi mekanik penuh",
+                  "Obstruksi jalan napas atas akibat lidah jatuh"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Penentu terbesar gangguan napas pada cedera medula spinalis adalah tingkat dan kelengkapan cedera terhadap nukleus frenikus (C3–C5) yang mempersarafi diafragma. Lesi servikal komplet setinggi C2–C4 memutus jalur motorik napas sehingga diafragma lumpuh; tanpa ventilasi mekanik kondisi ini tidak kompatibel dengan kehidupan, dan cedera C1–C3 biasanya membutuhkan dukungan ventilasi penuh. Pusat napas batang otak tetap utuh. Cedera C5 ke bawah biasanya hanya menyebabkan gangguan parsial (VC turun, batuk lemah). Edema paru neurogenik dan obstruksi lidah tidak menjelaskan apnea ini.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 6,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Seorang perempuan 30 tahun dengan GBS dirawat dengan O₂ nasal 3 L/menit. Monitor menunjukkan SpO₂ 97%, RR 28×/menit, dan EtCO₂ 58 mmHg. Ia tampak mengantuk. Interpretasi yang paling tepat adalah?",
+                "options": [
+                  "Oksigenasi dan ventilasi adekuat",
+                  "Hipoksemia berat yang membutuhkan NRM",
+                  "Oksigenasi membaik tetapi ventilasi tidak adekuat (hipoventilasi); perlu eskalasi bantuan ventilasi",
+                  "Hiperventilasi karena cemas",
+                  "EtCO₂ tinggi karena pemberian O₂ terlalu rendah"
+                ],
+                "correctAnswer": 2,
+                "explanation": "SpO₂ 97% menandakan oksigenasi baik karena pasien mendapat O₂, tetapi EtCO₂ 58 mmHg dan kantuk menandakan retensi CO₂ (hipoventilasi) akibat kelemahan otot napas. Oksigen memperbaiki saturasi tetapi tidak mengoreksi hipoventilasi; kenaikan PaCO₂ bahkan dapat tersamarkan bila hanya memantau SpO₂. Langkah yang tepat adalah eskalasi bantuan ventilasi (ICU, pertimbangkan intubasi pada GBS dengan perburukan) dan konfirmasi dengan AGD. Menambah O₂ tidak menurunkan CO₂. Hiperventilasi akan menurunkan EtCO₂.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 7,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Perhatikan klasifikasi Osserman berikut. Seorang pasien miastenia gravis datang dengan insufisiensi napas yang mengancam jiwa sehingga harus diintubasi dan diberi ventilasi mekanik. Pasien ini termasuk kelas?",
+                "options": [
+                  "Kelas I",
+                  "Kelas II",
+                  "Kelas III",
+                  "Kelas IV",
+                  "Kelas V"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Pada klasifikasi Osserman modifikasi, kelas I hanya okular; kelas II kelemahan ringan yang tidak melumpuhkan; kelas III kelemahan sedang termasuk otot orofaring dan napas; kelas IV kelemahan berat yang melumpuhkan, termasuk orofaring dan napas; dan kelas V adalah insufisiensi napas yang mengancam jiwa dan membutuhkan bantuan ventilasi, yaitu krisis miastenik. Penatalaksanaannya di ICU dengan bantuan ventilasi, mencari pencetus, dan imunoterapi cepat (plasmaferesis atau IVIG).",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-6/klasifikasi-osserman.jpg"
+              },
+              {
+                "id": 8,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Perhatikan gambar tanda peringatan awal berikut. Seorang laki-laki 60 tahun dengan ALS mengeluh sesak yang memberat saat berbaring dan membaik bila duduk, sakit kepala tiap pagi, serta mengantuk berlebihan di siang hari. Mekanisme yang paling mungkin adalah?",
+                "options": [
+                  "Gagal jantung kiri dengan ortopnea",
+                  "Kelemahan diafragma dengan hipoventilasi nokturnal",
+                  "Obstructive sleep apnea murni akibat obesitas",
+                  "Asma nokturnal",
+                  "Refluks gastroesofageal"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Pada penyakit neuromuskular kronik seperti ALS, kelemahan diafragma menyebabkan ortopnea (memburuk saat berbaring karena isi abdomen mendorong diafragma yang lemah, membaik saat duduk) dan hipoventilasi nokturnal, yang ditandai sakit kepala pagi dan kantuk siang berlebihan akibat retensi CO₂ malam hari. Ini merupakan tanda awal perburukan respirasi yang perlu dievaluasi dengan FVC (termasuk posisi supine), AGD/EtCO₂, dan dipertimbangkan NIV malam hari. Gagal jantung, OSA, asma, dan GERD tidak menjelaskan konteks kelemahan neuromuskular progresif ini.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-6/tanda-peringatan-awal.jpg"
+              },
+              {
+                "id": 9,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Seorang laki-laki 45 tahun datang dengan status epileptikus konvulsif yang dihentikan dengan diazepam berulang dan fenitoin. Setelah kejang berhenti, ia somnolen, terdengar gurgling, dan SpO₂ turun. Pernyataan yang paling tepat mengenai komplikasi respirasi pada kondisi ini adalah?",
+                "options": [
+                  "Gagal napas jarang terjadi pada status epileptikus",
+                  "Pasien cukup diberi O₂ tanpa penilaian jalan napas",
+                  "Gagal napas hanya disebabkan oleh fenitoin",
+                  "SpO₂ turun pasti karena emboli paru",
+                  "Gagal napas akut sering (sekitar 80%), disebabkan oleh penyakit dan obat antikejang, dengan risiko pneumonia aspirasi dan edema paru neurogenik"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Pada status epileptikus konvulsif, gagal napas akut merupakan komplikasi yang sering (sekitar 80%). Penyebabnya bukan hanya penyakitnya (apnea iktal, edema paru neurogenik) tetapi juga obat untuk menghentikan kejang seperti benzodiazepin yang menekan drive napas. Refleks proteksi jalan napas turun sehingga pneumonia aspirasi sering terjadi. Suara gurgling menandakan sekret di jalan napas, sehingga prioritasnya membersihkan jalan napas (suction, posisi), menilai ventilasi, dan menyiapkan intubasi bila proteksi tidak adekuat.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 10,
+                "source": "Latihan Materi IS 2.6",
+                "lecture": "IS 2.6 — Dyspnoea as Complication of Neurological Disease",
+                "lectureCode": "IS 2.6",
+                "question": "Seorang dokter di puskesmas akan merujuk pasien GBS dengan kelemahan memburuk cepat dan disfagia ke RS dengan ICU. Pasien sudah distabilkan, diberi O₂, dan dipasang monitor. Saat menelepon dokter penerima, ia menyampaikan: pasien laki-laki 35 tahun dengan ancaman gagal napas; riwayat GBS hari ke-5; kondisi saat ini RR 30, SpO₂ 95% dengan O₂ 3 L, batuk lemah, tidak bisa menghitung sampai 15; rencana ICU dan persiapan intubasi. Format komunikasi yang digunakan adalah?",
+                "options": [
+                  "SBAR (Situation, Background, Assessment, Recommendation)",
+                  "SOAP",
+                  "AMPLE",
+                  "ABCDE",
+                  "AVPU"
+                ],
+                "correctAnswer": 0,
+                "explanation": "SBAR adalah format serah terima terstruktur: Situation (siapa pasien dan masalah utama, di sini ancaman gagal napas), Background (riwayat relevan seperti GBS hari ke-5 dan terapi), Assessment (kondisi jalan napas, napas, tanda vital, SpO₂, respons terapi), dan Recommendation (rencana seperti ICU dan persiapan intubasi). SBAR menjaga kesinambungan dan keselamatan pasien saat rujukan. SOAP adalah format catatan medis, AMPLE untuk anamnesis singkat trauma, ABCDE untuk penilaian primer, dan AVPU untuk tingkat kesadaran.",
+                "answerProvenance": "ai-generated"
+              }
+            ]
+          }
+        },
+        "pd-2-7": {
+          "name": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+          "years": {
+            "Latihan": [
+              {
+                "id": 1,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Seorang laki-laki 50 tahun dengan pankreatitis akut berat dirawat di ICU. Pada hari ke-3 ia makin sesak; foto toraks menunjukkan opasitas bilateral difus baru. Ekokardiografi: fungsi LV normal. Ia terintubasi dengan PEEP 8 cmH₂O, FiO₂ 0,6, PaO₂ 90 mmHg. Diagnosis dan derajatnya menurut definisi Berlin adalah?",
+                "options": [
+                  "Edema paru kardiogenik",
+                  "ARDS ringan",
+                  "ARDS berat",
+                  "ARDS sedang",
+                  "Acute lung injury (ALI)"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Pasien memenuhi kriteria ARDS: onset dalam 1 minggu setelah faktor risiko (pankreatitis, penyebab tidak langsung), opasitas bilateral, dan edema tidak dijelaskan oleh gagal jantung (LV normal). P/F = 90/0,6 = 150 dengan PEEP ≥ 5, sehingga termasuk ARDS sedang (100–200). Ringan bila 200–300, berat bila ≤ 100. Istilah ALI berasal dari definisi AECC 1994 dan sudah dihapus pada definisi Berlin 2012.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 2,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Seorang perempuan dengan ARDS akibat sepsis terintubasi. Tinggi badan 160 cm, berat badan aktual 85 kg. Volume tidal awal yang paling tepat adalah?",
+                "options": [
+                  "Sekitar 1.000 mL (12 mL/kg PBW)",
+                  "Sekitar 510 mL (6 mL/kg berat aktual)",
+                  "Sekitar 680 mL (8 mL/kg berat aktual)",
+                  "Sekitar 850 mL (10 mL/kg berat aktual)",
+                  "Sekitar 315 mL (6 mL/kg PBW)"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Volume tidal ventilasi protektif dihitung berdasarkan predicted body weight (PBW) dari tinggi badan, bukan berat aktual, karena ukuran paru tidak bertambah dengan jaringan lemak. PBW perempuan = 45,5 + 0,91 × (160 − 152,4) ≈ 52 kg, sehingga VT 6 mL/kg ≈ 315 mL (rentang 4–8 mL/kg ≈ 210–415 mL). Menggunakan berat aktual 85 kg akan menghasilkan volume yang terlalu besar dan menyebabkan volutrauma pada 'baby lung'. Studi ARMA menunjukkan VT 6 mL/kg menurunkan mortalitas dibanding 12 mL/kg (31,0% vs 39,8%).",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 3,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Seorang laki-laki dengan ARDS berat terventilasi dengan PEEP 12 cmH₂O. Pada jeda akhir inspirasi 0,5 detik, tekanan plateau terbaca 32 cmH₂O. Berapa driving pressure dan apa tindakan yang tepat?",
+                "options": [
+                  "20 cmH₂O; tingkatkan volume tidal",
+                  "44 cmH₂O; turunkan PEEP menjadi 0",
+                  "20 cmH₂O; turunkan volume tidal agar Pplat ≤ 30 dan driving pressure ≤ 15, naikkan RR dan terima hiperkapnia permisif",
+                  "12 cmH₂O; tidak perlu perubahan",
+                  "32 cmH₂O; berikan bronkodilator"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Driving pressure = Pplat − PEEP = 32 − 12 = 20 cmH₂O, melebihi target (≤ 15; slide anestesi ≤ 14), dan Pplat 32 juga melebihi batas ≤ 30 cmH₂O. Driving pressure mencerminkan regangan siklik parenkim dan merupakan prediktor mortalitas independen terkuat. Tindakannya menurunkan VT (menuju 4–6 mL/kg PBW), menaikkan RR untuk mempertahankan ventilasi semenit, dan menerima hiperkapnia permisif selama pH masih dapat diterima, sambil waspada auto-PEEP. Menaikkan VT atau menurunkan PEEP ke 0 akan memperberat VILI dan atelektrauma.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 4,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Seorang laki-laki 45 tahun dengan ARDS akibat pneumonia sudah mendapat ventilasi protektif selama 12 jam. Pada FiO₂ 0,7 dan PEEP 12, PaO₂ 84 mmHg. Intervensi berikutnya yang terbukti menurunkan mortalitas adalah?",
+                "options": [
+                  "Posisi prone ≥ 16 jam/hari yang dimulai dini",
+                  "Manuver rekrutmen dengan tekanan tinggi berkepanjangan",
+                  "Menaikkan volume tidal menjadi 10 mL/kg",
+                  "Pemberian cairan liberal",
+                  "Pemberian surfaktan intratrakeal"
+                ],
+                "correctAnswer": 0,
+                "explanation": "P/F = 84/0,7 = 120 (< 150) dengan FiO₂ ≥ 0,6 dan PEEP ≥ 5 memenuhi kriteria PROSEVA. Posisi prone ≥ 16 jam/hari yang dimulai dini menurunkan mortalitas 28 hari dari 32,8% menjadi 16,0%. Mekanismenya: jantung tidak lagi menekan paru, edema dan ventilasi terdistribusi lebih homogen ke regio dorsal yang tetap mendapat perfusi tinggi, sehingga V/Q membaik dan VILI berkurang. Manuver rekrutmen berkepanjangan tidak direkomendasikan, VT tinggi memperberat VILI, cairan liberal memperburuk edema (FACTT mendukung strategi konservatif), dan surfaktan tidak terbukti bermanfaat pada ARDS dewasa.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 5,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Mengapa hipoksemia pada ARDS sering refrakter terhadap peningkatan FiO₂ dan lebih responsif terhadap PEEP?",
+                "options": [
+                  "Karena mekanisme utamanya hipoventilasi alveolar",
+                  "Karena PaCO₂ yang tinggi menggeser kurva disosiasi ke kanan",
+                  "Karena alveolus terisi edema atau kolaps namun tetap terperfusi (shunt), sehingga diperlukan pembukaan kembali alveolus",
+                  "Karena terjadi penurunan PiO₂",
+                  "Karena hemoglobin tidak mampu mengikat oksigen"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pada fase eksudatif ARDS, alveolus terisi edema kaya protein atau kolaps karena surfaktan rusak, tetapi kapilernya tetap terperfusi, sehingga terjadi shunt intrapulmoner (V/Q = 0). Darah yang melewati unit tersebut tidak pernah bertemu O₂ tambahan, sehingga menaikkan FiO₂ hanya sedikit menolong. PEEP dan posisi prone merekrut (membuka kembali) alveolus dan mencegah kolaps akhir ekspirasi, sehingga mengurangi shunt. Hipoventilasi dan penurunan PiO₂ akan merespons baik terhadap O₂, dan masalahnya bukan pada kemampuan Hb mengikat O₂.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 6,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Seorang pasien ARDS berat sudah mendapat ventilasi protektif optimal, PEEP tinggi, NMBA, dan posisi prone. Selama 7 jam terakhir P/F ratio tetap 70 mmHg. Langkah selanjutnya yang paling tepat adalah?",
+                "options": [
+                  "Lanjutkan setting yang sama dan evaluasi 24 jam kemudian",
+                  "Berikan aspirin dosis tinggi",
+                  "Naikkan VT menjadi 10 mL/kg untuk memperbaiki oksigenasi",
+                  "Hentikan PEEP",
+                  "Pertimbangkan dan rujuk dini ke pusat VV-ECMO"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Kriteria ECMO berdasarkan studi CESAR dan EOLIA (meski ventilasi optimal dan prone) meliputi P/F ≤ 50 mmHg lebih dari 3 jam, P/F < 80 mmHg lebih dari 6 jam, atau pH < 7,25 dengan PaCO₂ ≥ 60 mmHg lebih dari 6 jam. Pasien ini memenuhi kriteria kedua, sehingga harus segera dirujuk ke pusat VV-ECMO sebelum terjadi kerusakan fibrotik ireversibel atau VILI masif. ECMO mengambil alih pertukaran gas sehingga paru dapat diistirahatkan dengan setting sangat protektif. Menaikkan VT dan menghentikan PEEP memperberat cedera; aspirin tidak terbukti untuk ARDS.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 7,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Seorang pasien di bangsal dengan pneumonia berat mendapat HFNO 40 L/menit dengan FiO₂ 0,6. SpO₂ 90%, AGD tidak tersedia, USG paru menunjukkan B-lines bilateral dan konsolidasi, dan ekokardiografi fokus tidak menunjukkan gagal jantung. Menurut definisi Global ARDS 2023, pernyataan yang benar adalah?",
+                "options": [
+                  "ARDS tidak dapat didiagnosis tanpa intubasi",
+                  "Pasien memenuhi kriteria ARDS non-intubasi karena S/F = 150 (≤ 315) pada HFNO ≥ 30 L/menit dengan temuan USG bilateral",
+                  "ARDS tidak dapat didiagnosis tanpa AGD dan CT",
+                  "Pasien harus memiliki PEEP ≥ 10 cmH₂O untuk didiagnosis",
+                  "Pasien termasuk ALI, bukan ARDS"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Definisi Global 2023 menambahkan kategori ARDS non-intubasi: P/F ≤ 300 atau S/F ≤ 315 (bila SpO₂ ≤ 97%) dengan HFNO ≥ 30 L/menit atau NIV/CPAP ≥ 5 cmH₂O. SpO₂/FiO₂ = 90/0,6 = 150. Definisi ini juga menerima USG paru (B-lines bilateral dan/atau konsolidasi) sebagai pencitraan. Dengan demikian ARDS dapat dikenali sebelum intubasi dan di tempat tanpa AGD atau CT, sangat relevan untuk banyak RS di Indonesia. Istilah ALI sudah dihapus sejak Berlin 2012.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 8,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Perhatikan diagram 'baby lung' berikut. Implikasi klinis utama konsep ini terhadap pengaturan ventilator pada ARDS adalah?",
+                "options": [
+                  "Volume tidal harus dinaikkan karena paru menjadi lebih kecil",
+                  "Volume tidal normal dewasa (10–15 mL/kg) akan menyebabkan overdistensi pada sisa paru yang masih teraerasi, sehingga VT harus rendah",
+                  "PEEP harus selalu nol untuk mencegah barotrauma",
+                  "Paru ARDS memiliki compliance yang meningkat",
+                  "Konsep ini hanya berlaku pada pasien obesitas"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Menurut konsep baby lung (Gattinoni), paru ARDS terdiri dari zona edema (dependen), atelektatik (transisi), dan normal (non-dependen); bagian yang masih teraerasi hanya seukuran paru anak 5 tahun. Compliance yang rendah pada ARDS mencerminkan volume paru fungsional yang kecil, bukan paru yang 'kaku' secara merata. Memberikan VT dewasa normal ke baby lung akan menyebabkan overdistensi (volutrauma) pada jaringan sehat yang tersisa, sehingga dipakai VT rendah 4–8 mL/kg PBW. PEEP justru diperlukan untuk mencegah atelektrauma.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/pd-2-7/baby-lung.jpg"
+              },
+              {
+                "id": 9,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Seorang anak 4 tahun datang dengan demam tinggi mendadak, drooling, suara muffled, duduk condong ke depan, dan stridor inspirasi. Ia gelisah, tampak retraksi suprasternal dan epigastrium, tanpa sianosis. Lokasi obstruksi dan derajat menurut kriteria Jackson adalah?",
+                "options": [
+                  "Supraglotis; Jackson 2",
+                  "Intratoraks; Jackson 1",
+                  "Subglotis; Jackson 4",
+                  "Bronkus utama; Jackson 3",
+                  "Supraglotis; Jackson 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Stridor inspirasi bernada tinggi berasal dari zona 1 (supraglotis, lidah, faring) karena struktur yang longgar tertarik ke dalam saat inspirasi; gambaran demam tinggi mendadak, drooling, dan posisi tripod mengarah ke epiglotitis. Kriteria Jackson: grade 1 stridor inspirasi dan retraksi suprasternal dengan pasien tenang; grade 2 ditambah retraksi epigastrium dan pasien mulai gelisah; grade 3 stridor inspirasi dan ekspirasi dengan retraksi infraklavikula dan interkostal, sangat gelisah; grade 4 ditambah sianosis. Pasien ini Jackson 2, yang ditangani dengan intubasi endotrakeal atau trakeostomi di lingkungan yang aman.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 10,
+                "source": "Latihan Materi PD 2.7",
+                "lecture": "PD 2.7 — Acute Respiratory Distress Syndrome (ARDS)",
+                "lectureCode": "PD 2.7",
+                "question": "Seorang laki-laki 30 tahun dibawa ke IGD setelah tersedak bakso. Ia sangat gelisah, terdengar stridor inspirasi dan ekspirasi, retraksi suprasternal, epigastrium, infraklavikula, dan interkostal, serta bibirnya sianosis. Upaya manuver Heimlich gagal dan intubasi tidak berhasil. Tindakan yang paling tepat adalah?",
+                "options": [
+                  "Terapi konservatif dengan kortikosteroid dan observasi",
+                  "Trakeostomi elektif terjadwal esok hari",
+                  "Nebulisasi epinefrin dan pulangkan",
+                  "Krikotiroidotomi darurat",
+                  "Foto rontgen leher lateral terlebih dahulu"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Stridor bifasik dengan retraksi luas, sangat gelisah, dan sianosis adalah sumbatan jalan napas atas Jackson grade 4, kondisi darurat yang mengancam jiwa. Bila upaya membebaskan benda asing dan intubasi gagal, tindakan penyelamatan adalah krikotiroidotomi darurat (membuka membran krikotiroidea), dilanjutkan trakeostomi bila perlu. Terapi konservatif hanya untuk grade 1, trakeostomi elektif tidak sesuai untuk keadaan darurat, dan menunda tindakan demi pemeriksaan radiologi dapat berakibat fatal.",
+                "answerProvenance": "ai-generated"
+              }
+            ]
+          }
+        },
+        "is-2-8": {
+          "name": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+          "years": {
+            "Latihan": [
+              {
+                "id": 1,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Seorang laki-laki 20 tahun, tinggi 185 cm dan kurus, perokok, tiba-tiba mengalami nyeri dada kiri dan sesak ringan saat duduk. Pemeriksaan: hemitoraks kiri hipersonor, fremitus dan suara napas melemah, hemodinamik stabil. Foto toraks menunjukkan garis pleura viseral tanpa corakan paru di distalnya dengan jarak dinding dada ke tepi paru 1 cm. Diagnosis dan tatalaksana yang paling tepat adalah?",
+                "options": [
+                  "Pneumotoraks spontan sekunder; chest tube segera",
+                  "Tension pneumotoraks; dekompresi jarum",
+                  "Pneumotoraks spontan primer kecil; observasi dengan O₂ aliran tinggi dan foto toraks ulang",
+                  "Efusi pleura; torakosentesis",
+                  "Bula emfisematosa; VATS bulektomi segera"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Laki-laki muda tinggi kurus perokok tanpa penyakit paru dasar dengan pneumotoraks adalah pneumotoraks spontan primer (PSP), biasanya akibat ruptur bleb subpleura apeks. Jarak < 2 cm menandakan pneumotoraks kecil; pasien stabil dan sesak ringan, sehingga dapat ditangani konservatif: observasi, O₂ aliran tinggi (mempercepat resorpsi udara hingga empat kali), dan foto toraks serial. SSP memerlukan penyakit paru dasar. Tension ditandai syok, deviasi trakea, dan distensi vena leher. Efusi memberi perkusi pekak. VATS dipertimbangkan untuk kebocoran menetap atau rekurensi.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 2,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Seorang laki-laki 28 tahun korban kecelakaan motor datang dengan sesak hebat. TD 70/40 mmHg, nadi 140×/menit, SpO₂ 80%, vena leher distensi, trakea terdorong ke kiri, hemitoraks kanan hipersonor dengan suara napas hilang. Tindakan pertama yang paling tepat adalah?",
+                "options": [
+                  "Foto toraks segera untuk konfirmasi",
+                  "Dekompresi jarum segera pada hemitoraks kanan",
+                  "CT toraks dengan kontras",
+                  "Torakosentesis di sela iga 8 linea aksilaris posterior",
+                  "Resusitasi cairan 2 L dan observasi"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Hipotensi, takikardia, vena leher distensi, trakea terdorong ke kontralateral, hipersonor, dan suara napas hilang adalah tension pneumotoraks: udara masuk melalui mekanisme katup satu arah sehingga tekanan intrapleura terus naik, mediastinum bergeser, dan venous return turun (syok obstruktif). Ini adalah diagnosis klinis yang ditangani dengan dekompresi jarum segera (kateter 14G), lalu chest tube, tanpa menunggu foto toraks atau CT. Torakosentesis ditujukan untuk cairan. Resusitasi cairan saja tidak mengatasi obstruksi venous return.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 3,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Seorang laki-laki 35 tahun dengan trauma tembus dada kanan datang dengan TD 80/50 mmHg, nadi 130×/menit, vena leher kolaps, perkusi hemitoraks kanan pekak, dan suara napas menurun. Setelah pemasangan chest tube, keluar darah 1.700 mL. Langkah selanjutnya yang paling tepat adalah?",
+                "options": [
+                  "Klem chest tube dan observasi",
+                  "Torakosentesis ulang tiap 6 jam",
+                  "Pleurodesis dengan talk",
+                  "Torakotomi darurat/VATS",
+                  "Pulangkan setelah hemodinamik membaik"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Syok, vena leher kolaps, perkusi pekak, dan suara napas menurun setelah trauma tembus menunjukkan hemotoraks masif (berbeda dari tension pneumotoraks yang hipersonor dengan vena leher distensi). Indikasi torakotomi darurat atau VATS adalah drainase darah awal > 1.500 mL, perdarahan berlanjut > 200 mL/jam, hemodinamik tidak stabil, atau kebutuhan transfusi berulang. Pasien ini memenuhi kriteria pertama. Mengklem chest tube atau observasi berbahaya, sedangkan pleurodesis dan torakosentesis tidak menghentikan sumber perdarahan.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 4,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Seorang perempuan 60 tahun dengan efusi pleura kanan menjalani torakosentesis. Hasil: protein cairan pleura 4,0 g/dL, protein serum 6,5 g/dL, LDH cairan pleura 320 U/L, LDH serum 250 U/L (batas atas normal LDH serum 220 U/L). Interpretasi yang tepat adalah?",
+                "options": [
+                  "Transudat karena tidak ada kriteria Light yang terpenuhi",
+                  "Kilotoraks",
+                  "Transudat karena protein cairan pleura < 5 g/dL",
+                  "Tidak dapat ditentukan tanpa kadar glukosa",
+                  "Eksudat karena memenuhi kriteria Light"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Kriteria Light: eksudat bila ≥ 1 kriteria terpenuhi: (1) rasio protein cairan pleura/serum > 0,5; (2) rasio LDH cairan pleura/serum > 0,6; (3) LDH cairan pleura > 2/3 batas atas normal LDH serum. Di sini rasio protein = 4,0/6,5 ≈ 0,62 (> 0,5), rasio LDH = 320/250 = 1,28 (> 0,6), dan LDH cairan 320 > 2/3 × 220 ≈ 147. Ketiga kriteria terpenuhi sehingga eksudat; penyebab tersering eksudat adalah pneumonia bakteri (parapneumonik), keganasan, TB, dan emboli paru. Glukosa dan trigliserida berguna setelah klasifikasi untuk mencari etiologi.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 5,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Seorang laki-laki 70 tahun dengan gagal jantung kronik yang mendapat furosemid dosis tinggi menjalani torakosentesis karena efusi tidak membaik. Rasio LDH cairan/serum 0,65 (memenuhi satu kriteria eksudat), tetapi gambaran klinis sangat sesuai gagal jantung. Protein serum 6,8 g/dL dan protein cairan pleura 3,3 g/dL. Langkah yang paling tepat untuk klasifikasi efusi ini adalah?",
+                "options": [
+                  "Hitung gradien protein serum − cairan pleura; nilai 3,5 g/dL (> 3,1) mendukung transudat",
+                  "Tetap disimpulkan eksudat, lakukan biopsi pleura",
+                  "Ulang torakosentesis setelah menaikkan dosis diuretik",
+                  "Simpulkan kilotoraks",
+                  "Langsung lakukan torakoskopi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kriteria Light salah mengklasifikasikan sekitar 25% transudat sebagai eksudat, terutama pada pasien yang mendapat diuretik karena diuresis memekatkan protein dan LDH cairan pleura. Bila satu atau lebih kriteria eksudat terpenuhi tetapi klinis mengarah transudat, hitung gradien protein serum dikurangi cairan pleura: > 3,1 g/dL berarti hampir pasti transudat. Di sini 6,8 − 3,3 = 3,5 g/dL, sehingga efusi dikategorikan transudat akibat gagal jantung. Biopsi atau torakoskopi tidak diperlukan, dan tidak ada petunjuk kilotoraks.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 6,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Seorang laki-laki 33 tahun mengalami sesak progresif lambat 2 bulan disertai demam subfebris, batuk, keringat malam, dan berat badan turun. Suara napas hilang di basal kanan dengan perkusi pekak. Analisis cairan pleura: eksudat, limfosit 85%, glukosa 70 mg/dL, ADA 72 U/L, sitologi negatif. Diagnosis yang paling mungkin adalah?",
+                "options": [
+                  "Efusi parapneumonik terkomplikasi",
+                  "Hemotoraks",
+                  "Efusi transudat akibat sindrom nefrotik",
+                  "Kilotoraks",
+                  "Efusi pleura tuberkulosis"
+                ],
+                "correctAnswer": 4,
+                "explanation": "Efusi eksudat dominan limfosit (> 50%) dengan ADA > 40 U/L pada pasien dengan gejala konstitusional subakut (demam, keringat malam, berat badan turun) sangat sesuai dengan TB pleura, terutama di negara endemis seperti Indonesia; ADA memiliki sensitivitas sekitar 90%. Limfositosis juga dapat terjadi pada keganasan, tetapi sitologi negatif dan ADA tinggi lebih mengarah ke TB. Efusi parapneumonik khas dominan neutrofil dengan glukosa dan pH rendah. Sindrom nefrotik memberi transudat. Kilotoraks ditandai trigliserida > 110 mg/dL. Hemotoraks berupa darah dengan Ht ≥ 50% Ht darah.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 7,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Seorang laki-laki 55 tahun dengan pneumonia komunitas 7 hari tetap demam dan efusi pleura kanan membesar. Torakosentesis: cairan keruh, pH 7,05, glukosa 35 mg/dL, leukosit 25.000/mm³ dominan neutrofil, Gram menunjukkan kokus gram positif. Tatalaksana yang paling tepat adalah?",
+                "options": [
+                  "Lanjutkan antibiotik oral saja",
+                  "Diuretik dan restriksi cairan",
+                  "Antibiotik intravena dan drainase dengan tube thoracostomy (± fibrinolitik/VATS)",
+                  "Pleurodesis talk segera",
+                  "Observasi tanpa terapi karena akan diserap sendiri"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Cairan keruh dengan pH < 7,20, glukosa < 60 mg/dL, leukosit tinggi dominan neutrofil, dan bakteri pada pewarnaan Gram menunjukkan efusi parapneumonik terkomplikasi atau empiema. Selain antibiotik intravena, diperlukan drainase dengan tube thoracostomy, dapat ditambah fibrinolitik intrapleura atau VATS bila terdapat lokulasi. Antibiotik saja hanya cukup untuk efusi parapneumonik tidak terkomplikasi. Diuretik untuk transudat. Pleurodesis dipakai untuk efusi ganas atau pneumotoraks berulang, bukan infeksi aktif.",
+                "answerProvenance": "ai-generated"
+              },
+              {
+                "id": 8,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Perhatikan gambar rumus estimasi ukuran pneumotoraks berikut. Pada foto toraks, diameter hemitoraks (H) 10 cm dan diameter paru yang kolaps (L) 6 cm. Dengan rumus Light, persentase pneumotoraks adalah sekitar?",
+                "options": [
+                  "40%",
+                  "60%",
+                  "22%",
+                  "78%",
+                  "94%"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Rumus Light: % pneumotoraks = (1 − L³/H³) × 100%. L³ = 6³ = 216 dan H³ = 10³ = 1.000, sehingga (1 − 0,216) × 100% ≈ 78%. Rumus memakai pangkat tiga karena paru dan hemitoraks diperlakukan sebagai volume, bukan diameter linear, sehingga perbedaan diameter yang tampak kecil sebenarnya mencerminkan volume pneumotoraks yang besar. Menurut BTS, pneumotoraks besar bila jarak dinding dada ke tepi paru > 2 cm, yang menjadi indikasi objektif drainase.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-8/ukuran-pneumotoraks.jpg"
+              },
+              {
+                "id": 9,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Perhatikan gambar lokasi pemasangan chest tube berikut. Seorang pasien hemotoraks akan dipasang chest tube. Lokasi dan teknik insersi yang paling aman adalah?",
+                "options": [
+                  "ICS 2 linea midklavikula, di tepi bawah iga",
+                  "Safe triangle (tepi anterior latissimus dorsi, tepi lateral pektoralis mayor, setinggi ICS 5) dengan insersi di tepi atas iga bawah",
+                  "ICS 8 linea skapularis posterior, di tepi bawah iga",
+                  "Subxifoid ke arah bahu kiri",
+                  "ICS 5 parasternal kanan di tepi bawah iga"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Safe triangle dibatasi tepi anterior otot latissimus dorsi, tepi lateral otot pektoralis mayor, dan garis horizontal setinggi puting (ICS 5), dengan apeks di bawah aksila. Area ini menghindari struktur vital (pembuluh mamaria interna, jantung, hati/limpa) dan otot tebal. Insersi dilakukan di tepi atas iga bawah karena berkas neurovaskular interkostal (vena, arteri, nervus) berjalan di tepi bawah iga. ICS 2 midklavikula adalah lokasi klasik dekompresi jarum, bukan chest tube besar; lokasi rendah posterior dan subxifoid berisiko mencederai organ abdomen atau perikard.",
+                "answerProvenance": "ai-generated",
+                "image": "assets/materi/blok2.6/is-2-8/safe-triangle.jpg"
+              },
+              {
+                "id": 10,
+                "source": "Latihan Materi IS 2.8",
+                "lecture": "IS 2.8 — Pneumothorax, Pleural Effusion and Haemothorax",
+                "lectureCode": "IS 2.8",
+                "question": "Seorang perempuan 50 tahun dengan efusi pleura masif kanan akibat keganasan menjalani torakosentesis terapeutik. Setelah 2,5 L cairan dikeluarkan dalam satu kali tindakan, ia batuk-batuk hebat, sesak memberat, dan terdengar ronki basah di paru kanan. Komplikasi yang paling mungkin dan cara pencegahannya adalah?",
+                "options": [
+                  "Edema paru re-ekspansi; batasi pengeluaran < 1.500 mL per tindakan",
+                  "Pneumotoraks iatrogenik; gunakan jarum yang lebih besar",
+                  "Refleks vasovagal; berikan atropin sebelum tindakan",
+                  "Hemotoraks akibat laserasi a. interkostal; insersi di tepi bawah iga",
+                  "Empiema; berikan antibiotik profilaksis"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Pengeluaran cairan dalam jumlah besar sekaligus dapat menyebabkan edema paru re-ekspansi, ditandai batuk, sesak, dan ronki pada paru yang baru mengembang, akibat peningkatan permeabilitas kapiler setelah re-ekspansi cepat. Pencegahannya adalah membatasi pengeluaran kurang dari 1.500 mL per tindakan (dan menghentikan bila muncul batuk atau nyeri dada). Pneumotoraks iatrogenik memberi hipersonor, bukan ronki basah. Refleks vasovagal ditandai bradikardia dan hipotensi. Laserasi a. interkostal dicegah dengan insersi di tepi atas iga, bukan bawah. Empiema tidak timbul segera setelah tindakan.",
+                "answerProvenance": "ai-generated"
               }
             ]
           }
